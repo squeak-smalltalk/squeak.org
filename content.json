@@ -118,18 +118,15 @@
         "downloads": [
             {
                 "title": "Beginner",
-                "html": "neque aliquam vestibulum morbi blandit cursus risus at ultrices mi tempus imperdiet nulla malesuada pellentesque elit eget gravida cum sociis natoque penatibus",
-                "img-src": "holder.js/200x200/auto"
+                "html": "neque aliquam vestibulum morbi blandit cursus risus at ultrices mi tempus imperdiet nulla malesuada pellentesque elit eget gravida cum sociis natoque penatibus"
             },
             {
                 "title": "Advanced",
-                "html": "neque aliquam vestibulum morbi blandit cursus risus at ultrices mi tempus imperdiet nulla malesuada pellentesque elit eget gravida cum sociis natoque penatibus",
-                "img-src": "holder.js/200x200/auto"
+                "html": "neque aliquam vestibulum morbi blandit cursus risus at ultrices mi tempus imperdiet nulla malesuada pellentesque elit eget gravida cum sociis natoque penatibus"
             },
             {
                 "title": "Squeak Sources",
-                "html": "neque aliquam vestibulum morbi blandit cursus risus at ultrices mi tempus imperdiet nulla malesuada pellentesque elit eget gravida cum sociis natoque penatibus",
-                "img-src": "holder.js/200x200/auto"
+                "html": "neque aliquam vestibulum morbi blandit cursus risus at ultrices mi tempus imperdiet nulla malesuada pellentesque elit eget gravida cum sociis natoque penatibus"
             }
         ],
         "development": [

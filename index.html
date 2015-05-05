@@ -61,7 +61,7 @@
             <div id="welcome-content"></div>
             <p><br /></p>
             <div class="text-center">
-              <a id="download-button" class="btn btn-lg btn-primary" href="#" role="button">
+              <a id="download-button" class="btn btn-lg btn-primary" href="http://ftp.squeak.org/4.5/Squeak-4.5-All-in-One.zip" target="_blank" role="button">
                 Download
                 <i class="fa fa-windows fa-lg"></i>
                 <i class="fa fa-linux fa-lg"></i>
@@ -196,6 +196,7 @@
     <script id="simple-box" type="x-tmpl-mustache">
       <div class="col-sm-6 col-md-6 col-lg-6">
         <div class="row">
+          {{ #img-src }}
           <div class="col-md-4 col-lg-4">
             <img src="{{{ img-src }}}" alt="..." class="img-rounded img-responsive img-center">
           </div>
@@ -203,6 +204,13 @@
             <h3 class="text-center-sm">{{ title }}</h3>
             {{{ html }}}
           </div>
+          {{ /img-src }}
+          {{ ^img-src }}
+          <div class="col-md-12 col-lg-12">
+            <h3>{{ title }}</h3>
+            {{{ html }}}
+          </div>
+          {{ /img-src }}
         </div>
       </div>
     </script>
