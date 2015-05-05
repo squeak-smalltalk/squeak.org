@@ -44,7 +44,7 @@
             <li><a href="#development">Development</a></li>
           </ul>
           <ul class="nav navbar-nav navbar-right hidden-sm">
-            <li><a href="#appendix">Appendix</a></li>
+            <li><a href="#license">License</a></li>
           </ul>
         </div><!--/.nav-collapse -->
       </div>
@@ -54,7 +54,7 @@
       <div class="container">
         <div class="row">
           <div class="col-md-6 col-lg-6 text-center">
-            <img src="img/squeak.png" alt="" class="img-responsive">
+            <img id="squeak-logo" src="img/squeak.png" alt="" class="img-responsive">
           </div>
           <div class="col-md-6 col-lg-6">
             <h3>Welcome to Squeak Smalltalk</h3>
@@ -75,14 +75,12 @@
                   Donate
                   <i class="fa fa-heart"></i>
                 </a>
-
                 <a id="news-button" class="btn btn-default" href="http://news.squeak.org/" target="_blank" role="button">
                   News
                   <i class="fa fa-newspaper-o"></i>
                 </a>
-
                 <a id="bugs-button" class="btn btn-default" href="http://bugs.squeak.org/" target="_blank" role="button">
-                  Bugtracker
+                  Tickets
                   <i class="fa fa-bug"></i>
                 </a>
               </div>
@@ -157,12 +155,11 @@
       </div> <!-- /container -->
     </div> <!-- /development -->
 
-    <div id="appendix" class="section">
+    <div id="license" class="section">
       <div class="container">
-        <h1 class="text-center">Appendix</h1>
+        <h1 class="text-center">License</h1>
         <div class="row">
           <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-            <h2>License</h2>
             <p class="lead">Note: The current release of Squeak is a combination of source code originating from it's origins at Apple which Apple agreed to license under the Apache license and more recent contributions licensed under the MIT license.  The vast majority of the code is under the MIT license.</p>
             <h4>MIT License</h4>
             <blockquote class="small">
@@ -179,7 +176,7 @@
             
 
       </div> <!-- /container -->
-    </div> <!-- /appendix -->
+    </div> <!-- /license -->
 
     <!-- Donations -->
     <form id="paypal-donations" action="https://www.paypal.com/cgi-bin/webscr" target="_blank" method="post">
@@ -195,7 +192,7 @@
             <img src="{{{ img-src }}}" alt="..." class="img-rounded img-responsive img-center">
           </div>
           <div class="col-md-8 col-lg-8">
-            <h3>{{ title }}</h3>
+            <h3 class="text-center-sm">{{ title }}</h3>
             {{{ html }}}
           </div>
         </div>

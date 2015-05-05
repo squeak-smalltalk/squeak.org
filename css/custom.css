@@ -67,6 +67,10 @@ body {
     margin-left: 12px;
 }
 
+#squeak-logo {
+    padding: 12%;
+}
+
 h1 {
     padding: 16px;
     color: #1b3c81;
@@ -87,4 +91,18 @@ h1:before, h1:after {
 
 .img-element {
     padding-right: 16px;
+}
+
+.content-target div {
+    margin: 16px auto;
+}
+
+.text-center-sm {
+    text-align: center;
+}
+
+@media (min-width:992px){
+    .text-center-sm {
+        text-align: left;
+    }
 }
