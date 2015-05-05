@@ -1,6 +1,34 @@
 var ignore_scrolling = false;
 
+
+function load_content(){
+    var simple_box_template = $('#simple-box').html();
+    Mustache.parse(simple_box_template);   // optional, speeds up future uses
+
+    $.getJSON('content.json', function(content) {
+        $('#welcome-content').html(content['welcome']);
+
+        $.each(content['sections'], function(section, section_data) {
+            $.each(section_data, function(idx, data) {
+                if ('title' in data) {
+                    $('#' + section + ' .content-target').append(Mustache.render(simple_box_template, data));
+                } else if ('text' in data) {
+                    $('#' + section + ' .content-more-target').append('<li><a href="#">' + data.text + '</a></li>');
+                }
+            });
+        })
+        // load placeholders
+        Holder.run();
+    });
+}
+
 $(function() {
+    load_content();
+
+    $('#donate-button').click(function() {
+        $('#paypal-donations').submit();
+    })
+
     $('ul.nav li a, a.navbar-brand').click(function(e) {
         e.preventDefault();
         var target = $(this).attr('href');
