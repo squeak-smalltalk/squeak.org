@@ -41,9 +41,16 @@ function load_content(){
         enable_screenshot_buttons();
 
         $.each(content['sections'], function(section, section_data) {
+            var count = 0;
             $.each(section_data, function(idx, data) {
                 if ('title' in data) {
-                    $('#' + section + ' .content-target').append(Mustache.render(simple_box_template, data));
+                    var element = $('#' + section + ' .content-target');
+                    element.append(Mustache.render(simple_box_template, data));
+                    count ++;
+                    if (count % 2 == 0) {
+                        element.after('<div class="row content-target"></div>');
+                        element.removeClass('content-target');
+                    }
                 } else if ('text' in data) {
                     $('#' + section + ' .content-more-target').append('<li><a href="#">' + data.text + '</a></li>');
                 }

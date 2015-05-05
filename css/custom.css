@@ -56,6 +56,10 @@ body {
     margin-top: 12px;
 }
 
+.section .row {
+    padding: 12px;
+}
+
 .navbar-brand {
     padding-top: 10px;
 }
@@ -117,10 +121,6 @@ h1:before, h1:after {
 
 .img-element {
     padding-right: 16px;
-}
-
-.content-target div {
-    margin: 16px auto;
 }
 
 .text-center-sm {

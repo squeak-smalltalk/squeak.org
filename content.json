@@ -8,18 +8,6 @@
         {
             "img-src": "holder.js/2000x1125/auto/sky",
             "caption": "Squeak Screenshot2"
-        },
-        {
-            "img-src": "holder.js/2000x1125/auto/lava",
-            "caption": "Squeak Screenshot3"
-        },
-        {
-            "img-src": "holder.js/2000x1125/auto/industrial",
-            "caption": "Squeak Screenshot4"
-        },
-        {
-            "img-src": "holder.js/2000x1125/auto/social",
-            "caption": "Squeak Screenshot5"
         }
     ],
     "sections": {
@@ -47,32 +35,36 @@
         ],
         "community": [
             {
-                "title": "Headline",
+                "title": "Beginners' Mailing List",
                 "html": "neque aliquam vestibulum morbi blandit cursus risus at ultrices mi tempus imperdiet nulla malesuada pellentesque elit eget gravida cum sociis natoque penatibus",
                 "img-src": "holder.js/200x200/auto"
             },
             {
-                "title": "Headline",
+                "title": "Squeak-dev Mailing List",
+                "html": "neque aliquam vestibulum morbi blandit cursus risus at ultrices mi tempus imperdiet nulla malesuada pellentesque elit eget gravida cum sociis natoque penatibus",
+                "img-src": "holder.js/200x200/auto"
+            },
+            {
+                "title": "VM-dev Mailing List",
+                "html": "neque aliquam vestibulum morbi blandit cursus risus at ultrices mi tempus imperdiet nulla malesuada pellentesque elit eget gravida cum sociis natoque penatibus",
+                "img-src": "holder.js/200x200/auto"
+            },
+            {
+                "title": "Other Mailing Lists",
                 "html": "neque aliquam vestibulum morbi blandit cursus risus at ultrices mi tempus imperdiet nulla malesuada pellentesque elit eget gravida cum sociis natoque penatibus",
                 "img-src": "holder.js/200x200/auto"
             }
         ],
         "projects": [
             {
-                "title": "Headline",
-                "html": "neque aliquam vestibulum morbi blandit cursus risus at ultrices mi tempus imperdiet nulla malesuada pellentesque elit eget gravida cum sociis natoque penatibus",
-                "img-src": "holder.js/200x200/auto"
+                "title": "Seaside",
+                "html": "A framework for developing sophisticated web applications in Smalltalk.",
+                "img-src": "img/projects/seaside.png"
             },
             {
-                "title": "Headline",
-                "html": "neque aliquam vestibulum morbi blandit cursus risus at ultrices mi tempus imperdiet nulla malesuada pellentesque elit eget gravida cum sociis natoque penatibus",
-                "img-src": "holder.js/200x200/auto"
-            },
-            {    
-                "text": "Seaside - continuation server"
-            },
-            {
-                "text": "Aida - web framework"
+                "title": "Aida",
+                "html": "A Smalltalk web application framework for building complex web applications with latest seamlesly integrated HTML5 technologies for today's real-time web.",
+                "img-src": "img/projects/aida.png"
             },
             {
                 "text": "OpenQwaq - 3d virtual worlds framework"
@@ -143,12 +135,17 @@
         "development": [
             {
                 "title": "Cog VM (Standard)",
-                "html": "neque aliquam vestibulum morbi blandit cursus risus at ultrices mi tempus imperdiet nulla malesuada pellentesque elit eget gravida cum sociis natoque penatibus",
+                "html": "The fastest virtual machine for Squeak underlying 3D ICC's (see Projects page) Croquet-based enterprise virtual collaboration spaces software.",
+                "img-src": "img/dev/cog.png"
+            },
+            {
+                "title": "SqueakJS VM",
+                "html": "An experimental Squeak VM written in pure JavaScript",
                 "img-src": "holder.js/200x200/auto"
             },
             {
                 "title": "RSqueak VM",
-                "html": "neque aliquam vestibulum morbi blandit cursus risus at ultrices mi tempus imperdiet nulla malesuada pellentesque elit eget gravida cum sociis natoque penatibus",
+                "html": "An experimental Squeak VM written in RPython which incorporates PyPy's JIT Compiler",
                 "img-src": "holder.js/200x200/auto"
             },
             {
