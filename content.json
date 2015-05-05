@@ -125,25 +125,35 @@
         ],
         "downloads": [
             {
-                "title": "Headline",
+                "title": "Beginner",
                 "html": "neque aliquam vestibulum morbi blandit cursus risus at ultrices mi tempus imperdiet nulla malesuada pellentesque elit eget gravida cum sociis natoque penatibus",
                 "img-src": "holder.js/200x200/auto"
             },
             {
-                "title": "Headline",
+                "title": "Advanced",
+                "html": "neque aliquam vestibulum morbi blandit cursus risus at ultrices mi tempus imperdiet nulla malesuada pellentesque elit eget gravida cum sociis natoque penatibus",
+                "img-src": "holder.js/200x200/auto"
+            },
+            {
+                "title": "Squeak Sources",
                 "html": "neque aliquam vestibulum morbi blandit cursus risus at ultrices mi tempus imperdiet nulla malesuada pellentesque elit eget gravida cum sociis natoque penatibus",
                 "img-src": "holder.js/200x200/auto"
             }
         ],
         "development": [
             {
-                "title": "Headline",
+                "title": "Cog VM (Standard)",
                 "html": "neque aliquam vestibulum morbi blandit cursus risus at ultrices mi tempus imperdiet nulla malesuada pellentesque elit eget gravida cum sociis natoque penatibus",
                 "img-src": "holder.js/200x200/auto"
             },
             {
-                "title": "Headline",
+                "title": "RSqueak VM",
                 "html": "neque aliquam vestibulum morbi blandit cursus risus at ultrices mi tempus imperdiet nulla malesuada pellentesque elit eget gravida cum sociis natoque penatibus",
+                "img-src": "holder.js/200x200/auto"
+            },
+            {
+                "title": "Other VMs",
+                "html": "For more virtual machines visit: <a href=\"http://www.squeakvm.org/\" target=\"_blank\">http://www.squeakvm.org</a>",
                 "img-src": "holder.js/200x200/auto"
             }
         ]
