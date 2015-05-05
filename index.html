@@ -90,11 +90,7 @@
 
         <p><br /></p>
 
-        <div class="row">
-          <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center">
-              <img src="img/screenshot.png" alt="" class="img-responsive img-center">
-          </div>
-        </div> <!-- /row -->
+        <div id="screenshots" class="row"></div>
             
       </div> <!-- /container -->
     </div> <!-- /home -->
@@ -185,6 +181,22 @@
     </form>
 
     <!-- Templates -->
+    <script id="slideshow-item" type="x-tmpl-mustache">
+      <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center slideshow-item" style="display: none">
+        <a href="#" class="screenshot-button" data-target="right">
+          <img src="{{ img-src }}" alt="" class="img-responsive img-center">
+        </a>
+        <p class="lead">
+          {{{ caption }}}
+          <a href="#" class="screenshot-button pull-left" data-target="left">
+            <i class="fa fa-chevron-left"></i>
+          </a>
+          <a href="#" class="screenshot-button pull-right" data-target="right">
+            <i class="fa fa-chevron-right"></i>
+          </a>
+        </p>
+      </div>
+    </script>
     <script id="simple-box" type="x-tmpl-mustache">
       <div class="col-sm-6 col-md-6 col-lg-6">
         <div class="row">
