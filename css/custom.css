@@ -1,0 +1,82 @@
+body {
+    padding-top: 70px;
+    height: 90%;
+}
+
+.section {
+    min-height: 100%;
+    margin-bottom: 40px;
+}
+
+.navbar-brand {
+    padding-top: 10px;
+}
+
+.navbar-brand img {
+    height: 32px;
+}
+
+#download-button i {
+    margin-left: 12px;
+}
+
+h1 {
+    padding: 16px;
+    color: #1b3c81;
+    display:flex;
+}
+
+h1:before, h1:after {
+  color: #1b3c81;
+  content: '';
+  flex: 1;
+  border-bottom: solid 2px;
+  margin: auto 0.25em;
+}
+
+/*.color1 {
+    background-color: #5574ea;
+}
+
+.color2 {
+    background-color: #ea9d54;
+}
+
+.color3 {
+    background-color: #73ed72;
+}
+
+.color4 {
+    background-color: #c7ca4c;
+}
+
+.color5 {
+    background-color: #ea5666;
+}
+*/
+.img-element {
+    padding-right: 16px;
+}
+
+.imac {
+    position: relative;
+    padding: 40px 0 285px;
+    margin-top: 40px;
+    color: #fff;
+    background-image: url(../img/imac.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    /*background-size: 940px 778px;*/
+    background-size: contain;
+    text-align: center;
+}
+
+.imac img {
+    width: 900px;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (-moz-min-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 3/2), only screen and (-o-min-device-pixel-ratio: 2/1), only screen and (-moz-min-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 2) {
+    .imac {
+        background-image: url(../img/imac-2x.png);
+    }
+}
