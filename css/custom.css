@@ -41,7 +41,6 @@
     src: url('../fonts/lato/lato-regular.eot?#iefix') format('embedded-opentype'), url('../fonts/lato/lato-regular.woff') format('woff'), url('../fonts/lato/lato-regular.ttf') format('truetype'), url('../fonts/lato/lato-regular.svg#latoregular') format('svg');
 }
 
-
 body {
     padding-top: 70px;
     height: 90%;
@@ -50,6 +49,10 @@ body {
 .section {
     min-height: 100%;
     margin-bottom: 40px;
+}
+
+.section h3 {
+    margin-top: 12px;
 }
 
 .navbar-brand {
