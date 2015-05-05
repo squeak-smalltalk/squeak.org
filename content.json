@@ -1,5 +1,5 @@
 {
-    "welcome": "senectus et netus et malesuada fames ac turpis egestas sed tempus urna et pharetra pharetra massa massa ultricies mi quis hendrerit dolor magna eget est lorem ipsum dolor sit amet consectetur adipiscing elit pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas integer eget aliquet nibh praesent tristique magna sit amet purus gravida quis blandit turpis cursus in hac habitasse platea dictumst quisque sagittis",
+    "welcome": "Squeak is a modern, open source, full-featured implementation of the powerful Smalltalk programming language and environment. Squeak is highly-portable, running on almost any platform you could name and you can really truly write once run anywhere. Squeak is the vehicle for a wide range of projects from multimedia applications and educational platforms to commercial web application development. Read on and join in!",
     "screenshots": [
         {
             "img-src": "img/screenshot.png",
@@ -68,17 +68,59 @@
                 "html": "neque aliquam vestibulum morbi blandit cursus risus at ultrices mi tempus imperdiet nulla malesuada pellentesque elit eget gravida cum sociis natoque penatibus",
                 "img-src": "holder.js/200x200/auto"
             },
-            {
-                "text": "risus at ultrices mi tempus imperdiet nulla malesuada"
+            {    
+                "text": "Seaside - continuation server"
             },
             {
-                "text": "risus at ultrices mi tempus imperdiet nulla malesuada"
+                "text": "Aida - web framework"
             },
             {
-                "text": "risus at ultrices mi tempus imperdiet nulla malesuada"
+                "text": "OpenQwaq - 3d virtual worlds framework"
             },
             {
-                "text": "risus at ultrices mi tempus imperdiet nulla malesuada"
+                "text": "OpenCobalt - 3d virtual worlds framework"
+            },
+            {
+                "text": "Squeakland - home of Etoys"
+            },
+            {
+                "text": "Scratch - education software"
+            },
+            {
+                "text": "Hasso Platner Institute - Software Architecture Group"
+            },
+            {
+                "text": "Self language - Fun Through Simplicity"
+            },
+            {
+                "text": "OLPC Etoys"
+            },
+            {
+                "text": "Spoon - developing a Squeak kernel"
+            },
+            {
+                "text": "Ometa - Object oriented language for pattern matching"
+            },
+            {
+                "text": "Phobos - XUL based platform independent desktop app framework"
+            },
+            {
+                "text": "SqueakVM tablet - Android"
+            },
+            {
+                "text": "iOS development"
+            },
+            {
+                "text": "Newspeak Programming Language - In the tradition of Smalltalk and Self"
+            },
+            {
+                "text": "3DICC - Immersive 3D Collaboration"
+            },
+            {
+                "text": "Path Tools Framework"
+            },
+            {
+                "text": "Magma database solution"
             }
         ],
         "downloads": [

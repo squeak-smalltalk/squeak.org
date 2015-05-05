@@ -1,6 +1,3 @@
-var ignore_scrolling = false;
-
-
 function enable_screenshot_buttons() {
     $('.screenshot-button').click(function(e) {
         e.preventDefault();
@@ -39,7 +36,6 @@ function load_content(){
         $.each(content['screenshots'], function(idx, screenshot) {
             $('#screenshots').append(Mustache.render(slideshow_item, screenshot));
         });
-        debugger
         $('#screenshots div:first-child').show();
 
         enable_screenshot_buttons();
@@ -68,10 +64,9 @@ $(function() {
     $('ul.nav li a, a.navbar-brand').click(function(e) {
         e.preventDefault();
         var target = $(this).attr('href');
-        ignore_scrolling = true;
         $('body').animate({
             scrollTop: $(target).offset().top - 70
-        }, 'fast', function() {ignore_scrolling = false;});
+        }, 'fast');
 
         $('ul.nav li').each(function() {
             $(this).removeClass('active');
@@ -83,23 +78,9 @@ $(function() {
         }
     });
 
-    $(window).scroll(function() {
-        if (ignore_scrolling)
-            return;
-        var scroll_position = $(document).scrollTop() + 80;
-        $('ul.nav li a').each(function () {
-            var selected = false;
-            $($(this).attr("href")).each(function () {
-                if ($(this).position().top <= scroll_position && $(this).position().top + $(this).height() + 40 > scroll_position) {
-                    selected = true;
-                }
-            });
-            if (selected) {
-                $(this).parent().addClass("active");
-            } else {
-                $(this).parent().removeClass("active");
-            }
-        });
+    $('body').scrollspy({
+        target: '#navbar',
+        offset: 80
     });
 
     hljs.configure({languages: ['smalltalk']});

@@ -42,6 +42,7 @@
 }
 
 body {
+    position: relative; /* Required for ScrollSpy */
     padding-top: 70px;
     height: 90%;
 }
@@ -76,13 +77,38 @@ h1 {
     color: #1b3c81;
     display:flex;
 }
-
+/*
 h1:before, h1:after {
   color: #1b3c81;
   content: '';
   flex: 1;
   border-bottom: solid 2px;
   margin: auto 0.25em;
+}
+*/
+
+.section-heading {
+    position: relative;
+    padding: 16px;
+    text-align: center;
+}
+
+.section-heading span {
+    font-size: 46px;
+    color: #1b3c81;
+    background-color: #fff;
+    padding: 0 16px;
+}
+
+.section-heading:after {
+    content:"";
+    position: absolute;
+    z-index: -1;
+    top: 50%;
+    left: 0;
+    width: 100%;
+    height: 2px; /*for horizontal border; width for vertical*/
+    background-color: #1b3c81; /* fallback color if gradients are not supported */
 }
 
 .img-center {
