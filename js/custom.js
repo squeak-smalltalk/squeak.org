@@ -88,11 +88,6 @@ $(function() {
         }
     });
 
-    $('body').scrollspy({
-        target: '#navbar',
-        offset: 80
-    });
-
     hljs.configure({languages: ['smalltalk']});
     hljs.initHighlighting();
 });
