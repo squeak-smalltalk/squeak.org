@@ -22,7 +22,6 @@ function enable_screenshot_buttons() {
     })
 }
 
-
 function load_content(){
     var slideshow_item = $('#slideshow-item').html();
     Mustache.parse(slideshow_item);   // optional, speeds up future uses
@@ -43,6 +42,10 @@ function load_content(){
         $.each(content['sections'], function(section, section_data) {
             var count = 0;
             $.each(section_data, function(idx, data) {
+                if (count == 4) {
+                    $('#' + section + ' .more-content').show();
+                    return false; // only show 4 entries each
+                }
                 if ('title' in data) {
                     var element = $('#' + section + ' .content-target');
                     element.append(Mustache.render(simple_box_template, data));
@@ -51,8 +54,6 @@ function load_content(){
                         element.after('<div class="row content-target"></div>');
                         element.removeClass('content-target');
                     }
-                } else if ('text' in data) {
-                    $('#' + section + ' .content-more-target').append('<li><a href="#">' + data.text + '</a></li>');
                 }
             });
         })
@@ -64,24 +65,26 @@ function load_content(){
 $(function() {
     load_content();
 
-    $('#donate-button').click(function() {
+    $('.donate-button').click(function() {
         $('#paypal-donations').submit();
-    })
+    });
 
     $('ul.nav li a, a.navbar-brand').click(function(e) {
-        e.preventDefault();
         var target = $(this).attr('href');
-        $('body').animate({
-            scrollTop: $(target).offset().top - 70
-        }, 'fast');
+        if (target.indexOf('#') === 0) {
+            e.preventDefault();
+            $('body').animate({
+                scrollTop: $(target).offset().top - 70
+            }, 'fast');
 
-        $('ul.nav li').each(function() {
-            $(this).removeClass('active');
-        });
-        if ($(this).hasClass('navbar-brand')) {
-            $('ul.nav li a[href=#home]').parent().addClass('active');
-        } else {
-            $(this).parent().addClass('active');
+            $('ul.nav li').each(function() {
+                $(this).removeClass('active');
+            });
+            if ($(this).hasClass('navbar-brand')) {
+                $('ul.nav li a[href=#home]').parent().addClass('active');
+            } else {
+                $(this).parent().addClass('active');
+            }
         }
     });
 

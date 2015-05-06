@@ -69,6 +69,24 @@
                 "href": "http://www.aidaweb.si/"
             },
             {
+                "title": "Aida2",
+                "html": "A Smalltalk web application framework for building complex web applications with latest seamlesly integrated HTML5 technologies for today's real-time web.",
+                "img-src": "img/projects/aida.png",
+                "href": "http://www.aidaweb.si/"
+            },
+            {
+                "title": "Aida3",
+                "html": "A Smalltalk web application framework for building complex web applications with latest seamlesly integrated HTML5 technologies for today's real-time web.",
+                "img-src": "img/projects/aida.png",
+                "href": "http://www.aidaweb.si/"
+            },
+            {
+                "title": "Aida4",
+                "html": "A Smalltalk web application framework for building complex web applications with latest seamlesly integrated HTML5 technologies for today's real-time web.",
+                "img-src": "img/projects/aida.png",
+                "href": "http://www.aidaweb.si/"
+            },
+            {
                 "text": "OpenQwaq - 3d virtual worlds framework"
             },
             {

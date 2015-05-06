@@ -60,12 +60,13 @@ body {
     padding: 12px;
 }
 
-.navbar-brand {
-    padding-top: 10px;
+#squeak-navbar {
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 
-.navbar-brand img {
-    height: 32px;
+#squeak-navbar img {
+    height: 40px;
 }
 
 #download-button i {
