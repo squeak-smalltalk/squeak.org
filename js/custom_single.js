@@ -21,6 +21,7 @@ function load_content(){
                     element.removeClass('content-target');
                 }
             } else if ('text' in data) {
+                $('#' + section + ' .more-content').show();
                 $('#' + section + ' .content-more-target').append('<li><a href="#">' + data.text + '</a></li>');
             }
         });
