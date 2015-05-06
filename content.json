@@ -56,29 +56,15 @@
         ],
         "community": [
             {
-                "title": "Beginners' Mailing List",
-                "html": "neque aliquam vestibulum morbi blandit cursus risus at ultrices mi tempus imperdiet nulla malesuada pellentesque elit eget gravida cum sociis natoque penatibus",
+                "title": "Squeak Mailing Lists",
+                "html": "The Squeak community exchanges many information via mailing lists for <a href=\"http://forum.world.st/Squeak-Beginners-f107673.html\">beginners</a>, general <a href=\"http://forum.world.st/Squeak-Dev-f45488.html\">development</a>, and <a href=\"http://forum.world.st/Squeak-VM-f104410.html\">virtual machines</a>.s",
                 "img-src": "holder.js/200x200/auto"
             },
             {
-                "title": "Squeak-dev Mailing List",
-                "html": "neque aliquam vestibulum morbi blandit cursus risus at ultrices mi tempus imperdiet nulla malesuada pellentesque elit eget gravida cum sociis natoque penatibus",
-                "img-src": "holder.js/200x200/auto"
-            },
-            {
-                "title": "VM-dev Mailing List",
-                "html": "neque aliquam vestibulum morbi blandit cursus risus at ultrices mi tempus imperdiet nulla malesuada pellentesque elit eget gravida cum sociis natoque penatibus",
-                "img-src": "holder.js/200x200/auto"
-            },
-            {
-                "title": "Other Mailing Lists",
-                "html": "neque aliquam vestibulum morbi blandit cursus risus at ultrices mi tempus imperdiet nulla malesuada pellentesque elit eget gravida cum sociis natoque penatibus",
-                "img-src": "holder.js/200x200/auto"
-            },
-            {
-                "title": "Other Mailing Lists",
-                "html": "neque aliquam vestibulum morbi blandit cursus risus at ultrices mi tempus imperdiet nulla malesuada pellentesque elit eget gravida cum sociis natoque penatibus",
-                "img-src": "holder.js/200x200/auto"
+                "title": "More Mailing Lists",
+                "html": "The Smalltalk universe spreads across many different dialects, countries, and implementations. There are more lists that communicate via distinct channels.",
+                "img-src": "holder.js/200x200/auto",
+                "href": "http://forum.world.st/"
             }
         ],
         "projects": [
