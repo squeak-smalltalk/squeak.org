@@ -52,6 +52,9 @@
                 "html": "Seaside adds the capability to Squeak of being a web server.",
                 "img-src": "holder.js/200x200/auto",
                 "href": "http://www.seaside.st/"
+            },
+            {
+                "text": "Image concept...?"
             }
         ],
         "community": [
@@ -82,32 +85,26 @@
         ],
         "projects": [
             {
+                "title": "Etoys",
+                "html": " It is a media-rich authoring environment with a simple, powerful scripted object model for many kinds of objects created by end-users that runs on many platforms, and it is free and open source. It includes 2D and 3D graphics, images, text, particles, presentations, web-pages, videos, sound and MIDI, etc.",
+                "img-src": "img/projects/etoys.png",
+                "href": "http://www.seaside.st/"
+            },
+            {
+                "title": "Scratch",
+                "html": "Create stories, games, and animations. Share them with the whole world! Scratch helps young people to think in a creative fashion, conclude logically, and work together. Scratch is a project of the Lifelong-Kindergarten-Group at the media lab at the MIT.",
+                "img-src": "",
+                "href": "http://scratch.mit.edu/"
+            },
+            {
                 "title": "Seaside",
-                "html": "A framework for developing sophisticated web applications in Smalltalk.",
+                "html": "\"Seaside provides a layered set of abstractions over HTTP and HTML that let you build highly interactive web applications quickly, reusably and maintainably. It is based on Smalltalk, a proven and robust language that is implemented by different vendors.\"",
                 "img-src": "img/projects/seaside.png",
                 "href": "http://www.seaside.st/"
             },
             {
                 "title": "Aida",
-                "html": "A Smalltalk web application framework for building complex web applications with latest seamlesly integrated HTML5 technologies for today's real-time web.",
-                "img-src": "img/projects/aida.png",
-                "href": "http://www.aidaweb.si/"
-            },
-            {
-                "title": "Aida2",
-                "html": "A Smalltalk web application framework for building complex web applications with latest seamlesly integrated HTML5 technologies for today's real-time web.",
-                "img-src": "img/projects/aida.png",
-                "href": "http://www.aidaweb.si/"
-            },
-            {
-                "title": "Aida3",
-                "html": "A Smalltalk web application framework for building complex web applications with latest seamlesly integrated HTML5 technologies for today's real-time web.",
-                "img-src": "img/projects/aida.png",
-                "href": "http://www.aidaweb.si/"
-            },
-            {
-                "title": "Aida4",
-                "html": "A Smalltalk web application framework for building complex web applications with latest seamlesly integrated HTML5 technologies for today's real-time web.",
+                "html": "\"Aida is a Smalltalk web application framework for building complex web applications with latest seamlesly integrated HTML5 technologies for today's real-time web. MVC, REST, Mobile, WebSocket, you name it!\"",
                 "img-src": "img/projects/aida.png",
                 "href": "http://www.aidaweb.si/"
             },
