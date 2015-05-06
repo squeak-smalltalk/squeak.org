@@ -21,13 +21,13 @@
     "sections": {
         "features": [
             {
-                "title": "Morphic Framework",
-                "html": "velit dignissim sodales ut eu sem integer vitae justo eget magna fermentum iaculis eu non diam phasellus vestibulum lorem sed risus ultricies tristique nulla aliquet enim tortor at auctor",
+                "title": "Morphic UI Framework",
+                "html": "All graphical objects are tangible and interactively changeable. This promotes very short feedback loops and low-effort application development.",
                 "img-src": "holder.js/200x200/auto"
             },
             {
-                "title": "Fast JIT VM",
-                "html": "velit dignissim sodales ut eu sem integer vitae justo eget magna fermentum iaculis eu non diam phasellus vestibulum lorem sed risus ultricies tristique nulla aliquet enim tortor at auctor",
+                "title": "Fast Virtual Machine",
+                "html": "The CogVM is a virtual machine that supports Smalltalk and other dynamic languages. It's efficiency in interpreting Smalltalk byte code comes from stack-to-register mapping, just-in-time compilation, and aggressive in-line message caching.",
                 "img-src": "holder.js/200x200/auto"
             },
             {
