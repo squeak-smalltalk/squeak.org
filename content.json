@@ -15,7 +15,7 @@
         },
         {
             "img-src": "img/screenshots/versioning.png",
-            "caption": "Local and distributed source code versioning tools"
+            "caption": "Automatic change tracking and distributed source code versioning tools"
         }
     ],
     "sections": {
