@@ -33,7 +33,7 @@
             {
                 "title": "Fast Virtual Machine",
                 "html": "The CogVM is a virtual machine that supports Smalltalk and other dynamic languages. It's efficiency in interpreting Smalltalk byte code comes from stack-to-register mapping, just-in-time compilation, and aggressive in-line message caching.",
-                "img-src": "img/features/cog.png"
+                "img-src": "img/features/cog.png",
                 "href": "http://mirandabanda.org/"
             },
             {
