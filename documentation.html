@@ -54,7 +54,7 @@
         <div class="section-heading"><span>Documentation</span></div>
         <div class="row content-target"></div>
 
-        <div class="row">
+        <div class="row more-content" style="display: none;">
           <div class="col-sm-12 col-md-12 col-lg-12">
             <h3 class="text-center-sm">More</h3>
             <ul class="content-more-target"></ul>
@@ -75,13 +75,15 @@
       <div class="col-sm-6 col-md-6 col-lg-6">
         <div class="row">
           {{ #img-or-icon }}
-          <div class="col-md-4 col-lg-4 text-center">
+          <div class="img-col col-md-4 col-lg-4 text-center">
             <a {{ #href }}href="{{ href }}" target="_blank"{{ /href }}>
               {{ #img-src }}
               <img src="{{{ img-src }}}" alt="..." class="img-rounded img-responsive img-center">
               {{ /img-src }}
               {{ #icon }}
-              <i class="box-icon fa fa-{{ icon }}"></i>
+              <div class="box-icon">
+                <i class="fa fa-{{ icon }}"></i>
+              </div>
               {{ /icon }}
             </a>
           </div>

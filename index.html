@@ -209,13 +209,15 @@
       <div class="col-sm-6 col-md-6 col-lg-6">
         <div class="row">
           {{ #img-or-icon }}
-          <div class="col-md-4 col-lg-4 text-center">
+          <div class="img-col col-md-4 col-lg-4 text-center">
             <a {{ #href }}href="{{ href }}" target="_blank"{{ /href }}>
               {{ #img-src }}
               <img src="{{{ img-src }}}" alt="..." class="img-rounded img-responsive img-center">
               {{ /img-src }}
               {{ #icon }}
-              <i class="box-icon fa fa-{{ icon }}"></i>
+              <div class="box-icon">
+                <i class="fa fa-{{ icon }}"></i>
+              </div>
               {{ /icon }}
             </a>
           </div>
