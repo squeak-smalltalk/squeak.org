@@ -7,11 +7,11 @@
         },
         {
             "img-src": "img/screenshots/executing.png",
-            "caption": "Exploring run-time information in a debugger with code update support"
+            "caption": "Explore run-time information in concurrent debugging sessions with direct code update support"
         },
         {
             "img-src": "img/screenshots/scripting.png",
-            "caption": "Explore, inspect, and even dissect everything in the environment"
+            "caption": "Script, inspect, and even dissect everything in the environment"
         },
         {
             "img-src": "img/screenshots/versioning.png",
