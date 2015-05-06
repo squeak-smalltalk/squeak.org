@@ -53,6 +53,11 @@
                 "title": "Other Mailing Lists",
                 "html": "neque aliquam vestibulum morbi blandit cursus risus at ultrices mi tempus imperdiet nulla malesuada pellentesque elit eget gravida cum sociis natoque penatibus",
                 "img-src": "holder.js/200x200/auto"
+            },
+            {
+                "title": "Other Mailing Lists",
+                "html": "neque aliquam vestibulum morbi blandit cursus risus at ultrices mi tempus imperdiet nulla malesuada pellentesque elit eget gravida cum sociis natoque penatibus",
+                "img-src": "holder.js/200x200/auto"
             }
         ],
         "projects": [
@@ -133,6 +138,20 @@
             },
             {
                 "text": "Magma database solution"
+            }
+        ],
+        "documentation": [
+            {
+                "title": "Wikis",
+                "html": "neque aliquam vestibulum morbi blandit cursus risus at ultrices mi tempus imperdiet nulla malesuada pellentesque elit eget gravida cum sociis natoque penatibus"
+            },
+            {
+                "title": "Books",
+                "html": "neque aliquam vestibulum morbi blandit cursus risus at ultrices mi tempus imperdiet nulla malesuada pellentesque elit eget gravida cum sociis natoque penatibus"
+            },
+            {
+                "title": "Selected Papers",
+                "html": "neque aliquam vestibulum morbi blandit cursus risus at ultrices mi tempus imperdiet nulla malesuada pellentesque elit eget gravida cum sociis natoque penatibus"
             }
         ],
         "downloads": [
