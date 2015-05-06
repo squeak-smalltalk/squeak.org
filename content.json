@@ -109,6 +109,16 @@
                 "href": "http://www.aidaweb.si/"
             },
             {
+                "title": "Croquet",
+                "html": "...",
+                "img-src": "holder.js/200x200/auto"
+            }, 
+            {
+                "title": "FunSqueak",
+                "html": "...",
+                "img-src": "holder.js/200x200/auto"
+            },            
+            {
                 "text": "OpenQwaq - 3d virtual worlds framework"
             },
             {
