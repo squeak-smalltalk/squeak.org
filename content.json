@@ -70,7 +70,7 @@
             {
                 "title": "The Weekly Squeak",
                 "html": "This is a blog that documents news and other events in the Squeak and Smalltalk universe.",
-                "icon": "fa-newspaper-o",
+                "icon": "newspaper-o",
                 "href": "http://news.squeak.org/"
             },
             {
