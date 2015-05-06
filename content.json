@@ -169,16 +169,47 @@
         ],
         "documentation": [
             {
-                "title": "Wikis",
-                "html": "neque aliquam vestibulum morbi blandit cursus risus at ultrices mi tempus imperdiet nulla malesuada pellentesque elit eget gravida cum sociis natoque penatibus"
+                "title": "Videos",
+                "html": "<ul>
+                <li><a href="http://www.youtube.com/user/sparaig?feature=watch">YouTube videos - Lawson English</a></li>
+                <li><a href="http://www.waveplace.com/courseware/basic-etoys/beta.jsp">Waveplace - starting with Morphic</a></li>
+                <li><a href="https://www.hpi.uni-potsdam.de/hirschfeld/trac/SqueakCommunityProjects/wiki/squeak_screencasts">Getting Started with Squeak</a></li>
+                <li><a href=""></a></li>
+                <li><a href=""></a></li>
+                </ul>"
+            }
+            {
+                "title": "Wiki Pages",
+                "html": "<ul>
+                <li><a href=""></a></li>
+                <li><a href=""></a></li>
+                <li><a href=""></a></li>
+                <li><a href=""></a></li>
+                <li><a href=""></a></li>
+                <li><a href=""></a></li>
+                </ul>"
             },
             {
                 "title": "Books",
-                "html": "neque aliquam vestibulum morbi blandit cursus risus at ultrices mi tempus imperdiet nulla malesuada pellentesque elit eget gravida cum sociis natoque penatibus"
+                "html": "<ul>
+                <li><a href="http://squeakbyexample.org/">Squeak by Example</a></li>
+                <li><a href="http://book.seaside.st/">Dynamic Web Development with Seaside</a></li>
+                <li><a href="http://sdmeta.gforge.inria.fr/FreeBooks/WithStyle/SmalltalkWithStyle.pdf">Smalltalk With Style</a></li>
+                <li><a href="http://sdmeta.gforge.inria.fr/FreeBooks/BitsOfHistory/">(The Green Book) Smalltalk-80, Bits of History, Words of Advice</a></li>
+                <li><a href="http://sdmeta.gforge.inria.fr/FreeBooks/BlueBook/">(The Blue Book) Smalltalk-80: The Language and its Implementation</a></li>
+                <li><a href="http://sdmeta.gforge.inria.fr/FreeBooks/TheInteractiveProgrammingEnv/TheInteractiveProgrammingEnv.pdf">(The Red Book) Smalltalk-80, The Interactive Programming Environment</a></li>
+                </ul>"
             },
             {
                 "title": "Selected Papers",
-                "html": "neque aliquam vestibulum morbi blandit cursus risus at ultrices mi tempus imperdiet nulla malesuada pellentesque elit eget gravida cum sociis natoque penatibus"
+                "html": "<ul>
+                <li><a href="ftp://ftp.create.ucsb.edu/pub/Smalltalk/Squeak/docs/OOPSLA.Squeak.html">Back to the Future - The Story of Squeak, a Practical Smalltalk Written in Itself</a></li>
+                <li><a href="http://hirschfeld.org/writings/media/FreudenbergIngallsFelgentreffPapeHirschfeld_2014_SqueakJSAModernAndPracticalSmalltalkThatRunsInAnyBrowser_AcmDL.pdf">SqueakJS - A Modern and Practical Smalltalk that Runs in Any Browser</a></li>
+                <li><a href="">...</a></li>
+                <li><a href="">...</a></li>
+                <li><a href="">...</a></li>
+                <li><a href="">...</a></li>
+                </ul>"
             }
         ],
         "downloads": [
