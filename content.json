@@ -34,11 +34,17 @@
                 "title": "Fast Virtual Machine",
                 "html": "The CogVM is a virtual machine that supports Smalltalk and other dynamic languages. It's efficiency in interpreting Smalltalk byte code comes from stack-to-register mapping, just-in-time compilation, and aggressive in-line message caching.",
                 "img-src": "img/features/cog.png"
+                "href": "http://mirandabanda.org/"
             },
             {
                 "title": "Powerful Tooling",
                 "html": "The dynamic Squeak environment is supported by many tools for browsing, writing, executing, and versioning Smalltalk code. Multiple debugging sessions can be served concurrently. Thanks to Morphic, tool customization has resonable effort.",
                 "img-src": "img/features/tools.png"
+            },
+            {
+                "title": "Build your own VM",
+                "html": "The VMMaker allows any programmer to build a customized virtual machine for any platform. A subset of Squeak/Smalltalk, called Slang, is sufficient to write almost everything of the VM. Slang code will be translated to C.",
+                "img-src": "holder.js/200x200/auto"
             }
         ],
         "community": [
