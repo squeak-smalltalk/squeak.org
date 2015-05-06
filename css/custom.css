@@ -74,7 +74,11 @@ body {
 }
 
 #squeak-logo {
-    padding: 12%;
+    padding: 32px 16%;
+}
+
+#welcome-text {
+    margin-top: 18px;
 }
 
 h1 {
