@@ -22,7 +22,7 @@
         "features": [
             {
                 "title": "Morphic UI Framework",
-                "html": "All graphical objects are tangible and interactively changeable. This promotes very short feedback loops and low-effort application development.",
+                "html": "All graphical objects are tangible and interactively changeable. This promotes short feedback loops and low-effort application development. Morphic thus leverages the live programminge experience of traditional Smalltalk environments from a mainly text-focused domain to a graphical one.",
                 "img-src": "holder.js/200x200/auto"
             },
             {
