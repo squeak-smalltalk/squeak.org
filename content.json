@@ -21,6 +21,11 @@
     "sections": {
         "features": [
             {
+                "title": "It's Smalltalk!",
+                "html": "Everything is an object. Objects collaborate by exchanging messages to achieve the desired application behavior. The Smalltalk programming language has a concise syntax and simple execution semantics. Novice programmers are welcome and experts can engineer elegant solutions at large.",
+                "img-src": "holder.js/200x200/auto"
+            },
+            {
                 "title": "Morphic UI Framework",
                 "html": "All graphical objects are tangible and interactively changeable. This promotes short feedback loops and low-effort application development. Morphic thus leverages the live programminge experience of traditional Smalltalk environments from a mainly text-focused domain to a graphical one.",
                 "img-src": "holder.js/200x200/auto"
