@@ -22,7 +22,30 @@ function enable_screenshot_buttons() {
     })
 }
 
+function shuffle(array) {
+    var currentIndex = array.length, temporaryValue, randomIndex ;
+
+    // While there remain elements to shuffle...
+    while (0 !== currentIndex) {
+
+        // Pick a remaining element...
+        randomIndex = Math.floor(Math.random() * currentIndex);
+        currentIndex -= 1;
+
+        // And swap it with the current element.
+        temporaryValue = array[currentIndex];
+        array[currentIndex] = array[randomIndex];
+        array[randomIndex] = temporaryValue;
+    }
+
+    return array;
+}
+
 function load_content(){
+    $.each(shuffle(['apple','linux','windows']), function(idx, os) {
+        $('#download-button').prepend('<i class="fa fa-' + os + ' fa-lg"></i>');
+    });
+
     var slideshow_item = $('#slideshow-item').html();
     Mustache.parse(slideshow_item);   // optional, speeds up future uses
 
