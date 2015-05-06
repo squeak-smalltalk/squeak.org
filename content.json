@@ -62,6 +62,12 @@
                 "href": "http://forum.world.st/Squeak-f45487.html"
             },
             {
+                "title": "Squeak Wiki",
+                "html": "This wiki collects many useful information about the language, its tools, and several projects. It's a wiki, so you can participate!",
+                "img-src": "holder.js/200x200/auto",
+                "href": "http://wiki.squeak.org/squeak"
+            },
+            {
                 "title": "More Mailing Lists",
                 "html": "The Smalltalk universe spreads across many different dialects, countries, and implementations. There are more lists that communicate via distinct channels.",
                 "img-src": "holder.js/200x200/auto",
