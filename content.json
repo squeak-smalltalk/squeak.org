@@ -33,7 +33,7 @@
             {
                 "title": "Fast Virtual Machine",
                 "html": "The CogVM is a virtual machine that supports Smalltalk and other dynamic languages. It's efficiency in interpreting Smalltalk byte code comes from stack-to-register mapping, just-in-time compilation, and aggressive in-line message caching.",
-                "img-src": "img/features/cog.png",
+                "icon": "cogs",
                 "href": "http://mirandabanda.org/"
             },
             {
@@ -66,6 +66,12 @@
                 "html": "This wiki collects many useful information about the language, its tools, and several projects. It's a wiki, so you can participate!",
                 "img-src": "holder.js/200x200/auto",
                 "href": "http://wiki.squeak.org/squeak"
+            },
+            {
+                "title": "The Weekly Squeak",
+                "html": "This is a blog that documents news and other events in the Squeak and Smalltalk universe.",
+                "img-src": "holder.js/200x200/auto",
+                "href": "http://news.squeak.org/"
             },
             {
                 "title": "More Mailing Lists",
