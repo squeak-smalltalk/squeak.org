@@ -14,6 +14,7 @@ function load_content(){
         $.each(content['sections'][section], function(idx, data) {
             if ('title' in data) {
                 var element = $('#' + section + ' .content-target');
+                data['img-or-icon'] = 'img-src' in data || 'icon' in data;
                 element.append(Mustache.render(simple_box_template, data));
                 count ++;
                 if (count % 2 == 0) {

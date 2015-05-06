@@ -66,10 +66,15 @@
     <script id="simple-box" type="x-tmpl-mustache">
       <div class="col-sm-6 col-md-6 col-lg-6">
         <div class="row">
-          {{ #img-src }}
-          <div class="col-md-4 col-lg-4">
+          {{ #img-or-icon }}
+          <div class="col-md-4 col-lg-4 text-center">
             <a {{ #href }}href="{{ href }}" target="_blank"{{ /href }}>
+              {{ #img-src }}
               <img src="{{{ img-src }}}" alt="..." class="img-rounded img-responsive img-center">
+              {{ /img-src }}
+              {{ #icon }}
+              <i class="box-icon fa fa-{{ icon }}"></i>
+              {{ /icon }}
             </a>
           </div>
           <div class="col-md-8 col-lg-8">
@@ -80,8 +85,8 @@
             </h3>
             {{{ html }}}
           </div>
-          {{ /img-src }}
-          {{ ^img-src }}
+          {{ /img-or-icon }}
+          {{ ^img-or-icon }}
           <div class="col-md-12 col-lg-12">
             <h3 class="text-center-sm">
               <a {{ #href }}href="{{ href }}" target="_blank"{{ /href }}>
@@ -90,7 +95,7 @@
             </h3>
             {{{ html }}}
           </div>
-          {{ /img-src }}
+          {{ /img-or-icon }}
         </div>
       </div>
     </script>
