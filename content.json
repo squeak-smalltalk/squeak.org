@@ -2,12 +2,20 @@
     "welcome": "Squeak is a modern, open source, full-featured implementation of the powerful Smalltalk programming language and environment. Squeak is highly-portable, running on almost any platform you could name and you can really truly write once run anywhere. Squeak is the vehicle for a wide range of projects from multimedia applications and educational platforms to commercial web application development. Read on and join in!",
     "screenshots": [
         {
-            "img-src": "img/screenshots/01.jpg",
-            "caption": "Squeak Screenshot1"
+            "img-src": "img/screenshots/versioning.jpg",
+            "caption": "Squeak Screenshot 1"
         },
         {
-            "img-src": "holder.js/2000x1125/auto/sky",
-            "caption": "Squeak Screenshot2"
+            "img-src": "img/screenshots/executing.jpg",
+            "caption": "Squeak Screenshot 2"
+        },
+        {
+            "img-src": "img/screenshots/writing.jpg",
+            "caption": "Squeak Screenshot 3"
+        },
+        {
+            "img-src": "img/screenshots/scripting.jpg",
+            "caption": "Squeak Screenshot 4"
         }
     ],
     "sections": {
