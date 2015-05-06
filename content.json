@@ -28,22 +28,17 @@
             {
                 "title": "Morphic UI Framework",
                 "html": "All graphical objects are tangible and interactively changeable. This promotes short feedback loops and low-effort application development. Morphic thus leverages the live programminge experience of traditional Smalltalk environments from a mainly text-focused domain to a graphical one.",
-                "img-src": "holder.js/200x200/auto"
+                "img-src": "img/features/morphic.png"
             },
             {
                 "title": "Fast Virtual Machine",
                 "html": "The CogVM is a virtual machine that supports Smalltalk and other dynamic languages. It's efficiency in interpreting Smalltalk byte code comes from stack-to-register mapping, just-in-time compilation, and aggressive in-line message caching.",
-                "img-src": "holder.js/200x200/auto"
+                "img-src": "img/features/cog.png"
             },
             {
-                "title": "Powerful Tools",
-                "html": "velit dignissim sodales ut eu sem integer vitae justo eget magna fermentum iaculis eu non diam phasellus vestibulum lorem sed risus ultricies tristique nulla aliquet enim tortor at auctor",
-                "img-src": "holder.js/200x200/auto"
-            },
-            {
-                "title": "Web Development",
-                "html": "velit dignissim sodales ut eu sem integer vitae justo eget magna fermentum iaculis eu non diam phasellus vestibulum lorem sed risus ultricies tristique nulla aliquet enim tortor at auctor",
-                "img-src": "holder.js/200x200/auto"
+                "title": "Powerful Tooling",
+                "html": "The dynamic Squeak environment is supported by many tools for browsing, writing, executing, and versioning Smalltalk code. Multiple debugging sessions can be served concurrently. Thanks to Morphic, tool customization has resonable effort.",
+                "img-src": "img/features/tools.png"
             }
         ],
         "community": [
