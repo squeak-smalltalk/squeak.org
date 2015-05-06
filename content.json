@@ -1,5 +1,5 @@
 {
-    "welcome": "Squeak is an open-source Smalltalk programming system with fast execution environments for all major platforms. It features the Morphic framework, which promotes graphical, interactive application development and maintenance with low effort. Projects that were successfully created with Squeak cover a wide range of domains such as education, multimedia, gaming, research, and commerce.",
+    "welcome": "Squeak is an open-source Smalltalk programming system with fast execution environments for all major platforms. It features the Morphic framework, which promotes graphical, interactive application development and maintenance with low effort. Many projects have been successfully created with Squeak. They cover a wide range of domains such as education, multimedia, gaming, research, and commerce.",
     "screenshots": [
          {
             "img-src": "img/screenshots/writing.png",
