@@ -57,31 +57,31 @@
             <img id="squeak-logo" src="img/squeak.png" alt="" class="img-responsive">
           </div>
           <div class="col-md-6 col-lg-6">
-            <h3>Welcome to Squeak Smalltalk</h3>
+            <h3>Welcome to Squeak<span class="hidden-xs"> Smalltalk</span></h3>
             <div id="welcome-content"></div>
             <p><br /></p>
             <div class="text-center">
               <a id="download-button" class="btn btn-lg btn-primary" href="http://ftp.squeak.org/4.5/Squeak-4.5-All-in-One.zip" target="_blank" role="button">
-                Download
                 <i class="fa fa-windows fa-lg"></i>
                 <i class="fa fa-linux fa-lg"></i>
                 <i class="fa fa-apple fa-lg"></i>
+                Download
               </a>
 
               <p><br/></p>
 
               <div class="btn-group btn-group-sm" role="group" aria-label="...">
                 <a id="donate-button" class="btn btn-default" href="#" target="_blank" role="button">
-                  Donate
                   <i class="fa fa-heart"></i>
+                  Donate
                 </a>
                 <a id="news-button" class="btn btn-default" href="http://news.squeak.org/" target="_blank" role="button">
-                  News
                   <i class="fa fa-newspaper-o"></i>
+                  News
                 </a>
                 <a id="bugs-button" class="btn btn-default" href="http://bugs.squeak.org/" target="_blank" role="button">
-                  Tickets
                   <i class="fa fa-bug"></i>
+                  Tickets
                 </a>
               </div>
             </div>
@@ -116,7 +116,7 @@
 
         <div class="row">
           <div class="col-sm-12 col-md-12 col-lg-12">
-            <h3>More Projects</h3>
+            <h3 class="text-center-sm">More Projects</h3>
             <ul class="content-more-target"></ul>
           </div>
         </div> <!-- /row -->
@@ -198,16 +198,26 @@
         <div class="row">
           {{ #img-src }}
           <div class="col-md-4 col-lg-4">
-            <img src="{{{ img-src }}}" alt="..." class="img-rounded img-responsive img-center">
+            <a {{ #href }}href="{{ href }}" target="_blank"{{ /href }}>
+              <img src="{{{ img-src }}}" alt="..." class="img-rounded img-responsive img-center">
+            </a>
           </div>
           <div class="col-md-8 col-lg-8">
-            <h3 class="text-center-sm">{{ title }}</h3>
+            <h3 class="text-center-sm">
+              <a {{ #href }}href="{{ href }}" target="_blank"{{ /href }}>
+                {{ title }}
+              </a>
+            </h3>
             {{{ html }}}
           </div>
           {{ /img-src }}
           {{ ^img-src }}
           <div class="col-md-12 col-lg-12">
-            <h3 class="text-center-sm">{{ title }}</h3>
+            <h3 class="text-center-sm">
+              <a {{ #href }}href="{{ href }}" target="_blank"{{ /href }}>
+                {{ title }}
+              </a>
+            </h3>
             {{{ html }}}
           </div>
           {{ /img-src }}
