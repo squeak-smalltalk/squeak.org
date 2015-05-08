@@ -7,14 +7,11 @@
 
     {% include navigation.html %}
 
+    {% assign section = site.collections[page.section] %}
+    {% assign items = section.docs | sort: 'order' %}
     <div class="container">
       <div id="community" class="section">
-
-        {% assign section = site.collections[page.section] %}
-
         <div class="section-heading"><span>{{ section.title }}</span></div>
-
-        {% assign items = section.docs | sort 'order' %}
         {% include rows.html limit=items.size %}
       </div>
     </div> <!-- /container -->

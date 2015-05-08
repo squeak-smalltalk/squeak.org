@@ -5,7 +5,7 @@
 
     <div class="section-heading"><span>{{ section.title }}</span></div>
 
-    {% assign items = section.docs | sort 'order' %}
+    {% assign items = section.docs | sort: 'order' %}
     {% include rows.html limit=4 %}
 
     {% if items.size > 4 %}
