@@ -1,5 +1,5 @@
 <div class="container">
-  <div id="community" class="section">
+  <div class="section">
 
     {% assign section = site.collections[include.section] %}
 
@@ -11,7 +11,7 @@
     {% if items.size > 4 %}
     <div class="row">
       <div class="col-sm-12 col-md-12 col-lg-12 text-center">
-        <p class="lead"><a href="/{{ section.label }}/"><b>More...</b></a></p>
+        <p class="lead"><a href="{{ site.baseurl }}/{{ section.label }}/"><b>More...</b></a></p>
       </div>
     </div>
     {% endif %}
