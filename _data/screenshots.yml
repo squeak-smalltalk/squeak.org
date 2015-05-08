@@ -1,0 +1,11 @@
+- img-src: img/screenshots/writing.png
+  caption: Tools for browsing, searching, and writing Smalltalk code
+
+- img-src: img/screenshots/executing.png
+  caption: Run-time information in concurrent debugging sessions with direct code updates
+
+- img-src: img/screenshots/scripting.png
+  caption: Script, explore, and study almost everything in the environment
+
+- img-src: img/screenshots/versioning.png
+  caption: Automatic change tracking and distributed source code versioning tools

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+
+  {% include head.html %}
+
+  <body>
+
+    {% include navigation.html %}
+
+    <div class="container">
+      <div id="community" class="section">
+
+        {% assign section = site.collections[page.section] %}
+
+        <div class="section-heading"><span>{{ section.title }}</span></div>
+
+        {% assign items = section.docs | sort 'order' %}
+        {% include rows.html limit=items.size %}
+      </div>
+    </div> <!-- /container -->
+
+    {% include footer.html %}
+
+  </body>
+
+</html>

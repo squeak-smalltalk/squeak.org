@@ -1,0 +1,32 @@
+<nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li><a id="squeak-navbar" href="{{ site.baseurl }}/"><img alt="Squeak Smalltalk" src="{{ site.url }}{{ site.baseurl }}/img/squeak.png"></a></li>
+        {% for collection in site.collections %}
+          {% if collection[1].label == page.section %}
+        <li class="active"><a href="{{ site.baseurl }}/{{ collection[1].label }}/">{{ collection[1].title }}</a></li>
+          {% else %}
+        <li><a href="{{ site.baseurl }}/{{ collection[1].label }}/">{{ collection[1].title }}</a></li>
+          {% endif %}
+        {% endfor %}
+      </ul>
+      <ul class="nav navbar-nav navbar-right hidden-sm">
+        {% if page.section == 'license' %}
+        <li class="active"><a href="/license/">License</a></li>
+        {% else %}
+        <li><a href="/license/">License</a></li>
+        {% endif %}
+        <li><a class="donate-button" href="#"><i class="fa fa-heart"></i> Donate</a></li>
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div>
+</nav>

@@ -1,0 +1,10 @@
+{% for item in items limit:include.limit %}
+{% assign loopindex = forloop.index | modulo: 2 %}
+{% if loopindex == 1 %}
+<div class="row">
+{% endif %}
+    {% include item.html %}
+{% if loopindex == 0 %}
+</div>
+{% endif %}
+{% endfor %}

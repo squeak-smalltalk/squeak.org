@@ -41,10 +41,27 @@
     src: url('../fonts/lato/lato-regular.eot?#iefix') format('embedded-opentype'), url('../fonts/lato/lato-regular.woff') format('woff'), url('../fonts/lato/lato-regular.ttf') format('truetype'), url('../fonts/lato/lato-regular.svg#latoregular') format('svg');
 }
 
+html {
+  position: relative;
+  min-height: 100%;
+}
+
 body {
-    position: relative; /* Required for ScrollSpy */
     padding-top: 70px;
-    height: 90%;
+    /* Margin bottom by footer height */
+    margin-bottom: 60px;
+}
+
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  padding: 20px;
+  background-color: #f5f5f5;
+  border-top: 1px solid #ccc;
 }
 
 .section {

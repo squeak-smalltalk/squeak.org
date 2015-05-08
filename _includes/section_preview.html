@@ -1,0 +1,19 @@
+<div class="container">
+  <div id="community" class="section">
+
+    {% assign section = site.collections[include.section] %}
+
+    <div class="section-heading"><span>{{ section.title }}</span></div>
+
+    {% assign items = section.docs | sort 'order' %}
+    {% include rows.html limit=4 %}
+
+    {% if items.size > 4 %}
+    <div class="row">
+      <div class="col-sm-12 col-md-12 col-lg-12 text-center">
+        <p class="lead"><a href="/{{ section.label }}/"><b>More...</b></a></p>
+      </div>
+    </div>
+    {% endif %}
+  </div>
+</div> <!-- /container -->

@@ -1,255 +1,49 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>Squeak Smalltalk</title>
-
-    <!-- CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/font-awesome.min.css" rel="stylesheet">
-    <link href="css/hightlight.github.css" rel="stylesheet">
-    <link href="css/custom.css" rel="stylesheet">
-
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
-  </head>
-  <body>
-    <nav class="navbar navbar-default navbar-fixed-top">
-      <div class="container">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-        </div>
-        <div id="navbar" class="navbar-collapse collapse">
-          <ul class="nav navbar-nav">
-            <li><a id="squeak-navbar" href="index.html"><img alt="Squeak Smalltalk" src="img/squeak.png"></a></li>
-            <li><a href="features.html">Features</a></li>
-            <li><a href="community.html">Community</a></li>
-            <li><a href="projects.html">Projects</a></li>
-            <li><a href="documentation.html">Documentation</a></li>
-            <li><a href="downloads.html">Downloads</a></li>
-            <li><a href="development.html">Development</a></li>
-          </ul>
-          <ul class="nav navbar-nav navbar-right hidden-sm">
-            <li><a href="license.html">License</a></li>
-            <li><a class="donate-button" href="#"><i class="fa fa-heart"></i> Donate</a></li>
-          </ul>
-        </div><!--/.nav-collapse -->
+---
+layout: index
+---
+<div class="container">
+  <div id="home" class="section">
+    <div class="row">
+      <div class="col-md-6 col-lg-6">
+        <img id="squeak-logo" src="img/balloon.svg" alt="" class="img-responsive img-center">
       </div>
-    </nav>
-
-    <div id="home" class="section">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-6 col-lg-6">
-            <img id="squeak-logo" src="img/balloon.svg" alt="" class="img-responsive img-center">
-          </div>
-          <div id="welcome-text" class="col-md-6 col-lg-6">
-            <h3>Welcome to Squeak<span class="hidden-xs"> Smalltalk</span></h3>
-            <div id="welcome-content"></div>
-            <p><br /></p>
-            <div class="text-center">
-              <a id="download-button" class="btn btn-lg btn-primary" href="http://ftp.squeak.org/4.5/Squeak-4.5-All-in-One.zip" target="_blank" role="button">
-                Download
-              </a>
-              <p><a href="downloads.html">More...</a></p>
-
-              <div class="btn-group btn-group-sm" role="group" aria-label="...">
-                <a id="news-button" class="btn btn-default" href="http://news.squeak.org/" target="_blank" role="button">
-                  <i class="fa fa-newspaper-o"></i>
-                  News
-                </a>
-                <a id="bugs-button" class="btn btn-default" href="http://bugs.squeak.org/" target="_blank" role="button">
-                  <i class="fa fa-bug"></i>
-                  Tickets
-                </a>
-                <a class="donate-button btn btn-default" href="#" target="_blank" role="button">
-                  <i class="fa fa-heart"></i>
-                  Donate
-                </a>
-              </div>
-            </div>
-          </div>
-        </div> <!-- /row -->
-
-        <div id="screenshots" class="row"></div>
-            
-      </div> <!-- /container -->
-    </div> <!-- /home -->
-
-    <div id="features" class="section">
-      <div class="container">
-        <div class="section-heading"><span>Features</span></div>
-        <div class="row content-target"></div>
-
-        <div class="row more-content" style="display: none;">
-          <div class="col-sm-12 col-md-12 col-lg-12 text-center">
-            <p class="lead"><a href="features.html"><b>More...</b></a></p>
-          </div>
-        </div> <!-- /row -->
-
-      </div> <!-- /container -->
-    </div> <!-- /features -->
-
-    <div id="community" class="section">
-      <div class="container">
-        <div class="section-heading"><span>Community</span></div>
-        <div class="row content-target"></div>
-
-        <div class="row more-content" style="display: none;">
-          <div class="col-sm-12 col-md-12 col-lg-12 text-center">
-            <p class="lead"><a href="community.html"><b>More...</b></a></p>
-          </div>
-        </div> <!-- /row -->
-
-      </div> <!-- /container -->
-    </div> <!-- /community -->
-
-    <div id="projects" class="section">
-      <div class="container">
-        <div class="section-heading"><span>Projects</span></div>
-        <div class="row content-target"></div>
-
-        <div class="row more-content" style="display: none;">
-          <div class="col-sm-12 col-md-12 col-lg-12 text-center">
-            <p class="lead"><a href="projects.html"><b>More...</b></a></p>
-          </div>
-        </div> <!-- /row -->
-
-      </div> <!-- /container -->
-    </div> <!-- /projects -->
-
-    <div id="documentation" class="section">
-      <div class="container">
-        <div class="section-heading"><span>Documentation</span></div>
-        <div class="row content-target"></div>
-
-        <div class="row more-content" style="display: none;">
-          <div class="col-sm-12 col-md-12 col-lg-12 text-center">
-            <p class="lead"><a href="documentation.html"><b>More...</b></a></p>
-          </div>
-        </div> <!-- /row -->
-
-      </div> <!-- /container -->
-    </div> <!-- /documentation -->
-
-    <div id="downloads" class="section">
-      <div class="container">
-        <div class="section-heading"><span>Downloads</span></div>
-        <div class="row content-target"></div>
-
-        <div class="row more-content" style="display: none;">
-          <div class="col-sm-12 col-md-12 col-lg-12 text-center">
-            <p class="lead"><a href="downloads.html"><b>More...</b></a></p>
-          </div>
-        </div> <!-- /row -->
-
-      </div> <!-- /container -->
-    </div> <!-- /downloads -->
-
-    <div id="development" class="section">
-      <div class="container">
-        <div class="section-heading"><span>Development</span></div>
-        <div class="row content-target"></div>
-
-        <div class="row more-content" style="display: none;">
-          <div class="col-sm-12 col-md-12 col-lg-12 text-center">
-            <p class="lead"><a href="development.html"><b>More...</b></a></p>
-          </div>
-        </div> <!-- /row -->
-
-        <div class="row">
-          <div class="col-sm-6 col-md-6 col-lg-6">
-            <h3>Code</h3>
-            <pre><code>Installer squeaksource
-  project: 'MetacelloRepository';
-  install: 'ConfigurationOfSeaside3'.
-  (Smalltalk at: #ConfigurationOfSeaside3) load.</code></pre>
-          </div>
-        </div> <!-- /row -->
-
-      </div> <!-- /container -->
-    </div> <!-- /development -->
-
-    <!-- Donations -->
-    <form id="paypal-donations" action="https://www.paypal.com/cgi-bin/webscr" target="_blank" method="post">
-      <input type="hidden" name="cmd" value="_s-xclick">
-      <input type="hidden" name="hosted_button_id" value="6WECWGYHQF2A6">
-    </form>
-
-    <!-- Templates -->
-    <script id="slideshow-item" type="x-tmpl-mustache">
-      <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center slideshow-item" style="display: none">
-        <a href="#" class="screenshot-button" data-target="right">
-          <img src="{{ img-src }}" alt="" class="img-responsive img-center">
-        </a>
-        <p class="lead">
-          {{{ caption }}}
-          <a href="#" class="screenshot-button pull-left" data-target="left">
-            <i class="fa fa-chevron-left"></i>
+      <div id="welcome-text" class="col-md-6 col-lg-6">
+        <h3>Welcome to Squeak<span class="hidden-xs"> Smalltalk</span></h3>
+        <div>{{ site.welcome }}</div>
+        <p><br /></p>
+        <div class="text-center">
+          <a id="download-button" class="btn btn-lg btn-primary" href="http://ftp.squeak.org/4.5/Squeak-4.5-All-in-One.zip" target="_blank" role="button">
+            Download
           </a>
-          <a href="#" class="screenshot-button pull-right" data-target="right">
-            <i class="fa fa-chevron-right"></i>
-          </a>
-        </p>
-      </div>
-    </script>
-    <script id="simple-box" type="x-tmpl-mustache">
-      <div class="col-sm-6 col-md-6 col-lg-6">
-        <div class="row">
-          {{ #img-or-icon }}
-          <div class="img-col col-md-4 col-lg-4 text-center">
-            <a {{ #href }}href="{{ href }}" target="_blank"{{ /href }}>
-              {{ #img-src }}
-              <img src="{{{ img-src }}}" alt="..." class="img-rounded img-responsive img-center">
-              {{ /img-src }}
-              {{ #icon }}
-              <div class="box-icon">
-                <i class="fa fa-{{ icon }}"></i>
-              </div>
-              {{ /icon }}
+          <p><a href="downloads.html">More...</a></p>
+
+          <div class="btn-group btn-group-sm" role="group" aria-label="...">
+            <a id="news-button" class="btn btn-default" href="http://news.squeak.org/" target="_blank" role="button">
+              <i class="fa fa-newspaper-o"></i>
+              News
+            </a>
+            <a id="bugs-button" class="btn btn-default" href="http://bugs.squeak.org/" target="_blank" role="button">
+              <i class="fa fa-bug"></i>
+              Tickets
+            </a>
+            <a class="donate-button btn btn-default" href="#" target="_blank" role="button">
+              <i class="fa fa-heart"></i>
+              Donate
             </a>
           </div>
-          <div class="col-md-8 col-lg-8">
-            <h3 class="text-center-sm">
-              <a {{ #href }}href="{{ href }}" target="_blank"{{ /href }}>
-                {{ title }}
-              </a>
-            </h3>
-            {{{ html }}}
-          </div>
-          {{ /img-or-icon }}
-          {{ ^img-or-icon }}
-          <div class="col-md-12 col-lg-12">
-            <h3 class="text-center-sm">
-              <a {{ #href }}href="{{ href }}" target="_blank"{{ /href }}>
-                {{ title }}
-              </a>
-            </h3>
-            {{{ html }}}
-          </div>
-          {{ /img-or-icon }}
         </div>
       </div>
-    </script>
+    </div> <!-- /row -->
 
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src="js/jquery.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/mustache.min.js"></script>
-    <script src="js/highlight.pack.js"></script>
-    <script src="js/holder.min.js"></script>
-    <script src="js/custom.js"></script>
-  </body>
-</html>
+    <div id="screenshots" class="row">
+      {% include screenshots.html %}
+    </div>
+        
+  </div> <!-- /home -->
+</div> <!-- /container -->
+
+{% for collection in site.collections %}
+  {% assign section = collection[1].label %}
+  {% include section_preview.html section=section %}
+{% endfor %}
+
