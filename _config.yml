@@ -7,6 +7,20 @@ welcome: >
   maintenance. Many projects have been successfully created with Squeak. They
   cover a wide range of domains such as education, multimedia, gaming, research,
   and commerce.
+
+sub_button_group:
+  - title: News
+    href: http://news.squeak.org/
+    icon: newspaper-o
+  - title: Tickets
+    href: http://bugs.squeak.org/
+    icon: bug
+  - title: Donate
+    href: "#"
+    class: donate-button
+    icon: heart
+
+# Paths
 baseurl: "/squeak.org"
 url: ""
 
@@ -14,15 +28,9 @@ url: ""
 markdown: kramdown
 
 collections:
-  features:
-    title: Features
-  community:
-    title: Community
-  projects:
-    title: Projects
-  documentation:
-    title: Documentation
-  downloads:
-    title: Downloads
-  development:
-    title: Development
+  - features
+  - community
+  - projects
+  - documentation
+  - downloads
+  - development

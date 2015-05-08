@@ -13,9 +13,9 @@
         <li><a id="squeak-navbar" href="{{ site.baseurl }}/"><img alt="Squeak Smalltalk" src="{{ site.url }}{{ site.baseurl }}/img/squeak.png"></a></li>
         {% for collection in site.collections %}
           {% if collection[1].label == page.section %}
-        <li class="active"><a href="{{ site.baseurl }}/{{ collection[1].label }}/">{{ collection[1].title }}</a></li>
+        <li class="active"><a href="{{ site.baseurl }}/{{ collection[1].label }}/">{{ collection[1].label | capitalize }}</a></li>
           {% else %}
-        <li><a href="{{ site.baseurl }}/{{ collection[1].label }}/">{{ collection[1].title }}</a></li>
+        <li><a href="{{ site.baseurl }}/{{ collection[1].label }}/">{{ collection[1].label | capitalize }}</a></li>
           {% endif %}
         {% endfor %}
       </ul>

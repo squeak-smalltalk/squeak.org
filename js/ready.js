@@ -48,7 +48,8 @@ $(function() {
         });
     }
 
-    $('.donate-button').click(function() {
+    $('.donate-button').click(function(e) {
+        e.preventDefault();
         $('#paypal-donations').submit();
     });
 

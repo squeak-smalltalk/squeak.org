@@ -4,7 +4,7 @@
     <div class="img-col col-md-4 col-lg-4 text-center">
       <a {% if item.href %}href="{{ item.href }}" target="_blank"{% endif %}>
         {% if item.img-src %}
-        <img src="{{ item.img-src | prepend: '/img/' | prepend: site.baseurl | prepend: site.url }}" alt="..." class="img-rounded img-responsive img-center">
+        <img src="{{ item.img-src | prepend: '/img/' | prepend: site.baseurl | prepend: site.url }}" alt="..." class="item-img img-center img-rounded img-responsive">
         {% else %}
         <div class="box-icon">
           <i class="fa fa-{{ item.icon }}"></i>

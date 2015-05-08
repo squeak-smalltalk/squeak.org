@@ -176,3 +176,9 @@ h1:before, h1:after {
         text-align: left;
     }
 }
+
+@media (max-width:991px){
+    .item-img {
+        max-width: 200px;
+    }
+}

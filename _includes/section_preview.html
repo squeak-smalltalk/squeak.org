@@ -3,7 +3,7 @@
 
     {% assign section = site.collections[include.section] %}
 
-    <div class="section-heading"><span>{{ section.title }}</span></div>
+    <div class="section-heading"><span>{{ section.label | capitalize }}</span></div>
 
     {% assign items = section.docs | sort: 'order' %}
     {% include rows.html limit=4 %}
