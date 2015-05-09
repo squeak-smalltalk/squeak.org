@@ -1,16 +1,16 @@
-{% for screenshot in site.data.screenshots %}
+{% for screenshot in site.data.index.screenshots %}
 <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center slideshow-item" style="display: none">
-    <a href="#" class="screenshot-button" data-target="right">
-        <img src="{{ screenshot.img-src }}" alt="" class="img-responsive img-center">
+  <a href="#" class="screenshot-button" data-target="right">
+    <img src="{{ screenshot.img-src }}" alt="" class="img-responsive img-center">
+  </a>
+  <p class="lead">
+    {{ screenshot.caption }}
+    <a href="#" class="screenshot-button pull-left" data-target="left">
+      <i class="fa fa-chevron-left"></i>
     </a>
-    <p class="lead">
-        {{ screenshot.caption }}
-        <a href="#" class="screenshot-button pull-left" data-target="left">
-            <i class="fa fa-chevron-left"></i>
-        </a>
-        <a href="#" class="screenshot-button pull-right" data-target="right">
-            <i class="fa fa-chevron-right"></i>
-        </a>
-    </p>
+    <a href="#" class="screenshot-button pull-right" data-target="right">
+      <i class="fa fa-chevron-right"></i>
+    </a>
+  </p>
 </div>
 {% endfor %}

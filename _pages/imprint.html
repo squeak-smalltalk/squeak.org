@@ -3,14 +3,16 @@ layout: default
 section: imprint
 permalink: /imprint/
 ---
-<div class="section">
-  <div class="container">
+<div class="container">
+  <div class="section">
     <div class="section-heading"><span>Imprint</span></div>
     <div class="row">
       <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-        Text...
+        {% for row in site.data.imprint %}
+        <h3>{{ row.title }}</h3>
+        {{ row.content }}
+        {% endfor %}        
       </div>
     </div> <!-- /row -->
-
-  </div> <!-- /container -->
-</div> <!-- /license -->
+  </div> <!-- /section -->
+</div> <!-- /container -->

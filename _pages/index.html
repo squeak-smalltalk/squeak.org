@@ -1,18 +1,19 @@
 ---
 layout: default
+permalink: /
 ---
 <div class="container">
-  <div id="home" class="section">
+  <div class="section">
     <div class="row">
       <div class="col-md-6 col-lg-6">
         <img id="squeak-logo" src="img/balloon.svg" alt="" class="img-responsive img-center">
       </div>
       <div id="welcome-text" class="col-md-6 col-lg-6">
-        <h3>Welcome to Squeak<span class="hidden-xs"> Smalltalk</span></h3>
-        <div>{{ site.welcome }}</div>
+        <h3>{{ site.data.index.title }}</h3>
+        <div>{{ site.data.index.welcome }}</div>
         <p><br /></p>
         <div class="text-center">
-          <a id="download-button" class="btn btn-lg btn-primary" href="http://ftp.squeak.org/4.5/Squeak-4.5-All-in-One.zip" target="_blank" role="button">
+          <a id="download-button" class="btn btn-lg btn-primary" href="{{ site.data.index.download-link }}" target="_blank" role="button">
             Download
           </a>
           <p><a href="downloads.html">More...</a></p>
@@ -32,7 +33,9 @@ layout: default
 </div> <!-- /container -->
 
 {% for collection in site.collections %}
-  {% assign section = collection[1].label %}
-  {% include section_preview.html section=section %}
+  {% if collection[1].output == false %}
+    {% assign section = collection[1].label %}
+    {% include section_preview.html section=section %}
+  {% endif %}
 {% endfor %}
 

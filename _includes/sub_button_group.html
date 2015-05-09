@@ -1,4 +1,4 @@
-{% for button in site.sub_button_group %}
+{% for button in site.data.index.sub_button_group %}
 <a class="{% if button.class %}{{ button.class }} {% endif %}btn btn-default" href="{% if button.href %}{{ button.href }}{% else %}#{% endif %}" target="_blank" role="button">
   <i class="fa fa-{{ button.icon }}"></i>
   {{ button.title }}
