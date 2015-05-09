@@ -8,6 +8,7 @@ welcome:
   and commerce.
 
 download-link: http://ftp.squeak.org/4.5/Squeak-4.5-All-in-One.zip
+download-more: /downloads/
 
 sub_button_group:
   - title: News

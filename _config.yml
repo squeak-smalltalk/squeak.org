@@ -10,11 +10,18 @@ author: Squeak Foundation
 collections:
   # Order matters
   features:
+    title: Features
   community:
+    title: Community
   projects:
+    title: Projects
   documentation:
+    title: Documentation
+    mobile-title: Docs
   downloads:
+    title: Downloads
   development:
+    title: Development
 
 defaults:
   - scope:
@@ -25,6 +32,9 @@ defaults:
 # Paths
 baseurl: "/squeak.org"
 url: ""
+
+# Serving
+host:    0.0.0.0
 
 # Build settings
 highlighter: pygments

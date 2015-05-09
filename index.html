@@ -10,14 +10,13 @@ layout: default
       <div id="welcome-text" class="col-md-6 col-lg-6">
         <h3>{{ site.data.index.title }}</h3>
         <div>{{ site.data.index.welcome }}</div>
-        <p><br /></p>
         <div class="text-center">
           <a id="download-button" class="btn btn-lg btn-primary" href="{{ site.data.index.download-link }}" target="_blank" role="button">
             Download
           </a>
-          <p><a href="downloads.html">More...</a></p>
+          <p><a href="{{ site.baseurl }}{{ site.data.index.download-more }}">More...</a></p>
 
-          <div class="btn-group btn-group-sm" role="group" aria-label="...">
+          <div id="sub-button-group" class="btn-group btn-group-sm" role="group" aria-label="...">
             {% include sub_button_group.html %}
           </div>
         </div>

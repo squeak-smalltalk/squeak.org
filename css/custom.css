@@ -28,8 +28,16 @@ body {
     margin-top: 18px;
 }
 
+#download-button {
+    margin-top: 12px;
+}
+
 #download-button i {
     margin-right: 12px;
+}
+
+#sub-button-group {
+    margin-bottom: 12px;
 }
 
 
@@ -140,5 +148,9 @@ h1 {
 @media (max-width:991px){
     .item-img {
         max-width: 200px;
+    }
+    pre {
+        font-size: 12px;
+        white-space: nowrap;
     }
 }
