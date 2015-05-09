@@ -1,82 +1,14 @@
-@font-face {
-    font-family: 'Lato';
-    font-style: normal;
-    font-weight: 900;
-    src: url('../fonts/lato/lato-black.eot');
-    src: url('../fonts/lato/lato-black.eot?#iefix') format('embedded-opentype'), url('../fonts/lato/lato-black.woff') format('woff'), url('../fonts/lato/lato-black.ttf') format('truetype'), url('../fonts/lato/lato-black.svg#latoblack') format('svg');
-}
-@font-face {
-    font-family: 'Lato';
-    font-style: normal;
-    font-weight: bold;
-    src: url('../fonts/lato/lato-bold.eot');
-    src: url('../fonts/lato/lato-bold.eot?#iefix') format('embedded-opentype'), url('../fonts/lato/lato-bold.woff') format('woff'), url('../fonts/lato/lato-bold.ttf') format('truetype'), url('../fonts/lato/lato-bold.svg#latobold') format('svg');
-}
-@font-face {
-    font-family: 'Lato';
-    font-style: italic;
-    font-weight: bold;
-    src: url('../fonts/lato/lato-bolditalic.eot');
-    src: url('../fonts/lato/lato-bolditalic.eot?#iefix') format('embedded-opentype'), url('../fonts/lato/lato-bolditalic.woff') format('woff'), url('../fonts/lato/lato-bolditalic.ttf') format('truetype'), url('../fonts/lato/lato-bolditalic.svg#latobold-italic') format('svg');
-}
-@font-face {
-    font-family: 'Lato';
-    font-style: italic;
-    font-weight: normal;
-    src: url('../fonts/lato/lato-italic.eot');
-    src: url('../fonts/lato/lato-italic.eot?#iefix') format('embedded-opentype'), url('../fonts/lato/lato-italic.woff') format('woff'), url('../fonts/lato/lato-italic.ttf') format('truetype'), url('../fonts/lato/lato-italic.svg#latoitalic') format('svg');
-}
-@font-face {
-    font-family: 'Lato';
-    font-style: normal;
-    font-weight: 300;
-    src: url('../fonts/lato/lato-light.eot');
-    src: url('../fonts/lato/lato-light.eot?#iefix') format('embedded-opentype'), url('../fonts/lato/lato-light.woff') format('woff'), url('../fonts/lato/lato-light.ttf') format('truetype'), url('../fonts/lato/lato-light.svg#latolight') format('svg');
-}
-@font-face {
-    font-family: 'Lato';
-    font-style: normal;
-    font-weight: normal;
-    src: url('../fonts/lato/lato-regular.eot');
-    src: url('../fonts/lato/lato-regular.eot?#iefix') format('embedded-opentype'), url('../fonts/lato/lato-regular.woff') format('woff'), url('../fonts/lato/lato-regular.ttf') format('truetype'), url('../fonts/lato/lato-regular.svg#latoregular') format('svg');
-}
-
 html {
-  position: relative;
-  min-height: 100%;
+    position: relative;
+    min-height: 100%;
 }
 
 body {
     padding-top: 70px;
-    /* Margin bottom by footer height */
-    margin-bottom: 60px;
+    margin-bottom: 60px; /* footer height */
 }
 
-
-.footer {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  /* Set the fixed height of the footer here */
-  height: 60px;
-  padding: 20px;
-  background-color: #f5f5f5;
-  border-top: 1px solid #ccc;
-}
-
-.section {
-    min-height: 100%;
-    margin-bottom: 40px;
-}
-
-.section h3 {
-    margin-top: 12px;
-}
-
-.section>.container>.row {
-    padding: 12px;
-}
-
+/* Navigation */
 #squeak-navbar {
     padding-top: 5px;
     padding-bottom: 5px;
@@ -86,10 +18,8 @@ body {
     height: 40px;
 }
 
-#download-button i {
-    margin-right: 12px;
-}
 
+/* Home */
 #squeak-logo {
     padding: 32px 16%;
 }
@@ -98,20 +28,17 @@ body {
     margin-top: 18px;
 }
 
+#download-button i {
+    margin-right: 12px;
+}
+
+
+/* Headings */
 h1 {
     padding: 16px;
     color: #1b3c81;
-    display:flex;
+    display: flex;
 }
-/*
-h1:before, h1:after {
-  color: #1b3c81;
-  content: '';
-  flex: 1;
-  border-bottom: solid 2px;
-  margin: auto 0.25em;
-}
-*/
 
 .section-heading {
     position: relative;
@@ -127,26 +54,37 @@ h1:before, h1:after {
 }
 
 .section-heading:after {
-    content:"";
+    content: "";
     position: absolute;
     z-index: -1;
     top: 50%;
     left: 0;
     width: 100%;
-    height: 2px; /*for horizontal border; width for vertical*/
-    background-color: #1b3c81; /* fallback color if gradients are not supported */
+    height: 2px;
+    background-color: #1b3c81;
 }
 
-.img-center {
-    margin: 0 auto;
+
+/* Sections */
+.section {
+    min-height: 100%;
+    margin-bottom: 40px;
 }
 
-.img-element {
-    padding-right: 16px;
+.section h3 {
+    margin-top: 12px;
+}
+
+.section>.container>.row {
+    padding: 12px;
 }
 
 .img-col {
     margin-top: 16px;
+}
+
+.item-img {
+    border: 1px solid #ccc;
 }
 
 .box-icon {
@@ -167,16 +105,38 @@ h1:before, h1:after {
     margin: auto;
 }
 
+
+/* Footer */
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+    padding: 20px;
+    background-color: #f5f5f5;
+    border-top: 1px solid #ccc;
+}
+
+
+/* Helpers */
+.img-center {
+    margin: 0 auto;
+}
+
 .text-center-sm {
     text-align: center;
 }
 
+
+/* Large devices only */
 @media (min-width:992px){
     .text-center-sm {
         text-align: left;
     }
 }
 
+
+/* Small devices only */
 @media (max-width:991px){
     .item-img {
         max-width: 200px;
