@@ -1,6 +1,5 @@
 ---
 layout: default
-permalink: /
 ---
 <div class="container">
   <div class="section">
@@ -33,9 +32,8 @@ permalink: /
 </div> <!-- /container -->
 
 {% for collection in site.collections %}
-  {% if collection[1].output == false %}
-    {% assign section = collection[1].label %}
-    {% include section_preview.html section=section %}
-  {% endif %}
+  {% assign section = collection[1].label %}
+
+  {% include section_preview.html section=section %}
 {% endfor %}
 

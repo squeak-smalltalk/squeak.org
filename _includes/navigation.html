@@ -12,12 +12,10 @@
       <ul class="nav navbar-nav">
         <li><a id="squeak-navbar" href="{{ site.baseurl }}/"><img alt="Squeak Smalltalk" src="{{ site.url }}{{ site.baseurl }}/img/squeak.svg"></a></li>
         {% for collection in site.collections %}
-          {% if collection[1].output == false %}
-            {% if collection[1].label == page.section %}
+          {% if collection[1].label == page.section %}
         <li class="active"><a href="{{ site.baseurl }}/{{ collection[1].label }}/">{{ collection[1].label | capitalize }}</a></li>
-            {% else %}
+          {% else %}
         <li><a href="{{ site.baseurl }}/{{ collection[1].label }}/">{{ collection[1].label | capitalize }}</a></li>
-            {% endif %}
           {% endif %}
         {% endfor %}
       </ul>

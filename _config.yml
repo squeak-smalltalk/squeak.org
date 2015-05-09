@@ -8,9 +8,6 @@ description:
 author: Squeak Foundation
 
 collections:
-  # Output all pages
-  pages:
-    output: true # Hide on navigation and front page
   # Order matters
   features:
   community:
@@ -19,9 +16,20 @@ collections:
   downloads:
   development:
 
+defaults:
+  - scope:
+      path: ""
+    values:
+      img-border: true
+
 # Paths
 baseurl: "/squeak.org"
 url: ""
 
 # Build settings
+highlighter: pygments
 markdown: kramdown
+
+# Enable plugins
+gems:
+  - jekyll-sitemap
