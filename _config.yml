@@ -17,11 +17,13 @@ collections:
     title: Projects
   documentation:
     title: Documentation
+    visible-sm: Docs
     mobile-title: Docs
   downloads:
     title: Downloads
   development:
     title: Development
+    visible-sm: Dev
 
 defaults:
   - scope:

@@ -18,6 +18,14 @@ body {
     height: 40px;
 }
 
+#squeak-navbar-mobile img {
+    height: 40px;
+    margin: 5px 15px;
+}
+
+.navbar-fixed-top .navbar-collapse {
+    max-height: 400px;
+}
 
 /* Home */
 #squeak-logo {
