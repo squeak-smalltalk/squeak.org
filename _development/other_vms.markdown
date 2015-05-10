@@ -1,6 +1,6 @@
 ---
 title:      Other VMs
-order:      4
+order:      5
 img-src:    dev/others.png
 href:       http://www.squeakvm.org/
 ---
