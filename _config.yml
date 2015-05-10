@@ -25,12 +25,6 @@ collections:
     title: Development
     visible-sm: Dev
 
-defaults:
-  - scope:
-      path: ""
-    values:
-      img-border: true
-
 # Paths
 baseurl: "/squeak.org"
 url: ""
