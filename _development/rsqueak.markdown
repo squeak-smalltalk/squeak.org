@@ -1,6 +1,6 @@
 ---
 title:      R/Squeak VM
-order:      3
+order:      4
 img-src:    dev/rsqueak.svg
 href:       https://github.com/HPI-SWA-Lab/RSqueak#rsqueakvm
 ---

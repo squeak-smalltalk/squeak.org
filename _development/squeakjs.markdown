@@ -1,6 +1,6 @@
 ---
 title:      SqueakJS VM
-order:      2
+order:      3
 img-src:    dev/squeakjs.png
 href:       https://bertfreudenberg.github.io/SqueakJS/
 ---

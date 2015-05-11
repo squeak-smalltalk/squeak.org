@@ -1,6 +1,6 @@
 ---
 title:      RoarVM
-order:      4
+order:      5
 img-src:    dev/roarvm.svg
 href:       https://github.com/smarr/RoarVM#roarvm---the-manycore-squeakvm
 ---
