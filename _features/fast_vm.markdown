@@ -2,6 +2,6 @@
 title:      Fast Virtual Machine
 order:      3
 icon:       cogs
-href:       http://mirandabanda.org/
+href:       ../development/
 ---
-The CogVM is a virtual machine that supports Smalltalk and other languages of the Smalltalk family. Just-in-time compilation, stack-to-register mapping, and aggressive in-line message caching yield efficiency in interpreting Smalltalk byte code.
+There are several fast Squeak VMs that also support other languages of the Smalltalk family. Meta-tracing, just-in-time compilation, stack-to-register mapping, and aggressive in-line message caching yield efficiency in interpreting Smalltalk byte code.
