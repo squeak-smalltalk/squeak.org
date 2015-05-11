@@ -1,6 +1,6 @@
 ---
 title:      Build Your Own VM
-order:      4
+order:      6
 img-src:    dummy.png
 href:       http://wiki.squeak.org/squeak/2105
 ---
