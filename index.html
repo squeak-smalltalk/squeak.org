@@ -31,8 +31,9 @@ layout: default
 </div> <!-- /container -->
 
 {% for collection in site.collections %}
-  {% assign section = collection[1].label %}
-
-  {% include section_preview.html section=section %}
+  {% if collection[1].hidden == nil or collection[1].hidden == false %}
+    {% assign section = collection[1].label %}
+    {% include section_preview.html section=section %}
+  {% endif %}
 {% endfor %}
 

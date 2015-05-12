@@ -1,34 +1,35 @@
-<div class="col-sm-6 col-md-6 col-lg-6">
-  <div class="row">
-    {% if item.img-src or item.icon %}
-    <div class="img-col col-md-4 col-lg-4 text-center">
-      <a {% if item.href %}href="{{ item.href }}" target="_blank"{% endif %}>
-        {% if item.img-src %}
-        <img src="{{ item.img-src | prepend: '/img/' | prepend: site.baseurl | prepend: site.url }}" alt="..." class="item-img img-center img-rounded img-responsive{% if item.img-border %} img-border{% endif %}">
-        {% else %}
-        <div class="box-icon">
-          <i class="fa fa-{{ item.icon }}"></i>
-        </div>
-        {% endif %}
-      </a>
-    </div>
-    <div class="col-md-8 col-lg-8">
-      <h3 class="text-center-sm">
-        <a {% if item.href %}href="{{ item.href }}" target="_blank"{% endif %}>
-          {{ item.title }}
-        </a>
-      </h3>
-      {{ item.content }}
-    </div>
-    {% else %}
-    <div class="col-md-12 col-lg-12">
-      <h3 class="text-center-sm">
-        <a {% if item.href %}href="{{ item.href }}" target="_blank"{% endif %}>
-          {{ item.title }}
-        </a>
-      </h3>
-      {{ item.content }}
-    </div>
-    {% endif %}
+{% if item.lead %}
+<p class="lead">{{ item.lead }}</p>
+{% endif %}
+<div class="row">
+  {% if item.img-src or item.icon %}
+  <div class="img-col col-md-4 col-lg-4 text-center">
+    <a {% if item.href %}href="{{ item.href }}" target="_blank"{% endif %}>
+      {% if item.img-src %}
+      <img src="{{ item.img-src | prepend: '/img/' | prepend: site.baseurl | prepend: site.url }}" alt="..." class="item-img img-center img-rounded img-responsive{% if item.img-border %} img-border{% endif %}">
+      {% else %}
+      <div class="box-icon">
+        <i class="fa fa-{{ item.icon }}"></i>
+      </div>
+      {% endif %}
+    </a>
   </div>
+  <div class="col-md-8 col-lg-8">
+    <h3 class="text-center-sm">
+      <a {% if item.href %}href="{{ item.href }}" target="_blank"{% endif %}>
+        {{ item.title }}
+      </a>
+    </h3>
+    {{ item.content }}
+  </div>
+  {% else %}
+  <div class="col-md-12 col-lg-12">
+    <h3 class="text-center-sm">
+      <a {% if item.href %}href="{{ item.href }}" target="_blank"{% endif %}>
+        {{ item.title }}
+      </a>
+    </h3>
+    {{ item.content }}
+  </div>
+  {% endif %}
 </div>

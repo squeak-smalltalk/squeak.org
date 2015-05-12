@@ -15,10 +15,11 @@
       <ul class="nav navbar-nav">
         <li class="hidden-xs"><a id="squeak-navbar" href="{{ site.baseurl }}/"><img alt="Squeak Smalltalk" src="{{ site.url }}{{ site.baseurl }}/img/squeak.svg"></a></li>
         {% for collection in site.collections %}
-          {% assign li-class = '' %}
-          {% if collection[1].label == page.section %}
-            {% assign li-class = 'active' %}
-          {% endif %}
+          {% if collection[1].hidden == nil or collection[1].hidden == false %}
+            {% assign li-class = '' %}
+            {% if collection[1].label == page.section %}
+              {% assign li-class = 'active' %}
+            {% endif %}
         <li class="{{ li-class }}">
           <a href="{{ site.baseurl }}/{{ collection[1].label }}/">
             {% if collection[1].visible-sm %}
@@ -29,6 +30,7 @@
             {% endif %}
           </a>
         </li>
+          {% endif %}
         {% endfor %}
       </ul>
       <ul class="nav navbar-nav navbar-right">

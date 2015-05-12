@@ -1,22 +1,5 @@
 ---
-layout: default
+layout: section
 section: license
 permalink: /license/
 ---
-<div class="section">
-  <div class="container">
-    <div class="section-heading"><span>License</span></div>
-    <div class="row">
-      <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-        {% for row in site.data.license %}
-        <p class="lead">{{ row.lead }}</p>
-        <h4>{{ row.title }}</h4>
-        <blockquote class="small">
-          {{ row.content }}
-        </blockquote>
-        {% endfor %}
-      </div>
-    </div> <!-- /row -->
-
-  </div> <!-- /container -->
-</div> <!-- /license -->

@@ -12,7 +12,7 @@
     <div class="container">
       <div class="section">
         <div class="section-heading"><span>{{ section.label | capitalize }}</span></div>
-        {% include rows.html limit=items.size %}
+        {% include rows.html cols=section.cols limit=items.size %}
       </div>
     </div> <!-- /container -->
 

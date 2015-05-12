@@ -1,7 +1,10 @@
 <div class="row">
+{% assign cols = 12 | divided_by: include.cols %}
 {% for item in items limit:include.limit %}
-{% assign loopindex = forloop.index | modulo: 2 %}
-  {% include item.html %}
+{% assign loopindex = forloop.index | modulo: include.cols %}
+  <div class="col-sm-{{ cols }} col-md-{{ cols }} col-lg-{{ cols }}">
+    {% include item.html %}
+  </div>
 {% if loopindex == 0 %}
 </div>
 <div class="row">

@@ -11,19 +11,33 @@ collections:
   # Order matters
   features:
     title: Features
+    cols: 2
   community:
     title: Community
+    cols: 2
   projects:
     title: Projects
+    cols: 2
   documentation:
     title: Documentation
+    cols: 2
     visible-sm: Docs
     mobile-title: Docs
   downloads:
     title: Downloads
+    cols: 1
   development:
     title: Development
+    cols: 2
     visible-sm: Dev
+  license:
+    title: License
+    cols: 1
+    hidden: true
+  imprint:
+    title: Imprint
+    cols: 1
+    hidden: true
 
 # Paths
 baseurl: "/squeak.org"
