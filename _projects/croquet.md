@@ -2,6 +2,6 @@
 title:      Croquet
 order:      5
 img-src:    projects/croquet.jpg
-href:       http://planetcroquet.squeak.org/
+href:       http://www.opencobalt.org/
 ---
-A software development kit (SDK) for use in developing collaborative virtual world applications.
+Croquet is a collaborative, live-programming, audio-visual, 3D environment that allows development of interactive worlds.
