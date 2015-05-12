@@ -20,7 +20,7 @@ collections:
     cols: 2
   documentation:
     title: Documentation
-    cols: 2
+    cols: 1
     visible-sm: Docs
     mobile-title: Docs
   downloads:

@@ -11,9 +11,10 @@
     {% endif %}
 
     {% assign items = section.docs | sort: 'order' %}
-    {% include rows.html cols=section.cols limit=4 %}
+    {% assign limit = section.cols | times: 2 %}
+    {% include rows.html cols=section.cols limit=limit %}
 
-    {% if items.size > 4 %}
+    {% if items.size > limit %}
     <div class="row">
       <div class="col-sm-12 col-md-12 col-lg-12 text-center">
         <p class="lead"><a href="{{ site.baseurl }}/{{ section.label }}/"><b>More...</b></a></p>
