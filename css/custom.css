@@ -135,6 +135,16 @@ h1 {
 
 
 /* Bootstrap Tweaks */
+a:hover {
+    color: #1b3c81;
+    text-decoration: none;
+}
+
+a[href]:hover {
+    color: #0e1f42;
+    text-decoration: underline;
+}
+
 .btn .fa, .list-group-item .fa {
     float: right;
     margin: 5px 0 5px 8px;
