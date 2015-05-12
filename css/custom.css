@@ -134,6 +134,13 @@ h1 {
 }
 
 
+/* Bootstrap Tweaks */
+.btn .fa, .list-group-item .fa {
+    float: right;
+    margin: 5px 0 5px 8px;
+}
+
+
 /* Helpers */
 .img-center {
     margin: 0 auto;

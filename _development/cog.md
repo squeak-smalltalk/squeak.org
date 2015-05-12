@@ -1,5 +1,5 @@
 ---
-title:      Cog VM (Standard)
+title:      Cog VM
 order:      1
 img-src:    dev/cog.png
 href:       http://www.mirandabanda.org/files/Cog/VM/
