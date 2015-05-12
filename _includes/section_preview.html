@@ -11,7 +11,15 @@
     {% endif %}
 
     {% assign items = section.docs | sort: 'order' %}
-    {% assign limit = section.cols | times: 2 %}
+    {% assign limit = 0 %}
+    {% assign colsum = 0 %}
+    {% for item in items %}
+      {% assign colsum = colsum | plus: item.cols %}
+      {% if colsum <= 24 %}
+        {% assign limit = limit | plus: 1 %}
+      {% endif %}
+    {% endfor %}
+
     {% include rows.html cols=section.cols limit=limit %}
 
     {% if items.size > limit %}
