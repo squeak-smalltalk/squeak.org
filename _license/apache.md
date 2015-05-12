@@ -1,6 +1,7 @@
 ---
-title: Apache License, Version 2.0
-order: 2
+title:  Apache License, Version 2.0
+order:  2
+cols:   12
 lead: >
     Portions of Squeak are covered by the Apache License:
 ---

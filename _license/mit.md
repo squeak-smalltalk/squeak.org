@@ -1,6 +1,7 @@
 ---
-title: MIT License
-order: 1
+title:  MIT License
+order:  1
+cols:   12
 lead: >
     Note: The current release of Squeak is a combination of source code
     originating from Apple which Apple agreed to license under the Apache

@@ -1,13 +1,13 @@
 <div class="row">
-{% assign cols = 12 | divided_by: include.cols %}
+{% assign colsum = 0 %}
 {% for item in items limit:include.limit %}
-{% assign loopindex = forloop.index | modulo: include.cols %}
-  <div class="col-sm-{{ cols }} col-md-{{ cols }} col-lg-{{ cols }}">
+  {% assign colsum = colsum | plus: item.cols | modulo: 12 %}
+  <div class="col-sm-{{ item.cols }} col-md-{{ item.cols }} col-lg-{{ item.cols }}">
     {% include item.html %}
   </div>
-{% if loopindex == 0 %}
+  {% if colsum == 0 %}
 </div>
 <div class="row">
-{% endif %}
+  {% endif %}
 {% endfor %}
 </div>
