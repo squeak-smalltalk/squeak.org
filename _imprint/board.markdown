@@ -2,9 +2,9 @@
 title: Squeak Oversight Board 2015
 ---
 - Bert Freudenberg
-- Eliot Miranda
-- Tim Rowledge
 - Craig Latta
 - David T. Lewis
+- Eliot Miranda
 - Chris Muller
+- Tim Rowledge
 - Marcel Taeumel
