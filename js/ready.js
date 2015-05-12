@@ -55,4 +55,6 @@ $(function() {
 
     $('#screenshots div:first-child').show();
     enable_screenshot_buttons();
+
+    svgeezy.init(false, 'png');
 });
