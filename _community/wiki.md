@@ -1,6 +1,6 @@
 ---
 title:  Squeak Wiki
-order:  2
+order:  1
 icon:   pencil-square-o
 href:   http://wiki.squeak.org/squeak
 ---

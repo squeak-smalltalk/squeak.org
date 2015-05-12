@@ -1,6 +1,6 @@
 ---
 title:  Squeak Mailing Lists
-order:  1
+order:  3
 icon:   envelope-o
 href:   http://forum.world.st/Squeak-f45487.html
 ---

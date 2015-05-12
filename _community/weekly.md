@@ -1,6 +1,6 @@
 ---
 title:  The Weekly Squeak
-order:  3
+order:  5
 icon:   newspaper-o
 href:   http://news.squeak.org/
 ---
