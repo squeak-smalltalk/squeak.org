@@ -15,7 +15,7 @@ sub_button_group:
     href: http://news.squeak.org/
     icon: newspaper-o
 
-  - title: Tickets
+  - title: Bugs
     href: http://bugs.squeak.org/
     icon: bug
 
