@@ -1,12 +1,6 @@
 ---
-title: Advanced
-order: 2
+title:  Advanced
+order:  2
+cols:   12
 ---
-neque aliquam vestibulum morbi blandit cursus risus at ultrices mi tempus imperdiet nulla malesuada pellentesque elit eget gravida cum sociis natoque penatibus
-
-{% highlight smalltalk %}
-Installer squeaksource
-    project: 'MetacelloRepository';
-    install: 'ConfigurationOfSeaside3'.
-(Smalltalk at: #ConfigurationOfSeaside3) load.
-{% endhighlight %}
+You need to download: a virtual machine; an image and changes pair; and a sources file
