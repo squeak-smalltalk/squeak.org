@@ -7,7 +7,7 @@ cols:   4
   <a href="http://ftp.squeak.org/4.5/Squeak4.5-13680.zip" target="_blank" class="list-group-item">
     <i class="fa fa-download"></i>
     Current Image & Changes
-    <br /><span class="label label-default">v4.5-13680</span>
+    <span class="label label-default">v4.5-13680</span>
   </a>
   <a href="http://build.squeak.org/" target="_blank" class="list-group-item">
     <i class="fa fa-external-link"></i>
