@@ -1,6 +1,7 @@
 ---
 title:      Cog VM
 order:      1
+category:   Virtual Machines
 img-src:    dev/cog.png
 href:       http://www.mirandabanda.org/files/Cog/VM/
 ---
