@@ -134,7 +134,7 @@ h1 {
 }
 
 
-/* Bootstrap Tweaks */
+/* Tweaks */
 a:hover {
     color: #1b3c81;
     text-decoration: none;
@@ -148,6 +148,10 @@ a[href]:hover {
 .btn .fa, .list-group-item .fa {
     float: right;
     margin: 5px 0 5px 8px;
+}
+
+img[src*=".svg"] { /* Fix SVGs in IE */
+    width: 100%; 
 }
 
 
