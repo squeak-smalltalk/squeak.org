@@ -8,6 +8,30 @@ body {
     margin-bottom: 60px; /* footer height */
 }
 
+/* Tweaks */
+a:hover {
+    color: #1b3c81;
+    text-decoration: none;
+}
+
+a[href]:hover {
+    color: #0e1f42;
+    text-decoration: underline;
+}
+
+.btn .fa, .list-group-item .fa {
+    float: right;
+    margin: 5px 0 5px 8px;
+}
+
+img[src*=".svg"] { /* Fix SVGs in IE */
+    width: 100%; 
+}
+
+.navbar img[src*=".svg"] { /* Turn off SVG fix in navbar */
+    width: auto;
+}
+
 /* Navigation */
 #squeak-navbar {
     padding-top: 5px;
@@ -131,27 +155,6 @@ h1 {
     padding: 20px;
     background-color: #f5f5f5;
     border-top: 1px solid #ccc;
-}
-
-
-/* Tweaks */
-a:hover {
-    color: #1b3c81;
-    text-decoration: none;
-}
-
-a[href]:hover {
-    color: #0e1f42;
-    text-decoration: underline;
-}
-
-.btn .fa, .list-group-item .fa {
-    float: right;
-    margin: 5px 0 5px 8px;
-}
-
-img[src*=".svg"] { /* Fix SVGs in IE */
-    width: 100%; 
 }
 
 
