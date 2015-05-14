@@ -1,7 +1,7 @@
 ---
 title:  Virtual Machines
 order:  3
-cols:   4
+cols:   6
 icon:   cogs
 ---
 The virtual machine executes Squeak image files on a particular platform. There may be more recent versions here than included in the All-in-One package above.
