@@ -1,6 +1,6 @@
 ---
 title:      Interpreter VM
-order:      2
+order:      101
 category:   Virtual Machines
 img-src:    dev/interpreter.png
 href:       http://www.squeakvm.org/

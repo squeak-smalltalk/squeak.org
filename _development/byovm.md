@@ -1,6 +1,6 @@
 ---
 title:      Build Your Own VM
-order:      6
+order:      105
 category:   Virtual Machines
 img-src:    dummy.png
 href:       http://wiki.squeak.org/squeak/2105

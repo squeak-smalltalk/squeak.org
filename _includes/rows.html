@@ -1,4 +1,4 @@
-{% assign items = items | group_by: 'category' %}
+{% assign items = items | sort: 'order' | group_by: 'category' %}
 
 {% for row in items limit:include.limit %}
 {% if row.name != "" %}
