@@ -28,8 +28,8 @@ collections:
   license:
     title: License
     hidden: true
-  imprint:
-    title: Imprint
+  board:
+    title: Squeak Oversight Board
     hidden: true
 
 defaults:
@@ -38,6 +38,7 @@ defaults:
       path: "" # an empty string here means all files in the project
     values:
       cols: 6
+      href-external: true
 
 # Paths
 baseurl: "/squeak.org"

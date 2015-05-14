@@ -6,7 +6,7 @@
   {% if item.img-src or item.icon %}
   <div class="img-col col-md-4 col-lg-4 text-center">
     {% if item.href %}
-    <a href="{{ item.href }}" target="_blank">
+    <a href="{{ item.href }}"{% if item.href-external %} target="_blank"{% endif %}>
     {% endif %}
       {% if item.img-src %}
       <img src="{{ item.img-src | prepend: '/img/' | prepend: site.baseurl | prepend: site.url }}" alt="..." class="item-img img-center img-rounded img-responsive{% if item.img-border %} img-border{% endif %}">
@@ -22,7 +22,7 @@
   <div class="col-md-8 col-lg-8">
     <h3 class="text-center-sm">
       {% if item.href %}
-      <a href="{{ item.href }}" target="_blank">
+      <a href="{{ item.href }}"{% if item.href-external %} target="_blank"{% endif %}>
       {% endif %}
         {{ item.title }}
       {% if item.href %}
@@ -41,7 +41,7 @@
   {% else %}
   <div class="col-md-12 col-lg-12">
     <h3 class="text-center-sm">
-      <a {% if item.href %}href="{{ item.href }}" target="_blank"{% endif %}>
+      <a {% if item.href %}href="{{ item.href }}"{% if item.href-external %} target="_blank"{% endif %}{% endif %}>
         {{ item.title }}
       </a>
     </h3>
