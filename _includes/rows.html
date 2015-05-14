@@ -4,17 +4,13 @@
 {% if row.name != "" %}
 <h2>{{ row.name }}</h2>
 {% endif %}
-<div class="row">
+<div class="row isotope-container">
   {% assign colsum = 0 %}
   {% for item in row.items limit:include.limit %}
     {% assign colsum = colsum | plus: item.cols | modulo: 12 %}
-  <div class="item col-sm-{{ item.cols }} col-md-{{ item.cols }} col-lg-{{ item.cols }}">
+  <div class="item col-md-{{ item.cols }} col-lg-{{ item.cols }}">
       {% include item.html %}
   </div>
-    {% if colsum == 0 %}
-</div>
-<div class="row">
-    {% endif %}
   {% endfor %}
 </div>
 {% endfor %}

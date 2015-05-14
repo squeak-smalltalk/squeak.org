@@ -30,6 +30,13 @@
       {% endif %}
     </h3>
     {{ item.content }}
+    {% if item.tags %}
+    <div class="item-tags">
+    {% for tag in item.tags %}
+      <span class="label label-default">{{ tag }}</span>
+    {% endfor %}
+    </div>
+    {% endif %}
   </div>
   {% else %}
   <div class="col-md-12 col-lg-12">

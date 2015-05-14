@@ -53,8 +53,33 @@ $(function() {
         $('#paypal-donations').submit();
     });
 
+    $('.isotope-container').imagesLoaded( function(){
+        $('.isotope-container').isotope({
+            itemSelector: '.item',
+            layoutMode: 'fitRows',
+            percentPosition: true,
+            transitionDuration: '0.4s'
+        });
+    });
+
     $('#screenshots div:first-child').show();
     enable_screenshot_buttons();
+
+    $('.item-tags span').click(function(e) {
+        var selection = $(this).text();
+        $('.isotope-container').isotope({
+            filter: function() {
+                var visible = false;
+                $('.item-tags span', $(this)).each(function() {
+                    if($(this).text() == selection) {
+                        visible = true;
+                        return false; // break
+                    }
+                });
+                return visible
+            }
+        });
+    });
 
     svgeezy.init(false, 'png');
 });
