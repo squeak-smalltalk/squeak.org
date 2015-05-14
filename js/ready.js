@@ -79,6 +79,12 @@ $(function() {
                 return visible
             }
         });
+        $('.tag-filter').remove();
+        $('.section-heading').after('<div class="tag-filter clickable text-center"><h3><span class="label label-default">' + selection + ' <i class="fa fa-times"></i></span></h3></div>');
+        $('.tag-filter').click(function (e) {
+            $('.isotope-container').isotope({ filter: '*' });
+            $(this).remove();
+        });
     });
 
     svgeezy.init(false, 'png');

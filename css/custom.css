@@ -146,10 +146,6 @@ h1 {
     color: #1b3c81;
 }
 
-.item-tags span {
-    cursor: pointer;
-}
-
 .img-col {
     margin-top: 16px;
 }
@@ -192,6 +188,10 @@ h1 {
 /* Helpers */
 .img-center {
     margin: 0 auto;
+}
+
+.clickable {
+    cursor: pointer;
 }
 
 .text-center-sm {
