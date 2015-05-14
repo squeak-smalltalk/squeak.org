@@ -1,4 +1,4 @@
-function enable_screenshot_buttons() {
+function enableScreenshotButtons() {
     $('.screenshot-button').click(function(e) {
         e.preventDefault();
         $(this).parents('.slideshow-item').hide();
@@ -41,6 +41,40 @@ function shuffle(array) {
     return array;
 }
 
+function getHashFilter() {
+    var hash = location.hash;
+    // get filter=filterName
+    var matches = location.hash.match( /filter=([^&]+)/i );
+    var hashFilter = matches && matches[1];
+    return hashFilter && decodeURIComponent( hashFilter );
+}
+
+function onHashchange() {
+    var hashFilter = getHashFilter();
+    $('.tag-filter').remove();
+    if (hashFilter) {
+        $('.isotope-container').isotope({
+            filter: function() {
+                var visible = false;
+                $('.item-tags span', $(this)).each(function() {
+                    if($(this).text() == hashFilter) {
+                        visible = true;
+                        return false; // break
+                    }
+                });
+                return visible
+            }
+        });
+        $('.section-heading').after('<div class="tag-filter clickable text-center"><h3><span class="label label-default">' + hashFilter + ' <i class="fa fa-times"></i></span></h3></div>');
+        $('.tag-filter').click(function (e) {
+            location.hash = '';
+            $(this).remove();
+        });
+    } else {
+        $('.isotope-container').isotope({ filter: '*' });
+    }
+}
+
 $(function() {
     if($('#download-button').length > 0) {
         $.each(shuffle(['apple','linux','windows']), function(idx, os) {
@@ -63,29 +97,15 @@ $(function() {
     });
 
     $('#screenshots div:first-child').show();
-    enable_screenshot_buttons();
+    enableScreenshotButtons();
 
     $('.item-tags span').click(function(e) {
-        var selection = $(this).text();
-        $('.isotope-container').isotope({
-            filter: function() {
-                var visible = false;
-                $('.item-tags span', $(this)).each(function() {
-                    if($(this).text() == selection) {
-                        visible = true;
-                        return false; // break
-                    }
-                });
-                return visible
-            }
-        });
-        $('.tag-filter').remove();
-        $('.section-heading').after('<div class="tag-filter clickable text-center"><h3><span class="label label-default">' + selection + ' <i class="fa fa-times"></i></span></h3></div>');
-        $('.tag-filter').click(function (e) {
-            $('.isotope-container').isotope({ filter: '*' });
-            $(this).remove();
-        });
+        location.hash = 'filter=' + encodeURIComponent( $(this).text() );
     });
+
+    $(window).on( 'hashchange', onHashchange );
+    // trigger event handler to init Isotope
+    onHashchange();
 
     svgeezy.init(false, 'png');
 });
