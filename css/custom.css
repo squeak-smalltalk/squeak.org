@@ -80,6 +80,10 @@ img[src*=".svg"] { /* Fix SVGs in IE */
     border-bottom: 1px solid #e7e7e7;
 }
 
+#screenshots .lead {
+    padding-top: 20px;
+}
+
 
 /* Headings */
 h1 {
