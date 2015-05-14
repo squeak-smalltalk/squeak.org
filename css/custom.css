@@ -9,16 +9,6 @@ body {
 }
 
 /* Tweaks */
-a:hover {
-    color: #1b3c81;
-    text-decoration: none;
-}
-
-a[href]:hover {
-    color: #0e1f42;
-    text-decoration: underline;
-}
-
 .btn .fa, .list-group-item .fa {
     float: right;
     margin: 5px 0 5px 8px;
@@ -30,6 +20,10 @@ img[src*=".svg"] { /* Fix SVGs in IE */
 
 .navbar img[src*=".svg"] { /* Turn off SVG fix in navbar */
     width: auto;
+}
+
+.item h3 {
+    color: #1b3c81;
 }
 
 /* Navigation */
