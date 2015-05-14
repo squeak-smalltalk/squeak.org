@@ -1,0 +1,19 @@
+{% assign page-depth = page.url | append: '.' | split: '/' | size %}
+{% assign base-path = '' %}
+{% for i in (3..page-depth) %}
+    {% assign base-path = base-path | append: '../' %}
+{% endfor %}
+
+{% assign project_tags = '' %}
+{% assign tests = site.projects | map: 'tags' %}
+{% for test in tests %}
+  {% for test2 in test %}
+    {% unless project_tags contains test2 %}
+      {% unless project_tags == '' %}
+        {% assign project_tags = project_tags | append: '|' %}
+      {% endunless %}
+      {% assign project_tags = project_tags | append: test2 %}
+    {% endunless %}
+  {% endfor %}
+{% endfor %}
+{% assign project_tags = project_tags | split: '|' | sort %}
