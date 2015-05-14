@@ -1,6 +1,7 @@
 ---
-title: Books
-order: 3
+title:      Books
+front-page: true
+order:      3
 ---
 - [Squeak by Example](http://squeakbyexample.org/){:target="_blank"}
 - [Dynamic Web Development with Seaside](http://book.seaside.st/){:target="_blank"}

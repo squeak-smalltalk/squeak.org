@@ -10,24 +10,14 @@
     <div class="section-heading"><span>{{ section.title }}</span></div>
     {% endif %}
 
-    {% assign items = section.docs | sort: 'order' %}
-    {% assign limit = 0 %}
-    {% assign colsum = 0 %}
-    {% for item in items %}
-      {% assign colsum = colsum | plus: item.cols %}
-      {% if colsum <= 24 %}
-        {% assign limit = limit | plus: 1 %}
-      {% endif %}
-    {% endfor %}
+    {% assign items = section.docs | where: 'front-page', true | sort: 'order' %}
 
-    {% include rows.html cols=section.cols limit=limit %}
+    {% include row.html items=items %}
 
-    {% if items.size > limit %}
-    <div class="row">
+    <div class="row more-content">
       <div class="col-sm-12 col-md-12 col-lg-12 text-center">
         <p class="lead"><a href="{{ site.baseurl }}/{{ section.label }}/"><b>More...</b></a></p>
       </div>
     </div>
-    {% endif %}
   </div>
 </div> <!-- /container -->

@@ -12,7 +12,15 @@
     <div class="container">
       <div class="section">
         <div class="section-heading"><span>{{ section.title }}</span></div>
-        {% include rows.html cols=section.cols limit=items.size %}
+        {% assign items = items | sort: 'order' | group_by: 'category' %}
+
+        {% for row in items %}
+          {% if row.name != "" %}
+        <h2>{{ row.name }}</h2>
+          {% endif %}
+
+          {% include row.html items=row.items %}
+        {% endfor %}
       </div>
     </div> <!-- /container -->
 

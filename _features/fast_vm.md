@@ -1,6 +1,7 @@
 ---
 title:          Fast Virtual Machine
 order:          4
+front-page:     true
 icon:           cogs
 href:           ../development/
 href-external:  false

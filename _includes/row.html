@@ -1,16 +1,9 @@
-{% assign items = items | sort: 'order' | group_by: 'category' %}
-
-{% for row in items limit:include.limit %}
-{% if row.name != "" %}
-<h2>{{ row.name }}</h2>
-{% endif %}
 <div class="row isotope-container">
   {% assign colsum = 0 %}
-  {% for item in row.items limit:include.limit %}
+  {% for item in include.items %}
     {% assign colsum = colsum | plus: item.cols | modulo: 12 %}
   <div class="item col-md-{{ item.cols }} col-lg-{{ item.cols }}">
       {% include item.html %}
   </div>
   {% endfor %}
 </div>
-{% endfor %}

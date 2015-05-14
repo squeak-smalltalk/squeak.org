@@ -58,7 +58,7 @@ $(function() {
             itemSelector: '.item',
             layoutMode: 'fitRows',
             percentPosition: true,
-            transitionDuration: '0.4s'
+            transitionDuration: 0
         });
     });
 

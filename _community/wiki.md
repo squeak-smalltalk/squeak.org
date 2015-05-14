@@ -1,8 +1,9 @@
 ---
-title:  Squeak Wiki
-order:  1
-icon:   pencil-square-o
-href:   http://wiki.squeak.org/squeak
+title:      Squeak Wiki
+order:      1
+front-page: true
+icon:       pencil-square-o
+href:       http://wiki.squeak.org/squeak
 ---
 The Squeak Wiki collects useful information about the language, its tools, and
 several projects. It's a wiki, so you can participate!

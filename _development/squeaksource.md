@@ -1,6 +1,7 @@
 ---
 title:      SqueakSource
 order:      1
+front-page: true
 img-src:    dummy.png
 href:       http://www.squeaksource.com/
 ---

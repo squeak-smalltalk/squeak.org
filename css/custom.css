@@ -85,6 +85,10 @@ img[src*=".svg"] { /* Fix SVGs in IE */
     padding-top: 20px;
 }
 
+.more-content {
+    margin-top: 12px;
+}
+
 
 /* Headings */
 h1 {

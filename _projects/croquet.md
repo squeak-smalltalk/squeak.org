@@ -1,5 +1,6 @@
 ---
 title:      Croquet
+front-page: true
 img-src:    projects/croquet.jpg
 href:       http://www.opencobalt.org/
 tags:

@@ -1,5 +1,6 @@
 ---
 title:      muO
+front-page: true
 img-src:    projects/muo.png
 href:       http://www.zogotounga.net/comp/squeak/sqgeo.htm
 tags:
