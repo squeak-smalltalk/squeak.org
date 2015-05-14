@@ -24,9 +24,11 @@ order: 1
 - Dan Ingalls
 - Yoshiki Ohshima
 - Colin Putney
-- Andreas Raab [<sup>&dagger;</sup>](http://en.wikipedia.org/wiki/Andreas_Raab){:target="_blank"}
+- Andreas Raab [<sup>&dagger;</sup>][raab]{:target="_blank"}
 - Randal L. Schwartz
 - Frank Shearar
 - Igor Stasenko
 - Levente Uzonyi
 - Juan Vuletich
+
+[raab]: http://en.wikipedia.org/wiki/Andreas_Raab
