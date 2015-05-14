@@ -14,19 +14,19 @@ order: 1
 
 **Past Board Members**
 
-- Andreas Raab [<sup>&dagger;</sup>](http://en.wikipedia.org/wiki/Andreas_Raab){:target="_blank"}
+- Jecel Assumpcao
 - Andrew P. Black
-- Cees de Groot
+- Ken Causey
 - Chris Cunnington
-- Colin Putney
+- Cees de Groot
+- Marcus Denker
+- Stéphane Ducasse
 - Dan Ingalls
+- Yoshiki Ohshima
+- Colin Putney
+- Andreas Raab [<sup>&dagger;</sup>](http://en.wikipedia.org/wiki/Andreas_Raab){:target="_blank"}
+- Randal L. Schwartz
 - Frank Shearar
 - Igor Stasenko
-- Jecel Assumpcao
-- Juan Vuletich
-- Ken Causey
 - Levente Uzonyi
-- Marcus Denker
-- Randal L. Schwartz
-- Stéphane Ducasse
-- Yoshiki Ohshima
+- Juan Vuletich
