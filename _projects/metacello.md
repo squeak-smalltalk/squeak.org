@@ -3,6 +3,6 @@ title:      Metacello
 img-src:    dummy.png
 href:       https://github.com/dalehenrich/metacello-work#squeak
 tags:
-    - Development Tool
+    - Development Tools
 ---
 A package management system for Squeak Smalltalk.
