@@ -1,6 +1,6 @@
 ---
 title:      Vivide
-img-src:    vivide.png
+img-src:    projects/vivide.png
 href:       http://www.github.com/hpi-swa/vivide
 tags:
     - Programming Environment
