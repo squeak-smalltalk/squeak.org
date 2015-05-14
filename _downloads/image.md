@@ -3,7 +3,7 @@ title:  Image and Changes
 order:  4
 cols:   4
 ---
-<div class="list-group">
+<div class="list-group list-group-sm">
   <a href="http://ftp.squeak.org/4.5/Squeak4.5-13680.zip" target="_blank" class="list-group-item">
     <i class="fa fa-download"></i>
     Current Image & Changes

@@ -26,6 +26,17 @@ img[src*=".svg"] { /* Fix SVGs in IE */
     color: #1b3c81;
 }
 
+.list-group-sm {
+    font-size: 14px;
+    border-radius: 3px
+}
+
+.list-group-sm .list-group-item {
+    padding: 7px 10px 6px 10px;
+    line-height: 1.5;
+}
+
+
 /* Navigation */
 #squeak-navbar {
     padding-top: 5px;
