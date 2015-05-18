@@ -194,6 +194,10 @@ h1 {
     cursor: pointer;
 }
 
+a.no-underline:hover {
+    text-decoration: none;
+}
+
 .text-center-sm {
     text-align: center;
 }

@@ -16,6 +16,10 @@ collections:
     title: Community
   projects:
     title: Projects
+  project_tags:
+    permalink: '/projects/:path/'
+    output: true
+    hidden: true
   documentation:
     title: Documentation
     visible-sm: Docs

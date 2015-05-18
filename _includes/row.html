@@ -1,7 +1,13 @@
-<div class="row isotope-container">
+{% assign colsum = 0 %}
+<div class="row">
 {% for item in include.items %}
+  {% assign colsum = colsum | plus: item.cols | modulo: 12 %}
   <div class="item col-md-{{ item.cols }} col-lg-{{ item.cols }}">
   {% include item.html %}
   </div>
+  {% if colsum == 0 %}
+</div>
+<div class="row">
+  {% endif %}
 {% endfor %}
 </div>

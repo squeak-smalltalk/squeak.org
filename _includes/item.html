@@ -33,7 +33,9 @@
     {% if item.tags %}
     <div class="item-tags">
     {% for tag in item.tags %}
-      <span class="clickable label label-default">{{ tag }}</span>
+      <a href="{{ base-path }}projects/{{ tag | slugify }}/" class="no-underline">
+        <span class="label label-default">{{ tag }}</span>
+      </a>
     {% endfor %}
     </div>
     {% endif %}

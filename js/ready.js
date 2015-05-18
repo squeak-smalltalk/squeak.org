@@ -41,39 +41,6 @@ function shuffle(array) {
     return array;
 }
 
-function getHashFilter() {
-    var hash = location.hash;
-    var matches = location.hash.match( /filter=([^&]+)/i );
-    var hashFilter = matches && matches[1];
-    return hashFilter && decodeURIComponent( hashFilter );
-}
-
-function onHashchange() {
-    var hashFilter = getHashFilter();
-    $('.tag-filter').remove();
-    if (hashFilter) {
-        $('.isotope-container').isotope({
-            filter: function() {
-                var visible = false;
-                $('.item-tags span', $(this)).each(function() {
-                    if($(this).text() == hashFilter) {
-                        visible = true;
-                        return false; // break
-                    }
-                });
-                return visible
-            }
-        });
-        $('.section-heading').after('<div class="tag-filter clickable text-center"><h3><span class="label label-default">' + hashFilter + ' <i class="fa fa-times"></i></span></h3></div>');
-        $('.tag-filter').click(function (e) {
-            location.hash = '';
-            $(this).remove();
-        });
-    } else {
-        $('.isotope-container').isotope({ filter: '*' });
-    }
-}
-
 $(function() {
     if($('#download-button').length > 0) {
         $.each(shuffle(['apple','linux','windows']), function(idx, os) {
@@ -86,30 +53,8 @@ $(function() {
         $('#paypal-donations').submit();
     });
 
-    $('.isotope-container').imagesLoaded( function(){
-        $('.isotope-container').isotope({
-            itemSelector: '.item',
-            layoutMode: 'fitRows',
-            percentPosition: true,
-            transitionDuration: 0
-        });
-    });
-
     $('#screenshots div:first-child').show();
     enableScreenshotButtons();
-
-    $('.item-tags span').click(function(e) {
-        var hashValue = 'filter=' + encodeURIComponent( $(this).text() );
-        if (location == '/squeak.org/projects/') {
-            location.hash = hashValue;
-        } else {
-            window.location = '/squeak.org/projects/#' + hashValue;
-        }
-    });
-
-    $(window).on( 'hashchange', onHashchange );
-    // trigger event handler to init Isotope
-    onHashchange();
 
     svgeezy.init(false, 'png');
 });

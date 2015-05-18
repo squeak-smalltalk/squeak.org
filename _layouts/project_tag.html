@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+  {% include head.html %}
+
+  <body>
+
+    {% include navigation.html %}
+
+    {% assign section = site.collections.projects %}
+    {% assign items = section.docs %}
+    <div class="container">
+      <div class="section">
+        <div class="section-heading"><span>Projects</span></div>
+        <div class="text-center">
+          <h3>
+            <a href="{{ base-path }}projects/" class="no-underline">
+              <span class="label label-default">
+                {{ page.tag }}
+                <i class="fa fa-times"></i>
+              </span>
+            </a>
+          </h3>
+        </div>
+
+        {% assign items = items | sort: 'order' | group_by: 'category' %}
+
+        {% for row in items %}
+          {% if row.name != "" %}
+        <h2>{{ row.name }}</h2>
+          {% endif %}
+
+        {% assign colsum = 0 %}
+        <div class="row">
+        {% for item in row.items %}
+          {% assign hasTag = false %}
+          {% for tag in item.tags %}
+            {% if tag == page.tag %}
+              {% assign hasTag = true %}
+            {% endif %}
+          {% endfor %}
+          {% if hasTag %}
+          {% assign colsum = colsum | plus: item.cols | modulo: 12 %}
+          <div class="item col-md-{{ item.cols }} col-lg-{{ item.cols }}">
+          {% include item.html %}
+          </div>
+          {% if colsum == 0 %}
+        </div>
+        <div class="row">
+          {% endif %}
+          {% endif %}
+        {% endfor %}
+        </div>
+        {% endfor %}
+      </div>
+    </div> <!-- /container -->
+
+    {% include footer.html %}
+
+  </body>
+
+</html>

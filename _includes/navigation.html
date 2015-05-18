@@ -37,8 +37,8 @@
           <ul class="dropdown-menu" role="menu">
             <li><a href="{{ base-path }}projects/">All Projects</a></li>
             <li class="divider"></li>
-            {% for tag in project_tags %}
-            <li><a href="{{ base-path }}projects/#filter={{ tag | uri_escape }}">{{ tag }}</a></li>
+            {% for item in site.project_tags %}
+            <li><a href="{{ base-path }}projects/{{ item.tag | slugify }}/">{{ item.tag }}</a></li>
             {% endfor %}
           </ul>
         </li>
