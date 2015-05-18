@@ -1,18 +1,18 @@
 ---
-title:  Squeak v1
-order:  70
-cols:   6
+title:      Squeak v1
+order:      70
+cols:       6
 img-src:    downloads/squeak-v1.png
 img-border: true
 ---
 There are virtual machines for Unix and Windows-based systems. Despite the majority of computing platforms back then, the Squeak community managed to run Smalltalk applications almost everywhere.
 
 <div class="list-group list-group-sm">
-  <a href="http://ftp.squeak.org/1.1/" target="_blank" class="list-group-item">
+  <a href="http://ftp.squeak.org/1.3/" target="_blank" class="list-group-item">
     <i class="fa fa-external-link"></i>
     Virtual machines and image
-    <span class="label label-default">1.1</span>
-    <span class="label label-primary">Oct 1996</span>
+    <span class="label label-default">1.3</span>
+    <span class="label label-primary">Jan 1998</span>
   </a>
   <a href="http://ftp.squeak.org/1.2/" target="_blank" class="list-group-item">
     <i class="fa fa-external-link"></i>
@@ -20,10 +20,10 @@ There are virtual machines for Unix and Windows-based systems. Despite the major
     <span class="label label-default">1.2</span>
     <span class="label label-primary">Jul 1997</span>
   </a>
-  <a href="http://ftp.squeak.org/1.3/" target="_blank" class="list-group-item">
+  <a href="http://ftp.squeak.org/1.1/" target="_blank" class="list-group-item">
     <i class="fa fa-external-link"></i>
     Virtual machines and image
-    <span class="label label-default">1.3</span>
-    <span class="label label-primary">Jan 1998</span>
+    <span class="label label-default">1.1</span>
+    <span class="label label-primary">Oct 1996</span>
   </a>
 </div>
