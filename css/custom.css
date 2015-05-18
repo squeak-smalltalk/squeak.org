@@ -199,25 +199,35 @@ h1 {
 }
 
 
-/* Large devices only */
-@media (min-width:992px){
-    .text-center-sm {
-        text-align: left;
-    }
-}
-
-
 /* Small devices only */
 @media (max-width:991px){
     .item {
         height: auto;
         overflow-y: auto;
     }
+
     .item-img {
         max-width: 200px;
     }
+    
     pre {
         font-size: 12px;
         white-space: nowrap;
+    }
+}
+
+
+/* Large devices only */
+@media (min-width:992px) and (max-width:1199px){
+    .box-icon i {
+        font-size: 64px;
+    }
+}
+
+
+/* All larger devices */
+@media (min-width:992px){
+    .text-center-sm {
+        text-align: left;
     }
 }
