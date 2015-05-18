@@ -1,5 +1,7 @@
+{% capture globals %}
 {% assign page-depth = page.url | append: '.' | split: '/' | size %}
 {% assign base-path = '' %}
 {% for i in (3..page-depth) %}
     {% assign base-path = base-path | append: '../' %}
 {% endfor %}
+{% endcapture %}{% assign globals = nil %}

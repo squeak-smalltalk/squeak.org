@@ -12,28 +12,36 @@ collections:
   # Order matters
   features:
     title: Features
+    sort_by: order
   community:
     title: Community
+    sort_by: order
   projects:
     title: Projects
+    sort_by: title
   project_tags:
     permalink: '/projects/:path/'
     output: true
     hidden: true
   documentation:
     title: Documentation
+    sort_by: order
     visible-sm: Docs
     mobile-title: Docs
   downloads:
     title: Downloads
+    sort_by: order
   development:
     title: Development
+    sort_by: order
     visible-sm: Dev
   license:
     title: License
+    sort_by: order
     hidden: true
   board:
     title: Squeak Oversight Board
+    sort_by: order
     hidden: true
 
 defaults:

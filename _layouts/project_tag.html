@@ -33,12 +33,15 @@
         {% assign colsum = 0 %}
         <div class="row">
         {% for item in row.items %}
+          {% capture checkTag %}
           {% assign hasTag = false %}
           {% for tag in item.tags %}
             {% if tag == page.tag %}
               {% assign hasTag = true %}
+              {% break %}
             {% endif %}
           {% endfor %}
+          {% endcapture %}{% assign checkTag = nil %}
           {% if hasTag %}
           {% assign colsum = colsum | plus: item.cols | modulo: 12 %}
           <div class="item col-md-{{ item.cols }} col-lg-{{ item.cols }}">

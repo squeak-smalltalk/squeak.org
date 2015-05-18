@@ -8,19 +8,19 @@
     {% include navigation.html %}
 
     {% assign section = site.collections[page.section] %}
-    {% assign items = section.docs %}
     <div class="container">
       <div class="section">
         <div class="section-heading"><span>{{ section.title }}</span></div>
-        {% assign items = items | sort: 'order' | group_by: 'category' %}
+        {% assign groups = section.docs | sort: section.sort_by | group_by: 'category' %}
 
-        {% for row in items %}
+        {% for row in groups %}
           {% if row.name != "" %}
         <h2>{{ row.name }}</h2>
           {% endif %}
-
           {% include row.html items=row.items %}
         {% endfor %}
+
+        {{ content }}
       </div>
     </div> <!-- /container -->
 
