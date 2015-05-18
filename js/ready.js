@@ -3,9 +3,9 @@ function enableScreenshotButtons() {
         e.preventDefault();
         $(this).parents('.slideshow-item').hide();
 
-        var is_right = $(this).data('target') == 'right';
+        var isRight = $(this).data('target') == 'right';
         var element = $(this).parents('.slideshow-item');
-        if (is_right) {
+        if (isRight) {
             element = element.next();
         } else {
             element = element.prev();
@@ -13,7 +13,7 @@ function enableScreenshotButtons() {
         if (element.length > 0) {
             element.show();
         } else {
-            if (is_right) {
+            if (isRight) {
                 $('#screenshots div:first-child').show();
             } else {
                 $('#screenshots div:last-child').show();
@@ -43,7 +43,6 @@ function shuffle(array) {
 
 function getHashFilter() {
     var hash = location.hash;
-    // get filter=filterName
     var matches = location.hash.match( /filter=([^&]+)/i );
     var hashFilter = matches && matches[1];
     return hashFilter && decodeURIComponent( hashFilter );
@@ -100,7 +99,12 @@ $(function() {
     enableScreenshotButtons();
 
     $('.item-tags span').click(function(e) {
-        location.hash = 'filter=' + encodeURIComponent( $(this).text() );
+        var hashValue = 'filter=' + encodeURIComponent( $(this).text() );
+        if (location == '/squeak.org/projects/') {
+            location.hash = hashValue;
+        } else {
+            window.location = '/squeak.org/projects/#' + hashValue;
+        }
     });
 
     $(window).on( 'hashchange', onHashchange );
