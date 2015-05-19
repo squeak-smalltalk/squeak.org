@@ -1,5 +1,6 @@
 ---
 title:      Scratch
+front-page: true
 img-src:    projects/scratch.svg
 href:       http://scratch.mit.edu/
 tags:

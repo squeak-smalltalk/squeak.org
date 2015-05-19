@@ -1,5 +1,6 @@
 ---
 title:      Etoys
+front-page: true
 img-src:    projects/etoys.png
 img-border: true
 href:       http://www.squeakland.org/

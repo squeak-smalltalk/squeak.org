@@ -1,6 +1,5 @@
 ---
 title:      Vivide
-front-page: true
 img-src:    projects/vivide.png
 href:       http://www.github.com/hpi-swa/vivide
 tags:
