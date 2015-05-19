@@ -10,10 +10,6 @@ The sources file contains all sources of the base system. As no sources are stor
   <a href="http://ftp.squeak.org/4.5/SqueakV41.sources.zip" target="_blank" class="list-group-item">
     <i class="fa fa-download"></i>
     Current Sources File
-    <span class="label label-default">4.1 - 4.5</span>
-  </a>
-  <a href="http://ftp.squeak.org/sources_files/" target="_blank" class="list-group-item">
-    <i class="fa fa-external-link"></i>
-    All sources files
+    <span class="label label-default">v4.1</span>
   </a>
 </div>

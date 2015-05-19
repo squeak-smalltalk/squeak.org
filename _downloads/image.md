@@ -10,7 +10,7 @@ The image file contains a binary representation of all living objects in Squeak.
   <a href="http://ftp.squeak.org/4.5/Squeak4.5-13680.zip" target="_blank" class="list-group-item">
     <i class="fa fa-download"></i>
     Current Stable
-    <span class="label label-default">4.5-13680</span>
+    <span class="label label-default">v4.5-13680</span>
   </a>
   <a href="http://build.squeak.org/job/SqueakTrunk/lastSuccessfulBuild/artifact/target/TrunkImage.zip" target="_blank" class="list-group-item">
     <i class="fa fa-download"></i>
