@@ -39,6 +39,10 @@ collections:
     title: Squeak Oversight Board
     sort_by: order
     hidden: true
+  imprint:
+    title: Imprint
+    sort_by: order
+    hidden: true
 
 defaults:
   -
