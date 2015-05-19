@@ -19,7 +19,7 @@
           {% if collection[1].label == page.section %}
             {% assign li-class = 'active' %}
           {% endif %}
-          {% if collection[1].label != 'projects' and (collection[1].hidden == nil or collection[1].hidden == false) %}
+          {% if collection[1].hidden == nil or collection[1].hidden == false %}
         <li class="{{ li-class }}">
           <a href="{{ site.baseurl }}/{{ collection[1].label }}/">
             {% if collection[1].visible-sm %}
@@ -29,21 +29,6 @@
             {{ collection[1].title }}
             {% endif %}
           </a>
-        </li>
-          {% endif %}
-          {% if collection[1].label == 'projects' %}
-          {% if page.collection == 'project_tags' %}
-            {% assign li-class = 'active' %}
-          {% endif %}
-        <li class="dropdown {{ li-class }}">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Projects <span class="caret"></span></a>
-          <ul class="dropdown-menu" role="menu">
-            <li><a href="{{ base-path }}projects/">All Projects</a></li>
-            <li class="divider"></li>
-            {% for item in site.project_tags %}
-            <li><a href="{{ base-path }}projects/{{ item.tag | slugify }}/">{{ item.tag }}</a></li>
-            {% endfor %}
-          </ul>
         </li>
           {% endif %}
         {% endfor %}

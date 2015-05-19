@@ -19,10 +19,6 @@ collections:
   projects:
     title: Projects
     sort_by: title
-  project_tags:
-    permalink: '/projects/:path/'
-    output: true
-    hidden: true
   documentation:
     title: Documentation
     sort_by: order
