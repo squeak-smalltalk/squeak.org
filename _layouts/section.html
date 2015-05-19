@@ -11,7 +11,11 @@
     <div class="container">
       <div class="section">
         <div class="section-heading"><span>{{ section.title }}</span></div>
-        {% assign groups = section.docs | sort_natural: section.sort_by | group_by: 'category' %}
+        {% if section.sort_by == 'title' %}
+          {% assign groups = section.docs | sort_natural: section.sort_by | group_by: 'category' %}
+        {% else %}
+          {% assign groups = section.docs | sort: section.sort_by | group_by: 'category' %}
+        {% endif %}
 
         {% for row in groups %}
           {% if row.name != "" %}
