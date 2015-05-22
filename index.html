@@ -4,16 +4,19 @@ layout: default
 <div class="container">
   <div class="row">
     <div class="col-md-6 col-lg-6">
-      <img id="squeak-logo" src="img/balloon.svg" alt="" class="img-responsive img-center">
+      <img id="squeak-logo" src="{{ basePath }}{{ site.staticurl }}img/balloon.svg" alt="" class="img-responsive img-center">
     </div>
     <div id="welcome-text" class="col-md-6 col-lg-6">
       <h3>{{ site.data.index.title }}</h3>
       <div>{{ site.data.index.welcome }}</div>
       <div class="text-center">
         <a id="download-button" class="btn btn-lg btn-primary" href="{{ site.data.index.download-link }}" target="_blank" role="button">
+          <i class="fa fa-windows fa-lg"></i>
+          <i class="fa fa-apple fa-lg"></i>
+          <i class="fa fa-linux fa-lg"></i>
           Download
         </a>
-        <p><a href="{{ site.baseurl }}{{ site.data.index.download-more }}">More...</a></p>
+        <p><a href="{{ basePath }}{{ site.data.index.download-more }}">More...</a></p>
 
         <div id="sub-button-group" class="btn-group btn-group-sm" role="group" aria-label="...">
           {% include sub_button_group.html %}

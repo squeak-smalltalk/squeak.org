@@ -1,6 +1,6 @@
  <footer class="footer">
   <div class="container text-center">
-    <p class="small">&copy; 1997-{{ site.time | date: '%Y' }} {{ site.copyright }} - <a href="{{ site.baseurl }}/imprint/">Imprint</a></p>
+    <p class="small">&copy; 1997-{{ site.time | date: '%Y' }} {{ site.copyright }} - <a href="{{ basePath }}imprint/">Imprint</a></p>
   </div>
 </footer>
 
@@ -11,7 +11,7 @@
 </form>
 
 <!-- Placed at the end of the document so the pages load faster -->
-<script src="{{ "/js/jquery.min.js" | prepend: site.baseurl | prepend: site.url }}"></script>
-<script src="{{ "/js/bootstrap.min.js" | prepend: site.baseurl | prepend: site.url }}"></script>
-<script src="{{ "/js/svgeezy.min.js" | prepend: site.baseurl | prepend: site.url }}"></script>
-<script src="{{ "/js/ready.js" | prepend: site.baseurl | prepend: site.url }}"></script>
+<script src="{{ staticPath }}js/jquery.min.js"></script>
+<script src="{{ staticPath }}js/bootstrap.min.js"></script>
+<script src="{{ staticPath }}js/svgeezy.min.js"></script>
+<script src="{{ staticPath }}js/ready.js{{ cacheSuffix }}"></script>

@@ -1,8 +1,8 @@
 <nav class="navbar navbar-default navbar-fixed-top">
   <div class="container">
     <div class="navbar-header">
-      <a id="squeak-navbar-mobile" class="visible-xs pull-left" href="{{ site.baseurl }}/">
-        <img alt="Squeak Smalltalk" src="{{ site.url }}{{ site.baseurl }}/img/squeak.svg">
+      <a id="squeak-navbar-mobile" class="visible-xs pull-left" href="{{ basePath }}">
+        <img alt="Squeak Smalltalk" src="{{ staticPath }}img/squeak.svg">
       </a>
       <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
         <span class="sr-only">Toggle navigation</span>
@@ -13,7 +13,7 @@
     </div>
     <div id="navbar" class="navbar-collapse collapse">
       <ul class="nav navbar-nav">
-        <li class="hidden-xs"><a id="squeak-navbar" href="{{ site.baseurl }}/"><img alt="Squeak Smalltalk" src="{{ site.url }}{{ site.baseurl }}/img/squeak.svg"></a></li>
+        <li class="hidden-xs"><a id="squeak-navbar" href="{{ basePath }}"><img alt="Squeak Smalltalk" src="{{ staticPath }}img/squeak.svg"></a></li>
         {% for collection in site.collections %}
           {% assign li-class = '' %}
           {% if collection[1].label == page.section %}
@@ -21,7 +21,7 @@
           {% endif %}
           {% if collection[1].hidden == nil or collection[1].hidden == false %}
         <li class="{{ li-class }}">
-          <a href="{{ site.baseurl }}/{{ collection[1].label }}/">
+          <a href="{{ basePath }}{{ collection[1].label }}/">
             {% if collection[1].visible-sm %}
             <span class="hidden-sm">{{ collection[1].title }}</span>
             <span class="visible-sm">{{ collection[1].visible-sm }}</span>
@@ -35,7 +35,7 @@
       </ul>
       <ul class="nav navbar-nav navbar-right">
         <li{% if page.section == 'license' %} class="active"{% endif %}>
-          <a href="{{ site.baseurl }}/license/">
+          <a href="{{ basePath }}license/">
             <span class="hidden-sm">License</span>
             <span class="visible-sm"><i class="fa fa-file-text-o"></i></span>
           </a>

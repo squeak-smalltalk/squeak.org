@@ -53,11 +53,15 @@ defaults:
       href-external: true
 
 # Paths
-baseurl: "/squeak.org"
+baseurl: ""
 url: ""
 
 # Serving
 host:    0.0.0.0
+
+# Caching
+build_version: 0.0.1
+staticurl: "static/"
 
 # Build settings
 highlighter: pygments

@@ -1,3 +1,4 @@
+{% include globals.html %}
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,21 +10,19 @@
   <title>{{ site.title }}</title>
 
   <!-- Favicon -->
-  <link rel="shortcut icon" type="image/png" href="{{ "/img/favicon.png" | prepend: site.baseurl | prepend: site.url }}" />
-  <!--[if IE]><link rel="shortcut icon" href="{{ "/img/favicon.ico" | prepend: site.baseurl | prepend: site.url }}"><![endif]-->
+  <link rel="shortcut icon" type="image/png" href="{{ staticPath }}img/favicon.png" />
+  <!--[if IE]><link rel="shortcut icon" href="{{ staticPath }}img/favicon.ico"><![endif]-->
 
   <!-- CSS -->
-  <link href="{{ "/css/bootstrap.min.css" | prepend: site.baseurl | prepend: site.url }}" rel="stylesheet">
-  <link href="{{ "/css/font-awesome.min.css" | prepend: site.baseurl | prepend: site.url }}" rel="stylesheet">
-  <link href="{{ "/css/syntax.css" | prepend: site.baseurl | prepend: site.url }}" rel="stylesheet">
-  <link href="{{ "/css/fonts.css" | prepend: site.baseurl | prepend: site.url }}" rel="stylesheet">
-  <link href="{{ "/css/custom.css" | prepend: site.baseurl | prepend: site.url }}" rel="stylesheet">
+  <link href="{{ staticPath }}css/bootstrap.min.css" rel="stylesheet">
+  <link href="{{ staticPath }}css/font-awesome.min.css" rel="stylesheet">
+  <link href="{{ staticPath }}css/syntax.css" rel="stylesheet">
+  <link href="{{ staticPath }}css/fonts.css" rel="stylesheet">
+  <link href="{{ staticPath }}css/custom.css{{ cacheSuffix }}" rel="stylesheet">
 
   <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
   <!--[if lt IE 9]>
     <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
     <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
   <![endif]-->
 </head>
-{% include globals.html %}
