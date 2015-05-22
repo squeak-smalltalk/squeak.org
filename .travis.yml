@@ -1,0 +1,20 @@
+language: ruby
+rvm:
+- 2.1
+branches:
+  only:
+  - gh-pages
+install:
+- gem install jekyll jekyll-sitemap
+before_script:
+- openssl aes-256-cbc -K $encrypted_ec204637d168_key -iv $encrypted_ec204637d168_iv
+  -in .deploy.enc -out ~/.ssh/deploy -d
+- chmod 600 ~/.ssh/deploy
+- eval `ssh-agent -s`
+- ssh-add -D
+- ssh-add ~/.ssh/deploy
+- echo -e "Host squeak.org\n\tStrictHostKeyChecking no\n" >> ~/.ssh/config
+script:
+- jekyll build
+after_success:
+- rsync -crz --delete _site/ $encrypted_host:$encrypted_path
