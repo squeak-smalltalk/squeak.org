@@ -17,4 +17,4 @@ before_script:
 script:
 - jekyll build
 after_success:
-- rsync -crz --delete _site/ $encrypted_host:$encrypted_path
+- rsync -crvz --delete _site/ $encrypted_host:$encrypted_path
