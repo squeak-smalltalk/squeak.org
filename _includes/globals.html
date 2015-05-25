@@ -6,4 +6,5 @@
 {% endfor %}
 {% capture staticPath %}{{ basePath }}{{ site.staticurl }}{% endcapture %}
 {% capture cacheSuffix %}?v={{ site.build_version }}{% endcapture %}
+{% assign section = site.collections[page.section] %}
 {% endcapture %}{% assign globals = nil %}
