@@ -15,11 +15,11 @@ order: 4
 - Alan Kay.
   Computer Software.
   In: Scientific American, vol. 251, no. 3, pages 53-59, September 1984.
-  (http://www.nature.com/scientificamerican/journal/v251/n3/index.html)
+    (http://www.nature.com/scientificamerican/journal/v251/n3/index.html)
 - Alan Kay.
   A Personal Computer for Children of All Ages.
   In: Proceedings of the ACM Annual Conference, article no. 1, 1972.
-  (http://dl.acm.org/citation.cfm?id=1971922)
+    (http://dl.acm.org/citation.cfm?id=1971922)
 
 (http://vpri.org/html/writings.php)
 
