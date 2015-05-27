@@ -1,17 +1,13 @@
 <div class="container">
   <div class="section">
-
     {% assign section = site.collections[include.section] %}
-
     {% if section.mobile-title %}
     <div class="section-heading hidden-xs"><span>{{ section.title }}</span></div>
     <div class="section-heading visible-xs"><span>{{ section.mobile-title }}</span></div>
     {% else %}
     <div class="section-heading"><span>{{ section.title }}</span></div>
     {% endif %}
-
     {% assign items = section.docs | where: 'front-page', true | sort: 'order' %}
-
     {% include row.html items=items %}
 
     <div class="row more-content">
@@ -19,5 +15,5 @@
         <p class="lead"><a href="{{ basePath }}{{ section.label }}/"><b>More...</b></a></p>
       </div>
     </div>
-  </div>
-</div> <!-- /container -->
+  </div><!-- /.section -->
+</div><!-- /.container -->

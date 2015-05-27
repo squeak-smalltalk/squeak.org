@@ -2,7 +2,7 @@
   <div class="container">
     <div class="navbar-header">
       <a id="squeak-navbar-mobile" class="visible-xs pull-left" href="{{ basePath }}">
-        <img alt="Squeak Smalltalk" src="{{ staticPath }}img/squeak.svg">
+        <img alt="Squeak Smalltalk" src="{{ staticPath }}img/squeak.svg" alt="">
       </a>
       <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
         <span class="sr-only">Toggle navigation</span>
@@ -13,14 +13,18 @@
     </div>
     <div id="navbar" class="navbar-collapse collapse">
       <ul class="nav navbar-nav">
-        <li class="hidden-xs"><a id="squeak-navbar" href="{{ basePath }}"><img alt="Squeak Smalltalk" src="{{ staticPath }}img/squeak.svg"></a></li>
+        <li class="hidden-xs">
+          <a id="squeak-navbar" href="{{ basePath }}">
+            <img alt="Squeak Smalltalk" src="{{ staticPath }}img/squeak.svg" alt="">
+          </a>
+        </li>
         {% for collection in site.collections %}
-          {% assign li-class = '' %}
+          {% assign liClass = '' %}
           {% if collection[1].label == page.section %}
-            {% assign li-class = 'active' %}
+            {% assign liClass = 'active' %}
           {% endif %}
           {% if collection[1].hidden == nil or collection[1].hidden == false %}
-        <li class="{{ li-class }}">
+        <li class="{{ liClass }}">
           <a href="{{ basePath }}{{ collection[1].label }}/">
             {% if collection[1].visible-sm %}
             <span class="hidden-sm">{{ collection[1].title }}</span>
@@ -48,5 +52,5 @@
         </li>
       </ul>
     </div><!--/.nav-collapse -->
-  </div>
+  </div><!--/.container -->
 </nav>

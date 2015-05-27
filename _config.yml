@@ -31,12 +31,12 @@ collections:
     title: Development
     sort_by: order
     visible-sm: Dev
-  license:
-    title: License
-    sort_by: order
-    hidden: true
   board:
     title: Squeak Oversight Board
+    sort_by: order
+    hidden: true
+  license:
+    title: License
     sort_by: order
     hidden: true
   imprint:
@@ -57,7 +57,7 @@ baseurl: ""
 url: ""
 
 # Serving
-host:    0.0.0.0
+host: 0.0.0.0
 
 # Caching
 build_version: 0.0.1

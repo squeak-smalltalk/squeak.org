@@ -9,7 +9,7 @@
     <a href="{{ item.href }}"{% if item.href-external %} target="_blank"{% endif %}>
     {% endif %}
       {% if item.img-src %}
-      <img src="{{ basePath }}img/{{ item.img-src }}" alt="..." class="item-img img-center img-rounded img-responsive{% if item.img-border %} img-border{% endif %}">
+      <img src="{{ basePath }}img/{{ item.img-src }}" alt="" class="item-img img-center img-rounded img-responsive{% if item.img-border %} img-border{% endif %}">
       {% else %}
       <div class="box-icon">
         <i class="fa fa-{{ item.icon }}"></i>
