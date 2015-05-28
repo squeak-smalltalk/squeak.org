@@ -4,6 +4,8 @@ rvm:
 branches:
   only:
   - gh-pages
+addons:
+  ssh_known_hosts: squeak.org
 install:
 - gem install jekyll jekyll-sitemap
 before_script:
@@ -13,7 +15,6 @@ before_script:
 - eval `ssh-agent -s`
 - ssh-add -D
 - ssh-add ~/.ssh/deploy
-- echo -e "Host squeak.org\n\tStrictHostKeyChecking no\n" >> ~/.ssh/config
 script:
 - jekyll build
 after_success:
