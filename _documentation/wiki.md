@@ -1,6 +1,6 @@
 ---
 title:      Squeak Wiki
-order:      2
+order:      300
 category:   Wiki Pages
 img-src:    dummy.png
 ---

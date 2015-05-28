@@ -1,8 +1,9 @@
 ---
 title:      Waveplace - Starting with Morphic
+order:      202
 category:   Videos
-order:      2
-img-src:    dummy.png
+img-src:    docs/waveplace_beta_tutorials.jpg
+img-border: true
 href:       http://www.waveplace.com/courseware/basic-etoys/beta.jsp
 ---
 ...

@@ -1,7 +1,7 @@
 ---
 order:      200
 category:   Selected Papers
-cols:       12
+cols:       100
 ---
 - Dan Ingalls, Ted Kaehler, John Maloney, Scott Wallace, and Alan Kay.
   Back to the Future: The Story of Squeak--A Practical Smalltalk Written in Itself.

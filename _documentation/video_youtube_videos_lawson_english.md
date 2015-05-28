@@ -1,8 +1,9 @@
 ---
 title:      YouTube Videos - Lawson English
+order:      203
 category:   Videos
-order:      1
-img-src:    dummy.png
+img-src:    docs/youtube_lawson_english.jpg
+img-border: true
 href:       http://www.youtube.com/user/sparaig?feature=watch
 ---
 ...

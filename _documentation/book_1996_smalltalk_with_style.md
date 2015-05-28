@@ -1,6 +1,6 @@
 ---
 title:      "Smalltalk With Style"
-order:      100
+order:      6
 img-src:    docs/1996_smalltalk_with_style.jpg
 href:       http://sdmeta.gforge.inria.fr/FreeBooks/WithStyle/SmalltalkWithStyle.pdf
 category:   Books

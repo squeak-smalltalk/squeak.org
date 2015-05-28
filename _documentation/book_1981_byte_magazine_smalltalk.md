@@ -1,6 +1,6 @@
 ---
 title:      Byte Magazine Smalltalk
-order:      100
+order:      1
 img-src:    docs/1981_byte_magazine_smalltalk.jpg
 category:   Books
 ---

@@ -1,6 +1,6 @@
 ---
 title:      "Smalltalk-80: The Language And Its Implementation"
-order:      100
+order:      4
 img-src:    docs/1983_smalltalk80_the_language_and_its_implementation.jpg
 href:       http://sdmeta.gforge.inria.fr/FreeBooks/BlueBook/
 category:   Books

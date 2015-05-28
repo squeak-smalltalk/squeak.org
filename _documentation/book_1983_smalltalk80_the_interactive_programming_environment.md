@@ -1,6 +1,6 @@
 ---
 title:      "Smalltalk-80: The Interactive Programming Environment"
-order:      100
+order:      3
 img-src:    docs/1984_smalltalk80_the_interactive_programming_environment.jpg
 href:       http://sdmeta.gforge.inria.fr/FreeBooks/TheInteractiveProgrammingEnv/TheInteractiveProgrammingEnv.pdf
 category:   Books
