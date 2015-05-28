@@ -1,9 +1,7 @@
 ---
-title:      Wiki Pages
-front-page: true
+title:      Squeak Wiki
 order:      2
+category:   Wiki Pages
+img-src:    dummy.png
 ---
-- [Test][1]{:target="_blank"}
-- ...
-
-[1]: http://squeak.org
+...

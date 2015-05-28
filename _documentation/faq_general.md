@@ -1,6 +1,7 @@
 ---
-title: Frequently Asked Questions
-order: 50
+title: General
+order: 300
+category: Frequently Asked Questions
 ---
 1. Some method sources look strange and have t1, t2, etc. used as temporary variables. What's wrong?<br />
 The sources file might not be found. Verify that it is in the same folder as the image and the changes.
