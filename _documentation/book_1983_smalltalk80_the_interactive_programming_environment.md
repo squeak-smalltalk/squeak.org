@@ -1,8 +1,10 @@
 ---
-title:      "(The Red Book) Smalltalk-80: The Interactive Programming Environment (1983)"
+title:      "Smalltalk-80: The Interactive Programming Environment"
 order:      100
-img-src:    dummy.png
+img-src:    docs/1984_smalltalk80_the_interactive_programming_environment.jpg
 href:       http://sdmeta.gforge.inria.fr/FreeBooks/TheInteractiveProgrammingEnv/TheInteractiveProgrammingEnv.pdf
 category:   Books
 ---
-Adele Goldberg.
+(The Red Book)
+
+Goldberg, Adele. Addison-Wesley Longman Publishing Co., Inc., 1984.
