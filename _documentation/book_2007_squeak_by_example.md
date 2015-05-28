@@ -1,6 +1,7 @@
 ---
 title:      "Squeak by Example"
-order:      7
+order:      3
+front-page: true
 img-src:    docs/2007_squeak_by_example.jpg
 href:       http://squeakbyexample.org/
 category:   Books
