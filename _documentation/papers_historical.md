@@ -20,6 +20,11 @@ cols:       100
   Computer Software.
   In: Scientific American, vol. 251, no. 3, pages 53-59, September 1984.
     (http://www.nature.com/scientificamerican/journal/v251/n3/index.html)
+- Alan Kay and Adele Goldberg.
+  Personal Dynamic Media.
+  In: IEEE Computer, vol. 10, no. 3, pages 31-41, March 1977 .
+Pages 31-41
+    (http://dl.acm.org/citation.cfm?id=1301186)
 - Alan Kay.
   A Personal Computer for Children of All Ages.
   In: Proceedings of the ACM Annual Conference, article no. 1, 1972.
