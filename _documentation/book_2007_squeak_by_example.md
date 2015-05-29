@@ -6,4 +6,4 @@ img-src:    docs/2007_squeak_by_example.jpg
 href:       http://squeakbyexample.org/
 category:   Books
 ---
-Black, Andrew, Ducasse, Stéphane, Nierstrasz, Oscar, Pollet, Damien, Cassou, Damien, and Denker, Marcus. Square Bracket Associates, 2007.
+Andrew Black, Stéphane Ducasse, Oscar Nierstrasz, Damien Pollet, Damien Cassou, and Marcus Denker. Square Bracket Associates, 2007.
