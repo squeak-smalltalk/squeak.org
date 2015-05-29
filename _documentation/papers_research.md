@@ -118,4 +118,22 @@ Robert Hirschfeld and Katsuya Kawamura. Dynamic Service Adaptation. In Software:
 
 ===== 2005 =====
 
+Robert Hirschfeld and Stefan Hanenberg. Open Aspects. In Elsevier Journal on Computer Languages, Systems & Structures, Science Direct, vol. 32, no. 2-3, July-October 2006, pages 87-108, Elsevier 2005.
+
+Pascal Costanza and Robert Hirschfeld. Language Constructs for Context-oriented Programming - An Overview of ContextL. In Proceedings of the Dynamic Languages Symposium (DLS) 2005, co-located with the Conference on Object-oriented Programming, Systems, Languages, and Applications (OOPSLA) 2005, San Diego, California, USA, October 18, 2005, ACM DL.
+
+Robert Hirschfeld and Ralf Lämmel. Reflective Designs. In IEE Journal on Software, Special Issue on Reusable Software Libraries, vol. 152, no. 1, pages 38-51, February 2005.
+
+===== 2004 =====
+
+Stefan Hanenberg, Robert Hirschfeld, and Rainer Unland. Morphing Aspects: Incompletely Woven Aspects and Continuous Weaving. In Proceedings of the 3rd International Conference on Aspect-oriented Software Development (AOSD) 2004, pages 46-55, ACM Press, Lancaster, UK, March 22-26, 2004.
+
+Robert Hirschfeld, Katsuya Kawamura, and Hendrik Berndt. Dynamic Service Adaptation for Runtime System Extensions. In Roberto Battiti, Renato Lo Cigno Cigno, Marco Conti (eds.), Proceedings of Wireless On-Demand Network Systems (WONS) 2004, Springer LNCS 2928, pages 227-240, Springer, 2004.
+
+===== 2003 =====
+
+Sergei Kojarski, Karl Lieberherr, David H. Lorenz, and Robert Hirschfeld. Aspectual Reflection. In Proceedings of the 2003 International Workshop on Software Engineering Properties of Languages for Aspect Technologies (SPLAT), co-located with the 2nd International Conference on Aspect-Oriented Software Development (AOSD) 2003, Boston, Massachusetts, USA, March 17-21, 2003.
+
+Robert Hirschfeld. AspectS – Aspect-oriented Programming with Squeak. In Mehmet Aksit, Mira Mezini, and Rainer Unland (eds.), Proceedings of Objects, Components, Architectures, Services, and Applications for a Networked World, Springer LNCS 2591, pages 216-232, Springer, 2003.
+
 -->
