@@ -234,4 +234,8 @@ a.no-underline:hover {
     .text-center-sm {
         text-align: left;
     }
+
+    .max-width-360-lg {
+        max-width: 360px;
+    }
 }
