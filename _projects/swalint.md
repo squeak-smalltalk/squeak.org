@@ -4,4 +4,4 @@ img-src:    projects/swalint.png
 img-border: true
 href:       https://github.com/HPI-SWA-Teaching/SwaLint
 ---
-Code Critics Tool for Squeak
+A code critics tool to help improve code quality
