@@ -7,4 +7,4 @@ category:   Books
 ---
 (The Red Book)
 
-Goldberg, Adele. Addison-Wesley Longman Publishing Co., Inc., 1984.
+Adele Goldberg. Addison-Wesley, 1984.
