@@ -9,6 +9,7 @@ cols:       100
 - Alan Kay.
   The Early History of Smalltalk.
   In:  Proceeding of the Second ACM SIGPLAN Conference on History of Programming Languages (HOPL-II), ACM SIGPLAN Notices, vol. 28, no. 3, pages 69-95, 1993.
+  (http://dl.acm.org/citation.cfm?id=155364)
 
 - Alan Kay.
   Computers, Networks and Education.
