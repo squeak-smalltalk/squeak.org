@@ -7,4 +7,4 @@ category:   Books
 ---
 (The Purple Book)
 
-Goldberg, Adele, and Robson, David. Addison-Wesley Longman Publishing Co., Inc., 1989.
+Adele Goldberg and David Robson. Addison-Wesley, 1989.
