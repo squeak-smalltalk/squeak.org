@@ -87,3 +87,16 @@ img-border: true
     <span class="label label-primary">Mar 2001</span>
   </a>
 </div>
+
+<div class="list-group list-group-sm">
+  <a href="http://wiki.squeak.org/squeak/3832" target="_blank" class="list-group-item">
+    <i class="fa fa-pencil-square-o"></i>
+    Release Notes
+    <span class="label label-default">v3.8</span>
+  </a>
+  <a href="http://wiki.squeak.org/squeak/5919" target="_blank" class="list-group-item">
+    <i class="fa fa-pencil-square-o"></i>
+    Release Notes
+    <span class="label label-default">v3.10</span>
+  </a>
+</div>

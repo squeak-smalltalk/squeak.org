@@ -71,3 +71,16 @@ There are virtual machines for many platforms such as Alpha OSF/1, SPARC Solaris
     <span class="label label-primary">May 1999</span>
   </a>
 </div>
+
+<div class="list-group list-group-sm">
+  <a href="http://wiki.squeak.org/squeak/5809" target="_blank" class="list-group-item">
+    <i class="fa fa-pencil-square-o"></i>
+    Release Notes
+    <span class="label label-default">v2.2</span>
+  </a>
+  <a href="http://wiki.squeak.org/squeak/5782" target="_blank" class="list-group-item">
+    <i class="fa fa-pencil-square-o"></i>
+    Release Notes
+    <span class="label label-default">v2.4</span>
+  </a>
+</div>

@@ -57,3 +57,28 @@ img-border: true
     <span class="label label-primary">Mar 2010</span>
   </a>
 </div>
+
+<div class="list-group list-group-sm">
+  <a href="http://wiki.squeak.org/squeak/6160" target="_blank" class="list-group-item">
+    <i class="fa fa-pencil-square-o"></i>
+    Release Notes
+    <span class="label label-default">v4.2</span>
+  </a>
+  <a href="http://wiki.squeak.org/squeak/6188" target="_blank" class="list-group-item">
+    <i class="fa fa-pencil-square-o"></i>
+    Release Notes
+    <span class="label label-default">v4.4</span>
+  </a>
+  <a href="http://wiki.squeak.org/squeak/6189" target="_blank" class="list-group-item">
+    <i class="fa fa-pencil-square-o"></i>
+    Release Notes
+    <span class="label label-default">v4.5</span>
+    <span class="label label-primary">A</span>
+  </a>
+  <a href="http://wiki.squeak.org/squeak/6193" target="_blank" class="list-group-item">
+    <i class="fa fa-pencil-square-o"></i>
+    Release Notes
+    <span class="label label-default">v4.5</span>
+    <span class="label label-primary">B</span>
+  </a>
+</div>
