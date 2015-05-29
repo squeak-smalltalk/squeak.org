@@ -24,7 +24,7 @@ cols:       100
   Personal Dynamic Media.
   In: IEEE Computer, vol. 10, no. 3, pages 31-41, March 1977 .
 Pages 31-41
-    (http://dl.acm.org/citation.cfm?id=1301186)
+    (http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=1646405)
 - Alan Kay.
   A Personal Computer for Children of All Ages.
   In: Proceedings of the ACM Annual Conference, article no. 1, 1972.
