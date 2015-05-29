@@ -94,6 +94,8 @@ Norman Holz, Robert Hirschfeld, Jens Lincke, Michael Rüger, and Michael Haupt. 
 
 Robert Hirschfeld. Dynamic Adaptation - Changing Services at Runtime. In Hendrik Berndt (ed.), Towards 4G Technologies: Services with Initiative, Wiley Series on Communications Networking & Distributed Systems, Wiley, 2008.
 
+Robert Hirschfeld, Pascal Costanza, and Oscar Nierstrasz. Context-oriented Programming. In Journal of Object Technology (JOT), vol. 7, no. 3, pages 125-151, March - April 2008, www.jot.fm.
+
 Jens Lincke, Robert Hirschfeld, Michael Rüger, and Maic Masuch. SophieScript - Active Content in Multimedia Documents. In Proceedings of the Conference on Creating, Connecting and Collaborating through Computing (C5) 2008, pages 21-28, Poitiers, France, January 14-16, 2008, IEEE.
 
 Robert Hirschfeld, Michael Haupt, Michael Rüger, Patrick Brünn, Ronny Esterluß, Norman Holz, Kerstin Knebel, and Robert Timm. SophieServer - The Future of Reading. In Proceedings of the Conference on Creating, Connecting and Collaborating through Computing (C5) 2008, pages 29-35, Poitiers, France, January 14-16, 2008, IEEE.
@@ -109,5 +111,11 @@ Michael Haupt, Robert Hirschfeld, and Marcus Denker. Type Feedback for Bytecode 
 Johan Brichau, Andy Kellens, Kris Gybels, Kim Mens, Robert Hirschfeld, and Theo D'Hondt. Application-Specific Models and Pointcuts Using a Logic Meta Language. In Advances in Smalltalk, Springer LNCS 4406, pages 1-22, Springer, 2007.
 
 ===== 2006 =====
+
+Alexandre Bergel, Robert Hirschfeld, Siobhan Clarke, and Pascal Costanza. AspectBoxes - Controlling the Visibility of Aspects. In Proceedings of the First International Conference on Software and Data Technologies (ICSOFT) 2006, Springer CCIS 10, pages 74-83, Setubal, Portugal, September 11-14, 2006, Springer.
+
+Robert Hirschfeld and Katsuya Kawamura. Dynamic Service Adaptation. In Software: Practice and Experience, 36(11-12):1115-1131, September-October 2006, Wiley InterScience.
+
+===== 2005 =====
 
 -->
