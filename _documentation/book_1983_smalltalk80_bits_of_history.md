@@ -7,4 +7,4 @@ category:   Books
 ---
 (The Green Book)
 
-Krasner, Glenn. Addison-Wesley, 1983.
+Glenn Krasner (ed.). Addison-Wesley, 1983.
