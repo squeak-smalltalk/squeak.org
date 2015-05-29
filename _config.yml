@@ -72,4 +72,4 @@ gems:
   - jekyll-sitemap
 
 # Exclude vendor dir which Travis uses to bundle all gems on its build servers
-exclude: [vendor]
+exclude: [vendor, README.md]
