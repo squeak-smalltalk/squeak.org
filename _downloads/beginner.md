@@ -11,7 +11,7 @@ Download it, unzip it, and double click the appropriate file: *.app for Mac, *.b
   <a class="btn btn-sm btn-default list-group-item"  href="http://ftp.squeak.org/4.5/Squeak-4.5-All-in-One.zip" target="_blank" role="button">
       <i class="fa fa-download"></i>
       Squeak All-In-One
-      <span class="label label-default">4.5</span>
+      <span class="label label-default">v4.5</span>
       <span class="label label-primary"><i class="fa fa-windows"></i></span>
       <span class="label label-primary"><i class="fa fa-apple"></i></span>
       <span class="label label-primary"><i class="fa fa-linux"></i></span>
