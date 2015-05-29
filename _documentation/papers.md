@@ -1,6 +1,6 @@
 ---
 order:      200
-category:   Selected Papers
+category:   Historical Papers
 cols:       100
 ---
 - Dan Ingalls, Ted Kaehler, John Maloney, Scott Wallace, and Alan Kay.
@@ -23,10 +23,3 @@ cols:       100
     (http://dl.acm.org/citation.cfm?id=1971922)
 
 (http://vpri.org/html/writings.php)
-
-- [Back to the Future - The Story of Squeak, a Practical Smalltalk Written in Itself][1]{:target="_blank"}
-- [SqueakJS - A Modern and Practical Smalltalk that Runs in Any Browser][2]{:target="_blank"}
-- ...
-
-[1]: ftp://ftp.create.ucsb.edu/pub/Smalltalk/Squeak/docs/OOPSLA.Squeak.html
-[2]: http://hirschfeld.org/writings/media/FreudenbergIngallsFelgentreffPapeHirschfeld_2014_SqueakJSAModernAndPracticalSmalltalkThatRunsInAnyBrowser_AcmDL.pdf
