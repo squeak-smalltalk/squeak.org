@@ -1,5 +1,5 @@
 ---
-title:      "Dynamic Web Development with Seaside"
+title:      "Dynamic Web Development With Seaside"
 order:      1
 img-src:    docs/2010_dynamic_web_development_with_seaside.jpg
 href:       http://book.seaside.st/
