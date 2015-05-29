@@ -1,6 +1,5 @@
 ---
 title:      Seaside
-front-page: true
 img-src:    projects/seaside.png
 href:       http://www.seaside.st/
 ---
