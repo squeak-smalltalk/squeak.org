@@ -1,6 +1,6 @@
 ---
 title:      Getting Started with Squeak
-order:      201
+order:      202
 category:   Videos
 img-src:    docs/hpi_screencasts.jpg
 img-border: true
