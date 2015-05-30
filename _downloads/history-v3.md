@@ -2,101 +2,44 @@
 title:      Squeak v3
 order:      60
 cols:       6
+caption:    "Dummy Text"
 img-src:    downloads/squeak-v3.png
 img-border: true
 ---
-<div class="list-group list-group-sm">
-  <a href="http://ftp.squeak.org/3.10gamma/Squeak3.10.gamma.7159.zip" target="_blank" class="list-group-item">
-    <i class="fa fa-download"></i>
-    Image and Changes
-    <span class="label label-default">v3.10 gamma</span>
-    <span class="label label-primary">May 2008</span>
-  </a>
-  <a href="http://ftp.squeak.org/3.9/" target="_blank" class="list-group-item">
-    <i class="fa fa-external-link"></i>
-    Windows, Linux, Mac
-    <span class="label label-default">v3.9.1</span>
-    <span class="label label-primary">Mar 2008</span>
-  </a>
-  <a href="http://ftp.squeak.org/3.8/" target="_blank" class="list-group-item">
-    <i class="fa fa-external-link"></i>
-    Windows, Linux, Mac
-    <span class="label label-default">v3.8.1</span>
-    <span class="label label-primary">Oct 2006</span>
-  </a>
-  <a href="http://ftp.squeak.org/3.7/" target="_blank" class="list-group-item">
-    <i class="fa fa-external-link"></i>
-    Windows, Linux, Mac
-    <span class="label label-default">v3.7</span>
-    <span class="label label-primary">Sep 2004</span>
-  </a>
-  <a href="http://ftp.squeak.org/3.6/" target="_blank" class="list-group-item">
-    <i class="fa fa-external-link"></i>
-    Windows, Linux, Mac
-    <span class="label label-default">v3.6</span>
-    <span class="label label-primary">Jan 2004</span>
-  </a>
-  <a href="http://ftp.squeak.org/3.5/" target="_blank" class="list-group-item">
-    <i class="fa fa-external-link"></i>
-    Windows, Linux, Mac
-    <span class="label label-default">v3.5</span>
-    <span class="label label-primary">Sep 2003</span>
-  </a>
-  <a href="http://ftp.squeak.org/3.4/" target="_blank" class="list-group-item">
-    <i class="fa fa-external-link"></i>
-    Windows, Linux, Mac
-    <span class="label label-default">v3.4</span>
-    <span class="label label-primary">Mar 2003</span>
-  </a>
-  <a href="http://ftp.squeak.org/3.3alpha/Squeak3.3a-4981.zip" target="_blank" class="list-group-item">
-    <i class="fa fa-download"></i>
-    Image and Changes
-    <span class="label label-default">v3.3 alpha</span>
-    <span class="label label-primary">Oct 2002</span>
-  </a>
-  <a href="http://ftp.squeak.org/3.2/" target="_blank" class="list-group-item">
-    <i class="fa fa-external-link"></i>
-    Windows, Linux, Mac
-    <span class="label label-default">v3.2</span>
-    <span class="label label-primary">Sep 2002</span>
-  </a>
-  <a href="http://ftp.squeak.org/3.1beta/Squeak-3.1b.zip" target="_blank" class="list-group-item">
-    <i class="fa fa-download"></i>
-    Image and Changes
-    <span class="label label-default">v3.1 beta</span>
-    <span class="label label-primary">Sep 2001</span>
-  </a>
-  <a href="http://ftp.squeak.org/3.0/" target="_blank" class="list-group-item">
-    <i class="fa fa-external-link"></i>
-    Windows, Linux, Mac
-    <span class="label label-default">v3.0</span>
-    <span class="label label-primary">Jun 2001</span>
-  </a>
-</div>
-<div class="list-group list-group-sm">
-  <a href="http://ftp.squeak.org/sources_files/SqueakV39.sources.gz" target="_blank" class="list-group-item">
-    <i class="fa fa-download"></i>
-    Sources file
-    <span class="label label-default">v3.9</span>
-    <span class="label label-primary">Sep 2006</span>
-  </a>
-  <a href="http://ftp.squeak.org/sources_files/SqueakV3.sources.gz" target="_blank" class="list-group-item">
-    <i class="fa fa-download"></i>
-    Sources file
-    <span class="label label-default">v3</span>
-    <span class="label label-primary">Mar 2001</span>
-  </a>
-</div>
 
-<div class="list-group list-group-sm">
-  <a href="http://wiki.squeak.org/squeak/3832" target="_blank" class="list-group-item">
-    <i class="fa fa-pencil-square-o"></i>
-    Release Notes
-    <span class="label label-default">v3.8</span>
-  </a>
-  <a href="http://wiki.squeak.org/squeak/5919" target="_blank" class="list-group-item">
-    <i class="fa fa-pencil-square-o"></i>
-    Release Notes
-    <span class="label label-default">v3.10</span>
-  </a>
-</div>
+|                   | Version     | Date     | Link                                                        |
+| ----------------- |:----------- |:--------:| -----------------------------------------------------------:|
+| Image and Changes | v3.10 gamma | May 2008 | [<i class="fa fa-download"></i>][310]{:target=_blank}       |
+| Win, Unix, Mac    | 3.9.1       | Mar 2008 | [<i class="fa fa-external-link"></i>][39]{:target=_blank}   |
+| Win, Unix, Mac    | 3.8.1       | Oct 2006 | [<i class="fa fa-external-link"></i>][38]{:target=_blank}   |
+| Win, Unix, Mac    | 3.7         | Sep 2004 | [<i class="fa fa-external-link"></i>][37]{:target=_blank}   |
+| Win, Unix, Mac    | 3.6         | Jan 2004 | [<i class="fa fa-external-link"></i>][36]{:target=_blank}   |
+| Win, Unix, Mac    | 3.5         | Sep 2003 | [<i class="fa fa-external-link"></i>][35]{:target=_blank}   |
+| Win, Unix, Mac    | 3.4         | Mar 2003 | [<i class="fa fa-external-link"></i>][34]{:target=_blank}   |
+| Image and Changes | 3.3 alpha   | Oct 2002 | [<i class="fa fa-download"></i>][33]{:target=_blank}        |
+| Win, Unix, Mac    | 3.2         | Sep 2002 | [<i class="fa fa-external-link"></i>][32]{:target=_blank}   |
+| Image and Changes | v3.1 beta   | Sep 2001 | [<i class="fa fa-download"></i>][31]{:target=_blank}        |
+| Win, Unix, Mac    | 3.0         | Jun 2001 | [<i class="fa fa-external-link"></i>][30]{:target=_blank}   |
+|                   |             |          |                                                             |
+| Sources file      | 3.9         | Sep 2006 | [<i class="fa fa-download"></i>][39s]{:target=_blank}       |
+| Sources file      | 3           | Mar 2001 | [<i class="fa fa-download"></i>][3s]{:target=_blank}        |
+|                   |             |          |                                                             |
+| Release Notes     | 3.10        |          | [<i class="fa fa-external-link"></i>][310r]{:target=_blank} |
+| Release Notes     | 3.8         |          | [<i class="fa fa-external-link"></i>][38r]{:target=_blank}  |
+{:.table .table-hover .table-condensed}
+
+[310]: http://ftp.squeak.org/3.10gamma/Squeak3.10.gamma.7159.zip
+[39]: http://ftp.squeak.org/3.9/
+[38]: http://ftp.squeak.org/3.8/
+[37]: http://ftp.squeak.org/3.7/
+[36]: http://ftp.squeak.org/3.6/
+[35]: http://ftp.squeak.org/3.5/
+[34]: http://ftp.squeak.org/3.4/
+[33]: http://ftp.squeak.org/3.3alpha/Squeak3.3a-4981.zip
+[32]: http://ftp.squeak.org/3.2/
+[31]: http://ftp.squeak.org/3.1beta/Squeak-3.1b.zip
+[30]: http://ftp.squeak.org/3.0/
+[39s]: http://ftp.squeak.org/sources_files/SqueakV39.sources.gz
+[3s]: http://ftp.squeak.org/sources_files/SqueakV3.sources.gz
+[310r]: http://wiki.squeak.org/squeak/5919
+[38r]: http://wiki.squeak.org/squeak/3832

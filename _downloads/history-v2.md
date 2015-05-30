@@ -2,85 +2,39 @@
 title:      Squeak v2
 order:      65
 cols:       6
+caption: >
+    There are virtual machines for many platforms such as Alpha OSF/1, SPARC Solaris/SunOS, PowerPC Linux, i586 Linux, NeXTStep, OS/2, and 16-bit Windows. Later versions support 32-bit Windows, Linux, and Mac platforms.
 img-src:    downloads/squeak-v2.png
 img-border: true
 ---
-There are virtual machines for many platforms such as Alpha OSF/1, SPARC Solaris/SunOS, PowerPC Linux, i586 Linux, NeXTStep, OS/2, and 16-bit Windows. Later versions support 32-bit Windows, Linux, and Mac platforms.
 
-<div class="list-group list-group-sm">
-  <a href="http://ftp.squeak.org/2.8/" target="_blank" class="list-group-item">
-    <i class="fa fa-external-link"></i>
-    Virtual machines and image
-    <span class="label label-default">v2.8</span>
-    <span class="label label-primary">Aug 2000</span>
-  </a>
-  <a href="http://ftp.squeak.org/2.7/" target="_blank" class="list-group-item">
-    <i class="fa fa-external-link"></i>
-    Virtual machines and image
-    <span class="label label-default">v2.7</span>
-    <span class="label label-primary">Jan 2000</span>
-  </a>
-  <a href="http://ftp.squeak.org/2.6/" target="_blank" class="list-group-item">
-    <i class="fa fa-external-link"></i>
-    Virtual machines and image
-    <span class="label label-default">v2.6</span>
-    <span class="label label-primary">Oct 1999</span>
-  </a>
-  <a href="http://ftp.squeak.org/2.5" target="_blank" class="list-group-item">
-    <i class="fa fa-external-link"></i>
-    Virtual machines and image
-    <span class="label label-default">v2.5</span>
-    <span class="label label-primary">Aug 1999</span>
-  </a>
-  <a href="http://ftp.squeak.org/2.4/" target="_blank" class="list-group-item">
-    <i class="fa fa-external-link"></i>
-    Virtual machines and image
-    <span class="label label-default">v2.4c</span>
-    <span class="label label-primary">May 1999</span>
-  </a>
-  <a href="http://ftp.squeak.org/2.3/" target="_blank" class="list-group-item">
-    <i class="fa fa-external-link"></i>
-    Virtual machines and image
-    <span class="label label-default">v2.3</span>
-    <span class="label label-primary">Jan 1999</span>
-  </a>
-  <a href="http://ftp.squeak.org/2.2/" target="_blank" class="list-group-item">
-    <i class="fa fa-external-link"></i>
-    Virtual machines and image
-    <span class="label label-default">v2.2</span>
-    <span class="label label-primary">Sep 1998</span>
-  </a>
-  <a href="http://ftp.squeak.org/2.1/" target="_blank" class="list-group-item">
-    <i class="fa fa-external-link"></i>
-    Virtual machines and image
-    <span class="label label-default">v2.1</span>
-    <span class="label label-primary">Aug 1998</span>
-  </a>
-  <a href="http://ftp.squeak.org/2.0/" target="_blank" class="list-group-item">
-    <i class="fa fa-external-link"></i>
-    Virtual machines and image
-    <span class="label label-default">v2.0</span>
-    <span class="label label-primary">May 1998</span>
-  </a>
-</div>
-<div class="list-group list-group-sm">
-  <a href="http://ftp.squeak.org/sources_files/SqueakV2.sources.gz" target="_blank" class="list-group-item">
-    <i class="fa fa-download"></i>
-    Sources file
-    <span class="label label-default">v2</span>
-    <span class="label label-primary">May 1999</span>
-  </a>
-</div>
+|                   | Version | Date     | Link                                                       |
+| ----------------- |:------- |:--------:| ----------------------------------------------------------:|
+| VM and image      | 2.8     | Aug 2000 | [<i class="fa fa-external-link"></i>][28]{:target=_blank}  |
+| VM and image      | 2.7     | Jan 2000 | [<i class="fa fa-external-link"></i>][27]{:target=_blank}  |
+| VM and image      | 2.6     | Oct 1999 | [<i class="fa fa-external-link"></i>][26]{:target=_blank}  |
+| VM and image      | 2.5     | Aug 1999 | [<i class="fa fa-external-link"></i>][25]{:target=_blank}  |
+| VM and image      | 2.4c    | May 1999 | [<i class="fa fa-external-link"></i>][24]{:target=_blank}  |
+| VM and image      | 2.3     | Jan 1999 | [<i class="fa fa-external-link"></i>][23]{:target=_blank}  |
+| VM and image      | 2.2     | Sep 1998 | [<i class="fa fa-external-link"></i>][22]{:target=_blank}  |
+| VM and image      | 2.1     | Aug 1998 | [<i class="fa fa-external-link"></i>][21]{:target=_blank}  |
+| VM and image      | 2.0     | May 1998 | [<i class="fa fa-external-link"></i>][20]{:target=_blank}  |
+|                   |         |          |                                                            |
+| Sources file      | 2       | May 1999 | [<i class="fa fa-download"></i>][2s]{:target=_blank}       |
+|                   |         |          |                                                            |
+| Release Notes     | 2.4     |          | [<i class="fa fa-external-link"></i>][24r]{:target=_blank} |
+| Release Notes     | 2.2     |          | [<i class="fa fa-external-link"></i>][22r]{:target=_blank} |
+{:.table .table-hover .table-condensed}
 
-<div class="list-group list-group-sm">
-  <a href="http://wiki.squeak.org/squeak/5809" target="_blank" class="list-group-item">
-    <i class="fa fa-pencil-square-o"></i>
-    Release Notes
-    <span class="label label-default">v2.2</span>
-  </a>
-  <a href="http://wiki.squeak.org/squeak/5782" target="_blank" class="list-group-item">
-    <i class="fa fa-pencil-square-o"></i>
-    Release Notes
-    <span class="label label-default">v2.4</span>
-  </a>
-</div>
+[28]: http://ftp.squeak.org/2.8/
+[27]: http://ftp.squeak.org/2.7/
+[26]: http://ftp.squeak.org/2.6/
+[25]: http://ftp.squeak.org/2.5/
+[24]: http://ftp.squeak.org/2.4/
+[23]: http://ftp.squeak.org/2.3/
+[22]: http://ftp.squeak.org/2.2/
+[21]: http://ftp.squeak.org/2.1/
+[20]: http://ftp.squeak.org/2.0/
+[2s]: http://ftp.squeak.org/sources_files/SqueakV2.sources.gz
+[24r]: http://wiki.squeak.org/squeak/5782
+[22r]: http://wiki.squeak.org/squeak/5809

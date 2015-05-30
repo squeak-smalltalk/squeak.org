@@ -6,10 +6,9 @@ icon:   file-text-o
 ---
 The sources file contains all sources of the base system. As no sources are stored in the image file, it retains source code comments, time stamps, and custom formatting. Just like the changes file does.
 
-<div class="list-group list-group-sm">
-  <a href="http://ftp.squeak.org/4.5/SqueakV41.sources.zip" target="_blank" class="list-group-item">
-    <i class="fa fa-download"></i>
-    Current Sources File
-    <span class="label label-default">v4.1</span>
-  </a>
-</div>
+|                | Version   | Link                                                      |
+| -------------- |:--------- | ---------------------------------------------------------:|
+| Current Sources file   | 4.1       | [<i class="fa fa-download"></i>][sources]{:target=_blank} |
+{:.table .table-hover .table-condensed}
+
+[sources]: http://ftp.squeak.org/4.5/SqueakV41.sources.zip

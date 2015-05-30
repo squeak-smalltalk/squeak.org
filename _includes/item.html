@@ -2,47 +2,12 @@
 {% if item.lead %}
 <p class="lead">{{ item.lead }}</p>
 {% endif %}
-<div class="row">
-  {% if item.img-src or item.icon %}
-  <div class="img-col col-md-4 col-lg-4 text-center">
-    {% if item.href %}
-    <a href="{{ item.href }}"{% if item.href-external %} target="_blank"{% endif %}>
-    {% endif %}
-      {% if item.img-src %}
-      <img src="{{ basePath }}img/{{ item.img-src }}" alt="" class="item-img img-center img-rounded img-responsive{% if item.img-border %} img-border{% endif %}">
-      {% else %}
-      <div class="box-icon">
-        <i class="fa fa-{{ item.icon }}"></i>
-      </div>
-      {% endif %}
-    {% if item.href %}
-    </a>
-    {% endif %}
-  </div>
-  <div class="col-md-8 col-lg-8">
-    <h3 class="text-center-sm">
-      {% if item.href %}
-      <a href="{{ item.href }}"{% if item.href-external %} target="_blank"{% endif %}>
-      {% endif %}
-        {{ item.title }}
-      {% if item.href %}
-      </a>
-      {% endif %}
-    </h3>
-    {{ item.content }}
-  </div>
+{% if item.img-src or item.icon %}
+  {% if item.caption %}
+    {% include item_with_img_caption.html %}  
   {% else %}
-  <div class="col-md-12 col-lg-12">
-    <h3 class="text-center-sm">
-      {% if item.href %}
-      <a href="{{ item.href }}"{% if item.href-external %} target="_blank"{% endif %}>
-      {% endif %}
-        {{ item.title }}
-      {% if item.href %}
-      </a>
-      {% endif %}
-    </h3>
-    {{ item.content }}
-  </div>
+    {% include item_with_img.html %}
   {% endif %}
-</div>
+{% else %}
+  {% include item_text_only.html %}
+{% endif %}

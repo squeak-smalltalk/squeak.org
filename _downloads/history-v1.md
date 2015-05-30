@@ -2,44 +2,25 @@
 title:      Squeak v1
 order:      70
 cols:       6
+caption: >
+    There are virtual machines for Unix and Windows-based systems. Despite the majority of computing platforms back then, the Squeak community managed to run Smalltalk applications almost everywhere.
 img-src:    downloads/squeak-v1.png
 img-border: true
 ---
-There are virtual machines for Unix and Windows-based systems. Despite the majority of computing platforms back then, the Squeak community managed to run Smalltalk applications almost everywhere.
 
-<div class="list-group list-group-sm">
-  <a href="http://ftp.squeak.org/1.3/" target="_blank" class="list-group-item">
-    <i class="fa fa-external-link"></i>
-    Virtual machines and image
-    <span class="label label-default">v1.3</span>
-    <span class="label label-primary">Jan 1998</span>
-  </a>
-  <a href="http://ftp.squeak.org/1.2/" target="_blank" class="list-group-item">
-    <i class="fa fa-external-link"></i>
-    Virtual machines and image
-    <span class="label label-default">v1.2</span>
-    <span class="label label-primary">Jul 1997</span>
-  </a>
-  <a href="http://ftp.squeak.org/1.1/" target="_blank" class="list-group-item">
-    <i class="fa fa-external-link"></i>
-    Virtual machines and image
-    <span class="label label-default">v1.1</span>
-    <span class="label label-primary">Oct 1996</span>
-  </a>
-</div>
-<div class="list-group list-group-sm">
-  <a href="http://ftp.squeak.org/sources_files/SqueakV1.sources.gz" target="_blank" class="list-group-item">
-    <i class="fa fa-download"></i>
-    Sources file
-    <span class="label label-default">v1</span>
-    <span class="label label-primary">Oct 1996</span>
-  </a>
-</div>
+|                   | Version | Date     | Link                                                      |
+| ----------------- |:------- |:--------:| ---------------------------------------------------------:|
+| VM and image      | 1.3     | Jan 1998 | [<i class="fa fa-download"></i>][13]{:target=_blank}      |
+| VM and image      | 1.2     | Jul 1997 | [<i class="fa fa-download"></i>][12]{:target=_blank}      |
+| VM and image      | 1.1     | Oct 1996 | [<i class="fa fa-download"></i>][11]{:target=_blank}      |
+|                   |         |          |                                                           |
+| Sources file      | 1       | Oct 1996 | [<i class="fa fa-download"></i>][1s]{:target=_blank}      |
+|                   |         |          |                                                           |
+| Release Notes     | 1.x     |          | [<i class="fa fa-external-link"></i>][1r]{:target=_blank} |
+{:.table .table-hover .table-condensed}
 
-<div class="list-group list-group-sm">
-  <a href="http://wiki.squeak.org/squeak/3833" target="_blank" class="list-group-item">
-    <i class="fa fa-pencil-square-o"></i>
-    Release Notes
-    <span class="label label-default">v1.x</span>
-  </a>
-</div>
+[13]: http://ftp.squeak.org/1.3/
+[12]: http://ftp.squeak.org/1.2/
+[11]: http://ftp.squeak.org/1.1/
+[1s]: http://ftp.squeak.org/sources_files/SqueakV1.sources.gz
+[1r]: http://wiki.squeak.org/squeak/3833

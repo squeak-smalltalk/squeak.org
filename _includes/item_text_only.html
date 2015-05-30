@@ -1,0 +1,14 @@
+<div class="row">
+  <div class="col-md-12 col-lg-12">
+    <h3 class="text-center-sm">
+      {% if item.href %}
+      <a href="{{ item.href }}"{% if item.href-external %} target="_blank"{% endif %}>
+      {% endif %}
+        {{ item.title }}
+      {% if item.href %}
+      </a>
+      {% endif %}
+    </h3>
+    {{ item.content }}
+  </div>
+</div>

@@ -2,83 +2,38 @@
 title:      Squeak v4
 order:      55
 cols:       6
+caption:    "Dummy Text"
 img-src:    downloads/squeak-v4.png
 img-border: true
 ---
-<div class="list-group list-group-sm">
-  <a href="http://ftp.squeak.org/4.5/Squeak-4.5-All-in-One.zip" target="_blank" class="list-group-item">
-    <i class="fa fa-download"></i>
-    All-in-One
-    <span class="label label-default">v4.5</span>
-    <span class="label label-primary">Oct 2014</span>
-  </a>
-  <a href="http://ftp.squeak.org/4.4/Squeak-4.4-All-in-One.zip" target="_blank" class="list-group-item">
-    <i class="fa fa-download"></i>
-    All-in-One
-    <span class="label label-default">v4.4</span>
-    <span class="label label-primary">Jan 2013</span>
-  </a>
-  <a href="http://ftp.squeak.org/4.3/Squeak-4.3-All-in-One.zip" target="_blank" class="list-group-item">
-    <i class="fa fa-download"></i>
-    All-in-One
-    <span class="label label-default">v4.3</span>
-    <span class="label label-primary">Jan 2012</span>
-  </a>
-  <a href="http://ftp.squeak.org/4.2alpha/Squeak4.2-10779-alpha.zip" target="_blank" class="list-group-item">
-    <i class="fa fa-download"></i>
-    Image only
-    <span class="label label-default">v4.2 alpha</span>
-    <span class="label label-primary">Dec 2010</span>
-  </a>
-  <a href="http://ftp.squeak.org/4.2alpha/updates4.0-4.1.zip" target="_blank" class="list-group-item">
-    <i class="fa fa-download"></i>
-    Updates only
-    <span class="label label-default">v4.1</span>
-    <span class="label label-primary">Apr 2010</span>
-  </a>
-  <a href="http://ftp.squeak.org/4.0/" target="_blank" class="list-group-item">
-    <i class="fa fa-external-link"></i>
-    Windows, Linux, Mac
-    <span class="label label-default">v4.0</span>
-    <span class="label label-primary">Mar 2010</span>
-  </a>
-</div>
-<div class="list-group list-group-sm">
-  <a href="http://ftp.squeak.org/sources_files/SqueakV41.sources.gz" target="_blank" class="list-group-item">
-    <i class="fa fa-download"></i>
-    Sources file
-    <span class="label label-default">v4.1</span>
-    <span class="label label-primary">Mar 2010</span>
-  </a>
-  <a href="http://ftp.squeak.org/sources_files/SqueakV40.sources.gz" target="_blank" class="list-group-item">
-    <i class="fa fa-download"></i>
-    Sources file
-    <span class="label label-default">v4.0</span>
-    <span class="label label-primary">Mar 2010</span>
-  </a>
-</div>
 
-<div class="list-group list-group-sm">
-  <a href="http://wiki.squeak.org/squeak/6160" target="_blank" class="list-group-item">
-    <i class="fa fa-pencil-square-o"></i>
-    Release Notes
-    <span class="label label-default">v4.2</span>
-  </a>
-  <a href="http://wiki.squeak.org/squeak/6188" target="_blank" class="list-group-item">
-    <i class="fa fa-pencil-square-o"></i>
-    Release Notes
-    <span class="label label-default">v4.4</span>
-  </a>
-  <a href="http://wiki.squeak.org/squeak/6189" target="_blank" class="list-group-item">
-    <i class="fa fa-pencil-square-o"></i>
-    Release Notes
-    <span class="label label-default">v4.5</span>
-    <span class="label label-primary">A</span>
-  </a>
-  <a href="http://wiki.squeak.org/squeak/6193" target="_blank" class="list-group-item">
-    <i class="fa fa-pencil-square-o"></i>
-    Release Notes
-    <span class="label label-default">v4.5</span>
-    <span class="label label-primary">B</span>
-  </a>
-</div>
+|                | Version   | Date     | Link                                                       |
+| -------------- |:--------- |:--------:| ----------------------------------------------------------:|
+| All-in-One     | 4.5       | Oct 2014 | [<i class="fa fa-download"></i>][45]{:target=_blank}       |
+| All-in-One     | 4.4       | Jan 2013 | [<i class="fa fa-download"></i>][44]{:target=_blank}       |
+| All-in-One     | 4.3       | Jan 2012 | [<i class="fa fa-download"></i>][43]{:target=_blank}       |
+| Image only     | 4.2 alpha | Dec 2010 | [<i class="fa fa-download"></i>][42]{:target=_blank}       |
+| Updates only   | 4.1       | Apr 2010 | [<i class="fa fa-download"></i>][41]{:target=_blank}       |
+| Win, Unix, Mac | 4.0       | Mar 2010 | [<i class="fa fa-external-link"></i>][40]{:target=_blank}  |
+|                |           |          |                                                            |
+| Sources file   | 4.1       | Mar 2010 | [<i class="fa fa-download"></i>][41s]{:target=_blank}      |
+| Sources file   | 4.0       | Mar 2010 | [<i class="fa fa-download"></i>][40s]{:target=_blank}      |
+|                |           |          |                                                            |
+| Release Notes  | 4.5b      |          | [<i class="fa fa-external-link"></i>][45b]{:target=_blank} |
+| Release Notes  | 4.5a      |          | [<i class="fa fa-external-link"></i>][45a]{:target=_blank} |
+| Release Notes  | 4.4       |          | [<i class="fa fa-external-link"></i>][44r]{:target=_blank} |
+| Release Notes  | 4.2       |          | [<i class="fa fa-external-link"></i>][42r]{:target=_blank} |
+{:.table .table-hover .table-condensed}
+
+[45]: http://ftp.squeak.org/4.5/Squeak-4.5-All-in-One.zip
+[44]: http://ftp.squeak.org/4.4/Squeak-4.4-All-in-One.zip
+[43]: http://ftp.squeak.org/4.3/Squeak-4.3-All-in-One.zip
+[42]: http://ftp.squeak.org/4.2alpha/Squeak4.2-10779-alpha.zip
+[41]: http://ftp.squeak.org/4.2alpha/updates4.0-4.1.zip
+[40]: http://ftp.squeak.org/4.0/
+[41s]: http://ftp.squeak.org/sources_files/SqueakV41.sources.gz
+[40s]: http://ftp.squeak.org/sources_files/SqueakV40.sources.gz
+[45b]: http://wiki.squeak.org/squeak/6193
+[45a]: http://wiki.squeak.org/squeak/6189
+[44r]: http://wiki.squeak.org/squeak/6188
+[42r]: http://wiki.squeak.org/squeak/6160
