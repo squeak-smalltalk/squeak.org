@@ -2,7 +2,7 @@
 title:      "Smalltalk With Style"
 order:      10
 img-src:    docs/1996_smalltalk_with_style.jpg
-href:       http://sdmeta.gforge.inria.fr/FreeBooks/WithStyle/SmalltalkWithStyle.pdf
+href:       http://www.amazon.com/Smalltalk-With-Style-Suzanne-Skublics/dp/0131655493
 category:   Books
 ---
 Suzanne Skublics, David Thomas, and Edward Klimas. Prentice Hall, 1996.

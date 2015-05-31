@@ -2,7 +2,7 @@
 title:      "Smalltalk-80: The Interactive Programming Environment"
 order:      15
 img-src:    docs/1984_smalltalk80_the_interactive_programming_environment.jpg
-href:       http://sdmeta.gforge.inria.fr/FreeBooks/TheInteractiveProgrammingEnv/TheInteractiveProgrammingEnv.pdf
+href:       http://www.amazon.com/Smalltalk-80-Interactive-Programming-Environment-Addison-Wesley/dp/0201113724
 category:   Books
 ---
 (The Red Book)

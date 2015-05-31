@@ -2,7 +2,7 @@
 title:      "Smalltalk Best Practice Patterns"
 order:      11
 img-src:    docs/1996_smalltalk_best_practice_patterns.jpg
-href:       http://stephane.ducasse.free.fr/FreeBooks/BestSmalltalkPractices/Draft-Smalltalk%20Best%20Practice%20Patterns%20Kent%20Beck.pdf
+href:       http://www.amazon.com/Smalltalk-Best-Practice-Patterns-Kent/dp/013476904X
 category:   Books
 ---
 Kent Beck. Prentice Hall, 1996.
