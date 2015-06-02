@@ -5,7 +5,12 @@
   {% if colsum >= 12 %}
     {% assign colsum = 0 %}
   {% endif %}
-  <div class="item col-md-{{ item.cols }} col-lg-{{ item.cols }}">
+  {% if item.mdcols %}
+    {% assign mdcols = item.mdcols %}
+  {% else %}
+    {% assign mdcols = item.cols %}
+  {% endif %}
+  <div class="item col-md-{{ mdcols }} col-lg-{{ item.cols }}">
   {% include item.html %}
   </div>
   {% if colsum == 0 %}
