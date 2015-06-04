@@ -12,7 +12,7 @@ layout: compress
 
     <div class="container">
       <div class="section">
-        <div class="section-heading"><span>{{ section.title }}</span></div>
+        <h1 class="section-heading"><span>{{ section.title }}</span></h1>
         {% if section.sort_by == 'title' %}
           {% assign groups = section.docs | sort_natural: section.sort_by | group_by: 'category' %}
         {% else %}

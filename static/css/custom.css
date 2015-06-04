@@ -15,7 +15,7 @@ body {
 }
 
 img[src*=".svg"] { /* Fix SVGs in IE */
-    width: 100%; 
+    width: 100%;
 }
 
 .navbar img[src*=".svg"] { /* Turn off SVG fix in navbar */
@@ -89,25 +89,18 @@ img[src*=".svg"] { /* Fix SVGs in IE */
     margin-top: 12px;
 }
 
-
-/* Headings */
-h1 {
-    padding: 16px;
-    color: #1b3c81;
-    display: flex;
-}
-
 .section-heading {
     position: relative;
-    padding: 16px;
+    padding-left: 16px;
+    padding-right: 16px;
     text-align: center;
 }
 
 .section-heading span {
-    font-size: 46px;
     color: #1b3c81;
     background-color: #fff;
-    padding: 0 16px;
+    padding-left: 16px;
+    padding-right: 16px;
 }
 
 .section-heading:after {
@@ -213,7 +206,7 @@ a.no-underline:hover {
     .item-img {
         max-width: 200px;
     }
-    
+
     pre {
         font-size: 12px;
         white-space: nowrap;
