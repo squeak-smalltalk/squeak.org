@@ -51,12 +51,12 @@ defaults:
     values:
       cols: 6
       href-external: true
-  -
-    scope:
-      path: ""
-      type: "documentation"
-    values:
-      mdcols: 12
+#  -
+#    scope:
+#      path: ""
+#      type: "documentation"
+#    values:
+#      mdcols: 12
 
 # Paths
 baseurl: ""
