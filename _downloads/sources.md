@@ -3,6 +3,7 @@ title:  Sources
 order:  5
 cols:   6
 icon:   file-text-o
+category:   Advanced
 ---
 The sources file contains all sources of the base system. As no sources are stored in the image file, it retains source code comments, time stamps, and custom formatting. Just like the changes file does.
 
