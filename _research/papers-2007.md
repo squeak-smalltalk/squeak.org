@@ -1,7 +1,6 @@
 ---
 order:      2007
 category:   2007
-cols:       100
 ---
 Johan Brichau, Andy Kellens, Kris Gybels, Kim Mens, Robert Hirschfeld, and Theo D'Hondt. Application-Specific Models and Pointcuts Using a Logic Meta Language. In Elsevier Journal on Computer Languages, Systems & Structures, vol. 34, no. 2-3, July - October 2008, pages 66-82, May 13, 2007, doi:10.1016/j.cl.2007.05.004.
 

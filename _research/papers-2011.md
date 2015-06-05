@@ -1,7 +1,6 @@
 ---
 order:      2011
 category:   2011
-cols:       100
 ---
 Bastian Steinert and Robert Hirschfeld. Applying Design Knowledge to Programming. In Hasso Plattner, Christoph Meinel, and Larry Leifer (eds.). Design Thinking Research: Studying Co-creation in Practice. pages 259-277, Springer 2011, doi:10.1007/978-3-642-21643-5_15.
 

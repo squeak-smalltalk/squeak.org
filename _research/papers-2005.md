@@ -1,7 +1,6 @@
 ---
 order:      2005
 category:   2005
-cols:       100
 ---
 Robert Hirschfeld and Stefan Hanenberg. Open Aspects. In Elsevier Journal on Computer Languages, Systems & Structures, Science Direct, vol. 32, no. 2-3, July-October 2006, pages 87-108, Elsevier 2005.
 

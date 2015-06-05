@@ -1,7 +1,6 @@
 ---
 order:      2008
 category:   2008
-cols:       100
 ---
 Robert Hirschfeld. Dynamic Adaptation - Changing Services at Runtime. In Hendrik Berndt (ed.), Towards 4G Technologies: Services with Initiative, Wiley Series on Communications Networking & Distributed Systems, Wiley, 2008.
 

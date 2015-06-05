@@ -1,7 +1,6 @@
 ---
 order:      2012
 category:   2012
-cols:       100
 ---
 Bastian Steinert, Damien Cassou, and Robert Hirschfeld. CoExist: Overcoming Aversion to Change – Preserving Immediate Access to Source Code and Run-time Information of Previous Development States. In Proceedings of the Dynamic Languages Symposium (DLS) 2012, co-located with the Conference on Object-oriented Programming, Systems, Languages, and Applications (OOPSLA) 2012, pages 107-117, Tucson, Arizona, USA, October 22, 2012, ACM DL. 
 

@@ -19,12 +19,21 @@ layout: compress
           {% assign groups = section.docs | sort: section.sort_by | group_by: 'category' %}
         {% endif %}
 
-        {% for row in groups %}
-          {% if row.name != "" %}
-        <h2>{{ row.name }}</h2>
-          {% endif %}
-          {% include row.html items=row.items %}
-        {% endfor %}
+        {% if section.sort_reversed %}
+          {% for row in groups reversed%}
+            {% if row.name != "" %}
+          <h2>{{ row.name }}</h2>
+            {% endif %}
+            {% include row_reversed.html items=row.items %}
+          {% endfor %}
+        {% else %}
+          {% for row in groups %}
+            {% if row.name != "" %}
+          <h2>{{ row.name }}</h2>
+            {% endif %}
+            {% include row.html items=row.items %}
+          {% endfor %}
+        {% endif %}
 
         {{ content }}
       </div>

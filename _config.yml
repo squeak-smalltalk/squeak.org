@@ -34,6 +34,7 @@ collections:
   research:
     title: Research
     sort_by: order
+    sort_reversed: true
   board:
     title: Squeak Oversight Board
     sort_by: order
@@ -54,12 +55,12 @@ defaults:
     values:
       cols: 6
       href-external: true
-#  -
-#    scope:
-#      path: ""
-#      type: "documentation"
-#    values:
-#      mdcols: 12
+  -
+    scope:
+      path: ""
+      type: "research"
+    values:
+      cols: 12
 
 # Paths
 baseurl: ""

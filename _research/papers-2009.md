@@ -1,7 +1,6 @@
 ---
 order:      2009
 category:   2009
-cols:       100
 ---
 Michael Perscheid, Bastian Steinert, Robert Hirschfeld, Felix Geller, and Michael Haupt. 
 Bastian Steinert, Michael Grunewald, Stefan Richter, Jens Lincke, and Robert Hirschfeld. Multi-user Multi-account Interaction in Groupware Supporting Single-display Collaboration. In Proceedings of the International Conference on Collaborative Computing: Networking, Applications and Worksharing (CollaborateCom) 2009, Crystal City, Washington D.C., USA, November 11-14, 2009, IEEE, doi:10.4108/ICST.COLLABORATECOM2009.8290.

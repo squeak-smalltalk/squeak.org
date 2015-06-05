@@ -1,7 +1,6 @@
 ---
 order:      2014
 category:   2014
-cols:       100
 ---
 Tim Felgentreff, Alan Borning, and Robert Hirschfeld. Babelsberg: Specifying and Solving Constraints on Object Behavior. In Journal of Object Technology (JOT), vol. 13, no. 4, pages 1:1-38, 2014, www.jot.fm, doi:10.5381/jot.2014.13.4.a1.
 

@@ -1,7 +1,6 @@
 ---
 order:      2010
 category:   2010
-cols:       100
 ---
 Michael Perscheid, Bastian Steinert, Robert Hirschfeld, Felix Geller, and Michael Haupt. Immediacy through Interactivity: Online Analysis of Run-time Behavior. In Proceedings of the 17th Working Conference on Reverse Engineerings (WCRE) 2010, pages 77-86, Beverly, Massachusetts, USA, October 13-16, 2010, IEEE.
 
