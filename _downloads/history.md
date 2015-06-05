@@ -1,5 +1,4 @@
 ---
-title:    The History of Squeak
 order:    50
 cols:     12
 category: History
