@@ -1,5 +1,5 @@
 ---
-title:  Custom
+title:  Custom Installation
 front-page: true
 order:  2
 cols:   6
