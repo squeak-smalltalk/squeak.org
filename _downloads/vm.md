@@ -5,7 +5,7 @@ cols:   6
 icon:   cogs
 category:   Advanced
 ---
-The virtual machine executes Squeak image files on a particular platform. There may be more recent versions here than included in the All-in-One package above.
+The virtual machine (VM) executes Squeak image files on a particular platform. There may be more recent versions here than ones included in the all-in-one package.
 
 |                 | Support   | Link                                                               |
 | --------------- |:--------- | ------------------------------------------------------------------:|
