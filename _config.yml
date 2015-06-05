@@ -13,6 +13,9 @@ collections:
   features:
     title: Features
     sort_by: order
+  download:
+    title: Download
+    sort_by: order
   community:
     title: Community
     sort_by: order
@@ -24,13 +27,13 @@ collections:
     sort_by: order
     visible-sm: Docs
     mobile-title: Docs
-  downloads:
-    title: Downloads
-    sort_by: order
   development:
     title: Development
     sort_by: order
     visible-sm: Dev
+  research:
+    title: Research
+    sort_by: order
   board:
     title: Squeak Oversight Board
     sort_by: order
