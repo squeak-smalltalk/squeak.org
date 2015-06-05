@@ -1,11 +1,11 @@
 ---
-title:      All-in-one
+title:      All-in-one Package
 front-page: true
 order:      1
 cols:       6
 category:   Basic
 ---
-We create an all-in-one package that works on Windows, OS X, and Linux.
+The all-in-one package works on Windows, OS X, and Linux.
 Download, unzip, and double-click the appropriate file: `*.bat` for Windows, `*.app` for OS X, and `*.sh` for Linux.
 
 |                   | Version   | Support   | Link   |
