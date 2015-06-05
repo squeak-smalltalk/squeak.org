@@ -1,7 +1,7 @@
 ---
 title:  Custom
 order:  2
-cols:   12
+cols:   6
 ---
 The Squeak/Smalltalk programming system consists of three parts:
 
