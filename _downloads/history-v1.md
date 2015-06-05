@@ -3,8 +3,6 @@ title:      Squeak v1
 order:      70
 cols:       6
 category:   History
-caption: >
-    There are virtual machines for Unix and Windows-based systems. Despite the majority of computing platforms back then, the Squeak community managed to run Smalltalk applications almost everywhere.
 img-src:    downloads/squeak-v1.png
 img-border: true
 ---
