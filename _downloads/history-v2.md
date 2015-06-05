@@ -3,8 +3,6 @@ title:      Squeak v2
 order:      65
 cols:       6
 category:   History
-caption: >
-    There are virtual machines for many platforms such as Alpha OSF/1, SPARC Solaris/SunOS, PowerPC Linux, i586 Linux, NeXTStep, OS/2, and 16-bit Windows. Later versions support 32-bit Windows, Linux, and Mac platforms.
 img-src:    downloads/squeak-v2.png
 img-border: true
 ---
