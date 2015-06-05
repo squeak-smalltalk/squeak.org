@@ -5,5 +5,5 @@ category: History
 ---
 Squeak is a self-supporting system that allows to generate new virtual machines mostly from Smalltalk code.
 Originally developed on the Macintosh, members of its user community have since ported it
-to numerous platforms including Windows, Linux, and RISC OS.
+to numerous platforms including Windows and Linux, and RISC OS.
 It includes platform-independent support for color, sound, and image processing.
