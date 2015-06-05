@@ -3,14 +3,13 @@ order:      201
 category:   Research Papers
 cols:       100
 ---
-TBD
+** TBD **
 
 - SCG, University of Bern
 - VUB Brussels
 - Inria
 - SWA, HPI
 
-<!--
 
 ===== 2015 =====
 
