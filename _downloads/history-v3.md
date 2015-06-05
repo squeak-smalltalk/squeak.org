@@ -2,7 +2,7 @@
 title:      Squeak v3
 order:      60
 cols:       6
-caption:    "Dummy Text"
+category:   History
 img-src:    downloads/squeak-v3.png
 img-border: true
 ---
