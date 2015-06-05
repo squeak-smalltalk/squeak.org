@@ -2,7 +2,7 @@
 title:      All-in-one
 front-page: true
 order:      1
-cols:       12
+cols:       6
 ---
 We create an all-in-one package that works on Windows, OS X, and Linux.
 Download, unzip, and double-click the appropriate file: `*.bat` for Windows, `*.app` for OS X, and `*.sh` for Linux.
