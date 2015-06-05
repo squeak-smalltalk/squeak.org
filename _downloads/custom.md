@@ -3,6 +3,7 @@ title:  Custom
 front-page: true
 order:  2
 cols:   6
+category:   Advanced
 ---
 The Squeak/Smalltalk programming system consists of three parts:
 
