@@ -1,11 +1,11 @@
 ---
-title:      Beginner
+title:      All-in-one
 front-page: true
 order:      1
 cols:       12
 ---
-We create an all-in-one package for beginners works on Windows, Linux, and Mac OS platforms.
-Download it, unzip it, and double click the appropriate file: *.app for Mac, *.bat for Windows, *.sh for Linux.
+We create an all-in-one package that works on Windows, OS X, and Linux.
+Download, unzip, and double-click the appropriate file: `*.bat` for Windows, `*.app` for OS X, and `*.sh` for Linux.
 
 |                   | Version   | Support   | Link   |
 | ----------------- |:--------- |:--------- | ------:|
