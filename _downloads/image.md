@@ -3,6 +3,7 @@ title:  Image and Changes
 order:  4
 cols:   6
 icon:   file-text
+category:   Advanced
 ---
 The image file contains a binary representation of all living objects in Squeak. The changes file represents a textual log of all source code executions and modifications---it is like a simple, local versions database.
 
