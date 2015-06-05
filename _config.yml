@@ -14,7 +14,7 @@ collections:
     title: Features
     sort_by: order
   downloads:
-    title: Download
+    title: Downloads
     sort_by: order
   community:
     title: Community
