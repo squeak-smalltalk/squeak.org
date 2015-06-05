@@ -5,7 +5,7 @@ cols:   6
 icon:   file-text-o
 category:   Advanced
 ---
-The sources file contains all source code of the base system, including comments, time stamps, and custom formatting.
+The sources file contains all source code of the base system. Just like the changes files, it also includes comments, time stamps, and custom formatting.
 
 |                | Version   | Link                                                      |
 | -------------- |:--------- | ---------------------------------------------------------:|
