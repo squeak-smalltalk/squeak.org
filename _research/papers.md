@@ -3,13 +3,14 @@ order:      201
 category:   Research Papers
 cols:       100
 ---
-** TBD **
+**TBD**
 
 - SCG, University of Bern
 - VUB Brussels
 - Inria
 - SWA, HPI
 
+**Note:* Work in progress! Please let us know all the research papers related to Squeak we have missed...
 
 ===== 2015 =====
 
