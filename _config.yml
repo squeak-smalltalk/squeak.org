@@ -13,7 +13,7 @@ collections:
   features:
     title: Features
     sort_by: order
-  download:
+  downloads:
     title: Download
     sort_by: order
   community:
