@@ -14,21 +14,21 @@ function rotateScreenshot(moveRight) {
 }
 
 function enableScreenshotButtons() {
-    $('.screenshot-img').click(function(e) {
-        e.preventDefault();
+    $('.screenshot-img').click(function(event) {
+        event.preventDefault();
         var moveRight = event.offsetX > $('img', this).width() / 2;
         rotateScreenshot(moveRight);
     });
-    $('.screenshot-button').click(function(e) {
-        e.preventDefault();
+    $('.screenshot-button').click(function(event) {
+        event.preventDefault();
         var moveRight = $(this).data('target') === 'right';
         rotateScreenshot(moveRight);
     });
 }
 
 function enableKeyboardNavigation() {
-    $(window).keyup(function(e) {
-        var key = e.which | e.keyCode;
+    $(window).keyup(function(event) {
+        var key = event.which | event.keyCode;
         if (key === 37) {
             rotateScreenshot(false);
         } else if (key === 39) {
@@ -39,8 +39,8 @@ function enableKeyboardNavigation() {
 
 $(function() {
     // Enable donate button
-    $('.donate-button').click(function(e) {
-        e.preventDefault();
+    $('.donate-button').click(function(event) {
+        event.preventDefault();
         $('#paypal-donations').submit();
     });
     // Enable screenshots
