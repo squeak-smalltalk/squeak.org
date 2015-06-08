@@ -24,7 +24,8 @@ layout: compress
             {% if row.name != "" %}
           <h2>{{ row.name }}</h2>
             {% endif %}
-            {% include row_reversed.html items=row.items %}
+            {% assign reversedItems = row.items reversed %}
+            {% include row.html items=reversedItems %}
           {% endfor %}
         {% else %}
           {% for row in groups %}
