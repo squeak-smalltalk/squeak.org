@@ -2,7 +2,7 @@
   <div class="container">
     <div class="navbar-header">
       <a id="squeak-navbar-mobile" class="visible-xs pull-left" href="{{ basePath }}">
-        <img alt="Squeak/Smalltalk" src="{{ staticPath }}img/squeak.svg" alt="">
+        <img alt="{{ site.title }}" src="{{ staticPath }}img/squeak.svg" alt="">
       </a>
       <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
         <span class="sr-only">Toggle navigation</span>
@@ -15,7 +15,7 @@
       <ul class="nav navbar-nav">
         <li class="hidden-xs">
           <a id="squeak-navbar" href="{{ basePath }}">
-            <img alt="Squeak/Smalltalk" src="{{ staticPath }}img/squeak.svg" alt="">
+            <img alt="{{ site.title }}" src="{{ staticPath }}img/squeak.svg" alt="">
           </a>
         </li>
         {% for collection in site.collections %}
