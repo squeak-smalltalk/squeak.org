@@ -25,14 +25,15 @@ collections:
   documentation:
     title: Documentation
     sort_by: order
-    visible-sm: Docs
+    visible-sm: <i class="fa fa-book"></i>
     mobile-title: Docs
   development:
     title: Development
     sort_by: order
-    visible-sm: Dev
+    visible-sm: <i class="fa fa-code"></i>
   research:
     title: Research
+    visible-sm: <i class="fa fa-flask"></i>
     sort_by: order
     sort_reversed: true
   board:

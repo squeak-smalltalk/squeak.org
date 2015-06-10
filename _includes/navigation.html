@@ -25,7 +25,7 @@
           {% endif %}
           {% if collection[1].hidden == nil or collection[1].hidden == false %}
         <li class="{{ liClass }}">
-          <a href="{{ basePath }}{{ collection[1].label }}/">
+          <a href="{{ basePath }}{{ collection[1].label }}/" title="{{ collection[1].title }}">
             {% if collection[1].visible-sm %}
             <span class="hidden-sm">{{ collection[1].title }}</span>
             <span class="visible-sm">{{ collection[1].visible-sm }}</span>
@@ -40,14 +40,14 @@
       <ul class="nav navbar-nav navbar-right">
         <li{% if page.section == 'license' %} class="active"{% endif %}>
           <a href="{{ basePath }}license/">
-            <span class="hidden-sm">License</span>
-            <span class="visible-sm"><i class="fa fa-file-text-o"></i></span>
+            <span class="visible-xs visible-lg">License</span>
+            <span class="hidden-xs hidden-lg"><i class="fa fa-file-text-o"></i></span>
           </a>
         </li>
         <li>
           <a class="donate-button" href="#">
             <i class="fa fa-heart"></i>
-            <span class="hidden-sm">Donate</span>
+            <span class="visible-xs-inline visible-lg-inline">Donate</span>
           </a>
         </li>
       </ul>
