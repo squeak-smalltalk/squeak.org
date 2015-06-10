@@ -1,0 +1,1 @@
+.sitemap/sitemap_generator.rb

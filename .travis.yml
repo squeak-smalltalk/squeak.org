@@ -7,7 +7,7 @@ branches:
 addons:
   ssh_known_hosts: squeak.org
 install:
-- gem install jekyll jekyll-sitemap
+- gem install jekyll
 before_script:
 - openssl aes-256-cbc -K $encrypted_7202fd93a95a_key -iv $encrypted_7202fd93a95a_iv
   -in .deploy.enc -out ~/.ssh/deploy -d
