@@ -20,7 +20,7 @@
         </li>
         {% for collection in site.collections %}
           {% assign liClass = '' %}
-          {% if collection[1].label == page.section %}
+          {% if collection[1].label == page.section.label %}
             {% assign liClass = 'active' %}
           {% endif %}
           {% if collection[1].hidden == nil or collection[1].hidden == false %}
@@ -38,7 +38,7 @@
         {% endfor %}
       </ul>
       <ul class="nav navbar-nav navbar-right">
-        <li{% if page.section == 'license' %} class="active"{% endif %}>
+        <li{% if page.section.label == 'license' %} class="active"{% endif %}>
           <a href="{{ basePath }}license/">
             <span class="visible-xs visible-lg">License</span>
             <span class="hidden-xs hidden-lg"><i class="fa fa-file-text-o"></i></span>
