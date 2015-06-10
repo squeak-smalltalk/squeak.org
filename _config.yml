@@ -66,11 +66,16 @@ defaults:
 baseurl: ""
 url: ""
 
+# Enable SASS support
+sass:
+  sass_dir: _sass
+  style: :compressed
+
 # Serving
 host: 0.0.0.0
 
 # Caching
-build_version: 0.0.4
+build_version: 0.1
 staticurl: "static/"
 
 # Build settings

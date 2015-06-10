@@ -97,7 +97,7 @@ img[src*=".svg"] { /* Fix SVGs in IE */
 }
 
 .section-heading span {
-    color: #1b3c81;
+    color: $brand-primary;
     background-color: #fff;
     padding-left: 16px;
     padding-right: 16px;
@@ -111,7 +111,7 @@ img[src*=".svg"] { /* Fix SVGs in IE */
     left: 0;
     width: 100%;
     height: 2px;
-    background-color: #1b3c81;
+    background-color: $brand-primary;
 }
 
 
@@ -136,7 +136,7 @@ img[src*=".svg"] { /* Fix SVGs in IE */
 }
 
 .item h3 {
-    color: #1b3c81;
+    color: $brand-primary;
 }
 
 .img-col {
