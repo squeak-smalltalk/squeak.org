@@ -12,14 +12,14 @@ layout: compress
 
     <div class="container">
       <div class="section">
-        <h1 class="section-heading"><span>{{ section.title }}</span></h1>
-        {% if section.sort_by == 'title' %}
-          {% assign groups = section.docs | sort_natural: section.sort_by | group_by: 'category' %}
+        <h1 class="section-heading"><span>{{ page.section.title }}</span></h1>
+        {% if page.section.sort_by == 'title' %}
+          {% assign groups = page.section.docs | sort_natural: page.section.sort_by | group_by: 'category' %}
         {% else %}
-          {% assign groups = section.docs | sort: section.sort_by | group_by: 'category' %}
+          {% assign groups = page.section.docs | sort: page.section.sort_by | group_by: 'category' %}
         {% endif %}
 
-        {% if section.sort_reversed %}
+        {% if page.section.sort_reversed %}
           {% for row in groups reversed%}
             {% if row.name != "" %}
           <h2>{{ row.name }}</h2>
@@ -36,7 +36,10 @@ layout: compress
           {% endfor %}
         {% endif %}
 
-        {{ content }}
+        <div class="text-center">
+          {{ page.trailer }}
+        </div>
+
       </div>
     </div> <!-- /container -->
 
