@@ -1,6 +1,6 @@
 ---
 title:      "An Introduction to Seaside"
-order:      2
+order:      202
 img-src:    docs/2008_an_introduction_to_seaside.jpg
 href:       http://tocs.ulb.tu-darmstadt.de/198976879.pdf
 category:   Books
