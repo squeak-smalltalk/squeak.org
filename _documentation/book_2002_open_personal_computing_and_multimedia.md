@@ -1,6 +1,6 @@
 ---
 title:      "Squeak: Open Personal Computing and Multimedia"
-order:      6
+order:      205
 img-src:    docs/2001_open_personal_computing_and_multimedia.jpg
 href:       http://www.amazon.com/Squeak-Open-Personal-Computing-Multimedia/dp/0130280917
 category:   Books
