@@ -1,6 +1,6 @@
 ---
 title:      BroBreakout
-img-src:    dummy.png
+icon:       bb
 href:       https://github.com/fniephaus/BroBreakout
 ---
 A Breakout clone

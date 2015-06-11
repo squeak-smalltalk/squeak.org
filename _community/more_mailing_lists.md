@@ -1,7 +1,7 @@
 ---
 title:  More Mailing Lists
 order:  4
-icon:   ellipsis-h
+icon:   mml
 href:   http://forum.world.st/
 ---
 The Smalltalk universe spreads across many different dialects, countries, and

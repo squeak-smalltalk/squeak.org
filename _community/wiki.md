@@ -2,7 +2,7 @@
 title:      Squeak Wiki
 order:      1
 front-page: true
-icon:       pencil-square-o
+icon:       swiki
 href:       http://wiki.squeak.org/squeak
 ---
 The Squeak Wiki collects useful information about the language, its tools, and

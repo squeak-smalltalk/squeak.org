@@ -1,8 +1,8 @@
 ---
-title:  Image and Changes
-order:  4
-cols:   6
-icon:   file-text
+title:      Image and Changes
+order:      4
+cols:       6
+icon:       iacg
 category:   Advanced
 ---
 The image file contains a snapshot of all living objects in Squeak. The changes file represents a textual log of all source code run and modified---it is like a simple, local versions database.

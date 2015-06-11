@@ -6,9 +6,7 @@
       {% if item.img-src %}
       <img src="{{ basePath }}img/{{ item.img-src }}" alt="" class="item-img img-center img-rounded img-responsive{% if item.img-border %} img-border{% endif %}">
       {% else %}
-      <div class="box-icon">
-        <i class="fa fa-{{ item.icon }}"></i>
-      </div>
+      <img src="https://sigil.cupcake.io/{{ item.icon }}.png" alt="" class="item-img img-center img-rounded img-responsive img-border">
       {% endif %}
     {% if item.href %}
     </a>
