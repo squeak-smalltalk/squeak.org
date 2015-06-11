@@ -1,6 +1,6 @@
 ---
 title:      "Squeak by Example"
-order:      3
+order:      203
 front-page: true
 img-src:    docs/2007_squeak_by_example.jpg
 href:       http://squeakbyexample.org/
