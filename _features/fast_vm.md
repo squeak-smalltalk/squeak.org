@@ -2,7 +2,7 @@
 title:          Fast Virtual Machine
 order:          4
 front-page:     true
-icon:           virtualmachine
+img-src:        dev/cog.png
 href:           ../development/
 href-external:  false
 ---
