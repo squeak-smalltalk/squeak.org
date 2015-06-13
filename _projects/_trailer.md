@@ -5,4 +5,4 @@ You can find more projects on
      
 [ss]: http://ss3.gemstone.com/ss/
 [sm]: http://map.squeak.org/
-[gh]:https://github.com/search?q=Squeak+language%3ASmalltalk&type=Repositories
+[gh]: https://github.com/search?o=desc&q=Squeak+language%3ASmalltalk&s=updated&type=Repositories
