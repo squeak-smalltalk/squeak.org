@@ -48,6 +48,23 @@ $(function() {
         enableScreenshotButtons();
         enableKeyboardNavigation();
     }
+    // Enable popovers
+    $('[data-toggle="popover"]').popover({
+        container: 'body',
+        content: function() {
+            return $($(this).data('target')).html();
+        },
+        html: true,
+        placement: 'auto top'
+    });
+    // Hide popovers on body click
+    $('body').on('click', function (e) {
+        $('[data-toggle="popover"]').each(function () {
+            if (!$(this).is(e.target) && $(this).has(e.target).length === 0 && $('.popover').has(e.target).length === 0) {
+                $(this).popover('hide');
+            }
+        });
+    });
     // Enable SVG fallback to PNG
     svgeezy.init(false, 'png');
 });
