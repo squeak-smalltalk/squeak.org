@@ -157,6 +157,25 @@ img[src*=".svg"] { /* Fix SVGs in IE */
     border: 1px solid #ccc;
 }
 
+.box-icon {
+    display: block;
+    max-width: 162px;
+    height: auto;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    background-color: #f5f5f5;
+    vertical-align: middle;
+    margin: 0 auto;
+}
+
+.box-icon i {
+    color: #444;
+    padding: 34px 26px 30px 26px;
+    font-size: 96px;
+    margin: auto;
+}
+
+
 /* Footer */
 .footer {
     position: absolute;
@@ -201,6 +220,14 @@ a.no-underline:hover {
     pre {
         font-size: 12px;
         white-space: nowrap;
+    }
+}
+
+
+/* Large devices only */
+@media (min-width:992px) and (max-width:1199px){
+    .box-icon i {
+        font-size: 64px;
     }
 }
 
