@@ -25,5 +25,16 @@
       {% endif %}
     </h3>
     {{ item.content }}
+    {% if item.quick-install %}
+    <a tabindex="0" class="btn btn-xs btn-primary" role="button" data-toggle="popover" title="{{ item.title }} Quick Install" data-target="#{{ item.title | slugify }}-qi"><i class="fa fa-code"></i> Quick Install</a>
+    <div id="{{ item.title | slugify }}-qi" class="hide">
+    {% highlight smalltalk %}
+    {{ item.quick-install }}
+    {% endhighlight %}
+    {% if item.quick-install-notes %}
+    {{ item.quick-install-notes }}
+    {% endif %}
+    </div>
+    {% endif %}
   </div>
 </div>
