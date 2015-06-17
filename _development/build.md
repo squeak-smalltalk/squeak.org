@@ -2,7 +2,7 @@
 title:      Squeak Build Server
 order:      2
 category:   Contribute to Squeak
-icon:       cts
+img-src:    dummy.png
 href:       http://build.squeak.org/
 ---
 ...

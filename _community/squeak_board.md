@@ -1,7 +1,7 @@
 ---
 title:          Squeak Oversight Board
 order:          2
-icon:           sob
+icon:           users
 href:           ../board/
 href-external:  false
 ---
