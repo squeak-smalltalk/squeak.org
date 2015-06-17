@@ -3,11 +3,7 @@
 <p class="lead">{{ item.lead }}</p>
 {% endif %}
 {% if item.img-src or item.icon %}
-  {% if item.caption %}
-    {% include item_with_img_caption.html %}  
-  {% else %}
     {% include item_with_img.html %}
-  {% endif %}
 {% else %}
-  {% include item_text_only.html %}
+    {% include item_text_only.html %}
 {% endif %}
