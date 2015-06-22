@@ -15,3 +15,23 @@ Michael Perscheid, Michael Haupt, Robert Hirschfeld, and Hidehiko Masuhara. Test
 Michael Perscheid, Damien Cassou, and Robert Hirschfeld. Test Quality Feedback: Improving Effectivity and Efficiency of Unit Testing. In Proceedings of the Conference on Creating, Connecting and Collaborating through Computing (C5) 2012, pages 60-67, Institute for Creative Technologies, University of Southern California, Playa Vista, California, USA, January 18-20, 2012, IEEE.
 
 Lauritz Thamsen, Anton Gulenko, Michael Perscheid, Robert Krahn, Robert Hirschfeld, and David A. Thomas. Orca: A Single-language Web Framework for Collaborative Development. In Proceedings of the Conference on Creating, Connecting and Collaborating through Computing (C5) 2012, pages 45-52, Institute for Creative Technologies, University of Southern California, Playa Vista, California, USA, January 18-20, 2012, IEEE.
+
+Nierstrasz Oscar, and Mircea Lungu. Agile software assessment. In: Program Comprehension (ICPC), 2012 IEEE 20th International Conference on p.3–10, 2012, IEEE.
+
+Ressia Jorge, Alexandre Bergel, and Oscar Nierstrasz. Object-centric debugging. In: Proceedings of the 34th International Conference on Software Engineering p.485–495, 2012, IEEE Press.
+
+Ressia Jorge, Alexandre Bergel, Oscar Nierstrasz, and Lukas Renggli. Modeling Domain-Specific Profilers. In: Journal of Object Technology No. 11 p.1–21, 2012.
+
+Ressia Jorge, Fabrizio Perin, and Lukas Renggli. Suicide objects. In: Proceedings of the 6th Workshop on Dynamic Languages and Applications p.1, 2012, ACM.
+
+Robbes Romain, Mircea Lungu, and David Röthlisberger. How do developers react to api deprecation?: the case of a smalltalk ecosystem. In: Proceedings of the ACM SIGSOFT 20th International Symposium on the Foundations of Software Engineering p.56, 2012, ACM.
+
+Schwarz Niko. Hot clones: combining search-driven development, clone management, and code provenance. In: Proceedings of the 34th International Conference on Software Engineering p.1628–1629, 2012, IEEE Press.
+
+Schwarz Niko, Mircea Lungu, and Oscar Nierstrasz. Seuss: Decoupling responsibilities from static methods for fine-grained configurability. In: Journal of Object Technology No. 11 p.1–23, 2012.
+
+Schwarz Niko, Mircea Lungu, and Romain Robbes. On how often code is cloned across repositories. In: Proceedings of the 34th International Conference on Software Engineering p.1289–1292, 2012, IEEE Press.
+
+Wernli Erwann, Mircea Lungu, and Oscar Nierstrasz. Incremental dynamic updates with first-class contexts. In: Objects, Models, Components, Patterns p.304–319, 2012, Springer.
+
+Wernli Erwann, Pascal Maerki, and Oscar Nierstrasz. Ownership, filters and crossing handlers. In: Dynamic Language Symposium (DLS), 2012.
