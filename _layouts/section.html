@@ -13,6 +13,13 @@ layout: compress
     <div class="container">
       <div class="section">
         <h1 class="section-heading"><span>{{ page.section.title }}</span></h1>
+
+        {% if page.head %}
+        <div class="text-center">
+          {{ page.head }}
+        </div>
+        {% endif %}
+
         {% if page.section.sort_by == 'title' %}
           {% assign groups = page.section.docs | sort_natural: page.section.sort_by | group_by: 'category' %}
         {% else %}
