@@ -2,6 +2,9 @@
 order:      2014
 category:   2014
 ---
+
+{% bibtex papers-2014.bib %}
+
 Tim Felgentreff, Alan Borning, and Robert Hirschfeld. Babelsberg: Specifying and Solving Constraints on Object Behavior. In Journal of Object Technology (JOT), vol. 13, no. 4, pages 1:1-38, 2014, www.jot.fm, doi:10.5381/jot.2014.13.4.a1.
 
 Marcel Taeumel, Michael Perscheid, Bastian Steinert, Jens Lincke, and Robert Hirschfeld. Interleaving of Modification and Use in Data-driven Tool Development. In Proceedings of the ACM Symposium for New Ideas, New Paradigms, and Reflections on Everything to do with Programming and Software (Onward!) 2014, co-located with the Conference on Object-oriented Programming, Systems, Languages, and Applications (OOPSLA) 2014, pages 185-200, Portland, Oregon, USA, October 22-24, 2014, ACM DL.
