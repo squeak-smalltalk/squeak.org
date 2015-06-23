@@ -16,7 +16,7 @@ img-border: true
 | Sources file      | 1       | Oct 1996 | [<i class="fa fa-download"></i>][1s]{:target=_blank}      |
 |                   |         |          |                                                           |
 | Release Notes     | 1.x     |          | [<i class="fa fa-external-link"></i>][1r]{:target=_blank} |
-{:.table .table-hover .table-condensed}
+{:.table .table-condensed}
 
 [13]: http://ftp.squeak.org/1.3/
 [12]: http://ftp.squeak.org/1.2/

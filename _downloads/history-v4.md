@@ -23,7 +23,7 @@ img-border: true
 | Release Notes  | 4.5a      |          | [<i class="fa fa-external-link"></i>][45a]{:target=_blank} |
 | Release Notes  | 4.4       |          | [<i class="fa fa-external-link"></i>][44r]{:target=_blank} |
 | Release Notes  | 4.2       |          | [<i class="fa fa-external-link"></i>][42r]{:target=_blank} |
-{:.table .table-hover .table-condensed}
+{:.table .table-condensed}
 
 [45]: http://ftp.squeak.org/4.5/Squeak-4.5-All-in-One.zip
 [44]: http://ftp.squeak.org/4.4/Squeak-4.4-All-in-One.zip

@@ -23,7 +23,7 @@ img-border: true
 |                   |         |          |                                                            |
 | Release Notes     | 2.4     |          | [<i class="fa fa-external-link"></i>][24r]{:target=_blank} |
 | Release Notes     | 2.2     |          | [<i class="fa fa-external-link"></i>][22r]{:target=_blank} |
-{:.table .table-hover .table-condensed}
+{:.table .table-condensed}
 
 [28]: http://ftp.squeak.org/2.8/
 [27]: http://ftp.squeak.org/2.7/

@@ -26,7 +26,7 @@ img-border: true
 |                   |             |          |                                                             |
 | Release Notes     | 3.10        |          | [<i class="fa fa-external-link"></i>][310r]{:target=_blank} |
 | Release Notes     | 3.8         |          | [<i class="fa fa-external-link"></i>][38r]{:target=_blank}  |
-{:.table .table-hover .table-condensed}
+{:.table .table-condensed}
 
 [310]: http://ftp.squeak.org/3.10gamma/Squeak3.10.gamma.7159.zip
 [39]: http://ftp.squeak.org/3.9/
