@@ -86,6 +86,18 @@ markdown: kramdown
 # Enable plugins
 gems:
   - jekyll-sitemap
+  - jekyll/scholar
 
 # Exclude vendor dir which Travis uses to bundle all gems on its build servers
 exclude: [vendor, README.md]
+
+# jekyll-scholar
+scholar:
+  style: acm-sigchi-proceedings-extended-abstract-format
+
+  sort_by: none
+  order: ascending
+
+  source: ./_research
+  bibliography: references.bib
+  bibliography_template: "{{reference}}"
