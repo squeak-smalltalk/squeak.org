@@ -89,11 +89,11 @@ gems:
   - jekyll/scholar
 
 # Exclude vendor dir which Travis uses to bundle all gems on its build servers
-exclude: [vendor, README.md]
+exclude: [vendor, README.md, _research/references.bib]
 
 # jekyll-scholar
 scholar:
-  style: acm-sigchi-proceedings-extended-abstract-format
+  style: chicago-author-date
 
   sort_by: none
   order: ascending
