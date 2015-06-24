@@ -11,4 +11,4 @@ quick-install: >
     i    project: 'mc/Aida/Aida/main';
          install: 'Aida6.6-final.3'.
 ---
-Aida is a Smalltalk web application framework for building web applications. It seamlessly integrates HTML5 technologies for today's real-time Web.
+A framework for building web applications. It seamlessly integrates HTML5 technologies for today's real-time Web.
