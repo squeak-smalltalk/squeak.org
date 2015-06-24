@@ -11,4 +11,4 @@ quick-install: >
 quick-install-notes: >
     Make sure you have <a href="https://github.com/dalehenrich/metacello-work" target="_blank">Metacello</a> installed.
 ---
-An implementation of Babelsberg allowing constraint-based programming in Smalltalk...
+An implementation of Babelsberg allowing constraint-based programming in Smalltalk.
