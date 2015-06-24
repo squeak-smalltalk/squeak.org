@@ -23,4 +23,4 @@ Pages 31-41
   In: Proceedings of the ACM Annual Conference, article no. 1, 1972.
     ([ACM DL](<http://dl.acm.org/citation.cfm?id=1971922>){:target="_blank"})
 
-Find more at (http://vpri.org/html/writings.php).
+Find more at [http://vpri.org/html/writings.php](http://vpri.org/html/writings.php).
