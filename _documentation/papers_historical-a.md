@@ -14,6 +14,5 @@ category:   Historical Papers
 
 - Alan Kay and Adele Goldberg.
   Personal Dynamic Media.
-  In: IEEE Computer, vol. 10, no. 3, pages 31-41, March 1977 .
-Pages 31-41
+  In: IEEE Computer, vol. 10, no. 3, pages 31-41, March 1977.
     ([IEEE Xplore](<http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=1646405>){:target="_blank"})
