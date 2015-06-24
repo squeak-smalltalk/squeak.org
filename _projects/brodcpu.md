@@ -10,4 +10,4 @@ quick-install: >
 quick-install-notes: >
     Make sure you have <a href="https://github.com/dalehenrich/metacello-work" target="_blank">Metacello</a> installed.
 ---
-A DCPU-16 emulator
+A DCPU-16 emulator.
