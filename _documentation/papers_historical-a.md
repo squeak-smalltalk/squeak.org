@@ -11,3 +11,9 @@ category:   Historical Papers
   The Early History of Smalltalk.
   In:  Proceeding of the Second ACM SIGPLAN Conference on History of Programming Languages (HOPL-II), ACM SIGPLAN Notices, vol. 28, no. 3, pages 69-95, 1993.
     ([ACM DL](<http://dl.acm.org/citation.cfm?id=155364>){:target="_blank"})
+
+- Alan Kay and Adele Goldberg.
+  Personal Dynamic Media.
+  In: IEEE Computer, vol. 10, no. 3, pages 31-41, March 1977 .
+Pages 31-41
+    ([IEEE Xplore](<http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=1646405>){:target="_blank"})
