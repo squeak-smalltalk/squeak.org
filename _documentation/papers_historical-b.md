@@ -14,7 +14,7 @@ category:   Historical Papers
 
 - Alan Kay.
   The Power of the Context.
-  VPRI Memo M-2004-001, February 2004.
+  Viewpoints Research Institute Memo M-2004-001, February 2004.
     ([VPRI](<http://www.vpri.org/pdf/m2004001_power.pdf>){:target="_blank"})
 
 - Alan Kay.
