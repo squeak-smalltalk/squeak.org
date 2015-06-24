@@ -10,4 +10,4 @@ quick-install: >
 quick-install-notes: >
     Make sure you have <a href="https://github.com/dalehenrich/metacello-work" target="_blank">Metacello</a> installed.
 ---
-A data-driven perspective on graphical user interfaces to promote low-effort tool construction, based on data transformation and extraction scripts
+A data-driven perspective on graphical user interfaces to promote low-effort tool construction, based on data transformation and extraction scripts.
