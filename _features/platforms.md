@@ -3,7 +3,7 @@ title:      Multi-Platform Support
 order:      6
 img-src:    features/hardware.jpg
 ---
-Squeak supports Windows, Linux and OS X and is preinstalled on
+Squeak supports Windows, Linux, and OS X and is preinstalled on
 [C.H.I.P.][chip]{:target="_blank"},
 [Raspberry Pi][raspi]{:target="_blank"}, and
 [OLPC XO][olpc]{:target="_blank"}.
