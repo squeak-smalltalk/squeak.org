@@ -6,6 +6,6 @@ category:   TBD
 
 Currently being added:
 
-- [SCG, Bern](http://scg.unibe.ch)
-- [VUB, Brussels](https://soft.vub.ac.be/soft/)
-- [Inria, Lille](http://rmod.inria.fr)
+- [SCG, Bern](http://scg.unibe.ch){:target="_blank"}
+- [VUB, Brussels](https://soft.vub.ac.be/soft/){:target="_blank"}
+- [Inria, Lille](http://rmod.inria.fr){:target="_blank"}
