@@ -1,6 +1,6 @@
 You can find more projects on
 **[SqueakSource3][ss3]{:target="_blank"}**,
-**[SqueakSource][ss]{:target="_blank"}**,
+**[SqueakSource1][ss]{:target="_blank"}**,
 **[SqueakMap][sm]{:target="_blank"}** and
 **[GitHub][gh]{:target="_blank"}**.
      
