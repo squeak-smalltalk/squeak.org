@@ -6,5 +6,5 @@ category:   Develop Your Own Applications
 img-src:    dummy.png
 href:       https://github.com/dalehenrich/filetree#squeak
 ---
-Community members are starting to host projects in Git repositories.
+Community members start to host projects using Git repositories.
 Work in progress! :)
