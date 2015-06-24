@@ -12,15 +12,14 @@ category:   Historical Papers
   In: Scientific American, vol. 251, no. 3, pages 53-59, September 1984.
     ([SciAm](<http://www.nature.com/scientificamerican/journal/v251/n3/index.html>){:target="_blank"})
 
-- Alan Kay and Adele Goldberg.
-  Personal Dynamic Media.
-  In: IEEE Computer, vol. 10, no. 3, pages 31-41, March 1977 .
-Pages 31-41
-    ([IEEE Xplore](<http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=1646405>){:target="_blank"})
+- Alan Kay.
+  The Power of the Context.
+  VPRI Memo M-2004-001, February 2004.
+    ([VPRI](<http://www.vpri.org/pdf/m2004001_power.pdf>){:target="_blank"})
 
 - Alan Kay.
   A Personal Computer for Children of All Ages.
   In: Proceedings of the ACM Annual Conference, article no. 1, 1972.
     ([ACM DL](<http://dl.acm.org/citation.cfm?id=1971922>){:target="_blank"})
 
-Find more at [http://vpri.org/html/writings.php](http://vpri.org/html/writings.php).
+Find more at (<http://vpri.org/html/writings.php>).
