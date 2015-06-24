@@ -1,6 +1,6 @@
 ---
 title:  More Mailing Lists
-order:  4
+order:  5
 icon:   ellipsis-h
 href:   http://forum.world.st/Squeak-f45487.html
 ---
