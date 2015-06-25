@@ -35,7 +35,6 @@ collections:
     title: Research
     visible-sm: <i class="fa fa-flask"></i>
     sort_by: order
-    sort_reversed: true
   board:
     title: Squeak Oversight Board
     sort_by: order
@@ -76,7 +75,7 @@ sass:
 host: 0.0.0.0
 
 # Caching
-build_version: 0.3
+build_version: 0.4
 staticurl: "static/"
 
 # Build settings
@@ -93,11 +92,10 @@ exclude: [vendor, README.md, _research/references.bib]
 
 # jekyll-scholar
 scholar:
-  style: chicago-author-date
-
   sort_by: none
   order: ascending
 
   source: ./_research
   bibliography: references.bib
   bibliography_template: "{{reference}}"
+  bibliography_template: bib
