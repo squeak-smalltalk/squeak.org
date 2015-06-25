@@ -3,8 +3,7 @@ title:      Version Control with Git
 order:      3
 front-page: true
 category:   Develop Your Own Applications
-img-src:    dummy.png
+img-src:    dev/octocat.png
 href:       https://github.com/dalehenrich/filetree#squeak
 ---
-Community members start to host projects using Git repositories.
-Work in progress! :)
+With FileTree, you can manage your code and changes with a version control systems like Git. This enables you to share your Squeak projects on GitHub.
