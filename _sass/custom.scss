@@ -134,6 +134,10 @@ ol.bibliography {
     -webkit-padding-start: 0;
 }
 
+ol.bibliography li {
+    padding: 10px 0;
+}
+
 
 /* Sections */
 .section {
@@ -148,6 +152,11 @@ ol.bibliography {
 .section>.container>.row {
     padding: 12px;
 }
+
+.section-head, .section-tail {
+    padding: 12px 0;
+}
+
 
 /* Items */
 .item {
