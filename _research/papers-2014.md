@@ -24,3 +24,21 @@ Bastian Steinert and Robert Hirschfeld. How to Compare Performance in Program De
 Michael Perscheid, Tim Felgentreff, and Robert Hirschfeld. Follow the Path: Debugging State Anomalies Along Execution Histories. In Proceedings of the IEEE European Conference on Software Maintenance and Reengineering and the Working Conference on Reverse Engineering (CSMR-WCRE) 2014 Software Evolution Week, pages 124-133, Antwerp, Belgium, February 3-6, 2014, IEEE.
 
 Michael Perscheid and Robert Hirschfeld. Follow the Path: Debugging Tools for Test-driven Fault Navigation. In Tool Demo Track of the IEEE European Conference on Software Maintenance and Reengineering and the Working Conference on Reverse Engineering (CSMR-WCRE) 2014 Software Evolution Week, pages 446-449, Antwerp, Belgium, February 3-6, 2014, IEEE.
+
+Caracciolo Andrea, Andrei Chis, Boris Spasojevic, and Mircea Lungu. Pangea: A workbench for statically analyzing multi-language software corpora. In: Source Code Analysis and Manipulation (SCAM), 2014 IEEE 14th International Working Conference on p.71–76, 2014, IEEE.
+
+Chis Andrei, Tudor Gîrba, and Oscar Nierstrasz. The Moldable Debugger: a framework for developing domain-specific debuggers. In: Software Language Engineering p.102–121, 2014, Springer.
+
+Chis Andrei, Oscar Nierstrasz, and Tudor Girba. The Moldable Inspector: a framework for domain-specific object inspection. In: Proceedings of International Workshop on Smalltalk Technologies (IWST 2014), 2014.
+
+Haenni Nicole, Mircea Lungu, Niko Schwarz, and Oscar Nierstrasz. A quantitative analysis of developer information needs in software ecosystems. In: Proceedings of the 2014 European Conference on Software Architecture Workshops p.12, 2014, ACM.
+
+Merino Leonel. Adaptable Visualisation Based On User Needs. In: SATToSE 2014—Pre-proceedings p.71, 2014.
+
+Ressia Jorge, Tudor Gîrba, Oscar Nierstrasz, Fabrizio Perin, and Lukas Renggli. Talents: an environment for dynamically composing units of reuse. In: Software: Practice and Experience No. 44 p.413–432, 2014.
+
+Spasojevic Boris, Mircea Lungu, and Oscar Nierstrasz. Overthrowing the tyranny of alphabetical ordering in documentation systems. In: Software Maintenance and Evolution (ICSME), 2014 IEEE International Conference on p.511–515, 2014, IEEE.
+
+Spasojevic Boris, Mircea Lungu, and Oscar Nierstrasz. Towards faster method search through static ecosystem analysis. In: Proceedings of the 2014 European Conference on Software Architecture Workshops p.11, 2014, ACM.
+
+Spasojeviu Boris, Mircea Lungu, and Oscar Nierstrasz. Mining the Ecosystem to Improve Type Inference for Dynamically Typed Languages. In: Proceedings of the 2014 ACM International Symposium on New Ideas, New Paradigms, and Reflections on Programming & Software p.133–142, 2014, ACM.
