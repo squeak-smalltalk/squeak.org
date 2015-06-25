@@ -1,6 +1,6 @@
 ---
 title:      BYTE Magazine
-order:      217
+order:      224
 front-page: true
 img-src:    docs/1981_byte_magazine_smalltalk.jpg
 href:       https://archive.org/details/byte-magazine-1981-08
