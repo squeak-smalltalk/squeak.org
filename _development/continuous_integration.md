@@ -1,7 +1,6 @@
 ---
 title:      Continuous Integration
 order:      4
-front-page: true
 category:   Develop Your Own Applications
 img-src:    dev/travisci.png
 href:       https://github.com/dalehenrich/builderCI#using-builderci
