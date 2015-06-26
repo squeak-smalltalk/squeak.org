@@ -5,7 +5,7 @@ order:      2
 cols:       6
 category:   Quick Download
 ---
-This is latest experimental Squeak image which is not expected to be stable. Therefore, this image is targeted to platform developers. If you do not know how to get this running, please see below for further instructions.
+The trunk image is the latest experimental edition of our Squeak images. It is mainly used by platform developers and not expected to be stable, yet. (Make sure to get the most recent VM.)
 
 |                   | Version   | Link   |
 | ----------------- |:--------- | ------:|
