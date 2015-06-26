@@ -26,7 +26,7 @@
     </h3>
     {{ item.content }}
     {% if item.quick-install %}
-    <a href="#" tabindex="0" role="button" data-toggle="popover" title="{{ item.title }} Quick Install" data-target="#{{ item.title | slugify }}-qi">[Quick Install]</a>
+    <a href="#" class="small" tabindex="0" role="button" data-toggle="popover" title="{{ item.title }} Quick Install" data-target="#{{ item.title | slugify }}-qi">[Quick Install]</a>
     <div id="{{ item.title | slugify }}-qi" class="hide">
     {% highlight smalltalk %}
     {{ item.quick-install }}

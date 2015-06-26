@@ -4,6 +4,7 @@ front-page: true
 order:      1
 cols:       6
 category:   Quick Download
+classes:    item-highlight
 ---
 The all-in-one package works on Windows, OS X, and Linux.
 Download, unzip, and double-click the appropriate file: `*.bat` for Windows, `*.app` for OS X, and `*.sh` for Linux.
