@@ -2,7 +2,7 @@
 title:      Build Your Own VM
 order:      105
 category:   Virtual Machines
-img-src:    dummy.png
+img-src:    dev/byovm.png
 href:       http://wiki.squeak.org/squeak/2105
 ---
 VMMaker allows any programmer to build a customized VM for any
