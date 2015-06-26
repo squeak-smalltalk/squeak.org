@@ -2,7 +2,7 @@
 title:      Virtual Machines
 order:      4
 cols:       6
-icon:       cogs
+img-src:    downloads/vm.png
 category:   Advanced
 ---
 The virtual machine (VM) executes Squeak image files on a particular platform. There may be more recent versions here than ones included in the all-in-one package.

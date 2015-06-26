@@ -1,8 +1,8 @@
 ---
-title:  Sources
-order:  5
-cols:   6
-icon:   file-text-o
+title:      Sources
+order:      5
+cols:       6
+img-src:    downloads/sources.png
 category:   Advanced
 ---
 The sources file contains all source code of the base system. Just like the changes file, it also includes comments, time stamps, and custom formatting.
