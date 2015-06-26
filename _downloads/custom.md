@@ -1,8 +1,7 @@
 ---
-title:  Custom Installation
-front-page: true
-order:  2
-cols:   6
+title:      Custom Installation
+order:      3
+cols:       6
 category:   Advanced
 ---
 The Squeak/Smalltalk programming system consists of three parts:
