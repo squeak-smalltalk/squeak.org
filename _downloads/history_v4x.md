@@ -16,8 +16,8 @@ img-border: true
 | Updates only   | 4.1       | Apr 2010 | [<i class="fa fa-download"></i>][41]{:target=_blank}       |
 | Win, Unix, Mac | 4.0       | Mar 2010 | [<i class="fa fa-external-link"></i>][40]{:target=_blank}  |
 |                |           |          |                                                            |
-| Sources file   | 4.1       | Mar 2010 | [<i class="fa fa-download"></i>][41s]{:target=_blank}      |
-| Sources file   | 4.0       | Mar 2010 | [<i class="fa fa-download"></i>][40s]{:target=_blank}      |
+| Sources        | 4.1       | Mar 2010 | [<i class="fa fa-download"></i>][41s]{:target=_blank}      |
+| Sources        | 4.0       | Mar 2010 | [<i class="fa fa-download"></i>][40s]{:target=_blank}      |
 |                |           |          |                                                            |
 | Release Notes  | 4.5b      |          | [<i class="fa fa-external-link"></i>][45b]{:target=_blank} |
 | Release Notes  | 4.5a      |          | [<i class="fa fa-external-link"></i>][45a]{:target=_blank} |
