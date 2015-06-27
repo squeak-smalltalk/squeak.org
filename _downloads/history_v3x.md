@@ -21,8 +21,8 @@ img-border: true
 | Image and Changes | v3.1 beta   | Sep 2001 | [<i class="fa fa-download"></i>][31]{:target=_blank}        |
 | Win, Unix, Mac    | 3.0         | Jun 2001 | [<i class="fa fa-external-link"></i>][30]{:target=_blank}   |
 |                   |             |          |                                                             |
-| Sources file      | 3.9         | Sep 2006 | [<i class="fa fa-download"></i>][39s]{:target=_blank}       |
-| Sources file      | 3           | Mar 2001 | [<i class="fa fa-download"></i>][3s]{:target=_blank}        |
+| Sources           | 3.9         | Sep 2006 | [<i class="fa fa-download"></i>][39s]{:target=_blank}       |
+| Sources           | 3           | Mar 2001 | [<i class="fa fa-download"></i>][3s]{:target=_blank}        |
 |                   |             |          |                                                             |
 | Release Notes     | 3.10        |          | [<i class="fa fa-external-link"></i>][310r]{:target=_blank} |
 | Release Notes     | 3.8         |          | [<i class="fa fa-external-link"></i>][38r]{:target=_blank}  |
