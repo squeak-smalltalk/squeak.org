@@ -92,6 +92,7 @@ exclude: [vendor, README.md, _research/references.bib]
 
 # jekyll-scholar
 scholar:
+  style: chicago-fullnote-bibliography
   sort_by: none
   order: ascending
 
