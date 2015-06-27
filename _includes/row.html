@@ -10,7 +10,7 @@
   {% else %}
     {% assign mdcols = item.cols %}
   {% endif %}
-  <div class="item col-md-{{ mdcols }} col-lg-{{ item.cols }}{% if item.classes %} {{item.classes}}{% endif %}">
+  <div class="item col-md-{{ mdcols }} col-lg-{{ item.cols }}{% if item.classes and include.preview != true %} {{item.classes}}{% endif %}">
   {% include item.html %}
   </div>
   {% if colsum == 0 %}
