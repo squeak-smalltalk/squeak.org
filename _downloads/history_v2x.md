@@ -19,7 +19,7 @@ img-border: true
 | VM and image      | 2.1     | Aug 1998 | [<i class="fa fa-external-link"></i>][21]{:target=_blank}  |
 | VM and image      | 2.0     | May 1998 | [<i class="fa fa-external-link"></i>][20]{:target=_blank}  |
 |                   |         |          |                                                            |
-| Sources file      | 2       | May 1999 | [<i class="fa fa-download"></i>][2s]{:target=_blank}       |
+| Sources           | 2       | May 1999 | [<i class="fa fa-download"></i>][2s]{:target=_blank}       |
 |                   |         |          |                                                            |
 | Release Notes     | 2.4     |          | [<i class="fa fa-external-link"></i>][24r]{:target=_blank} |
 | Release Notes     | 2.2     |          | [<i class="fa fa-external-link"></i>][22r]{:target=_blank} |
