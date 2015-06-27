@@ -1,6 +1,6 @@
 ---
 order:      200
-category:   Historical Papers
+category:   Historical Papers -- A Selection
 ---
 - Dan Ingalls, Ted Kaehler, John Maloney, Scott Wallace, and Alan Kay.
   Back to the Future: The Story of Squeak--A Practical Smalltalk Written in Itself.
