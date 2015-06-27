@@ -13,7 +13,7 @@ img-border: true
 | VM and image      | 1.2     | Jul 1997 | [<i class="fa fa-download"></i>][12]{:target=_blank}      |
 | VM and image      | 1.1     | Oct 1996 | [<i class="fa fa-download"></i>][11]{:target=_blank}      |
 |                   |         |          |                                                           |
-| Sources file      | 1       | Oct 1996 | [<i class="fa fa-download"></i>][1s]{:target=_blank}      |
+| Sources           | 1       | Oct 1996 | [<i class="fa fa-download"></i>][1s]{:target=_blank}      |
 |                   |         |          |                                                           |
 | Release Notes     | 1.x     |          | [<i class="fa fa-external-link"></i>][1r]{:target=_blank} |
 {:.table .table-condensed}
