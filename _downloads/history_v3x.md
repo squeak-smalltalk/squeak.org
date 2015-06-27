@@ -9,16 +9,16 @@ img-border: true
 
 |                   | Version     | Date     | Link                                                        |
 | ----------------- |:----------- |:--------:| -----------------------------------------------------------:|
-| Image and Changes | v3.10 gamma | May 2008 | [<i class="fa fa-download"></i>][310]{:target=_blank}       |
+| Image only        | v3.10 gamma | May 2008 | [<i class="fa fa-download"></i>][310]{:target=_blank}       |
 | Win, Unix, Mac    | 3.9.1       | Mar 2008 | [<i class="fa fa-external-link"></i>][39]{:target=_blank}   |
 | Win, Unix, Mac    | 3.8.1       | Oct 2006 | [<i class="fa fa-external-link"></i>][38]{:target=_blank}   |
 | Win, Unix, Mac    | 3.7         | Sep 2004 | [<i class="fa fa-external-link"></i>][37]{:target=_blank}   |
 | Win, Unix, Mac    | 3.6         | Jan 2004 | [<i class="fa fa-external-link"></i>][36]{:target=_blank}   |
 | Win, Unix, Mac    | 3.5         | Sep 2003 | [<i class="fa fa-external-link"></i>][35]{:target=_blank}   |
 | Win, Unix, Mac    | 3.4         | Mar 2003 | [<i class="fa fa-external-link"></i>][34]{:target=_blank}   |
-| Image and Changes | 3.3 alpha   | Oct 2002 | [<i class="fa fa-download"></i>][33]{:target=_blank}        |
+| Image only        | 3.3 alpha   | Oct 2002 | [<i class="fa fa-download"></i>][33]{:target=_blank}        |
 | Win, Unix, Mac    | 3.2         | Sep 2002 | [<i class="fa fa-external-link"></i>][32]{:target=_blank}   |
-| Image and Changes | v3.1 beta   | Sep 2001 | [<i class="fa fa-download"></i>][31]{:target=_blank}        |
+| Image only        | v3.1 beta   | Sep 2001 | [<i class="fa fa-download"></i>][31]{:target=_blank}        |
 | Win, Unix, Mac    | 3.0         | Jun 2001 | [<i class="fa fa-external-link"></i>][30]{:target=_blank}   |
 |                   |             |          |                                                             |
 | Sources           | 3.9         | Sep 2006 | [<i class="fa fa-download"></i>][39s]{:target=_blank}       |
