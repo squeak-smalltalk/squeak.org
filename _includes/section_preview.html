@@ -8,7 +8,7 @@
     <h1 class="section-heading"><span>{{ section.title }}</span></h1>
     {% endif %}
     {% assign items = section.docs | where: 'front-page', true | sort: 'order' %}
-    {% include row.html items=items %}
+    {% include row.html items=items preview=true %}
 
     <div class="row more-content">
       <div class="col-sm-12 col-md-12 col-lg-12 text-center">

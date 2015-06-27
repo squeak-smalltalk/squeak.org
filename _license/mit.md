@@ -5,12 +5,13 @@ cols:   12
 lead: >
     Note: The current release of Squeak is a combination of source code
     originating from Apple which Apple agreed to license under the Apache
-    license and more recent contributions licensed under the MIT license.  The
-    vast majority of the code is under the MIT license:
+    License and more recent contributions licensed under the MIT license.  The
+    vast majority of the code is under the MIT License:
 ---
-Copyright (c) The individual, corporate, and institutional contributors
+Copyright (c) 1996-2015 The individual, corporate, and institutional contributors
 who have collectively contributed elements to this software (&quot;The
-Squeak Community&quot;), 1996-2010 All rights reserved.
+Squeak Community&quot;).
+All rights reserved.
 
 Permission is hereby granted, free of charge, to any person obtaining a
 copy of this software and associated documentation files

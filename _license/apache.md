@@ -5,8 +5,8 @@ cols:   12
 lead: >
     Portions of Squeak are covered by the Apache License:
 ---
-Copyright (c) Xerox Corp. 1981, 1982 All rights reserved. Copyright (c)
-Apple Computer, Inc. 1985-1996 All rights reserved.
+Copyright (c) 1981-1982 Xerox Corp. All rights reserved.\\
+Copyright (c) 1985-1996 Apple Computer, Inc. All rights reserved.
 
 Licensed under the Apache License, Version 2.0 (the &quot;License&quot;);
 you may not use this file except in compliance with the License. You may
