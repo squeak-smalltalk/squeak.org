@@ -99,3 +99,5 @@ scholar:
   bibliography: references.bib
   bibliography_template: "{{reference}}"
   bibliography_template: bib
+  bibtex_options:
+    parse_names: false
