@@ -1,6 +1,7 @@
 ---
-order:      202
-category:   Videos
+title:      Videos
+order:      2
+category:   Getting Started with Squeak
 ---
 * [HPI Squeak Screencasts][gsws]{:target="_blank"}
 * [Lawson English's YouTube Clips][ytvle]{:target="_blank"}

@@ -48,8 +48,8 @@ pre {
   word-wrap: break-word;
   color: $pre-color;
   background-color: $pre-bg;
-  border: 1px solid $pre-border-color;
-  border-radius: $border-radius-base;
+  border: 2px solid $pre-border-color;
+  border-radius: $border-radius-base * 2;
 
   // Account for some code outputs that place code tags in pre tags
   code {
