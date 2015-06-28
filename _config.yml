@@ -89,7 +89,7 @@ gems:
   - jekyll/scholar
 
 
-include: [_redirects]
+include: [_misc]
 
 # Exclude vendor dir which Travis uses to bundle all gems on its build servers
 exclude: [vendor, README.md, _research/references.bib]
