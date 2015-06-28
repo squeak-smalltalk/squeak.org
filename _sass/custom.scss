@@ -14,16 +14,6 @@ body {
     margin: 5px 0 5px 8px;
 }
 
-pre {
-    overflow-x: auto;
-    font-size: 12px;
-}
-
-pre code {
-    overflow-wrap: normal;
-    white-space: pre;
-}
-
 img[src*=".svg"] { /* Fix SVGs in IE */
     width: 100%;
 }
@@ -40,6 +30,13 @@ img[src*=".svg"] { /* Fix SVGs in IE */
 .list-group-sm .list-group-item {
     padding: 7px 10px 6px 10px;
     line-height: 1.5;
+}
+
+.anchor {
+    display: block;
+    height: 60px; // fixed navigation height + 10px
+    margin-top: -60px;
+    visibility: hidden;
 }
 
 

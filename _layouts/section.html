@@ -29,6 +29,7 @@ layout: compress
         {% if page.section.sort_reversed %}
           {% for row in groups reversed%}
             {% if row.name != "" %}
+          <span class="anchor" id="{{ row.name | slugify }}"></span>
           <h2>{{ row.name }}</h2>
             {% endif %}
             {% assign reversedItems = row.items reversed %}
@@ -37,6 +38,7 @@ layout: compress
         {% else %}
           {% for row in groups %}
             {% if row.name != "" %}
+          <span class="anchor" id="{{ row.name | slugify }}"></span>
           <h2>{{ row.name }}</h2>
             {% endif %}
             {% include row.html items=row.items %}

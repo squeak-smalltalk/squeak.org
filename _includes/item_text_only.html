@@ -1,5 +1,6 @@
 <div class="row">
   <div class="col-md-12 col-lg-12">
+    <span class="anchor" id="{{ item.title | slugify }}"></span>
     <h3 class="text-center-sm">
       {% if item.href %}
       <a href="{{ item.href }}"{% if item.href-external %} target="_blank"{% endif %}>

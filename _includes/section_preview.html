@@ -3,6 +3,7 @@
 {% if items != empty %}
 <div class="container">
   <div class="section">
+    <span class="anchor" id="{{ section.title | slugify }}"></span>
     {% if section.mobile-title %}
     <h1 class="section-heading hidden-xs"><span>{{ section.title }}</span></h1>
     <h1 class="section-heading visible-xs"><span>{{ section.mobile-title }}</span></h1>

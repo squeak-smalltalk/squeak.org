@@ -1,4 +1,13 @@
 .highlight  { }
+.highlight pre {
+    overflow-x: auto;
+    font-size: 12px;
+}
+
+.highlight pre code {
+    overflow-wrap: normal;
+    white-space: pre;
+}
 .highlight .hll { background-color: #ffffcc }
 .highlight .c { color: #008080; font-style: italic } /* Comment */
 .highlight .err { border: 1px solid #FF0000 } /* Error */
