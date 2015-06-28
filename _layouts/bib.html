@@ -1,12 +1,9 @@
 ---
 ---
-
 {{ entry.author }}. <b>{{ entry.title }}</b>.
 {% if entry.booktitle %}In {{ entry.booktitle }}. {% else %}{% if entry.journal %}In {{ entry.journal }}. {% endif %}{% endif %}
 {% if entry.pages %}pages {{ entry.pages }},{% endif %} {{ entry.year }}.
-<a tabindex="0" role="button" data-toggle="popover" title="BibTeX Export" data-target="#{{ entry.author | slugify }}-bib">[BibTeX]</a>
-<div id="{{ entry.author | slugify }}-bib" class="hide">
+<a tabindex="0" role="button" data-toggle="popover" title="BibTeX Export" data-target="#{{ entry.key | slugify }}">[BibTeX]</a>
+<div id="{{ entry.key | slugify }}" class="hide">
 <pre><code>{{ entry.bibtex }}</code></pre>
 </div>
-
-
