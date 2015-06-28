@@ -7,7 +7,7 @@ Simply open a [Pull Request](https://help.github.com/articles/using-pull-request
 ```markdown
 ---
 title:      My Project
-img-src:    img/projects/myproject.svg
+img-src:    projects/myproject.png
 href:       Link to my project's website
 ---
 Text about my project.
