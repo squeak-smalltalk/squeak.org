@@ -72,7 +72,7 @@ y := x veryDeepCopy                                         "complete tree copy 
 # Constants
 
 {% highlight smalltalk %}
-| b |
+| b x |
 b := true.                                                  "true constant"
 b := false.                                                 "false constant"
 x := nil.                                                   "nil object constant"
@@ -325,7 +325,7 @@ x timesRepeat: [y := y * 2].                                "times repear loop (
 # Character
 
 {% highlight smalltalk %}
-| x y |
+| b x y |
 x := $A.                                                    "character assignment"
 y := x isLowercase.                                         "test if lower case"
 y := x isUppercase.                                         "test if upper case"
@@ -436,7 +436,7 @@ max := x inject: 0 into: [:a :c | (a > c)                   "find max element in
    ifFalse: [c]].
 y := x shuffled.                                            "randomly shuffle collection"
 y := x asArray.                                             "convert to array"
-"y := x asByteArray."                                       "note: this instruction not available on Squeak"
+y := x asByteArray.                                         "convert to byte array"
 y := x asWordArray.                                         "convert to word array"
 y := x asOrderedCollection.                                 "convert to ordered collection"
 y := x asSortedCollection.                                  "convert to sorted collection"
@@ -650,7 +650,7 @@ y := x value
 - `IdentityDictionary`:   uses identity test (`==` rather than `=`)
 
 {% highlight smalltalk %}
-| b x y |
+| b x y sum max |
 x := Dictionary new.                                        "allocate collection"
 x add: #a->4; add: #b->3; add: #c->1; add: #d->2; yourself. "add element to collection"
 x at: #e put: 3.                                            "set element at index"
@@ -771,7 +771,7 @@ ios close
 # Date
 
 {% highlight smalltalk %}
-| x y |
+| b x y |
 x := Date today.                                            "create date for today"
 x := Date dateAndTimeNow.                                   "create date from current time/date"
 x := Date readFromString: '01/02/1999'.                     "create date from formatted string"
@@ -807,7 +807,7 @@ b := (x <= Date today)                                      "comparison"
 # Time
 
 {% highlight smalltalk %}
-| x y |
+| b x y |
 x := Time now.                                              "create time from current time"
 x := Time dateAndTimeNow.                                   "create time from current time/date"
 x := Time readFromString: '3:47:26 pm'.                     "create time from formatted string"
