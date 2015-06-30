@@ -17,6 +17,7 @@ order: 1
 - Jecel Assumpcao
 - Andrew P. Black
 - Ken Causey
+- Edgar J. De Cleene
 - Chris Cunnington
 - Cees de Groot
 - Marcus Denker
