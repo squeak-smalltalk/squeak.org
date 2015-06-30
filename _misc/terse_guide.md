@@ -44,7 +44,7 @@ Transcript tab.                                             "output tab characte
 Transcript cr.                                              "carriage return / linefeed"
 'Hello' printOn: Transcript.                                "append print string into the window"
 'Hello' storeOn: Transcript.                                "append store string into the window"
-Transcript endEntry                                         "flush the output buffer"
+Transcript endEntry.                                        "flush the output buffer"
 {% endhighlight %}
 
 
@@ -65,7 +65,7 @@ x := 1.2 hash.                                              "hash value for obje
 y := x copy.                                                "copy object"
 y := x shallowCopy.                                         "copy object (not overridden)"
 y := x deepCopy.                                            "copy object and instance vars"
-y := x veryDeepCopy                                         "complete tree copy using a dictionary"
+y := x veryDeepCopy.                                        "complete tree copy using a dictionary"
 {% endhighlight %}
 
 
@@ -87,7 +87,7 @@ x := $A.                                                    "character constant"
 x := $ .                                                    "character constant (space)"
 x := #aSymbol.                                              "symbol constants"
 x := #(3 2 1).                                              "array constants"
-x := #('abc' 2 $a)                                          "mixing of types allowed"
+x := #('abc' 2 $a).                                         "mixing of types allowed"
 {% endhighlight %}
 
 
@@ -127,7 +127,7 @@ b := x isInteger.                                           "test if object is i
 b := x isFloat.                                             "test if object is float"
 b := x isNumber.                                            "test if object is number"
 b := $A isUppercase.                                        "test if upper case character"
-b := $A isLowercase                                         "test if lower case character"
+b := $A isLowercase.                                        "test if lower case character"
 {% endhighlight %}
 
 
@@ -186,7 +186,7 @@ x := Float e.                                               "exp constant"
 x := Float infinity.                                        "infinity"
 x := Float nan.                                             "not-a-number"
 x := Random new next; yourself. x next.                     "random number stream (0.0 to 1.0)"
-x := 100 atRandom                                           "quick random number"
+x := 100 atRandom.                                          "quick random number"
 {% endhighlight %}
 
 
@@ -204,7 +204,7 @@ x := 16r80 bitAt: 7.                                        "bit at position (0|
 x := 16r80 highbit.                                         "position of highest bit set"
 b := 16rFF allMask: 16r0F.                                  "test if all bits set in mask set in receiver"
 b := 16rFF anyMask: 16r0F.                                  "test if any bits set in mask set in receiver"
-b := 16rFF noMask: 16r0F                                    "test if all bits set in mask clear in receiver"
+b := 16rFF noMask: 16r0F.                                   "test if all bits set in mask clear in receiver"
 {% endhighlight %}
 
 
@@ -221,7 +221,7 @@ x := 3.99 printString.                                      "convert object to s
 x := 3.99 storeString.                                      "convert object to string via storeOn:"
 x := 15 radix: 16.                                          "convert to string in given base"
 x := 15 printStringBase: 16.
-x := 15 storeStringBase: 16
+x := 15 storeStringBase: 16.
 {% endhighlight %}
 
 
@@ -240,7 +240,7 @@ x := 15 storeStringBase: 16
 x := [ y := 1. z := 2. ]. x value.                          "simple block usage"
 x := [ :argOne :argTwo |   argOne, ' and ' , argTwo.].      "set up block with argument passing"
 Transcript show: (x value: 'First' value: 'Second'); cr.    "use block with argument passing"
-"x := [ | z | z := 1.]                                       localvars not available in squeak blocks"
+"x := [ | z | z := 1.].                                      localvars not available in squeak blocks"
 {% endhighlight %}
 
 
@@ -271,7 +271,7 @@ Transcript                                                  "Cascading - send mu
    show: 'hello ';
    show: 'world';
    cr.
-x := 3 + 2; * 100                                           "result=300. Sends message to same receiver (3)"
+x := 3 + 2; * 100.                                          "result=300. Sends message to same receiver (3)"
 {% endhighlight %}
 
 
@@ -304,7 +304,7 @@ switch := Dictionary new.                                   "switch functionalit
 switch at: $A put: [Transcript show: 'Case A'; cr].
 switch at: $B put: [Transcript show: 'Case B'; cr].
 switch at: $C put: [Transcript show: 'Case C'; cr].
-result := (switch at: $B) value
+result := (switch at: $B) value.
 {% endhighlight %}
 
 
@@ -318,7 +318,7 @@ x := 4. y := 1.
 x timesRepeat: [y := y * 2].                                "times repear loop (i := 1 to x)"
 1 to: x do: [:a | y := y * 2].                              "for loop"
 1 to: x by: 2 do: [:a | y := y / 2].                        "for loop with specified increment"
-#(5 4 3) do: [:a | x := x + a]                              "iterate over array elements"
+#(5 4 3) do: [:a | x := x + a].                             "iterate over array elements"
 {% endhighlight %}
 
 
@@ -340,7 +340,7 @@ y := x asUppercase.                                         "convert to upper ca
 y := x asciiValue.                                          "convert to numeric ascii value"
 y := x asString.                                            "convert to string"
 b := $A <= $B.                                              "comparison"
-y := $A max: $B
+y := $A max: $B.
 {% endhighlight %}
 
 
@@ -364,7 +364,7 @@ y := x asArray.                                             "convert symbol to a
 y := x asOrderedCollection.                                 "convert symbol to ordered collection"
 y := x asSortedCollection.                                  "convert symbol to sorted collection"
 y := x asBag.                                               "convert symbol to bag collection"
-y := x asSet                                                "convert symbol to set collection"
+y := x asSet.                                               "convert symbol to set collection"
 {% endhighlight %}
 
 
@@ -396,7 +396,7 @@ y := x asOrderedCollection.                                 "convert string to o
 y := x asSortedCollection.                                  "convert string to sorted collection"
 y := x asBag.                                               "convert string to bag collection"
 y := x asSet.                                               "convert string to set collection"
-y := x shuffled                                             "randomly shuffle string"
+y := x shuffled.                                            "randomly shuffle string"
 {% endhighlight %}
 
 
@@ -441,7 +441,7 @@ y := x asWordArray.                                         "convert to word arr
 y := x asOrderedCollection.                                 "convert to ordered collection"
 y := x asSortedCollection.                                  "convert to sorted collection"
 y := x asBag.                                               "convert to bag collection"
-y := x asSet                                                "convert to set collection"
+y := x asSet.                                               "convert to set collection"
 {% endhighlight %}
 
 
@@ -487,7 +487,7 @@ y := x asArray.                                             "convert to array"
 y := x asOrderedCollection.                                 "convert to ordered collection"
 y := x asSortedCollection.                                  "convert to sorted collection"
 y := x asBag.                                               "convert to bag collection"
-y := x asSet                                                "convert to set collection"
+y := x asSet.                                               "convert to set collection"
 {% endhighlight %}
 
 
@@ -532,7 +532,7 @@ y := x asArray.                                             "convert to array"
 y := x asOrderedCollection.                                 "convert to ordered collection"
 y := x asSortedCollection.                                  "convert to sorted collection"
 y := x asBag.                                               "convert to bag collection"
-y := x asSet                                                "convert to set collection"
+y := x asSet.                                               "convert to set collection"
 {% endhighlight %}
 
 
@@ -566,7 +566,7 @@ max := x inject: 0 into: [:a :c | (a > c)                   "find max element in
 y := x asOrderedCollection.                                 "convert to ordered collection"
 y := x asSortedCollection.                                  "convert to sorted collection"
 y := x asBag.                                               "convert to bag collection"
-y := x asSet                                                "convert to set collection"
+y := x asSet.                                               "convert to set collection"
 {% endhighlight %}
 
 
@@ -600,7 +600,7 @@ y := x asArray.                                             "convert to array"
 y := x asOrderedCollection.                                 "convert to ordered collection"
 y := x asSortedCollection.                                  "convert to sorted collection"
 y := x asBag.                                               "convert to bag collection"
-y := x asSet                                                "convert to set collection"
+y := x asSet.                                               "convert to set collection"
 {% endhighlight %}
 
 
@@ -631,7 +631,7 @@ y := x asArray.                                             "convert to array"
 y := x asOrderedCollection.                                 "convert to ordered collection"
 y := x asSortedCollection.                                  "convert to sorted collection"
 y := x asBag.                                               "convert to bag collection"
-y := x asSet                                                "convert to set collection"
+y := x asSet.                                               "convert to set collection"
 {% endhighlight %}
 
 
@@ -641,7 +641,7 @@ y := x asSet                                                "convert to set coll
 | x y |
 x := #myVar->'hello'.
 y := x key.
-y := x value
+y := x value.
 {% endhighlight %}
 
 
@@ -709,7 +709,7 @@ CMRDictionary keysAndValuesDo: [:aKey :aValue |             "print out keys and 
 CMRDictionary associationsDo: [:aKeyValue |                 "another iterator for printing key values"
    Transcript show: aKeyValue printString; cr].
 Smalltalk removeKey: #CMRGlobal ifAbsent: [].               "remove entry from Smalltalk dictionary"
-Smalltalk removeKey: #CMRDictionary ifAbsent: []            "remove user dictionary from Smalltalk dictionary"
+Smalltalk removeKey: #CMRDictionary ifAbsent: [].           "remove user dictionary from Smalltalk dictionary"
 {% endhighlight %}
 
 
@@ -741,7 +741,7 @@ ios nextPutAll: 'Chris'.
 x := ios next.
 x := ios peek.
 x := ios contents.
-b := ios atEnd
+b := ios atEnd.
 {% endhighlight %}
 
 
@@ -764,7 +764,7 @@ x := ios position.
 x := ios next.
 x := ios peek.
 b := ios atEnd.
-ios close
+ios close.
 {% endhighlight %}
 
 
@@ -800,7 +800,7 @@ y := x addDays: 10.                                         "add days to date ob
 y := x subtractDays: 10.                                    "subtract days to date object"
 y := x subtractDate: (Date today).                          "subtract date (result in days)"
 y := x printFormat: #(2 1 3 $/ 1 1).                        "print formatted date"
-b := (x <= Date today)                                      "comparison"
+b := (x <= Date today).                                     "comparison"
 {% endhighlight %}
 
 
@@ -822,7 +822,7 @@ y := x subtractTime: (Time now).                            "subtract time to ti
 y := x asSeconds.                                           "convert time to seconds"
 x := Time millisecondsToRun: [                              "timing facility"
    1 to: 1000 do: [:index | y := 3.14 * index]].
-b := (x <= Time now)                                        "comparison"
+b := (x <= Time now).                                       "comparison"
 {% endhighlight %}
 
 
@@ -849,7 +849,7 @@ x := 200@100 * 3@4.                                         "multiply points"
 x := 200@100 // 3@4.                                        "divide points"
 x := 200@100 max: 50@200.                                   "max x and y"
 x := 200@100 min: 50@200.                                   "min x and y"
-x := 20@5 dotProduct: 10@2                                  "sum of product (x1*x2 + y1*y2)"
+x := 20@5 dotProduct: 10@2.                                 "sum of product (x1*x2 + y1*y2)"
 {% endhighlight %}
 
 
@@ -883,7 +883,7 @@ myPen place: 250@250.                                       "move to specified p
 myPen print: 'Hello World' withFont: (TextStyle default fontAt: 1).
 Display extent.                                             "get display width@height"
 Display width.                                              "get display width"
-Display height                                              "get display height"
+Display height.                                             "get display height"
 
 ].
 {% endhighlight %}
@@ -919,11 +919,10 @@ result := receiver
    withArguments: (Array with: argument1 with: argument2).
 result := Compiler evaluate:
    ((receiver storeString), ' ', keyword1, (argument1 storeString) , ' ', keyword2, (argument2 storeString)).
-result := (Message
-   new
+result := (Message new
       setSelector: (keyword1, keyword2) asSymbol
       arguments: (Array with: argument1 with: argument2))
-   sentTo: receiver
+   sentTo: receiver.
 {% endhighlight %}
 
 
@@ -958,7 +957,7 @@ b := String isPointers.                                     "true if index insta
 b := String isBits.                                         "true if index instance vars contain bytes/words"
 b := String isBytes.                                        "true if index instance vars contain bytes"
 b := String isWords.                                        "true if index instance vars contain words"
-Object withAllSubclasses size                               "get total number of class entries"
+Object withAllSubclasses size.                              "get total number of class entries"
 {% endhighlight %}
 
 
@@ -983,7 +982,7 @@ x errorSubscriptBounds.                                     "flag subscript out 
 x primitiveFailed.                                          "system primitive failed"
 
 a := 'A1'. b := 'B2'. a become: b.                          "switch two objects"
-Transcript show: a, b; cr
+Transcript show: a, b; cr.
 {% endhighlight %}
 
 
@@ -994,7 +993,7 @@ Transcript show: a, b; cr
 "Smalltalk condenseChanges."                                "compress the change file"
 x := FillInTheBlank request: 'Prompt Me'.                   "prompt user for input"
 x := UIManager default request: 'Prompt Me'.                "prompt user for input using a flexible UI dispatcher"
-Utilities openCommandKeyHelp
+Utilities openCommandKeyHelp.
 {% endhighlight %}
 
 
