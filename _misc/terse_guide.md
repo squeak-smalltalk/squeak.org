@@ -1,6 +1,6 @@
 ---
 layout:     full
-title:      "Terse guide to Squeak"
+title:      "Terse Guide to Squeak"
 permalink:  /documentation/terse_guide.html
 ---
 
