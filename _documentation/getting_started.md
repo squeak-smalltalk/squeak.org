@@ -3,7 +3,7 @@ title:      Overviews and Reference
 order:      1
 category:   Getting Started with Squeak
 ---
-* [Terse guide to Squeak](/documentation/terse_guide.html)
+* [Terse Guide to Squeak](/documentation/terse_guide.html)
 * [Squeak Documentation][documentation]{:target="_blank"}
 * [Introductory Squeak][introductory]{:target="_blank"}
 * [Squeak Language and Classes Reference][references]{:target="_blank"}
