@@ -1,7 +1,7 @@
 ---
 layout:     full
 title:      "Terse Guide to Squeak"
-permalink:  /documentation/terse_guide.html
+permalink:  /documentation/terse_guide/
 ---
 
 # Introduction
