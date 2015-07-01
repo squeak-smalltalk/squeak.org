@@ -75,7 +75,7 @@ sass:
 host: 0.0.0.0
 
 # Caching
-build_version: 0.5
+build_version: 1.0
 staticurl: "static/"
 
 # Build settings
