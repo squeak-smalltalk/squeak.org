@@ -23,7 +23,6 @@
           {% if collection[1].label == page.section.label %}
             {% assign liClass = 'active' %}
           {% endif %}
-          {% if collection[1].hidden == nil or collection[1].hidden == false %}
         <li class="{{ liClass }}">
           <a href="{{ basePath }}{{ collection[1].label }}/" title="{{ collection[1].title }}">
             {% if collection[1].visible-sm %}
@@ -34,7 +33,6 @@
             {% endif %}
           </a>
         </li>
-          {% endif %}
         {% endfor %}
       </ul>
       <ul class="nav navbar-nav navbar-right">

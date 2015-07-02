@@ -35,18 +35,6 @@ collections:
     title: Research
     visible-sm: <i class="fa fa-flask"></i>
     sort_by: order
-  board:
-    title: Squeak Oversight Board
-    sort_by: order
-    hidden: true
-  license:
-    title: License
-    sort_by: order
-    hidden: true
-  imprint:
-    title: Imprint
-    sort_by: order
-    hidden: true
 
 defaults:
   -
@@ -89,7 +77,7 @@ gems:
   - jekyll/scholar
 
 
-include: [_misc]
+include: [_pages]
 
 # Exclude vendor dir which Travis uses to bundle all gems on its build servers
 exclude: [vendor, README.md, _research/references.bib]
