@@ -1,5 +1,5 @@
 ---
-layout:         full
+layout:         default
 title:          Imprint
 permalink:      /imprint/
 business-name:  the Squeak Project

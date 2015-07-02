@@ -1,5 +1,5 @@
 ---
-layout:     full
+layout:     default
 title:      Squeak Oversight Board
 permalink:  /board/
 ---

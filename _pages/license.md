@@ -1,5 +1,5 @@
 ---
-layout:         full
+layout:         default
 title:          License
 permalink:      /license/
 ---
