@@ -50,10 +50,6 @@ defaults:
     values:
       cols: 12
 
-# Paths
-baseurl: ""
-url: ""
-
 # Enable SASS support
 sass:
   sass_dir: _sass
@@ -64,7 +60,7 @@ host: 0.0.0.0
 
 # Caching
 build_version: 1.1
-staticurl: "static/"
+staticurl: static/
 
 # Build settings
 highlighter: pygments
@@ -87,7 +83,7 @@ scholar:
   sort_by: none
   order: ascending
 
-  source: ./_research
+  source: _research
   bibliography: references.bib
   bibliography_template: "{{reference}}"
   bibliography_template: bib
