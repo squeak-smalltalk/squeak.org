@@ -1,9 +1,0 @@
-{% capture globals %}
-{% assign pageDepth = page.url | append: '.' | split: '/' | size %}
-{% assign basePath = '' %}
-{% for i in (3..pageDepth) %}
-    {% assign basePath = basePath | append: '../' %}
-{% endfor %}
-{% capture staticPath %}{{ basePath }}{{ site.staticurl }}{% endcapture %}
-{% capture cacheSuffix %}?v={{ site.build_version }}{% endcapture %}
-{% endcapture %}{% assign globals = nil %}

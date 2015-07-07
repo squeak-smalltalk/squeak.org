@@ -11,7 +11,6 @@ welcome: >
 
 download_link: http://ftp.squeak.org/4.5/Squeak-4.5-All-in-One.zip
 preview_link: http://ftp.squeak.org/4.6/
-download_more: /downloads/
 
 sub_button_group:
   - title:  News
@@ -43,7 +42,7 @@ screenshots:
 <div class="container">
   <div class="row">
     <div class="col-md-6 col-lg-6">
-      <img id="squeak-logo" src="{{ basePath }}{{ site.staticurl }}img/balloon.svg" alt="" class="img-responsive img-center">
+      <img id="squeak-logo" src="/static/img/balloon.svg" alt="" class="img-responsive img-center">
     </div>
     <div id="welcome-text" class="col-md-6 col-lg-6">
       <h2>{{ page.headline }}</h2>
@@ -58,7 +57,7 @@ screenshots:
         <a id="download-button" class="btn btn-primary" href="{{ page.preview_link }}" target="_blank" role="button">
           4.6 Release Candidate
         </a>
-        <p><a href="{{ basePath }}{{ page.download_more }}">More...</a></p>
+        <p><a href="/downloads/">More...</a></p>
 
         <div id="sub-button-group" class="btn-group btn-group-sm" role="group" aria-label="...">
           {% for button in page.sub_button_group %}

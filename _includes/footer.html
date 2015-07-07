@@ -2,7 +2,7 @@
   <div class="container text-center">
     <p class="small">
         &copy; 1996-{{ site.time | date: '%Y' }} {{ site.copyright }} -
-        <a href="{{ basePath }}imprint/">Imprint</a> -
+        <a href="/imprint/">Imprint</a> -
         <a href="http://forum.world.st/Squeak-f45487.html" target="_blank"><i class="fa fa-globe"></i></a>
         <a href="https://twitter.com/squeaksmalltalk" target="_blank"><i class="fa fa-twitter"></i></a>
         <a href="https://www.linkedin.com/groups?gid=98736" target="_blank"><i class="fa fa-linkedin"></i></a>
@@ -18,7 +18,7 @@
 </form>
 
 <!-- Placed at the end of the document so the pages load faster -->
-<script src="{{ staticPath }}js/jquery.min.js"></script>
-<script src="{{ staticPath }}js/bootstrap.min.js"></script>
-<script src="{{ staticPath }}js/svgeezy.min.js"></script>
-<script src="{{ staticPath }}js/ready.js{{ cacheSuffix }}"></script>
+<script src="/static/js/jquery.min.js"></script>
+<script src="/static/js/bootstrap.min.js"></script>
+<script src="/static/js/svgeezy.min.js"></script>
+<script src="/static/js/ready.js?v={{ site.build_version }}"></script>

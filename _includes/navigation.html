@@ -1,8 +1,8 @@
 <nav class="navbar navbar-default navbar-fixed-top">
   <div class="container">
     <div class="navbar-header">
-      <a id="squeak-navbar-mobile" class="visible-xs pull-left" href="{{ basePath }}">
-        <img alt="{{ site.title }}" src="{{ staticPath }}img/squeak.svg" alt="">
+      <a id="squeak-navbar-mobile" class="visible-xs pull-left" href="/">
+        <img alt="{{ site.title }}" src="/static/img/squeak.svg" alt="">
       </a>
       <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
         <span class="sr-only">Toggle navigation</span>
@@ -14,8 +14,8 @@
     <div id="navbar" class="navbar-collapse collapse">
       <ul class="nav navbar-nav">
         <li class="hidden-xs">
-          <a id="squeak-navbar" href="{{ basePath }}">
-            <img alt="{{ site.title }}" src="{{ staticPath }}img/squeak.svg" alt="">
+          <a id="squeak-navbar" href="/">
+            <img alt="{{ site.title }}" src="/static/img/squeak.svg" alt="">
           </a>
         </li>
         {% for collection in site.collections %}
@@ -24,7 +24,7 @@
             {% assign liClass = 'active' %}
           {% endif %}
         <li class="{{ liClass }}">
-          <a href="{{ basePath }}{{ collection[1].label }}/" title="{{ collection[1].title }}">
+          <a href="/{{ collection[1].label }}/" title="{{ collection[1].title }}">
             {% if collection[1].visible-sm %}
             <span class="hidden-sm">{{ collection[1].title }}</span>
             <span class="visible-sm">{{ collection[1].visible-sm }}</span>
@@ -37,7 +37,7 @@
       </ul>
       <ul class="nav navbar-nav navbar-right">
         <li{% if page.section.label == 'license' %} class="active"{% endif %}>
-          <a href="{{ basePath }}license/">
+          <a href="/license/">
             <span class="visible-xs visible-lg">License</span>
             <span class="hidden-xs hidden-lg"><i class="fa fa-file-text-o"></i></span>
           </a>

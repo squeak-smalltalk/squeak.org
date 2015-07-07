@@ -1,19 +1,13 @@
 ---
-layout: compress
+layout: basic
 ---
-<!DOCTYPE html>
-<html>
-
-  {% include head.html %}
-
-  <body>
-
-    {% include navigation.html %}
-
-    {{ content }}
-
-    {% include footer.html %}
-
-  </body>
-
-</html>
+<div class="container">
+    <div class="section">
+        <h1 class="section-heading"><span>{{ page.title }}</span></h1>
+        <div class="row">
+            <div class="col-md-12 col-lg-12">
+                {{ content }}
+            </div>
+        </div> <!-- /row -->
+    </div> <!-- /section -->
+</div> <!-- /container -->
