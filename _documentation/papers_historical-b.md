@@ -2,6 +2,11 @@
 order:      200
 category:   Historical Papers
 ---
+- Alan Kay.
+  Computers, Networks and Education.
+  In: Scientific American, pages 138-148, September 1991.
+    ([VPRI](http://www.vpri.org/pdf/sci_amer_article.pdf){:target="_blank"})
+
 - Alan Kay and Adele Goldberg.
   The Dynabook: Past, Present, and Future.
   In: A History of Personal Workstations, ACM, 1988.
