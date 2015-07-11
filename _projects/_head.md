@@ -1,7 +1,7 @@
-You can find more projects on
+This is an (almost) random selection. Find more projects on
 **[SqueakSource3][ss3]{:target="_blank"}**,
 **[SqueakSource1][ss]{:target="_blank"}**,
-**[SqueakMap][sm]{:target="_blank"}** and
+**[SqueakMap][sm]{:target="_blank"}**, and
 **[GitHub][gh]{:target="_blank"}**.
      
 [ss3]: http://ss3.gemstone.com/ss/
