@@ -502,9 +502,7 @@ author = {Bastian Steinert and Robert Hirschfeld},
 
 @inproceedings{steinert_adopting_2012,
   title = {Adopting Design Practices to Programming},
-  isbn = {978-3-642-21642-8},
-  url = {http://link.springer.com/10.1007/978-3-642-21643-5},
-  doi = {10.1007/978-3-642-21643-5},
+  doi = {doi:10.1007/978-3-642-31991-4_14},
   timestamp = {2015-06-26 15:49:31},
   publisher = {Springer},
   booktitle = {Design Thinking Research: Measuring Performance in Context},
@@ -515,15 +513,23 @@ author = {Bastian Steinert and Robert Hirschfeld},
 
 @inproceedings{steinert_applying2012,
   title = {Applying Design Knowledge to Programming},
-  isbn = {978-3-642-21642-8},
-  url = {http://link.springer.com/10.1007/978-3-642-21643-5},
-  doi = {10.1007/978-3-642-21643-5},
+  doi = {doi:10.1007/978-3-642-21643-5_15},
   timestamp = {2015-06-26 15:49:31},
   publisher = {Springer},
   booktitle = {Design Thinking Research: Studying Co-Creation in Practice},
   author = {Bastian Steinert and Robert Hirschfeld},
   year = {2012},
   pages = {259-277}
+}
+
+@inproceedings{hirschfeld_agile_2011,
+  title = {Agile Software Development in Virtual Collaboration Environments},
+  doi = {doi:10.1007/978-3-642-13757-0_12},
+  publisher = {Springer},
+  booktitle = {Design Thinking: Understand-Improve-Apply},
+  author = {Robert Hirschfeld and Bastian Steinert and Jens Lincke},
+  year = {2011},
+  pages = {197-218},
 }
 
 @inproceedings{bergel_prototyping_2006,
@@ -973,6 +979,17 @@ author = {Stefan Reichhart and Tudor G{\^\i}rba and St{\'e}phane Ducasse},
   location = {Japan}
 }
 
+@inproceedings{perscheid_testdriven_2011,
+  title = {Test-driven Fault Navigation for Debugging Reproducible Failures},
+  timestamp = {2015-06-26 15:49:22},
+  booktitle = {Proceedings of the JSSST Annual Conference 2011},
+  author = {Michael Perscheid and Michael Haupt and Robert Hirschfeld and Hidehiko Masuhara},
+  year = {2011},
+  month = {September},
+  day = {27-29},
+  location = {Naha, Okinawa, Japan}
+}
+
 @inproceedings{perscheid_testdriven_2012a,
   title = {Test-driven Fault Navigation for Debugging Reproducible Failures},
   timestamp = {2015-06-26 15:49:22},
@@ -1102,11 +1119,11 @@ title = {Domain-Specific Program Checking},
   volume = {6141 {LNCS}},
   issn = {3642139523},
   doi = {10.1007/978-3-642-13953-6_12},
-  abstract = {Lint-like program checkers are popular tools that{\textbackslash}nensure code quality by verifying compliance with{\textbackslash}nbest practices for a particular programming{\textbackslash}nlanguage. The proliferation of internal{\textbackslash}ndomain-specific languages and models, however, poses{\textbackslash}nnew challenges for such tools. Traditional program{\textbackslash}ncheckers produce many false positives and fail to{\textbackslash}naccurately check constraints, best practices, common{\textbackslash}nerrors, possible optimizations and portability{\textbackslash}nissues particular to domain-specific languages. We{\textbackslash}nadvocate the use of dedicated rules to check{\textbackslash}ndomain-specific practices. We demonstrate the{\textbackslash}nimplementation of domain-specific rules, the{\textbackslash}nautomatic fixing of violations, and their{\textbackslash}napplication to two case-studies: (1) Seaside defines{\textbackslash}nseveral internal DSLs through a creative use of the{\textbackslash}nsyntax of the host language; and (2) Magritte adds{\textbackslash}nmeta-descriptions to existing code by means of{\textbackslash}nspecial methods. Our empirical validation{\textbackslash}ndemonstrates that domain-specific program checking{\textbackslash}nsignificantly improves code quality when compared{\textbackslash}nwith general purpose program checking.},
   timestamp = {2015-06-26 15:49:29},
   journal = {Lecture Notes in Computer Science (including subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics)},
 author = {Lukas Renggli and St{\'e}phane Ducasse and Tudor G{\^\i}rba and Oscar Nierstrasz},
   year = {2010},
+
   pages = {213--232}
 }
 
@@ -1211,11 +1228,12 @@ title = {Domain-Specific Profiling},
   url = {http://link.springer.com/chapter/10.1007/978-3-642-21952-8_7},
   timestamp = {2015-06-26 15:49:29},
   booktitle = {Objects, Models, Components, Patterns},
+  isbn={978-3-642-21951-1},
+  volume={6705},
   publisher = {Springer},
-author = {Alexandre Bergel and Oscar Nierstrasz and Lukas Renggli and Jorge Ressia},
+  author = {Alexandre Bergel and Oscar Nierstrasz and Lukas Renggli and Jorge Ressia},
   year = {2011},
   pages = {68--82},
-  file = {978-3-642-21952-8_7:C\:\\Users\\C5187727\\AppData\\Roaming\\Zotero\\Zotero\\Profiles\\rvcm8gho.default\\zotero\\storage\\VMUU7GPI\\978-3-642-21952-8_7.html:text/html;Bergel et al. - 2011 - Domain-specific profiling:C\:\\Users\\C5187727\\AppData\\Roaming\\Zotero\\Zotero\\Profiles\\rvcm8gho.default\\zotero\\storage\\VV7PZP7U\\Bergel et al. - 2011 - Domain-specific profiling.pdf:application/pdf}
 }
 
 @inproceedings{haupt_type_2011,
@@ -1223,13 +1241,15 @@ title = {Type Harvesting: A Practical Approach to Obtaining Typing Information i
   isbn = {9781450301138},
   url = {http://dl.acm.org/citation.cfm?id=1982464},
   doi = {10.1145/1982185.1982464},
-  abstract = {Dynamically typed programming languages are powerful tools for rapid software development. However, there are scenarios that would benefit from actual type information being available---e. g., code generation and optimisation as well as program comprehension. Since code written in such languages usually makes little or no explicit assumptions about types, type inference is not particularly well suited to obtain the desired information. This paper introduces type harvesting, a practical approach to obtaining type information. It is based on stepwise code execution of the code in question, closely observing the types of entities in question. Type harvesting allows for exploiting unit tests to automatically obtain type information for a code base. The approach has been implemented in Squeak/Smalltalk. Its evaluation, using several complex applications, shows that type harvesting yields excellent results with high precision.},
   timestamp = {2015-06-26 15:49:20},
-  booktitle = {{\ldots} of the 2011 {ACM} Symposium on {\ldots}},
-author = {Michael Haupt and M Perscheid and R Hirschfeld},
+  booktitle = {Proceedings of the Object-oriented Programming Languages and Systems (OOPS) Track of the ACM Symposium on Applied Computing (SAC) 2011},
+  author = {Michael Haupt and Michael Perscheid and Robert Hirschfeld},
   year = {2011},
-  keywords = {dynamically typed programming languages,dynamic analysis,type harvesting,type inference,unit tests},
-  pages = {1282--1289}
+  month = {March},
+  day = {21-24},
+  location = {TaiChung, Taiwan},
+  publisher = {ACM Press},
+  pages = {1282-1289}
 }
 
 @inproceedings{gaelli_onemethod_2004,
@@ -1271,18 +1291,18 @@ author = {Stefan Hanenberg and Robert Hirschfeld and Rainer Unland},
 }
 
 @inproceedings{callau_how_2011,
-title = {How Developers Use The Dynamic Features of Programming Languages},
+  title = {How Developers Use The Dynamic Features of Programming Languages},
   isbn = {9781450305747},
   url = {http://dl.acm.org/citation.cfm?id=1985441.1985448},
   doi = {10.1145/1985441.1985448},
-  abstract = {The dynamic and reflective features of programming languages are powerful constructs that programmers often mention as extremely useful. However, the ability to modify a program at runtime can be both a boon-in terms of flexibility-, and a curse-in terms of tool support. For instance, usage of these features hampers the design of type systems, the accuracy of static analysis techniques, or the introduction of optimizations by compilers. In this paper, we perform an empirical study of a large Smalltalk codebase- often regarded as the poster-child in terms of availability of these features-, in order to assess how much these features are actually used in practice, whether some are used more than others, and in which kinds of projects. These results are useful to make informed decisions about which features to consider when designing language extensions or tool support.},
   timestamp = {2015-06-26 15:49:27},
-  booktitle = {Proceeding of the 8th working conference on Mining software repositories - {MSR} '11},
-author = {Oscar Calla{\'u} and Romain Robbes and {\'E}ric Tanter and David R{\"o}thlisberger},
+  booktitle = {Proceeding of the 8th Working Conference on Mining Software Repositories (MSR) 2011},
+  author = {Oscar Calla{\'u} and Romain Robbes and {\'E}ric Tanter and David R{\"o}thlisberger},
   year = {2011},
-  keywords = {dynamic languages,smalltalk,static analysis},
-  pages = {23--23},
-  file = {Robbes et al. - 2011 - How developers use the dynamic features of program:C\:\\Users\\C5187727\\AppData\\Roaming\\Zotero\\Zotero\\Profiles\\rvcm8gho.default\\zotero\\storage\\DBZZI97D\\Robbes et al. - 2011 - How developers use the dynamic features of program.pdf:application/pdf}
+  month = {May},
+  day = {21-22},
+  location = {Honolulu, Hawaii},
+  pages = {23-23},
 }
 
 @inproceedings{fernandes_istoa_2008,
