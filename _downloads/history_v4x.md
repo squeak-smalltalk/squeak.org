@@ -34,7 +34,7 @@ img-border: true
 [42]: http://ftp.squeak.org/4.2/Squeak-4.2-All-in-One.zip
 [41]: http://ftp.squeak.org/4.1/Squeak-4.1-All-in-One.zip
 [40]: http://ftp.squeak.org/4.0/
-[46s]: http://ftp.squeak.org/sources_files/SqueakV46.sources.gz
+[46s]: http://ftp.squeak.org/sources_files/SqueakV46.sources.zip
 [41s]: http://ftp.squeak.org/sources_files/SqueakV41.sources.gz
 [40s]: http://ftp.squeak.org/sources_files/SqueakV40.sources.gz
 [45b]: http://wiki.squeak.org/squeak/6193
