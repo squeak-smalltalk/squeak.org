@@ -9,8 +9,8 @@ welcome: >
   cover a wide range of domains such as education, multimedia, gaming, research,
   and commerce.
 
+preview_link: http://ftp.squeak.org/4.6/Squeak-4.6-All-in-One.zip
 download_link: http://ftp.squeak.org/4.5/Squeak-4.5-All-in-One.zip
-preview_link: http://ftp.squeak.org/4.6/
 
 sub_button_group:
   - title:  News
@@ -48,14 +48,17 @@ screenshots:
       <h2>{{ page.headline }}</h2>
       <div>{{ page.welcome }}</div>
       <div class="text-center">
+        <a id="download-button" class="btn btn-primary" href="{{ page.preview_link }}" target="_blank" role="button">
+          <i class="fa fa-windows fa-lg"></i>
+          <i class="fa fa-apple fa-lg"></i>
+          <i class="fa fa-linux fa-lg"></i>
+          4.6 Preview
+        </a>
         <a id="download-button" class="btn btn-primary" href="{{ page.download_link }}" target="_blank" role="button">
           <i class="fa fa-windows fa-lg"></i>
           <i class="fa fa-apple fa-lg"></i>
           <i class="fa fa-linux fa-lg"></i>
           Download
-        </a>
-        <a id="download-button" class="btn btn-primary" href="{{ page.preview_link }}" target="_blank" role="button">
-          4.6 Release Candidate
         </a>
         <p><a href="/downloads/">More...</a></p>
 
