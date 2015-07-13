@@ -19,9 +19,6 @@ collections:
   community:
     title: Community
     sort_by: order
-  projects:
-    title: Projekte
-    sort_by: title
   documentation:
     title: Dokumentation
     sort_by: order
@@ -35,12 +32,6 @@ defaults:
     values:
       cols: 6
       href-external: true
-  -
-    scope:
-      path: ""
-      type: "research"
-    values:
-      cols: 12
 
 # Enable SASS support
 sass:
