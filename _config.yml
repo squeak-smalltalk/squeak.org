@@ -31,10 +31,6 @@ collections:
     title: Development
     sort_by: order
     visible-sm: <i class="fa fa-code"></i>
-  research:
-    title: Research
-    visible-sm: <i class="fa fa-flask"></i>
-    sort_by: order
 
 defaults:
   -
@@ -70,22 +66,8 @@ markdown: kramdown
 gems:
   - jekyll-sitemap
   - jekyll-redirect-from
-  - jekyll/scholar
-
 
 include: [_pages]
 
 # Exclude vendor dir which Travis uses to bundle all gems on its build servers
-exclude: [vendor, README.md, _research/references.bib]
-
-# jekyll-scholar
-scholar:
-  sort_by: none
-  order: ascending
-
-  source: _research
-  bibliography: references.bib
-  bibliography_template: "{{reference}}"
-  bibliography_template: bib
-  bibtex_options:
-    parse_names: false
+exclude: [vendor, README.md]
