@@ -5,11 +5,13 @@ branches:
   only:
   - master
 addons:
-  ssh_known_hosts: squeak.de
+  ssh_known_hosts:
+    - squeak.de
+    - 87.106.17.169
 install:
 - gem install jekyll jekyll-sitemap jekyll-redirect-from
 before_script:
-- openssl aes-256-cbc -K $encrypted_7202fd93a95a_key -iv $encrypted_7202fd93a95a_iv
+- openssl aes-256-cbc -K $encrypted_1b119b05e8ac_key -iv $encrypted_1b119b05e8ac_iv
   -in .deploy.enc -out ~/.ssh/deploy -d
 - chmod 600 ~/.ssh/deploy
 script:
