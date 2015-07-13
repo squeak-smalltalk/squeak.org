@@ -1,7 +1,7 @@
 ---
 layout:         default
-title:          License
-permalink:      /license/
+title:          Lizenz
+permalink:      /lizenz/
 ---
 
 Note: The current release of Squeak is a combination of source code

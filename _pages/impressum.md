@@ -1,7 +1,7 @@
 ---
 layout:         default
-title:          Imprint
-permalink:      /imprint/
+title:          Impressum
+permalink:      /impressum/
 business-name:  the Squeak Project
 ---
 

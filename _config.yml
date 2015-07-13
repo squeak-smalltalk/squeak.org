@@ -1,6 +1,6 @@
 # Site settings
 title: Squeak/Smalltalk
-copyright: Squeak Project
+copyright: Squeak Projekt
 
 # SEO
 description: >
@@ -10,8 +10,8 @@ author: Squeak Foundation
 
 collections:
   # Order matters
-  features:
-    title: Features
+  events:
+    title: Events
     sort_by: order
   downloads:
     title: Downloads
@@ -20,17 +20,13 @@ collections:
     title: Community
     sort_by: order
   projects:
-    title: Projects
+    title: Projekte
     sort_by: title
   documentation:
-    title: Documentation
+    title: Dokumentation
     sort_by: order
     visible-sm: <i class="fa fa-book"></i>
     mobile-title: Docs
-  development:
-    title: Development
-    sort_by: order
-    visible-sm: <i class="fa fa-code"></i>
 
 defaults:
   -
