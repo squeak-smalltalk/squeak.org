@@ -39,6 +39,10 @@ img[src*=".svg"] { /* Fix SVGs in IE */
     visibility: hidden;
 }
 
+.impressum td:first-child {
+    width: 50%;
+}
+
 
 /* Navigation */
 #squeak-navbar {
