@@ -10,20 +10,21 @@ author: Squeak Foundation
 
 collections:
   # Order matters
-  events:
-    title: Events
+  about:
+    title: Über
     sort_by: order
   downloads:
-    title: Downloads
+    title: Herunterladen
     sort_by: order
-  community:
-    title: Community
+  news:
+    title: Neuigkeiten
     sort_by: order
   documentation:
     title: Dokumentation
     sort_by: order
-    visible-sm: <i class="fa fa-book"></i>
-    mobile-title: Docs
+  education:
+    title: Bildung und Lehre
+    sort_by: order
 
 defaults:
   -

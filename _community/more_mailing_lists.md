@@ -1,8 +1,0 @@
----
-title:  More Mailing Lists
-order:  5
-icon:   ellipsis-h
-href:   http://forum.world.st/Squeak-f45487.html
----
-The Smalltalk universe spreads across many different dialects, countries, and
-implementations. There are other lists in its support.
