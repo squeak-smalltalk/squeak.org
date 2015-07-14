@@ -5,7 +5,7 @@ category:   Develop Your Own Applications
 front-page: true
 img-src:    dev/squeaksource3.png
 icon:       squeaksource
-href:       http://ss3.gemstone.com/
+href:       http://ss3.gemtalksystems.com/
 ---
 A Monticello code repository for Squeak.
 Many of our community's projects are hosted here.
