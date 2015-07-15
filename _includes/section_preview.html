@@ -12,11 +12,15 @@
     {% endif %}
     {% include row.html items=items preview=true %}
 
+    {% assign totalCount = section.docs | size %}
+    {% assign itemsCount = items | size %}
+    {% if totalCount > itemsCount %}
     <div class="row">
       <div class="col-sm-12 col-md-12 col-lg-12 text-center section-tail">
         <p class="lead"><a href="/{{ section.label }}/"><b>Mehr...</b></a></p>
       </div>
     </div>
+    {% endif %}
   </div><!-- /.section -->
 </div><!-- /.container -->
 {% endif %}

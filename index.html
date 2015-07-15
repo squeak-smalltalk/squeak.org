@@ -1,16 +1,15 @@
 ---
 layout: basic
-headline: Welcome to Squeak<span class="hidden-xs">/Smalltalk</span>
+headline: Willkommen auf Squeak.de
 welcome: >
-  Squeak is an open-source Smalltalk programming system with fast execution
-  environments for all major platforms. It features the Morphic framework,
-  which promotes low effort graphical, interactive application development and
-  maintenance. Many projects have been successfully created with Squeak. They
-  cover a wide range of domains such as education, multimedia, gaming, research,
-  and commerce.
+  Squeak ist eine quelloffene Smalltalk Programmierungsumgebung, welche die
+  gängigen Betriebssysteme unterstützt. Sie stellt das Morphic Framework bereit,
+  mit dem interative Benutzeroberflächen mit geringem Aufwand entwickelt und
+  gewartet werden können. Eine Vielzahl von Projekten sind bereits erfolgreich
+  in Squeak umgesetzt worden. Dazu zählen Projekten aus den verschiedensten
+  Bereich wie beispielsweise Bildung, Multimedia, Gaming, Wissenschaft und Industrie.
 
-preview_link: http://ftp.squeak.org/4.6/Squeak-4.6-All-in-One.zip
-download_link: http://ftp.squeak.org/4.5/Squeak-4.5-All-in-One.zip
+download_link: http://ftp.squeak.org/4.6/Squeak-4.6-All-in-One.zip
 
 sub_button_group:
   - title:  News
@@ -21,14 +20,14 @@ sub_button_group:
     href:   http://bugs.squeak.org/view_all_bug_page.php
     icon:   bug
 
-  - title:  Donate
+  - title:  Spenden
     href:   "#"
     class:  donate-button
     icon:   heart
 
 screenshots:
   - img-src: img/screenshots/writing.png
-    caption: "Tools for browsing, searching, and writing Smalltalk code"
+    caption: "Werkzeuge zum Verwalten, Suchen und Schreiben von Smalltalk Quelltext"
 
   - img-src: img/screenshots/executing.png
     caption: "Run-time information in concurrent debugging sessions with direct code updates"
@@ -48,17 +47,11 @@ screenshots:
       <h2>{{ page.headline }}</h2>
       <div>{{ page.welcome }}</div>
       <div class="text-center">
-        <a id="download-button" class="btn btn-primary" href="{{ page.preview_link }}" target="_blank" role="button">
-          <i class="fa fa-windows fa-lg"></i>
-          <i class="fa fa-apple fa-lg"></i>
-          <i class="fa fa-linux fa-lg"></i>
-          Preview 4.6
-        </a>
         <a id="download-button" class="btn btn-primary" href="{{ page.download_link }}" target="_blank" role="button">
           <i class="fa fa-windows fa-lg"></i>
           <i class="fa fa-apple fa-lg"></i>
           <i class="fa fa-linux fa-lg"></i>
-          Download 4.5
+          Download
         </a>
         <p><a href="/downloads/">Mehr...</a></p>
 
