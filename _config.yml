@@ -11,7 +11,7 @@ author: Squeak Foundation
 collections:
   # Order matters
   about:
-    title: Über
+    title: Squeak
     sort_by: order
   downloads:
     title: Herunterladen
