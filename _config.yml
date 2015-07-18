@@ -33,6 +33,12 @@ defaults:
     values:
       cols: 6
       href-external: true
+  -
+    scope:
+      path: ""
+      type: "news"
+    values:
+      cols: 12
 
 # Enable SASS support
 sass:
