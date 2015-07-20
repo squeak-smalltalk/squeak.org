@@ -3,6 +3,7 @@ title:      Squeak Mailing Lists
 order:      3
 front-page: true
 icon:       envelope-o
+icon-color: "#800040"
 href:       http://forum.world.st/Squeak-f45487.html
 ---
 The Squeak community maintains several mailing lists for 
