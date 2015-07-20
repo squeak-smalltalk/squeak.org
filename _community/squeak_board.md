@@ -3,7 +3,7 @@ title:          Squeak Oversight Board
 order:          2
 front-page:     true
 icon:           users
-icon-color:     "#0e8000"
+icon-color:     "#0f8080"
 href:           /board/
 href-external:  false
 ---
