@@ -30,7 +30,7 @@ collections:
   development:
     title: Development
     sort_by: order
-    visible-sm: <i class="fa fa-code"></i>
+    visible-sm: "[ | ]"
   research:
     title: Research
     visible-sm: <i class="fa fa-flask"></i>
