@@ -4,7 +4,7 @@ This is an (almost) randome selection. Find more projects on
 **[SqueakMap][sm]{:target="_blank"}**, and
 **[GitHub][gh]{:target="_blank"}**.
      
-[ss3]: http://ss3.gemstone.com/ss/
+[ss3]: http://ss3.gemtalksystems.com/
 [ss]: http://squeaksource.com/
 [sm]: http://map.squeak.org/
 [gh]: https://github.com/search?o=desc&q=Squeak+language%3ASmalltalk&s=updated&type=Repositories
