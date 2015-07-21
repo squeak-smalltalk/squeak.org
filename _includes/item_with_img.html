@@ -7,7 +7,7 @@
       <img src="/img/{{ item.img-src }}" alt="" class="item-img img-center img-rounded img-responsive{% if item.img-border %} img-border{% endif %}">
       {% else %}
       <div class="box-icon">
-        <i class="fa fa-{{ item.icon }} foo"{% if item.icon-color %} style="color: {{ item.icon-color }};"{% endif %}></i>
+        <i class="fa fa-{{ item.icon }}"{% if item.icon-color %} style="color: {{ item.icon-color }};"{% endif %}></i>
       </div>
       {% endif %}
     {% if item.href %}
