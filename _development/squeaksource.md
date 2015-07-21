@@ -3,7 +3,7 @@ title:      SqueakSource3
 order:      1
 category:   Develop Your Own Applications
 front-page: true
-img-src:    dev/squeaksource3.png
+img-src:    dev/squeaksource3.svg
 icon:       squeaksource
 href:       http://ss3.gemtalksystems.com/
 ---
