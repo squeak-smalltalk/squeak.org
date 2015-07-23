@@ -17,10 +17,11 @@ img-border: true
 | All-in-One     | 4.1       | Apr 2010 | [<i class="fa fa-download"></i>][41]{:target=_blank}       |
 | Win, Unix, Mac | 4.0       | Mar 2010 | [<i class="fa fa-external-link"></i>][40]{:target=_blank}  |
 |                |           |          |                                                            |
-| Sources        | 4.6 RC    | Jul 2015 | [<i class="fa fa-download"></i>][46s]{:target=_blank}      |
+| Sources        | 4.6       | Jul 2015 | [<i class="fa fa-download"></i>][46s]{:target=_blank}      |
 | Sources        | 4.1       | Mar 2010 | [<i class="fa fa-download"></i>][41s]{:target=_blank}      |
 | Sources        | 4.0       | Mar 2010 | [<i class="fa fa-download"></i>][40s]{:target=_blank}      |
 |                |           |          |                                                            |
+| Release Notes  | 4.6       |          | [<i class="fa fa-external-link"></i>][46r]{:target=_blank} |
 | Release Notes  | 4.5b      |          | [<i class="fa fa-external-link"></i>][45b]{:target=_blank} |
 | Release Notes  | 4.5a      |          | [<i class="fa fa-external-link"></i>][45a]{:target=_blank} |
 | Release Notes  | 4.4       |          | [<i class="fa fa-external-link"></i>][44r]{:target=_blank} |
@@ -37,6 +38,7 @@ img-border: true
 [46s]: http://ftp.squeak.org/sources_files/SqueakV46.sources.zip
 [41s]: http://ftp.squeak.org/sources_files/SqueakV41.sources.gz
 [40s]: http://ftp.squeak.org/sources_files/SqueakV40.sources.gz
+[46r]: http://wiki.squeak.org/squeak/6192
 [45b]: http://wiki.squeak.org/squeak/6193
 [45a]: http://wiki.squeak.org/squeak/6189
 [44r]: http://wiki.squeak.org/squeak/6188
