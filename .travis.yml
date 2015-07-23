@@ -19,4 +19,6 @@ script:
 - jekyll build
 - htmlproof ./_site --href-ignore "#" --empty-alt-ignore --only-4xx --check-html
 after_success:
-- rsync -crvz -e "ssh -i $HOME/.ssh/deploy" --delete _site/ $encrypted_host:$encrypted_path
+- if [ "$TRAVIS_BRANCH" == "master" ]; then
+    rsync -crvz -e "ssh -i $HOME/.ssh/deploy" --delete _site/ $encrypted_host:$encrypted_path
+  fi
