@@ -15,12 +15,10 @@ function rotateScreenshot(moveRight) {
 
 function enableScreenshotButtons() {
     $('.screenshot-img').click(function(event) {
-        event.preventDefault();
         var moveRight = event.offsetX > $('img', this).width() / 2;
         rotateScreenshot(moveRight);
     });
     $('.screenshot-button').click(function(event) {
-        event.preventDefault();
         var moveRight = $(this).data('target') === 'right';
         rotateScreenshot(moveRight);
     });
@@ -38,9 +36,12 @@ function enableKeyboardNavigation() {
 }
 
 $(function() {
+    // Disable internal hash links
+    $('a[href="#"]').click(function(event) {
+        event.preventDefault();
+    });
     // Enable donate button
     $('.donate-button').click(function(event) {
-        event.preventDefault();
         $('#paypal-donations').submit();
     });
     // Enable screenshots

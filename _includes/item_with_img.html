@@ -4,7 +4,7 @@
     <a href="{{ item.href }}"{% if item.href-external %} target="_blank"{% endif %}>
     {% endif %}
       {% if item.img-src %}
-      <img src="/img/{{ item.img-src }}" alt="" class="item-img img-center img-rounded img-responsive{% if item.img-border %} img-border{% endif %}">
+      <img src="/img/{{ item.img-src }}" alt="{{ item.title }}" class="item-img img-center img-rounded img-responsive{% if item.img-border %} img-border{% endif %}">
       {% else %}
       <div class="box-icon">
         <i class="fa fa-{{ item.icon }}"{% if item.icon-color %} style="color: {{ item.icon-color }};"{% endif %}></i>
@@ -15,7 +15,8 @@
     {% endif %}
   </div>
   <div class="col-md-8 col-lg-8">
-    <span class="anchor" id="{{ item.title | slugify }}"></span>
+    {% if item.title %}
+    <span class="anchor" id="{{ item.title | slugify }}{% if item.order %}-{{ item.order }}{% endif %}"></span>
     <h3 class="text-center-sm">
       {% if item.href %}
       <a href="{{ item.href }}"{% if item.href-external %} target="_blank"{% endif %}>
@@ -25,9 +26,10 @@
       </a>
       {% endif %}
     </h3>
+    {% endif %}
     {{ item.content }}
     {% if item.quick-install %}
-    <a tabindex="0" role="button" class="small" data-toggle="popover" title="{{ item.title }} Quick Install" data-target="#{{ item.title | slugify }}-qi">[Quick Install]</a>
+    <a href="#" tabindex="0" role="button" class="small" data-toggle="popover" title="{{ item.title }} Quick Install" data-target="#{{ item.title | slugify }}-qi">[Quick Install]</a>
     <div id="{{ item.title | slugify }}-qi" class="hide">
     {% highlight smalltalk %}
     {{ item.quick-install }}

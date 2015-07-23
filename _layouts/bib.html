@@ -4,7 +4,7 @@
 {% if entry.booktitle %}In {{ entry.booktitle }}. {% else %}{% if entry.journal %}In {{ entry.journal }} {% if entry.volume %}volume {{entry.volume}}{% endif %}. {% endif %}{% endif %}
 {% if entry.pages %}pages {{ entry.pages }},{% endif %}{% if entry.publisher %} {{ entry.publisher }},{% endif %} {{ entry.year }}.
 
-<a tabindex="0" role="button" data-toggle="popover" title="BibTeX Export" data-target="#{{ entry.key | slugify }}">[BibTeX]</a>
+<a href="#" tabindex="0" role="button" data-toggle="popover" title="BibTeX Export" data-target="#{{ entry.key | slugify }}">[BibTeX]</a>
 <div id="{{ entry.key | slugify }}" class="hide">
 <div class="highlight">
     <pre><code>{{ entry.bibtex }}</code></pre>
