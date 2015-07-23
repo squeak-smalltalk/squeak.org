@@ -9,7 +9,7 @@ img-border: true
 
 |                | Version   | Date     | Link                                                       |
 | -------------- |:--------- |:--------:| ----------------------------------------------------------:|
-| All-in-One     | 4.6 RC    | Jul 2015 | [<i class="fa fa-download"></i>][46]{:target=_blank}       |
+| All-in-One     | 4.6       | Jul 2015 | [<i class="fa fa-download"></i>][46]{:target=_blank}       |
 | All-in-One     | 4.5       | Oct 2014 | [<i class="fa fa-download"></i>][45]{:target=_blank}       |
 | All-in-One     | 4.4       | Jan 2013 | [<i class="fa fa-download"></i>][44]{:target=_blank}       |
 | All-in-One     | 4.3       | Jan 2012 | [<i class="fa fa-download"></i>][43]{:target=_blank}       |
