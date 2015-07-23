@@ -1,5 +1,5 @@
 ---
-title:      All-in-one Package
+title:      All-In-One Package
 front-page: true
 order:      1
 cols:       6
@@ -11,9 +11,7 @@ Download, unzip, and double-click the appropriate file: `*.bat` for Windows, `*.
 
 |            | Version   | Support   | Link   |
 | ---------- |:--------- |:--------- | ------:|
-| Preview    | 4.6 RC    | <i class="fa fa-windows"></i> <i class="fa fa-apple"></i> <i class="fa fa-linux"></i> | [<i class="fa fa-download"></i>][46allinone]{:target=_blank} |
-| All-in-One | 4.5       | <i class="fa fa-windows"></i> <i class="fa fa-apple"></i> <i class="fa fa-linux"></i> | [<i class="fa fa-download"></i>][45allinone]{:target=_blank} |
+| Preview    | 4.6       | <i class="fa fa-windows"></i> <i class="fa fa-apple"></i> <i class="fa fa-linux"></i> | [<i class="fa fa-download"></i>][46allinone]{:target=_blank} |
 {:.table .table-condensed .max-width-360-lg}
 
 [46allinone]: http://ftp.squeak.org/4.6/Squeak-4.6-All-in-One.zip
-[45allinone]: http://ftp.squeak.org/4.5/Squeak-4.5-All-in-One.zip
