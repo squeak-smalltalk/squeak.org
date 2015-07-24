@@ -76,7 +76,7 @@ gems:
 include: [_pages]
 
 # Exclude vendor dir which Travis uses to bundle all gems on its build servers
-exclude: [vendor, README.md, _research/references.bib]
+exclude: [vendor, README.md, _research/references.bib, Gemfile]
 
 # jekyll-scholar
 scholar:
