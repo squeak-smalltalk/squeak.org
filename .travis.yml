@@ -16,9 +16,7 @@ before_script:
 - openssl aes-256-cbc -K $encrypted_7202fd93a95a_key -iv $encrypted_7202fd93a95a_iv
   -in .deploy.enc -out ~/.ssh/deploy -d
 - chmod 600 ~/.ssh/deploy
-script:
-- bundle exec jekyll build
-- bundle exec htmlproof ./_site --href-ignore "#","/^(https?\:\/\/)?(www\.)?youtube\.com\/.+$/" --empty-alt-ignore --only-4xx --check-html --disable-external
+script: "bundle exec rake test"
 after_success:
 - if [ "$TRAVIS_BRANCH" == "master" ]; then
     rsync -crvz -e "ssh -i $HOME/.ssh/deploy" --delete _site/ $encrypted_host:$encrypted_path;
