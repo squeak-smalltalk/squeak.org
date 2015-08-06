@@ -3,7 +3,7 @@ title:          Seaside
 img-src:        projects/seaside.png
 href:           http://www.seaside.st/
 quick-install: >
-     Installer ss
+    Installer ss
         project: 'KomHttpServer';
         install: 'KomServices-lr.21';
         install: 'DynamicBindings-lr.1';
