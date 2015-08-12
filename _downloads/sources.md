@@ -12,4 +12,4 @@ The sources file contains all source code of the base system. Just like the chan
 | Current Sources   | 4.6     | [<i class="fa fa-download"></i>][sources]{:target=_blank} |
 {:.table .table-condensed}
 
-[sources]: http://ftp.squeak.org/4.6/SqueakV46.sources.zip
+[sources]: http://ftp.squeak.org/5.0/SqueakV50.sources.zip
