@@ -1,4 +1,4 @@
-This is an (almost) randome selection. Find more projects on
+This is an (almost) random selection. Find more projects on
 **[SqueakSource3][ss3]{:target="_blank"}**,
 **[SqueakSource1][ss]{:target="_blank"}**,
 **[SqueakMap][sm]{:target="_blank"}**, and
