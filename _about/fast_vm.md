@@ -1,9 +1,9 @@
 ---
-title:          Fast Virtual Machine
+title:          Schnelle Ausführungsumgebung
 order:          4
 front-page:     true
 img-src:        dev/cog.png
 href:           ../development/
 href-external:  false
 ---
-There are several fast Squeak VMs that also support other languages of the Smalltalk family. Meta-tracing, just-in-time compilation, stack-to-register mapping, and aggressive in-line message caching yield efficiency in executing Smalltalk byte code.
+Es gibt viele schnelle virtuelle Maschinen für Squeak, welche sogar andere Sprachen der Smalltalk-Familie unterstützen. Die Konzepte, welche diese schnelle Ausführung ermöglichen, sind unter anderem Meta-tracing, Just-in-time-Kompilierung, Stack-auf-Register-Abbildung und aggressives Inline-Nachrichten-Caching.

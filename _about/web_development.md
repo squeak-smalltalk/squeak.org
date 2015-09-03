@@ -1,7 +1,8 @@
 ---
-title:      Web Development
+title:      Web-Anwendungen bauen
 order:      5
 img-src:    features/webdev.png
 img-border: true
 ---
-With frameworks like [Seaside](http://www.seaside.st/){:target="_blank"} and [AIDA](http://www.aidaweb.si/){:target="_blank"}, Squeak can be a web server. It provides a layered set of abstractions over HTTP and HTML that let you build highly interactive web applications quickly, reusably,` and maintainably.
+
+Squeak kann als Web-Server eingesetzt werden. [Seaside](http://www.seaside.st/){:target="_blank"} und [AIDA](http://www.aidaweb.si/){:target="_blank"} ermöglichen dies. Mit einem Satz and Abstraktionen über HTTP und HTML können Programmierer schnell interaktive Web-Anwendungen bauen, welche wiederverwendbar und wartbar bleiben.
