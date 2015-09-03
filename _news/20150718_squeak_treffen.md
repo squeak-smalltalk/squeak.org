@@ -1,5 +1,6 @@
 ---
 title: Squeak-Treffen am 18. Juli 2015, Potsdam
+timestamp: 2015-07-18
 ---
 **Wir laden Euch wieder herzlich zu unserem jährlichen Squeak-Treffen mit
 spannenden Vorträgen und zur Mitgliederversammlung des Vereins ein.**

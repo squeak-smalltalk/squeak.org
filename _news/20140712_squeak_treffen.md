@@ -1,5 +1,6 @@
 ---
 title: Squeak-Treffen am 12. Juli 2014, Potsdam
+timestamp: 2014-07-12
 ---
 **Wir laden Euch wieder herzlich zu unserem jährlichen Squeak-Treffen mit
 spannenden Vorträgen und zur Mitgliederversammlung des Vereins ein.**
