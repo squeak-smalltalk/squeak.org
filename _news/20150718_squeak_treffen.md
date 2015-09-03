@@ -18,19 +18,21 @@ Anfahrt: <http://www.hpi.uni-potsdam.de/hpi/campus/anfahrt.html>
 Raum: A.1.1 (wir sind wieder in Haus ABC (nicht Hauptgebäude sondern der rote Backsteinbau rechts daneben))
 
 **Inhalt?**  
-Themen sind gern gesehen bzw. in Planung.
-Wenn Ihr Ideen habt, bitte melden!
+- Erfahrungsbericht Scratch (?)
+- Auto-Tester (Fabio Niephaus)
+- Ein neues Modulsystem (Matthias Springer)
+- Werkzeuge bauen (Marcel Taeumel)
+- Constraint-Programmierung (Tim Felgentreff)
+
 
 Vereinsversammlung (17:00 Uhr - 18:00 Uhr)
-      - Bestimmung des Protokollführers und der Kassenprüfer
-      - Feststellung der Beschlussfähigkeit
-      - Vorstellung / Änderung der Tagesordnung
-      - Aktivitäten des Vereins 2014-2015
-      - Bericht des Schatzmeisters und der Kassenprüfer
-      - Künftige Aktivitäten
-      - Sonstiges
-Wer noch Ideen für Tagesordnungspunkte hat, bitte satzungsgemäß innerhalb von 
-zwei Wochen melden.
+- Bestimmung des Protokollführers und der Kassenprüfer
+- Feststellung der Beschlussfähigkeit
+- Vorstellung / Änderung der Tagesordnung
+- Aktivitäten des Vereins 2014-2015
+- Bericht des Schatzmeisters und der Kassenprüfer
+- Künftige Aktivitäten
+- Sonstiges
 
 Anschließend Ausklang in gemütlicher Runde in Potsdam.
 
