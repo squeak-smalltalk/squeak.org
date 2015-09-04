@@ -70,6 +70,11 @@ img[src*=".svg"] { /* Fix SVGs in IE */
 
 #welcome-text {
     margin-top: 18px;
+    text-align: justify;
+    -webkit-hyphens: auto;
+    -moz-hyphens: auto;
+    -ms-hyphens: auto;
+    hyphens: auto;
 }
 
 #download-button {

@@ -1,7 +1,7 @@
 ---
 title:          Schnelle Ausführungsumgebung
 order:          4
-front-page:     true
+front-page:     false
 img-src:        dev/cog.png
 href:           ../development/
 href-external:  false

@@ -1,7 +1,7 @@
 ---
 title:          Mächtige Werkzeuge
 order:          3
-front-page:     true
+front-page:     false
 img-src:        features/tools.png
 img-border:     true
 ---

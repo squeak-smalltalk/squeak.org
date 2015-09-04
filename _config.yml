@@ -4,8 +4,8 @@ copyright: Squeak Projekt
 
 # SEO
 description: >
-  Squeak is a modern, open source, full-featured implementation of the powerful
-  Smalltalk programming language and environment.
+  Squeak ist eine moderne, freie, und quelloffene Programmierumgebung
+  der Smalltalk Sprache.
 author: Squeak Foundation
 
 collections:
@@ -16,14 +16,12 @@ collections:
   downloads:
     title: Herunterladen
     sort_by: order
+    hidden: true
   news:
     title: Neuigkeiten
     sort_by: order
-  documentation:
-    title: Dokumentation
-    sort_by: order
   education:
-    title: Bildung und Lehre
+    title: Lernen und Lehren
     sort_by: order
 
 defaults:

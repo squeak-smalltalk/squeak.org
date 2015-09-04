@@ -2,29 +2,21 @@
 layout: basic
 headline: Willkommen auf Squeak.de
 welcome: >
-  Squeak ist eine freie, quelloffene Programmierumgebung für Smalltalk, welche alle
-  gängigen Betriebssysteme unterstützt. Sie stellt das Morphic-Framework bereit,
-  mit dem interative, multimediale Benutzeroberflächen mit geringem Aufwand entwickelt und
-  gewartet werden können. Zur der Vielzahl von in Squeak umgesetzten Anwendungen
-  zählen Projekte aus den verschiedensten Bereich wie beispielsweise Bildung, Multimedia,
-  Gaming, Wissenschaft und Industrie. Squeak ist die Implementierungsplattform der
-  mit dem OLPC XO verbreiteten, kachel-basierten Etoys-Umgebung.
-
-download_link: http://ftp.squeak.org/4.6/Squeak-4.6-All-in-One.zip
-
-sub_button_group:
-  - title:  News
-    href:   http://news.squeak.org/
-    icon:   newspaper-o
-
-  - title:  Bugs
-    href:   http://bugs.squeak.org/view_all_bug_page.php
-    icon:   bug
-
-  - title:  Spenden
-    href:   "#"
-    class:  donate-button
-    icon:   heart
+  Squeak ist eine multimediale Programmierumgebung basierend auf der
+  Programmiersprache Smalltalk. Squeak ist
+  <a href="http://de.wikipedia.org/wiki/Open-Source">frei und quelloffen</a>,
+  und unterstützt alle gängigen Betriebssysteme.<br>
+  
+  Die Squeak Oberfläche basiert auf dem Morphic-Framework, mit dem
+  interaktive, multimediale Benutzeroberflächen mit geringem Aufwand
+  entwickelt und gewartet werden können. Für Einsteiger bietet die auf
+  Squeak basierte Etoys-Umgebung einen Entwicklungsansatz, mit der
+  Kinder jeden Alters Simulationen, Spiele, interaktive Bücher und
+  noch viel mehr erstellen können.<br>
+  
+  Zur der Vielzahl von in Squeak umgesetzten Anwendungen zählen
+  Projekte aus den verschiedensten Bereichen wie beispielsweise
+  Bildung, Multimedia, Computerspiele, Wissenschaft und Industrie.
 
 screenshots:
   - img-src: img/screenshots/writing.png
@@ -44,17 +36,16 @@ screenshots:
     <div class="col-md-6 col-lg-6">
       <img id="squeak-logo" src="/static/img/balloon.svg" alt="" class="img-responsive img-center">
     </div>
-    <div id="welcome-text" class="col-md-6 col-lg-6">
+    <div lang="de" id="welcome-text" class="col-md-6 col-lg-6">
       <h2>{{ page.headline }}</h2>
       <div>{{ page.welcome }}</div>
       <div class="text-center">
-        <a id="download-button" class="btn btn-primary" href="{{ page.download_link }}" target="_blank" role="button">
+        <a id="download-button" class="btn btn-primary" href="/downloads/" role="button">
           <i class="fa fa-windows fa-lg"></i>
           <i class="fa fa-apple fa-lg"></i>
           <i class="fa fa-linux fa-lg"></i>
-          Download
+         Herunterladen
         </a>
-        <p><a href="/downloads/">Mehr...</a></p>
 
         <div id="sub-button-group" class="btn-group btn-group-sm" role="group" aria-label="...">
           {% for button in page.sub_button_group %}
@@ -69,29 +60,31 @@ screenshots:
   </div> <!-- /row -->
 </div> <!-- /container -->
 
-<div id="screnshot-wrapper">
-  <div class="container">
-    <div id="screenshots" class="row">
-      {% for screenshot in page.screenshots %}
-      <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center slideshow-item" style="{{ currentStyle }}">
-        <a href="#" class="screenshot-img">
-          <img src="{{ screenshot.img-src }}" alt="" class="img-responsive img-center">
-        </a>
-        <p class="lead">
-          {{ screenshot.caption }}
-          <a href="#" class="screenshot-button pull-left" data-target="left">
-            <i class="fa fa-chevron-left"></i>
-          </a>
-          <a href="#" class="screenshot-button pull-right" data-target="right">
-            <i class="fa fa-chevron-right"></i>
-          </a>
-        </p>
-      </div>
-        {% assign currentStyle = "display: none" %}
-      {% endfor %}
-    </div>
-  </div>
-</div>
+<!-- 
+ !-- <div id="screnshot-wrapper">
+ !--   <div class="container">
+ !--     <div id="screenshots" class="row">
+ !--       {% for screenshot in page.screenshots %}
+ !--       <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center slideshow-item" style="{{ currentStyle }}">
+ !--         <a href="#" class="screenshot-img">
+ !--           <img src="{{ screenshot.img-src }}" alt="" class="img-responsive img-center">
+ !--         </a>
+ !--         <p class="lead">
+ !--           {{ screenshot.caption }}
+ !--           <a href="#" class="screenshot-button pull-left" data-target="left">
+ !--             <i class="fa fa-chevron-left"></i>
+ !--           </a>
+ !--           <a href="#" class="screenshot-button pull-right" data-target="right">
+ !--             <i class="fa fa-chevron-right"></i>
+ !--           </a>
+ !--         </p>
+ !--       </div>
+ !--         {% assign currentStyle = "display: none" %}
+ !--       {% endfor %}
+ !--     </div>
+ !--   </div>
+ !-- </div>
+  -->
 
 {% for collection in site.collections %}
   {% if collection[1].hidden == nil or collection[1].hidden == false %}
