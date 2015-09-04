@@ -1,6 +1,6 @@
 ---
 title:      "Ein kleiner Informatik Kurs"
-front-page: false
+front-page: true
 order:      13
 cols:       6
 img-src:    education/ideen-im-unterricht.png

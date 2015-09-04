@@ -37,13 +37,9 @@ _Make it work, make it right, make it fast_. Das heisst, zuerst suchen
 wir nach der einfachsten oder der am einfachsten zu implementierenden
 Lösung, die das richtige Ergebnis liefert. Ist sie schnell genug und
 für Außenstehende leicht verständlich, können wir es dabei belassen.
-It works!
-
 Oft bietet es sich aber an, den Code kompakter, schöner und lesbarer
-zu schreiben.  Well done!
-
-Zuletzt schauen wir nach Optimierungsmöglichkeiten, indem wir das
-eigentliche Problem an andere Größenordnungen anpassen.
+zu schreiben. Zuletzt schauen wir nach Optimierungsmöglichkeiten,
+indem wir das eigentliche Problem an andere Größenordnungen anpassen.
 
 <div class="text-center">
 <a class="btn btn-primary" href="/static/files/euler.pdf">PDF Herunterladen</a>

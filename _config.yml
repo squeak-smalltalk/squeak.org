@@ -21,7 +21,10 @@ collections:
     title: Neuigkeiten
     sort_by: order
   education:
-    title: Lernen und Lehren
+    title: Bildung und Lehre
+    sort_by: order
+  squeakev:
+    title: Squeak e.V.
     sort_by: order
 
 defaults:
@@ -35,6 +38,12 @@ defaults:
     scope:
       path: ""
       type: "news"
+    values:
+      cols: 12
+  -
+    scope:
+      path: ""
+      type: "squeakev"
     values:
       cols: 12
 

@@ -1,6 +1,6 @@
 ---
 title:      "Schnellstart"
-front-page: false
+front-page: true
 order:      11
 cols:       6
 img-src:    education/intro.png

@@ -1,6 +1,6 @@
 ---
 title:      Links
-front-page: true
+front-page: false
 order:      100
 cols:       6
 

@@ -1,6 +1,7 @@
 ---
 title: Squeak-Treffen am 12. Juli 2014, Potsdam
 timestamp: 2014-07-12
+order: -14
 ---
 **Wir laden Euch wieder herzlich zu unserem jährlichen Squeak-Treffen mit
 spannenden Vorträgen und zur Mitgliederversammlung des Vereins ein.**
@@ -16,26 +17,28 @@ Prof.-Dr.-Helmert-Straße 2-3
 Anfahrt: <http://www.hpi.uni-potsdam.de/hpi/campus/anfahrt.html>
 
 **Inhalt?**  
-    - Morphic Testing Framework (Marvin Bornstein)
-    - Scamper Browser (Jennifer Stamm)
-    - Squeak/Smalltalk im Web Browser (Bert Freudenberg)
-    - Objektorientierte Methode zur Softwarenentwicklung - Rollenmodellierung (Peter Werner)
-    - SpaceFight (Eric Seckler)
-    - PhidgetLab (Fabian Wiebe)
-    - Squeak in der Grundschule (Esther Mietzsch)
-    - Scratch: Power to the kids (Till Juan und Norbert Kerkhey)
-    - Tools bauen in Squeak (Marcel Taeumel)
-    - Babelsberg (Tim Feigentreff)
+
+- Morphic Testing Framework (Marvin Bornstein)
+- Scamper Browser (Jennifer Stamm)
+- Squeak/Smalltalk im Web Browser (Bert Freudenberg)
+- Objektorientierte Methode zur Softwarenentwicklung - Rollenmodellierung (Peter Werner)
+- SpaceFight (Eric Seckler)
+- PhidgetLab (Fabian Wiebe)
+- Squeak in der Grundschule (Esther Mietzsch)
+- Scratch: Power to the kids (Till Juan und Norbert Kerkhey)
+- Tools bauen in Squeak (Marcel Taeumel)
+- Babelsberg (Tim Feigentreff)
 
 
 Vereinsversammlung (17:00 Uhr - 18:00 Uhr)
-      - Bestimmung des Protokollführers und der Kassenprüfer
-      - Feststellung der Beschlussfähigkeit
-      - Vorstellung / Änderung der Tagesordnung
-      - Aktivitäten des Vereins 2013-2014
-      - Bericht des Schatzmeisters und der Kassenprüfer
-      - Künftige Aktivitäten
-      - Sonstiges
+
+- Bestimmung des Protokollführers und der Kassenprüfer
+- Feststellung der Beschlussfähigkeit
+- Vorstellung / Änderung der Tagesordnung
+- Aktivitäten des Vereins 2013-2014
+- Bericht des Schatzmeisters und der Kassenprüfer
+- Künftige Aktivitäten
+- Sonstiges
 
 Anschließend Ausklang in gemütlicher Runde in Potsdam.
 
