@@ -13,11 +13,11 @@ Maschinen und Sources-Dateien sowie ältere Squeak und Etoys Versionen.
 
 <p><br></p>
 <div class="text-center">
-    <a class="btn item-highlight" href="http://www.squeak.org/downloads/" target="_blank" role="button">
+    <a class="btn btn-default" href="http://www.squeak.org/downloads/" target="_blank" role="button">
         squeak.org
         <i class="fa fa-external-link"></i>
     </a>
-    <a class="btn item-highlight" href="http://www.squeakland.org/download/" target="_blank" role="button">
+    <a class="btn btn-default" href="http://www.squeakland.org/download/" target="_blank" role="button">
         squeakland.org
         <i class="fa fa-external-link"></i>
     </a>

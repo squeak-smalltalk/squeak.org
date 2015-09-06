@@ -1,7 +1,5 @@
 ---
 title: Squeak-Treffen am 18. Juli 2015, Potsdam
-timestamp: 2015-07-18
-order: -15
 ---
 **Wir laden Euch wieder herzlich zu unserem jährlichen Squeak-Treffen mit
 spannenden Vorträgen und zur Mitgliederversammlung des Vereins ein.**
@@ -11,7 +9,7 @@ Samstag, 18. Juli 2015 ab 13:00 h
 
 **Wo?**  
 Hasso-Plattner-Institute
-Prof.-Dr.-Helmert-Straße 3
+Prof.-Dr.-Helmert-Straße 2-3
 14482 Potsdam
 
 Anfahrt: <http://www.hpi.uni-potsdam.de/hpi/campus/anfahrt.html>

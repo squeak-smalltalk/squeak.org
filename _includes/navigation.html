@@ -18,24 +18,52 @@
             <img alt="{{ site.title }}" src="/static/img/squeak.svg" alt="">
           </a>
         </li>
-        {% for collection in site.collections %}
-          {% assign liClass = '' %}
-          {% if collection[1].label == page.section.label %}
-            {% assign liClass = 'active' %}
-          {% endif %}
-        <li class="{{ liClass }}">
-          <a href="/{{ collection[1].label }}/" title="{{ collection[1].title }}">
-            {% if collection[1].visible-sm %}
-            <span class="hidden-sm">{{ collection[1].title }}</span>
-            <span class="visible-sm">{{ collection[1].visible-sm }}</span>
-            {% else %}
-            {{ collection[1].title }}
-            {% endif %}
+        <li{% if page.section.label == 'about' %} class="active"{% endif %}>
+          <a href="/about/" title="Squeak/Smalltalk">
+            Squeak
           </a>
         </li>
-        {% endfor %}
+        <li{% if page.section.label == 'downloads' %} class="active"{% endif %}>
+          <a href="/downloads/" title="Squeak/Smalltalk herunterladen">
+            Herunterladen
+          </a>
+        </li>
+        <li{% if page.permalink == '/news/' or page.id %} class="active"{% endif %}>
+          <a href="/news/" title="Neuigkeiten">
+            <span class="hidden-sm">Neuigkeiten</span>
+            <span class="visible-sm">News</span>
+          </a>
+        </li>
+        <li{% if page.section.label == 'education' %} class="active"{% endif %}>
+          <a href="/education/" title="Bildung und Lehre">
+            <span class="hidden-sm">Bildung und Lehre</span>
+            <span class="visible-sm">Lehre</span>
+          </a>
+        </li>
+        <li{% if page.section.label == 'squeakev' %} class="active"{% endif %}>
+          <a href="/squeakev/" title="Squeak e.V.">
+            Squeak e.V.
+          </a>
+        </li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+            Links <span class="caret"></span>
+          </a>
+          <ul class="dropdown-menu">
+            <li>
+              <a href="http://squeak.org/" target="_blank">
+                Squeak.org
+              </a>
+            </li>
+            <li>
+              <a href="http://www.squeakland.org/" target="_blank">
+                Squeakland.org
+              </a>
+            </li>
+          </ul>
+        </li>
         <li{% if page.permalink == '/lizenz/' %} class="active"{% endif %}>
           <a href="/lizenz/">
             <span class="visible-xs visible-lg">Lizenz</span>
@@ -46,16 +74,6 @@
           <a class="donate-button" href="#">
             <i class="fa fa-heart"></i>
             <span class="visible-xs-inline visible-lg-inline">Spenden</span>
-          </a>
-        </li>
-        <li>
-          <a href="http://www.squeakland.org/" target="_blank">
-            <span class="visible-xs visible-lg">Squeakland.org</span>
-          </a>
-        </li>
-        <li>
-          <a href="http://www.squeak.org/" target="_blank">
-            <span class="visible-xs visible-lg">Squeak.org</span>
           </a>
         </li>
       </ul>

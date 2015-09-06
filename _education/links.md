@@ -1,30 +1,10 @@
 ---
-title:      Links
-front-page: false
+category:   Links
 order:      100
-cols:       6
-
-urls:
-  - src: squeakland.org
-    caption: "Etoys Homepage (Englisch)"
-
-  - src: bertfreudenberg.github.io/SqueakJS/etoys/
-    caption: "Etoys im Browser"
-
-  - src: scratch.mit.edu
-    caption: "Scratch Homepage (Englisch)"
-
-  - src: scratch-dach.info
-    caption: "Deutsches Scratch Wiki"
-
-  - src: scratched.media.mit.edu
-    caption: "ScratchEd - Lehren und Lernen mit Scratch (Englisch)"
-
 ---
-<div class="container">
-<ul>
-{% for url in page.urls %}
-<li><a href="{{ url.src }}">{{ url.caption }}</a></li>
-{% endfor %}
-</ul>
-</div>
+
+- [Etoys Homepage (Englisch)](http://squeakland.org){:target="_blank"}
+- [Etoys im Browser](http://bertfreudenberg.github.io/SqueakJS/etoys/){:target="_blank"}
+- [Scratch Homepage (Englisch)](http://scratch.mit.edu){:target="_blank"}
+- [Deutsches Scratch Wiki](http://scratch-dach.info){:target="_blank"}
+- [ScratchEd - Lehren und Lernen mit Scratch (Englisch)](http://scratched.media.mit.edu){:target="_blank"}

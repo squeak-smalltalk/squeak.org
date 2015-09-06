@@ -13,13 +13,11 @@ collections:
   about:
     title: Squeak
     sort_by: order
+    trailer: center
   downloads:
     title: Herunterladen
     sort_by: order
     hidden: true
-  news:
-    title: Neuigkeiten
-    sort_by: order
   education:
     title: Bildung und Lehre
     sort_by: order
@@ -46,6 +44,12 @@ defaults:
       type: "squeakev"
     values:
       cols: 12
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "default"
 
 # Enable SASS support
 sass:
@@ -54,6 +58,9 @@ sass:
 
 # Serving
 host: 0.0.0.0
+
+# Outputting
+permalink: news/:year/:month/:day/:title/
 
 # Caching
 build_version: 1.1
@@ -71,4 +78,4 @@ gems:
 include: [_pages]
 
 # Exclude vendor dir which Travis uses to bundle all gems on its build servers
-exclude: [vendor, README.md]
+exclude: [vendor, README.md, LICENSE.md]

@@ -46,7 +46,7 @@ layout: compress
         {% endif %}
 
         {% if page.trailer %}
-        <div class="section-tail text-center">
+        <div class="section-tail{% if page.section.trailer == 'center' %} text-center{% endif %}">
           {{ page.trailer }}
         </div>
         {% endif %}
