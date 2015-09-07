@@ -1,5 +1,5 @@
 ---
 layout:     error
-title:      "Page not found (404)"
-permalink:  /404/
+title:      "Seite nicht gefunden (404)"
+permalink:  /404.html
 ---
