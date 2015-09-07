@@ -22,13 +22,14 @@ after_success:
 - mv _site ../
 - git checkout --orphan gh-pages
 - git rm -rfq .
+- echo ".sass-cache" > .gitignore
 - mv ../_site/* .
 - git remote set-url origin git@github.com:squeak-smalltalk/squeak.de.git
 - git config --global user.name "Fabio Niephaus"
 - git config --global user.email "fniephaus@users.noreply.github.com"
 - git config --global push.default matching
 - git add .
-- git commit -am "Travis CI autocommit from travis build ${TRAVIS_BUILD_NUMBER}"
+- git commit -aqm "Travis CI autocommit from travis build ${TRAVIS_BUILD_NUMBER}"
 - git push -fq origin gh-pages:gh-pages
 before_install:
 - openssl aes-256-cbc -K $encrypted_2808a4333421_key -iv $encrypted_2808a4333421_iv
