@@ -18,12 +18,15 @@ Raum: A.1.1 (wir sind wieder in Haus ABC (nicht Hauptgebäude sondern der rote B
 
 **Inhalt?**  
 
-- Erfahrungsbericht Scratch (?)
+- Neue Squeak.org-Website (Michael Perscheid)
+- Erfahrungsbericht Scratch (Patricia Bolle)
+- PathView (Nico, Sven)
+- github Issues im Squeak Image (Steffen)
+- Aktuelle SWT Projekte (Tobias Pape)
 - Auto-Tester (Fabio Niephaus)
 - Ein neues Modulsystem (Matthias Springer)
-- Werkzeuge bauen (Marcel Taeumel)
-- Constraint-Programmierung (Tim Felgentreff)
-
+- Werkzeuge bauen mit Vivide (Marcel Taeumel)
+- RSqueak VM (Tim Felgentreff)
 
 Vereinsversammlung (17:00 Uhr - 18:00 Uhr)
 
