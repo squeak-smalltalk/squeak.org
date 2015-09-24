@@ -2,7 +2,7 @@
 title:      Scratch
 front-page: true
 img-src:    projects/scratch.svg
-href:       http://scratch.mit.edu/
+href:       https://scratch.mit.edu/scratch_1.4/
 ---
 Create and share stories, games, and animations with Scratch. It helps young people to think in a creative fashion, conclude logically, and work together.
 
