@@ -13,4 +13,4 @@ The trunk image is the latest experimental edition of our Squeak images. It is m
 | Latest Build      | trunk     | [<i class="fa fa-download"></i>][trunk]{:target=_blank} |
 {:.table .table-condensed .max-width-360-lg}
 
-[trunk]: http://build.squeak.org/job/SqueakTrunk/lastSuccessfulBuild/artifact/target/TrunkImage.zip
+[trunk]: http://build.squeak.org/job/Trunk/default/lastSuccessfulBuild/artifact/target/TrunkImage.zip

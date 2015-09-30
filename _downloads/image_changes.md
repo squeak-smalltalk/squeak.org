@@ -16,4 +16,4 @@ The image file contains a snapshot of all living objects in Squeak. The changes 
 
 [stable]: http://ftp.squeak.org/5.0/Squeak5.0-15113.zip
 [stable46]: http://ftp.squeak.org/4.6/Squeak4.6-15102.zip
-[trunk]: http://build.squeak.org/job/SqueakTrunk/lastSuccessfulBuild/artifact/target/TrunkImage.zip
+[trunk]: http://build.squeak.org/job/Trunk/default/lastSuccessfulBuild/artifact/target/TrunkImage.zip
