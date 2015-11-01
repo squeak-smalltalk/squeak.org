@@ -35,6 +35,21 @@ function enableKeyboardNavigation() {
     });
 }
 
+function enableSnippetSelection() {
+    $(document).on('click', '.popover .language-smalltalk', function(event) { 
+        var range;
+        if (document.body.createTextRange) {
+            range = document.body.createTextRange();
+            range.moveToElementText(this);
+            range.select();
+        } else if (window.getSelection) {
+            range = document.createRange();
+            range.selectNode(this);
+            window.getSelection().addRange(range);
+        }
+    });
+}
+
 $(function() {
     // Disable internal hash links
     $('a[href="#"]').click(function(event) {
@@ -61,11 +76,16 @@ $(function() {
     // Hide popovers on body click
     $('body').on('click', function (e) {
         $('[data-toggle="popover"]').each(function () {
-            if (!$(this).is(e.target) && $(this).has(e.target).length === 0 && $('.popover').has(e.target).length === 0) {
+            if (!$(this).is(e.target) && $(this).has(e.target).length === 0 &&
+                    $('.popover').has(e.target).length === 0) {
                 $(this).popover('hide');
             }
         });
     });
+    // Select Smalltalk snippets on click
+    if ($('.smalltalk-snippet').length > 0) {
+        enableSnippetSelection();
+    }
     // Enable SVG fallback to PNG
     svgeezy.init(false, 'png');
 });

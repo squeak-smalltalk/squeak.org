@@ -30,10 +30,10 @@
     {{ item.content }}
     {% if item.quick-install %}
     <a href="#" tabindex="0" role="button" class="small" data-toggle="popover" title="{{ item.title }} Quick Install" data-target="#{{ item.title | slugify }}-qi">[Quick Install]</a>
-    <div id="{{ item.title | slugify }}-qi" class="hide">
-    {% highlight smalltalk %}
-    {{ item.quick-install }}
-    {% endhighlight %}
+    <div id="{{ item.title | slugify }}-qi" class="smalltalk-snippet hide">
+{% highlight smalltalk %}
+{{ item.quick-install }}
+{% endhighlight %}
     {% if item.quick-install-notes %}
     {{ item.quick-install-notes }}
     {% endif %}
