@@ -95,9 +95,32 @@ screenshots:
   </div>
 </div>
 
-{% for collection in site.collections %}
-  {% if collection[1].hidden == nil or collection[1].hidden == false %}
-    {% assign section = collection[1].label %}
-    {% include section_preview.html section=section %}
+{% for section in site.collections %}
+  {% if section.hidden == nil or section.hidden == false %}
+    {% assign items = section.docs | where: 'front-page', true | sort: 'order' %}
+    {% if items != empty %}
+    <div class="container">
+      <div class="section">
+        <span class="anchor" id="{{ section.title | slugify }}"></span>
+        {% if section.mobile-title %}
+        <h1 class="section-heading hidden-xs"><span>{{ section.title }}</span></h1>
+        <h1 class="section-heading visible-xs"><span>{{ section.mobile-title }}</span></h1>
+        {% else %}
+        <h1 class="section-heading"><span>{{ section.title }}</span></h1>
+        {% endif %}
+        {% include row.html items=items preview=true %}
+
+        {% assign totalCount = section.docs | size %}
+        {% assign itemsCount = items | size %}
+        {% if totalCount > itemsCount %}
+        <div class="row">
+          <div class="col-sm-12 col-md-12 col-lg-12 text-center section-tail">
+            <p class="lead"><a href="/{{ section.label }}/"><b>More...</b></a></p>
+          </div>
+        </div>
+        {% endif %}
+      </div><!-- /.section -->
+    </div><!-- /.container -->
+    {% endif %}
   {% endif %}
 {% endfor %}

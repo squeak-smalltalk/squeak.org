@@ -20,16 +20,16 @@
         </li>
         {% for collection in site.collections %}
           {% assign liClass = '' %}
-          {% if collection[1].label == page.section.label %}
+          {% if collection.label == page.section.label %}
             {% assign liClass = 'active' %}
           {% endif %}
         <li class="{{ liClass }}">
-          <a href="/{{ collection[1].label }}/" title="{{ collection[1].title }}">
-            {% if collection[1].visible-sm %}
-            <span class="hidden-sm">{{ collection[1].title }}</span>
-            <span class="visible-sm">{{ collection[1].visible-sm }}</span>
+          <a href="/{{ collection.label }}/" title="{{ collection.title }}">
+            {% if collection.visible-sm %}
+            <span class="hidden-sm">{{ collection.title }}</span>
+            <span class="visible-sm">{{ collection.visible-sm }}</span>
             {% else %}
-            {{ collection[1].title }}
+            {{ collection.title }}
             {% endif %}
           </a>
         </li>
