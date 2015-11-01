@@ -1,7 +1,6 @@
 ---
 title:          Algernon
 img-src:        projects/algernon.png
-img-border:     true
 href:           https://github.com/HPI-SWA-Teaching/Algernon-Launcher
 quick-install: >
     (Smalltalk at: #Metacello) new
