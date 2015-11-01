@@ -1,9 +1,9 @@
 source 'https://rubygems.org'
 
-gem 'jekyll'
-gem 'jekyll-sitemap'
-gem 'jekyll-redirect-from'
-gem 'jekyll-scholar'
 gem 'html-proofer'
+gem 'jekyll', '~> 3.0.0'
+gem 'jekyll-redirect-from', '~> 0.9.0'
+gem 'jekyll-scholar', '~> 5.0.0'
+gem 'jekyll-sitemap', '~> 0.9.0'
 gem 'pygments.rb'
 gem 'rake'
