@@ -19,6 +19,9 @@
           </a>
         </li>
         {% for collection in site.collections %}
+          {% if collection.label == "posts" %}
+            {% continue %}
+          {% endif %}
           {% assign liClass = '' %}
           {% if collection.label == page.section.label %}
             {% assign liClass = 'active' %}

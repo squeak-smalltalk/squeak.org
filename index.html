@@ -96,6 +96,9 @@ screenshots:
 </div>
 
 {% for section in site.collections %}
+  {% if section.label == "posts" %}
+    {% continue %}
+  {% endif %}
   {% if section.hidden == nil or section.hidden == false %}
     {% assign items = section.docs | where: 'front-page', true | sort: 'order' %}
     {% if items != empty %}
