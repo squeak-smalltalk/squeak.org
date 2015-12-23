@@ -2,6 +2,6 @@
 title:      Croquet
 front-page: true
 img-src:    projects/croquet.jpg
-href:       http://www.opencobalt.org/
+href:       https://en.wikipedia.org/wiki/Croquet_Project
 ---
 A collaborative, live-programming, audio-visual, 3D environment that allows for the development of interactive worlds.
