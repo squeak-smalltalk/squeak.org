@@ -8,6 +8,7 @@ task :test do
        :parallel => {:in_processes => 2},
        :only_4xx => true,
        :check_html => true,
+       :verbose => true,
        :typhoeus => { 
            :timeout => 3 }
     }).run
