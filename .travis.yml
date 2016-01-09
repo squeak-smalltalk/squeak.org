@@ -1,8 +1,6 @@
 language: ruby
-cache: bundler
-sudo: false
-rvm:
-- 2.1
+# cache: bundler
+sudo: required
 branches:
   only:
   - master
@@ -18,6 +16,6 @@ before_script:
 - chmod 600 ~/.ssh/deploy
 script: "bundle exec rake test"
 after_success:
-- if [[ "$TRAVIS_BRANCH" == "master" ]]; then
+- if [[ "${TRAVIS_BRANCH}" == "master" ]]; then
     rsync -crvz -e "ssh -i $HOME/.ssh/deploy" --delete _site/ $encrypted_host:$encrypted_path;
   fi
