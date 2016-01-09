@@ -1,6 +1,8 @@
 language: ruby
 # cache: bundler
 sudo: required
+rvm:
+  - 2.3.0
 branches:
   only:
   - master
