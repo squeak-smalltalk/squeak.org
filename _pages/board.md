@@ -7,15 +7,15 @@ permalink:  /board/
 <div class="row">
 <div class="col-md-6 col-lg-6">
 
-## Current Board Members (2015)
+## Current Board Members (2016)
 
 - Bert Freudenberg
 - Craig Latta
 - David T. Lewis
-- Eliot Miranda
 - Chris Muller
 - Tim Rowledge
 - Marcel Taeumel
+- Levente Uzonyi
 
 <br />
 
@@ -30,13 +30,13 @@ permalink:  /board/
 - Marcus Denker
 - Stéphane Ducasse
 - Dan Ingalls
+- Eliot Miranda
 - Yoshiki Ohshima
 - Colin Putney
 - Andreas Raab [<sup>&dagger;</sup>][raab]{:target="_blank"}
 - Randal L. Schwartz
 - Frank Shearar
 - Igor Stasenko
-- Levente Uzonyi
 - Juan Vuletich
 
 [raab]: http://en.wikipedia.org/wiki/Andreas_Raab
