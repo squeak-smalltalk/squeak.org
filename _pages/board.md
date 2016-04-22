@@ -39,6 +39,8 @@ permalink:  /board/
 - Igor Stasenko
 - Juan Vuletich
 
+<br />
+
 **Election Results**
 
 [2016](http://civs.cs.cornell.edu/cgi-bin/results.pl?id=E_deb64ca4f4cffbaa) |
