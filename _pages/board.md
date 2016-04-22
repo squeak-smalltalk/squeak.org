@@ -33,14 +33,11 @@ permalink:  /board/
 - Eliot Miranda
 - Yoshiki Ohshima
 - Colin Putney
-- Andreas Raab [<sup>&dagger;</sup>][raab]{:target="_blank"}
+- Andreas Raab [<sup>&dagger;</sup>]
 - Randal L. Schwartz
 - Frank Shearar
 - Igor Stasenko
 - Juan Vuletich
-
-[raab]: http://en.wikipedia.org/wiki/Andreas_Raab
-
 
 </div>
 <div class="col-md-6 col-lg-6">
