@@ -25,15 +25,15 @@ img-border: true
 | Release Notes     | 2.2     |          | [<i class="fa fa-external-link"></i>][22r]{:target=_blank} |
 {:.table .table-condensed}
 
-[28]: http://ftp.squeak.org/2.8/
-[27]: http://ftp.squeak.org/2.7/
-[26]: http://ftp.squeak.org/2.6/
-[25]: http://ftp.squeak.org/2.5/
-[24]: http://ftp.squeak.org/2.4/
-[23]: http://ftp.squeak.org/2.3/
-[22]: http://ftp.squeak.org/2.2/
-[21]: http://ftp.squeak.org/2.1/
-[20]: http://ftp.squeak.org/2.0/
-[2s]: http://ftp.squeak.org/sources_files/SqueakV2.sources.gz
+[28]: http://files.squeak.org/2.8/
+[27]: http://files.squeak.org/2.7/
+[26]: http://files.squeak.org/2.6/
+[25]: http://files.squeak.org/2.5/
+[24]: http://files.squeak.org/2.4/
+[23]: http://files.squeak.org/2.3/
+[22]: http://files.squeak.org/2.2/
+[21]: http://files.squeak.org/2.1/
+[20]: http://files.squeak.org/2.0/
+[2s]: http://files.squeak.org/sources_files/SqueakV2.sources.gz
 [24r]: http://wiki.squeak.org/squeak/5782
 [22r]: http://wiki.squeak.org/squeak/5809

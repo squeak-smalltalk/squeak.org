@@ -15,5 +15,5 @@ Download, unzip, and double-click the appropriate file: `*.bat` for Windows, `*.
 | All-in-One (Non-Spur) | 4.6       | <i class="fa fa-windows"></i> <i class="fa fa-apple"></i> <i class="fa fa-linux"></i> | [<i class="fa fa-download"></i>][46allinone]{:target=_blank} |
 {:.table .table-condensed .max-width-360-lg}
 
-[50allinone]: http://ftp.squeak.org/5.0/Squeak-5.0-All-in-One.zip
-[46allinone]: http://ftp.squeak.org/4.6/Squeak-4.6-All-in-One.zip
+[50allinone]: http://files.squeak.org/5.0/Squeak-5.0-All-in-One.zip
+[46allinone]: http://files.squeak.org/4.6/Squeak-4.6-All-in-One.zip

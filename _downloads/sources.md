@@ -13,5 +13,5 @@ The sources file contains all source code of the base system. Just like the chan
 | Old Sources (Non-Spur)  | 4.6     | [<i class="fa fa-download"></i>][sources46]{:target=_blank} |
 {:.table .table-condensed}
 
-[sources]: http://ftp.squeak.org/5.0/SqueakV50.sources.zip
-[sources46]: http://ftp.squeak.org/4.6/SqueakV46.sources.zip
+[sources]: http://files.squeak.org/5.0/SqueakV50.sources.zip
+[sources46]: http://files.squeak.org/4.6/SqueakV46.sources.zip
