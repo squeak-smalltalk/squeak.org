@@ -19,9 +19,9 @@ Download, unzip, and double-click the appropriate file: `*.bat` for Windows, `*.
 | Experimental 64-bit Bundles | 5.1 | <i class="fa fa-windows"></i> <i class="fa fa-apple"></i> <i class="fa fa-linux"></i> | [<i class="fa fa-external-link"></i>][51_64]{:target=_blank} |
 {:.table .table-condensed .max-width-450-lg}
 
-[51mac]: http://files.squeak.org/5.1/Squeak5.1-16546-32bit/Squeak5.1-16546-32bit-201608171728-macOS.zip
-[51win]: http://files.squeak.org/5.1/Squeak5.1-16546-32bit/Squeak5.1-16546-32bit-201608171728-Windows.zip
-[51lin]: http://files.squeak.org/5.1/Squeak5.1-16546-32bit/Squeak5.1-16546-32bit-201608171728-Linux.zip
-[51arm]: http://files.squeak.org/5.1/Squeak5.1-16546-32bit/Squeak5.1-16546-32bit-201608171728-ARMv6.zip
-[51all]: http://files.squeak.org/5.1/Squeak5.1-16546-32bit/Squeak5.1-16546-32bit-All-in-One.zip
-[51_64]: http://files.squeak.org/5.1/Squeak5.1-16546-64bit/
+[51mac]: http://files.squeak.org/5.1/Squeak5.1-16547-32bit/Squeak5.1-16547-32bit-201608171728-macOS.zip
+[51win]: http://files.squeak.org/5.1/Squeak5.1-16547-32bit/Squeak5.1-16547-32bit-201608171728-Windows.zip
+[51lin]: http://files.squeak.org/5.1/Squeak5.1-16547-32bit/Squeak5.1-16547-32bit-201608171728-Linux.zip
+[51arm]: http://files.squeak.org/5.1/Squeak5.1-16547-32bit/Squeak5.1-16547-32bit-201608171728-ARMv6.zip
+[51all]: http://files.squeak.org/5.1/Squeak5.1-16547-32bit/Squeak5.1-16547-32bit-All-in-One.zip
+[51_64]: http://files.squeak.org/5.1/Squeak5.1-16547-64bit/
