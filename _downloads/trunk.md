@@ -1,5 +1,5 @@
 ---
-title:      Current Alpha Version (a.k.a. Trunk or Bleeding Edge)
+title:      Current Alpha Version (a.k.a. "Trunk" or "Bleeding Edge")
 front-page: true
 order:      2
 cols:       6
