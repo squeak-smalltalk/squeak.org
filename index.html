@@ -9,7 +9,13 @@ welcome: >
   cover a wide range of domains such as education, multimedia, gaming, research,
   and commerce.
 
-download_link: http://files.squeak.org/5.0/Squeak-5.0-All-in-One.zip
+download_link_mac: http://files.squeak.org/5.1/Squeak5.1-16546-32bit/Squeak5.1-16546-32bit-201608171728-macOS.zip
+download_link_win: http://files.squeak.org/5.1/Squeak5.1-16546-32bit/Squeak5.1-16546-32bit-201608171728-Windows.zip
+download_link_lin: http://files.squeak.org/5.1/Squeak5.1-16546-32bit/Squeak5.1-16546-32bit-201608171728-Linux.zip
+download_link_arm: http://files.squeak.org/5.1/Squeak5.1-16546-32bit/Squeak5.1-16546-32bit-201608171728-ARMv6.zip
+download_link_all: http://files.squeak.org/5.1/Squeak5.1-16546-32bit/Squeak5.1-16546-32bit-All-in-One.zip
+
+release_notes_link: https://github.com/squeak-smalltalk/squeak-app/blob/master/release-notes/5.1
 
 sub_button_group:
   - title:  News
@@ -37,12 +43,18 @@ screenshots:
 
   - img-src: img/screenshots/versioning.png
     caption: "Automatic change tracking and distributed source code versioning tools"
+
+  - img-src: img/screenshots/tools.png
+    caption: "Multiple user interface themes and settings for personalization"
+
+  - img-src: img/screenshots/applications.png
+    caption: "Expressive language, powerful tools, and direct manipulation for creative projects"
+
 ---
-{% comment %}
 <div class="alert alert-success text-center" role="alert">
-  <b>Squeak 5.0 is now available for download!</b>
+  <b>Happy birthday Squeak! It has been <a href="http://files.squeak.org/docs/OOPSLA.Squeak.html" target="_blank">20 years</a>! Squeak 5.1 is now available for <a href="{{ page.download_link_all }}">download</a>.</b>
 </div>
-{% endcomment %}
+
 <div class="container">
   <div class="row">
     <div class="col-md-6 col-lg-6">
@@ -52,13 +64,25 @@ screenshots:
       <h2>{{ page.headline }}</h2>
       <div>{{ page.welcome }}</div>
       <div class="text-center">
-        <a id="download-button" class="btn btn-primary" href="{{ page.download_link }}" target="_blank" role="button">
-          <i class="fa fa-windows fa-lg"></i>
-          <i class="fa fa-apple fa-lg"></i>
-          <i class="fa fa-linux fa-lg"></i>
-          Download
+        <span>
+        <a class="btn btn-primary download" href="{{ page.download_link_mac }}" target="_blank" role="button">
+          <i class="fa fa-apple fa-2x"></i></br>
+          macOS
         </a>
-        <p><a href="http://wiki.squeak.org/squeak/6207" target="_blank">Release Notes</a> - <a href="/downloads/">More...</a></p>
+        <a class="btn btn-primary download" href="{{ page.download_link_win }}" target="_blank" role="button">
+          <i class="fa fa-windows fa-2x"></i></br>
+          Windows
+        </a>
+        <a class="btn btn-primary download" href="{{ page.download_link_lin }}" target="_blank" role="button">
+          <i class="fa fa-linux fa-2x"></i></br>
+          Linux (x86)
+        </a>
+        </span>
+        <p>
+        <a href="{{ page.download_link_all }}">All-in-One</a> · 
+        <a href="{{ page.download_link_arm }}">Linux (ARM)</a> · 
+        <a href="{{ page.release_notes_link }}" target="_blank">Release Notes</a> · 
+        <a href="/downloads/">More...</a></p>
 
         <div id="sub-button-group" class="btn-group btn-group-sm" role="group" aria-label="...">
           {% for button in page.sub_button_group %}

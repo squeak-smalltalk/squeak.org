@@ -68,14 +68,15 @@ img[src*=".svg"] { /* Fix SVGs in IE */
     margin-top: 18px;
 }
 
-#download-button {
-    width: 225px;
-    padding: 8px;
-    margin-top: 12px;
+.download {
+    width: 100px;
+    padding: 0.5ex;
+    margin-top: 1ex;
+    margin-bottom: 1ex;
 }
 
-#download-button i {
-    margin-right: 12px;
+.download i {
+    margin-bottom: 0.25ex;
 }
 
 #sub-button-group {
