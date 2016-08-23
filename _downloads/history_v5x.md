@@ -26,10 +26,10 @@ img-border: true
 [50]: http://files.squeak.org/5.0/Squeak5.0-15120-32bit/Squeak5.0-15120-32bit-All-in-One.zip
 [50c]: http://files.squeak.org/5.0/Squeak5.0-15120-32bit/
 
-[51]: http://files.squeak.org/5.1/Squeak5.1-16547-32bit/Squeak5.1-16547-32bit-All-in-One.zip
-[51c]: http://files.squeak.org/5.1/Squeak5.1-16547-32bit/
-[51_64]: http://files.squeak.org/5.1/Squeak5.1-16547-64bit/Squeak5.1-16547-64bit-All-in-One.zip
-[51c_64]: http://files.squeak.org/5.1/Squeak5.1-16547-64bit/
+[51]: http://files.squeak.org/5.1/Squeak5.1-16548-32bit/Squeak5.1-16548-32bit-All-in-One.zip
+[51c]: http://files.squeak.org/5.1/Squeak5.1-16548-32bit/
+[51_64]: http://files.squeak.org/5.1/Squeak5.1-16548-64bit/Squeak5.1-16548-64bit-All-in-One.zip
+[51c_64]: http://files.squeak.org/5.1/Squeak5.1-16548-64bit/
 
 [50s]: http://files.squeak.org/sources_files/SqueakV50.sources.gz
 
