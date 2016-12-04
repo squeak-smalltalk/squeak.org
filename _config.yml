@@ -1,6 +1,7 @@
 # Site settings
 title: Squeak/Smalltalk
 copyright: Squeak Project
+url: http://www.squeak.org
 
 # SEO
 description: >
@@ -68,10 +69,9 @@ markdown: kramdown
 
 # Enable plugins
 gems:
-  - jekyll-sitemap
   - jekyll-redirect-from
   - jekyll/scholar
-
+  - jekyll-sitemap
 
 include: [_pages]
 
