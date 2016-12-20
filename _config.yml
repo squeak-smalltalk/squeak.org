@@ -85,7 +85,5 @@ scholar:
 
   source: _research
   bibliography: references.bib
-  bibliography_template: "{{reference}}"
   bibliography_template: bib
-  bibtex_options:
-    parse_names: false
+  style: _research/squeak.csl
