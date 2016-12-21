@@ -1095,12 +1095,9 @@
       <choose>
         <if type="legal_case" match="none">
           <choose>
-            <if variable="DOI">
-              <text variable="DOI" prefix="doi:"/>
-            </if>
-            <else>
+            <if variable="URL">
               <text variable="URL"/>
-            </else>
+            </if>
           </choose>
         </if>
       </choose>
@@ -1127,12 +1124,9 @@
       <choose>
         <if type="legal_case" match="none">
           <choose>
-            <if variable="DOI">
-              <text variable="DOI" prefix="doi:"/>
-            </if>
-            <else>
+            <if variable="URL">
               <text variable="URL"/>
-            </else>
+            </if>
           </choose>
         </if>
       </choose>
@@ -1218,7 +1212,7 @@
       </choose>
     </layout>
   </citation>
-  <bibliography hanging-indent="true" et-al-min="11" et-al-use-first="7" subsequent-author-substitute="———" entry-spacing="0">
+  <bibliography hanging-indent="true" et-al-min="11" et-al-use-first="7" entry-spacing="0">
     <sort>
       <key macro="contributors-sort"/>
       <key variable="title"/>
