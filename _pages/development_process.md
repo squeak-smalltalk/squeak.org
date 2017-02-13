@@ -1,7 +1,7 @@
 ---
 layout:     default
 title:      "The Squeak Development Process"
-permalink:  /development_model/
+permalink:  /development_process/
 ---
 {::options parse_block_html="true" /}
 
