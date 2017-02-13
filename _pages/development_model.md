@@ -5,26 +5,26 @@ permalink:  /development_model/
 ---
 {::options parse_block_html="true" /}
 
-The Squeak Development Process supports the improvement Squeak--the core of the system and its supporting libraries--by its community. The process builds on few basic ideas: the use of Monticello as the primary source code management system, free access for the developers to the main repositories, and an incremental update process for both developers and users.
+The Squeak Development Process supports the improvement of Squeak—the core of the system and its supporting libraries—by its community. The process builds on few basic ideas: the use of Monticello as the primary source code management system, free access for the developers to the main repositories, and an incremental update process for both developers and users.
 
 <div class="row">
 <div class="col-md-6 col-lg-6">
 
 ## Monticello  Repositories
 
-The main development repository is the **[trunk](http://source.squeak.org/trunk.html)**:
+The main development repository is **[The Trunk](http://source.squeak.org/trunk.html)**:
 
 * <http://source.squeak.org/trunk>
 
 New code will be committed here; the repository is world-readable and writable for the group of core developers.
 
-The main contribution repository is the **[inbox](http://source.squeak.org/inbox.html)**:
+The main contribution repository is **[The Inbox](http://source.squeak.org/inbox.html)**:
 
 * <http://source.squeak.org/inbox>
 
 This repository is intended as dropbox. It is world-readable *and* world-writable. Everyone is encouraged to contribute code here. Code that the community, after discussion, accepts as fitting will be moved to the *trunk*. 
 
-If contributions do not work or are deemed unfitting, they are moved to the **[treated inbox](http://source.squeak.org/treated)** for future reference:
+If contributions do not work or are deemed unfitting, they are moved to **[The Treated Inbox](http://source.squeak.org/treated)** for future reference:
 
 * <http://source.squeak.org/treated>
 
