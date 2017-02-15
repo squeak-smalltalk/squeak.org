@@ -7,21 +7,20 @@ permalink:  /board/
 <div class="row">
 <div class="col-md-6 col-lg-6">
 
-## Current Board Members (2016)
+## Current Board Members (2017)
 
+- Jecel Assumpcao Jr.
+- Nicolas Cellier
 - Bert Freudenberg
 - Craig Latta
 - David T. Lewis
-- Chris Muller
 - Tim Rowledge
 - Marcel Taeumel
-- Levente Uzonyi
 
 <br />
 
 **Past Board Members**
 
-- Jecel Assumpcao
 - Andrew P. Black
 - Ken Causey
 - Edgar J. De Cleene
@@ -31,18 +30,21 @@ permalink:  /board/
 - Stéphane Ducasse
 - Dan Ingalls
 - Eliot Miranda
+- Chris Muller
 - Yoshiki Ohshima
 - Colin Putney
 - Andreas Raab <sup>&dagger;</sup>
 - Randal L. Schwartz
 - Frank Shearar
 - Igor Stasenko
+- Levente Uzonyi
 - Juan Vuletich
 
 <br />
 
 **Election Results**
 
+[2017](http://civs.cs.cornell.edu/cgi-bin/results.pl?id=E_3d5e07f8dfaf428a) |
 [2016](http://civs.cs.cornell.edu/cgi-bin/results.pl?id=E_deb64ca4f4cffbaa) |
 [2015](http://civs.cs.cornell.edu/cgi-bin/results.pl?id=E_5abe0e8654efae1a) |
 [2014](http://civs.cs.cornell.edu/cgi-bin/results.pl?id=E_a467c120d84dac90) |
