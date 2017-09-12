@@ -37,6 +37,16 @@ If contributions do not work or are deemed unfitting, they are moved to **[The T
 
 All code submitted to the repositories must be licensed under [The MIT License](https://opensource.org/licenses/MIT).
 
+## How Commits to the Inbox are Merged
+If a change in the inbox is accepted the following should be done by a core developer to merge it:
+ 
+ 1. Merge the commit in an up-to-date trunk image
+ 2. Make sure the commit works with the up-to-date image
+ 3. Commit the merged version
+ 4. The merge commit has now two ancestors: the previous head of the trunk repository and the commit from the inbox. To provide a consistent history, we have to move the inbox commit to the trunk repository. Therefore go to <http://source.squeak.org/inbox> and look for the commit under versions. After clicking on the version you see details of the version and two buttons which allow you to move the version either to trunk or the treated inbox. Use the move to trunk button to move the change to the trunk.
+
+In case there are no new commits in the trunk repository, core developers can also simply use the "Move to Trunk" button on <http://source.squeak.org/inbox>.
+
 </div>
 <div class="col-md-6 col-lg-6">
 
