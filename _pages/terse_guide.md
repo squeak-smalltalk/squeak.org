@@ -349,14 +349,14 @@ y := $A max: $B.
 {% highlight smalltalk %}
 | b x y |
 x := #Hello.                                                "symbol assignment"
-y := 'String', 'Concatenation'.                             "symbol concatenation (result is string)"
+y := #Symbol, 'Concatenation'.                              "symbol concatenation (result is string)"
 b := x isEmpty.                                             "test if symbol is empty"
 y := x size.                                                "string size"
 y := x at: 2.                                               "char at location"
 y := x copyFrom: 2 to: 4.                                   "substring"
 y := x indexOf: $e ifAbsent: [0].                           "first position of character within string"
 x do: [:a | Transcript show: a printString; cr].            "iterate over the string"
-b := x conform: [:a | (a >= $a) & (a <= $z)].               "test if all elements meet condition"
+b := x allSatisfy: [:a | (a >= $a) & (a <= $z)].            "test if all elements meet condition"
 y := x select: [:a | a > $a].                               "return all elements that meet condition"
 y := x asString.                                            "convert symbol to string"
 y := x asText.                                              "convert symbol to text"
