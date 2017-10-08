@@ -1,6 +1,6 @@
 ---
 title:      Continuous Integration
-order:      4
+order:      5
 category:   Develop Your Own Applications
 img-src:    dev/travisci.png
 href:       http://docs.travis-ci.com/user/languages/smalltalk/

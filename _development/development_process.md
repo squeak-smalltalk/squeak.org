@@ -1,6 +1,7 @@
 ---
 title:      "Development Process"
-order:      2
+order:      1
+front-page: true
 category:   Contribute to Squeak
 img-src:    dev/process.png
 href:       /development_process

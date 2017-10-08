@@ -1,6 +1,6 @@
 ---
 title:      Version Control With Git
-order:      3
+order:      4
 front-page: true
 category:   Develop Your Own Applications
 img-src:    dev/octocat.png

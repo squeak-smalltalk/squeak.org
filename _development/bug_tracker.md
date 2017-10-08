@@ -1,6 +1,6 @@
 ---
 title:      Squeak Bug Tracker
-order:      4
+order:      2
 front-page: true
 category:   Contribute to Squeak
 img-src:    dev/bug_tracker.png
