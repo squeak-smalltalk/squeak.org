@@ -69,7 +69,7 @@ sass:
 host: 0.0.0.0
 
 # Caching
-build_version: 1.4
+build_version: 1.5
 staticurl: static/
 
 # Build settings
@@ -80,8 +80,8 @@ markdown: kramdown
 plugins:
   - jekyll-redirect-from
   - jekyll-seo-tag
-  - jekyll-sitemap
   - jekyll/scholar
+  - jekyll-sitemap  # Should be at the end of the list
 
 include: [_pages]
 
