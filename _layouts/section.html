@@ -32,7 +32,7 @@ layout: compress
           <span class="anchor" id="{{ row.name | slugify }}"></span>
           <h2>{{ row.name }}</h2>
             {% endif %}
-            {% assign reversedItems = row.items reversed %}
+            {% assign reversedItems = row.items | reversed %}
             {% include row.html items=reversedItems %}
           {% endfor %}
         {% else %}

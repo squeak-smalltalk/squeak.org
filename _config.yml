@@ -1,13 +1,22 @@
 # Site settings
 title: Squeak/Smalltalk
-copyright: Squeak Project
+copyright: Squeak Foundation
 url: http://squeak.org
 
 # SEO
-description: >
+author: Squeak Foundation
+description: >-
   Squeak is a modern, open source, full-featured implementation of the powerful
   Smalltalk programming language and environment.
-author: Squeak Foundation
+twitter:
+  username: squeaksmalltalk
+logo: /static/img/squeak.png
+social:
+  name: Squeak Foundation
+  links:
+    - https://twitter.com/squeaksmalltalk
+    - https://github.com/squeak-smalltalk
+    - https://www.linkedin.com/groups/98736
 
 collections:
   # Order matters
@@ -60,7 +69,7 @@ sass:
 host: 0.0.0.0
 
 # Caching
-build_version: 1.3
+build_version: 1.4
 staticurl: static/
 
 # Build settings
@@ -68,10 +77,11 @@ highlighter: pygments
 markdown: kramdown
 
 # Enable plugins
-gems:
+plugins:
   - jekyll-redirect-from
-  - jekyll/scholar
+  - jekyll-seo-tag
   - jekyll-sitemap
+  - jekyll/scholar
 
 include: [_pages]
 

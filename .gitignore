@@ -4,3 +4,5 @@ _site
 *.swp
 *.lock
 .jekyll-metadata
+vendor
+.bundle

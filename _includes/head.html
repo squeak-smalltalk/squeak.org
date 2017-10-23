@@ -3,8 +3,6 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-  <meta name="description" content="{{ site.description }}">
-  <meta name="author" content="{{ site.author }}">
 
   <title>{{ site.title }}{% if page.section.title %} | {{ page.section.title }}{% else %}{% if page.title %} | {{ page.title }}{% endif %}{% endif %}</title>
 
@@ -20,4 +18,6 @@
     <script src="/static/js/html5shiv.min.js"></script>
     <script src="/static/js/respond.min.js"></script>
   <![endif]-->
+
+  {% seo title=false %}
 </head>
