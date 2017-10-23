@@ -1,15 +1,13 @@
-require 'html/proofer'
+require 'html-proofer'
 
 task :test do
     sh "bundle exec jekyll build"
     sh "rm -rf ./_site/posts"
-    HTML::Proofer.new("./_site", {
-       :empty_alt_ignore => true,
-       :href_ignore => ["#", /^(https?\:\/\/)?(www\.)?youtube\.com\/.+$/],
-       :parallel => {:in_processes => 4},
-       :only_4xx => true,
-       :check_html => true,
-       :typhoeus => { 
-           :timeout => 3 }
-    }).run
+    opts = {
+        :check_html => true,
+        :empty_alt_ignore => true,
+        :only_4xx => true,
+        :url_ignore => ["#", /^(https?\:\/\/)?(www\.)?youtube\.com\/.+$/, /^http\:\/\/squeak\.org\/(4|5)0/]
+    }
+    HTMLProofer.check_directory('./_site', opts).run
 end

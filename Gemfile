@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-gem 'html-proofer', '2.6.4'
+gem 'html-proofer', '3.0.6'
 gem 'github-pages', '166'
 gem 'jekyll-redirect-from', '0.12.1'
 gem 'jekyll-scholar', '5.10.2'
