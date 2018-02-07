@@ -8,7 +8,9 @@ task :test do
         :empty_alt_ignore => true,
         :only_4xx => true,
         :url_ignore => ["#", /^(https?\:\/\/)?(www\.)?youtube\.com\/.+$/, /^http\:\/\/squeak\.org\/(4|5)0/],
-        :typhoeus => { :verbose => true }
+        :typhoeus => {
+          :ssl_verifypeer => false,
+          :ssl_verifyhost => 0 }
     }
     HTMLProofer.check_directory('./_site', opts).run
 end
