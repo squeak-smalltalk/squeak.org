@@ -7,20 +7,21 @@ permalink:  /board/
 <div class="row">
 <div class="col-md-6 col-lg-6">
 
-## Current Board Members (2017)
+## Current Board Members (2018)
 
-- Jecel Assumpcao Jr.
-- Nicolas Cellier
 - Bert Freudenberg
-- Craig Latta
-- David T. Lewis
+- Eliot Miranda
 - Tim Rowledge
+- David T. Lewis
 - Marcel Taeumel
+- Craig Latta
+- Nicolas Cellier
 
 <br />
 
 **Past Board Members**
 
+- Jecel Assumpcao Jr.
 - Andrew P. Black
 - Ken Causey
 - Edgar J. De Cleene
@@ -44,18 +45,19 @@ permalink:  /board/
 
 **Election Results**
 
-[2017](http://civs.cs.cornell.edu/cgi-bin/results.pl?id=E_3d5e07f8dfaf428a) |
-[2016](http://civs.cs.cornell.edu/cgi-bin/results.pl?id=E_deb64ca4f4cffbaa) |
-[2015](http://civs.cs.cornell.edu/cgi-bin/results.pl?id=E_5abe0e8654efae1a) |
-[2014](http://civs.cs.cornell.edu/cgi-bin/results.pl?id=E_a467c120d84dac90) |
-[2013](http://civs.cs.cornell.edu/cgi-bin/results.pl?id=E_245d976cd43b9f99) |
-[2012](http://civs.cs.cornell.edu/cgi-bin/results.pl?id=E_114579ef2a1eb9a4) |
-[2011](http://civs.cs.cornell.edu/cgi-bin/results.pl?id=E_22a9387d06a3ed3b) |
-[2010](http://civs.cs.cornell.edu/cgi-bin/results.pl?id=E_716d8c257e6cf36b) |
-[2009](http://civs.cs.cornell.edu/cgi-bin/results.pl?id=E_f48a814ea5d852de) |
-[2008](http://civs.cs.cornell.edu/cgi-bin/results.pl?id=E_d38cc27709a65b64) |
-[2007](http://civs.cs.cornell.edu/cgi-bin/results.pl?id=E_be84b060864afc59) |
-[2006](http://civs.cs.cornell.edu/cgi-bin/results.pl?id=E_8c2bcb5151df7e75)
+[2018](https://civs.cs.cornell.edu/cgi-bin/results.pl?id=E_fe5f0c2a40bd8a05) |
+[2017](https://civs.cs.cornell.edu/cgi-bin/results.pl?id=E_3d5e07f8dfaf428a) |
+[2016](https://civs.cs.cornell.edu/cgi-bin/results.pl?id=E_deb64ca4f4cffbaa) |
+[2015](https://civs.cs.cornell.edu/cgi-bin/results.pl?id=E_5abe0e8654efae1a) |
+[2014](https://civs.cs.cornell.edu/cgi-bin/results.pl?id=E_a467c120d84dac90) |
+[2013](https://civs.cs.cornell.edu/cgi-bin/results.pl?id=E_245d976cd43b9f99) |
+[2012](https://civs.cs.cornell.edu/cgi-bin/results.pl?id=E_114579ef2a1eb9a4) |
+[2011](https://civs.cs.cornell.edu/cgi-bin/results.pl?id=E_22a9387d06a3ed3b) |
+[2010](https://civs.cs.cornell.edu/cgi-bin/results.pl?id=E_716d8c257e6cf36b) |
+[2009](https://civs.cs.cornell.edu/cgi-bin/results.pl?id=E_f48a814ea5d852de) |
+[2008](https://civs.cs.cornell.edu/cgi-bin/results.pl?id=E_d38cc27709a65b64) |
+[2007](https://civs.cs.cornell.edu/cgi-bin/results.pl?id=E_be84b060864afc59) |
+[2006](https://civs.cs.cornell.edu/cgi-bin/results.pl?id=E_8c2bcb5151df7e75)
 
 </div>
 <div class="col-md-6 col-lg-6">
