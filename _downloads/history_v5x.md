@@ -33,5 +33,5 @@ img-border: true
 
 [50s]: http://files.squeak.org/sources_files/SqueakV50.sources.gz
 
-[51r]: https://github.com/squeak-smalltalk/squeak-app/blob/master/release-notes/5.1
-[50r]: https://github.com/squeak-smalltalk/squeak-app/blob/master/release-notes/5.0
+[51r]: https://github.com/squeak-smalltalk/squeak-app/blob/squeak-trunk/release-notes/5.1
+[50r]: https://github.com/squeak-smalltalk/squeak-app/blob/squeak-trunk/release-notes/5.0
