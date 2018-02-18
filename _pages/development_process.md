@@ -47,6 +47,14 @@ If a change in the inbox is accepted the following should be done by a core deve
 
 In case there are no new commits in the trunk repository, core developers can also simply use the "Move to Trunk" button on <http://source.squeak.org/inbox>.
 
+## How to Remove a Package from Trunk:
+ 1. First, do NOT delete the package from source.squeak.org!  Leave it in for older images.
+ 2. Note the version of the package to be removed.
+ 3. Edit the Squeak-Version package, altering the postscript to remove the package (MCPackage named: 'Universes') unload.  You get to the postscript by pressing the 'Scripts' button in the Monticello Browser when the package is selected.
+ 4. Save the Squeak-Version package to trunk with a version that is increased by the removed package version (step 2 above) + 1 for this bump.  This keeps the trunk version number correctly increasinglike it should.
+ 5. Update the trunk update config with the latest version of packages - and REMOVE the package from the config that should no longer be in trunk.  Save this update.
+ 6. Test it with a new image to verify everything worked correctly.
+
 </div>
 <div class="col-md-6 col-lg-6">
 
