@@ -10,7 +10,7 @@ The Squeak Development Process supports the improvement of Squeak—the core of 
 <div class="row">
 <div class="col-md-6 col-lg-6">
 
-## Monticello  Repositories
+## Monticello Repositories
 
 The main development repository is **[The Trunk](http://source.squeak.org/trunk.html)**:
 
@@ -47,12 +47,12 @@ If a change in the inbox is accepted the following should be done by a core deve
 
 In case there are no new commits in the trunk repository, core developers can also simply use the "Move to Trunk" button on <http://source.squeak.org/inbox>.
 
-## How to Remove a Package from Trunk:
- 1. First, do NOT delete the package from source.squeak.org!  Leave it in for older images.
+## How to Remove a Package from Trunk
+ 1. First, do NOT delete the package from source.squeak.org! Leave it in for older images.
  2. Note the version of the package to be removed.
- 3. Edit the Squeak-Version package, altering the postscript to remove the package (MCPackage named: 'Universes') unload.  You get to the postscript by pressing the 'Scripts' button in the Monticello Browser when the package is selected.
- 4. Save the Squeak-Version package to trunk with a version that is increased by the removed package version (step 2 above) + 1 for this bump.  This keeps the trunk version number correctly increasinglike it should.
- 5. Update the trunk update config with the latest version of packages - and REMOVE the package from the config that should no longer be in trunk.  Save this update.
+ 3. Edit the Squeak-Version package, altering the postscript to remove the package `(MCPackage named: 'Universes') unload`. You get to the postscript by pressing the *Scripts* button in the Monticello Browser when the package is selected.
+ 4. Save the Squeak-Version package to trunk with a version that is increased by the removed package version (step 2 above) + 1 for this bump. This keeps the trunk version number correctly increasing like it should.
+ 5. Update the trunk update config with the latest version of packages - and REMOVE the package from the config that should no longer be in trunk. Save this update.
  6. Test it with a new image to verify everything worked correctly.
 
 </div>
@@ -74,7 +74,7 @@ Here are some useful guidelines:
 
 * **Do good and talk about it.** When you are done with whatever you have been working on, let people know about it. It can be as short as a note to Squeak-dev saying “I have fixed the long standing bug with *xyz.* Please update and enjoy.”
 
-* **Unit Testing.** Unit tests are an essential part of maintaining the reliability of our releases. New unit tests are always welcome. Keep in mind that a unit test should take as little time to run as possible.  Maintaining the reliability of Squeak is always easier when all tests pass: If you break something, the appearance of a new failure or error is immediately obvious and the cause is more easily found. To that end fixes for failures or errors are extremely valuable. Also, please avoid submitting changes that cause failures or errors themselves.
+* **Unit Testing.** Unit tests are an essential part of maintaining the reliability of our releases. New unit tests are always welcome. Keep in mind that a unit test should take as little time to run as possible. Maintaining the reliability of Squeak is always easier when all tests pass: If you break something, the appearance of a new failure or error is immediately obvious and the cause is more easily found. To that end fixes for failures or errors are extremely valuable. Also, please avoid submitting changes that cause failures or errors themselves.
 
 
 </div>
