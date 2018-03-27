@@ -55,17 +55,17 @@ In case there are no new commits in the trunk repository, core developers can al
  5. Update the trunk update config with the latest version of packages - and REMOVE the package from the config that should no longer be in trunk. Save this update.
  6. Test it with a new image to verify everything worked correctly.
 
-## How to deprecate a class or method
+## How to Deprecate a Class or Method
 When a single meta object is removed from the image we want to make sure that projects relying on it can still be loaded in newer Squeak versions. Therefore, these methods and classes are saved in special packages. The packages are named using the following pattern: NNDeprecated-OriginalPackageName (NN being the two digit version number). So, if we want to deprecate meta objects from the Kernel package which were present up to Squeak 5.1 we would put them into the package: 51Deprecated-Kernel.
 
 In particular for classes and methods the process works as following:
 
-### Deprecating a class
+### Deprecating a Class
  
  1. Move the class to the corresponding deprecation category
  2. Remove all references to it from the Trunk image
 
-### Deprecating a message/method
+### Deprecating a Message/Method
 
  1. Move the method to the method category "*NNDeprecated-OriginalPackageName" to make it an extension method persisted in the corresponding deprecation package
  2. Remove all calls to it from the Trunk image
