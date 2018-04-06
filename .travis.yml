@@ -2,7 +2,7 @@ language: ruby
 cache: bundler
 sudo: false
 rvm:
-  - 2.3
+  - 2.3.3
 branches:
   only:
   - master
