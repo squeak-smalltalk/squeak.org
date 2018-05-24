@@ -10,8 +10,8 @@ You can always take a look at the progress in the latest alpha version. Feel fre
 
 |                   | Version   | Link   |
 | ----------------- |:--------- | ------:|
-| Trunk             | 6.0alpha     | [<i class="fa fa-external-link"></i>][trunk]{:target=_blank} |
+| Trunk             | 5.2alpha     | [<i class="fa fa-external-link"></i>][trunk]{:target=_blank} |
 {:.table .table-condensed .max-width-360-lg}
 
-[trunk]: http://files.squeak.org/6.0alpha/
+[trunk]: http://files.squeak.org/trunk/
 [inbox]: http://source.squeak.org/inbox.html
