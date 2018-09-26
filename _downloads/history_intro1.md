@@ -1,4 +1,5 @@
 ---
+title:    ""
 order:    50
 cols:     6
 category: History
