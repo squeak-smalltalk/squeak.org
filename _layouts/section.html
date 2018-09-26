@@ -12,8 +12,9 @@ layout: compress
 
     <div class="container">
       <div class="section">
-        <h1 class="section-heading"><span>{{ page.section.title }}</span></h1>
-
+        {% if post.section.title %}
+          <h1 class="section-heading"><span>{{ page.section.title }}</span></h1>
+	{% endif %}
         {% if page.head %}
         <div class="section-head text-center">
           {{ page.head }}
