@@ -1,5 +1,5 @@
 ---
-title:      Current Alpha Version (a.k.a. "Trunk" or "Bleeding Edge")
+title:      Current Trunk Image
 front-page: true
 order:      2
 cols:       6
@@ -10,7 +10,7 @@ You can always take a look at the progress in the latest alpha version. Feel fre
 
 |                   | Version   | Link   |
 | ----------------- |:--------- | ------:|
-| Trunk             | 5.2alpha     | [<i class="fa fa-external-link"></i>][trunk]{:target=_blank} |
+| Trunk             | 5.3alpha     | [<i class="fa fa-external-link"></i>][trunk]{:target=_blank} |
 {:.table .table-condensed .max-width-360-lg}
 
 [trunk]: http://files.squeak.org/trunk/

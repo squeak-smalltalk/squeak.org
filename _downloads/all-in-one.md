@@ -11,17 +11,17 @@ Download, unzip, and double-click the appropriate file: `*.bat` for Windows, `*.
 
 |            | Version   | Support   | Link   |
 | ---------- |:--------- |:--------- | ------:|
-| macOS | 5.1 | <i class="fa fa-apple"></i> | [<i class="fa fa-download"></i>][51mac]{:target=_blank} |
-| Windows | 5.1 | <i class="fa fa-windows"></i> | [<i class="fa fa-download"></i>][51win]{:target=_blank} |
-| Linux (x86) | 5.1 | <i class="fa fa-linux"></i> | [<i class="fa fa-download"></i>][51lin]{:target=_blank} |
-| Linux (ARM) | 5.1 | <i class="fa fa-linux"></i> | [<i class="fa fa-download"></i>][51arm]{:target=_blank} |
-| All-in-One | 5.1       | <i class="fa fa-windows"></i> <i class="fa fa-apple"></i> <i class="fa fa-linux"></i> | [<i class="fa fa-download"></i>][51all]{:target=_blank} |
-| Experimental 64-bit Bundles | 5.1 | <i class="fa fa-windows"></i> <i class="fa fa-apple"></i> <i class="fa fa-linux"></i> | [<i class="fa fa-external-link"></i>][51_64]{:target=_blank} |
+| macOS (64-bit) | 5.2 | <i class="fa fa-apple"></i> | [<i class="fa fa-download"></i>][52mac]{:target=_blank} |
+| Windows (64-bit) | 5.2 | <i class="fa fa-windows"></i> | [<i class="fa fa-download"></i>][52win]{:target=_blank} |
+| Linux (x64) | 5.2 | <i class="fa fa-linux"></i> | [<i class="fa fa-download"></i>][52lin]{:target=_blank} |
+| Linux (ARMv6) | 5.2 | <i class="fa fa-linux"></i> | [<i class="fa fa-download"></i>][52arm]{:target=_blank} |
+| All-in-One (64-bit) | 5.2       | <i class="fa fa-windows"></i> <i class="fa fa-apple"></i> <i class="fa fa-linux"></i> | [<i class="fa fa-download"></i>][52all]{:target=_blank} |
+| 32-bit Bundles | 5.2 | <i class="fa fa-windows"></i> <i class="fa fa-apple"></i> <i class="fa fa-linux"></i> | [<i class="fa fa-external-link"></i>][52_32]{:target=_blank} |
 {:.table .table-condensed .max-width-450-lg}
 
-[51mac]: http://files.squeak.org/5.1/Squeak5.1-16549-32bit/Squeak5.1-16549-32bit-201701281910-macOS.zip
-[51win]: http://files.squeak.org/5.1/Squeak5.1-16549-32bit/Squeak5.1-16549-32bit-201608171728-Windows.zip
-[51lin]: http://files.squeak.org/5.1/Squeak5.1-16549-32bit/Squeak5.1-16549-32bit-201608171728-Linux.zip
-[51arm]: http://files.squeak.org/5.1/Squeak5.1-16549-32bit/Squeak5.1-16549-32bit-201608171728-ARMv6.zip
-[51all]: http://files.squeak.org/5.1/Squeak5.1-16549-32bit/Squeak5.1-16549-32bit-All-in-One.zip
-[51_64]: http://files.squeak.org/5.1/Squeak5.1-16549-64bit/
+[52mac]: http://files.squeak.org/5.2/Squeak5.2-18221-64bit/Squeak5.2-18221-64bit-201810071412-macOS.dmg
+[52win]: http://files.squeak.org/5.2/Squeak5.2-18221-64bit/Squeak5.2-18221-64bit-201810071412-Windows.zip
+[52lin]: http://files.squeak.org/5.2/Squeak5.2-18221-64bit/Squeak5.2-18221-64bit-201810071412-Linux.zip
+[52arm]: http://files.squeak.org/5.2/Squeak5.2-18221-32bit/Squeak5.2-18221-32bit-201810071412-ARMv6.zip
+[52all]: http://files.squeak.org/5.2/Squeak5.2-18221-64bit/Squeak5.2-18221-64bit-All-in-One.zip
+[52_32]: http://files.squeak.org/5.2/Squeak5.2-18221-32bit/
