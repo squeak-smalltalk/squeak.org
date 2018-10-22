@@ -9,8 +9,8 @@ img-border: true
 
 |                | Version   | Date     | Link                                                       |
 | -------------- |:--------- |:--------:| ----------------------------------------------------------:|
-| 64-bit Bundles     | 5.2       | Oct 2018 | [<i class="fa fa-external-link"></i>][52_64]{:target=_blank}       |
-| 32-bit Bundles     | 5.2       | Oct 2018 | [<i class="fa fa-external-link"></i>][52_32]{:target=_blank}       |
+| 64-bit Bundles     | 5.2b      | Oct 2018 | [<i class="fa fa-external-link"></i>][52_64]{:target=_blank}       |
+| 32-bit Bundles     | 5.2b      | Oct 2018 | [<i class="fa fa-external-link"></i>][52_32]{:target=_blank}       |
 | 64-bit Bundles     | 5.1       | Aug 2016 | [<i class="fa fa-external-link"></i>][51_32]{:target=_blank}       |
 | 32-bit Bundles     | 5.1       | Aug 2016 | [<i class="fa fa-external-link"></i>][51_64]{:target=_blank}      |
 |
@@ -30,8 +30,8 @@ img-border: true
 [51_32]: http://files.squeak.org/5.1/Squeak5.1-16548-32bit/
 [51_64]: http://files.squeak.org/5.1/Squeak5.1-16548-64bit/
 
-[52_64]: http://files.squeak.org/5.2/Squeak5.2-18221-64bit/
-[52_32]: http://files.squeak.org/5.2/Squeak5.2-18221-32bit/
+[52_64]: http://files.squeak.org/5.2/Squeak5.2-18225-64bit/
+[52_32]: http://files.squeak.org/5.2/Squeak5.2-18225-32bit/
 
 [50s]: http://files.squeak.org/sources_files/SqueakV50.sources.gz
 
