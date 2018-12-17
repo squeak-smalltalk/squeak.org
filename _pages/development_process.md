@@ -58,7 +58,7 @@ In case there are no new commits in the trunk repository, core developers can al
 ## How to Deprecate a Class or Method
 When a single meta object is removed from the image we want to make sure that projects relying on it can still be loaded in newer Squeak versions. Therefore, these methods and classes are saved in special packages. The packages are named using the following pattern: "*NNDeprecated-OriginalPackageName*" (NN being the two digit version number). So, if we want to deprecate meta objects from the "*Kernel*" package which were part of the base system up to Squeak 5.1, we would put them into the package: "*51Deprecated-Kernel*".
 
-In particular for classes and methods the process works as following:
+In detail, the process for classes or methods works as following:
 
 ### Deprecating a Class
  
