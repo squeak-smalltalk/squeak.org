@@ -7,7 +7,7 @@ permalink:  /board/
 <div class="row">
 <div class="col-md-6 col-lg-6">
 
-## Current Board Members (2018)
+## Current Board Members (2019)
 
 - Bert Freudenberg
 - Craig Latta
