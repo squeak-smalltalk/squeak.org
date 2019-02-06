@@ -10,12 +10,12 @@ permalink:  /board/
 ## Current Board Members (2018)
 
 - Bert Freudenberg
-- Eliot Miranda
+- Craig Latta
 - Tim Rowledge
 - David T. Lewis
 - Marcel Taeumel
-- Craig Latta
-- Nicolas Cellier
+- Chris Muller
+- Ben Coman
 
 <br />
 
@@ -24,6 +24,7 @@ permalink:  /board/
 - Jecel Assumpcao Jr.
 - Andrew P. Black
 - Ken Causey
+- Nicolas Cellier
 - Edgar J. De Cleene
 - Chris Cunnington
 - Cees de Groot
@@ -31,7 +32,6 @@ permalink:  /board/
 - Stéphane Ducasse
 - Dan Ingalls
 - Eliot Miranda
-- Chris Muller
 - Yoshiki Ohshima
 - Colin Putney
 - Andreas Raab <sup>&dagger;</sup>
@@ -45,6 +45,7 @@ permalink:  /board/
 
 **Election Results**
 
+[2019](https://civs.cs.cornell.edu/cgi-bin/results.pl?id=E_04f13e0b53df4039) |
 [2018](https://civs.cs.cornell.edu/cgi-bin/results.pl?id=E_fe5f0c2a40bd8a05) |
 [2017](https://civs.cs.cornell.edu/cgi-bin/results.pl?id=E_3d5e07f8dfaf428a) |
 [2016](https://civs.cs.cornell.edu/cgi-bin/results.pl?id=E_deb64ca4f4cffbaa) |
