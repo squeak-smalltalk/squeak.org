@@ -10,7 +10,7 @@ task :test do
         :url_ignore => [
           "#",
           /^(https?\:\/\/)?(www\.)?youtube\.com\/.+$/,
-          /^http\:\/\/squeak\.org\/(4|5)0/,
+          /^https?\:\/\/squeak\.org\/(4|5)0/,
           /^(https?\:\/\/)?(shop\.)?spreadshirt\.com\/.+$/ ],
         :typhoeus => {
           :ssl_verifypeer => false,
