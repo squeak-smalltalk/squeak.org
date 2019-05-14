@@ -11,8 +11,8 @@ img-border: true
 | -------------- |:--------- |:--------:| ----------------------------------------------------------:|
 | 64-bit Bundles     | 5.2b      | Oct 2018 | [<i class="fa fa-external-link"></i>][52_64]{:target=_blank}       |
 | 32-bit Bundles     | 5.2b      | Oct 2018 | [<i class="fa fa-external-link"></i>][52_32]{:target=_blank}       |
-| 64-bit Bundles     | 5.1       | Aug 2016 | [<i class="fa fa-external-link"></i>][51_32]{:target=_blank}       |
-| 32-bit Bundles     | 5.1       | Aug 2016 | [<i class="fa fa-external-link"></i>][51_64]{:target=_blank}      |
+| 64-bit Bundles     | 5.1       | Aug 2016 | [<i class="fa fa-external-link"></i>][51_64]{:target=_blank}       |
+| 32-bit Bundles     | 5.1       | Aug 2016 | [<i class="fa fa-external-link"></i>][51_32]{:target=_blank}      |
 |
 | All-in-One     | 5.0      | Jul 2015 | [<i class="fa fa-download"></i>][50]{:target=_blank}       |
 | Custom         | 5.0       | Jul 2015 | [<i class="fa fa-external-link"></i>][50]{:target=_blank}      |
