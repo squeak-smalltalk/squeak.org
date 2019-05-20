@@ -2,7 +2,6 @@ require 'html-proofer'
 
 task :test do
     sh "bundle exec jekyll build"
-    sh "rm -rf ./_site/posts"
     opts = {
         :check_html => true,
         :empty_alt_ignore => true,
