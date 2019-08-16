@@ -1,6 +1,6 @@
 ---
 title:      Squeak v5
-order:      50
+order:      52
 cols:       6
 category:   History
 img-src:    downloads/squeak-v5.png
