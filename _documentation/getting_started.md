@@ -12,7 +12,7 @@ category:   Getting Started with Squeak
 * [Morphic Framework][morphic]{:target="_blank"}
 
 [documentation]: http://wiki.squeak.org/squeak/2983
-[introductory]: http://www.cosc.canterbury.ac.nz/~wolfgang/cosc205/smalltalk1.html
+[introductory]: http://web.archive.org/web/20190131121111/http://www.cosc.canterbury.ac.nz/wolfgang.kreutzer/cosc205/smalltalk1.html
 [overview]: http://www.cs.pdx.edu/~harry/musings/SmalltalkOverview.html
 [morphic]: http://wiki.squeak.org/squeak/30
 [nutshell]: http://wiki.squeak.org/squeak/3419
