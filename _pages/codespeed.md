@@ -5,7 +5,7 @@ permalink:  /codespeed/
 ---
 
 <iframe id="codespeed"
-  src="http://speed.squeak.org/"
+  src="https://speed.squeak.org/"
   style="position: absolute; top: 50px; left: 0px; width: 100%;"></iframe>
 
  <script>
