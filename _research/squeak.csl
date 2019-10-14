@@ -1094,11 +1094,7 @@
       </choose>
       <choose>
         <if type="legal_case" match="none">
-          <choose>
-            <if variable="URL">
-              <text variable="URL"/>
-            </if>
-          </choose>
+          <text macro="urlaccess"/>
         </if>
       </choose>
     </group>
@@ -1123,11 +1119,7 @@
       </choose>
       <choose>
         <if type="legal_case" match="none">
-          <choose>
-            <if variable="URL">
-              <text variable="URL"/>
-            </if>
-          </choose>
+          <text macro="urlaccess"/>
         </if>
       </choose>
     </group>
@@ -1143,6 +1135,14 @@
     <choose>
       <if type="legal_case">
         <text macro="issue"/>
+      </if>
+    </choose>
+  </macro>
+  <macro name="urlaccess">
+    <choose>
+      <if variable="URL">
+          <text variable="URL" prefix="&lt;a href=&#34;"/> 
+          <text variable="URL" prefix="&#34; target=&#34;_blank&#34;&gt;" suffix="&lt;/a&gt;"/> 
       </if>
     </choose>
   </macro>
