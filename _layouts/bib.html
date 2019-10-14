@@ -2,6 +2,10 @@
 ---
 {{ reference }}
 
+{% if entry.url %}
+<a href="{{ entry.url }}" target="_blank">{{ entry.url }}</a>.
+{% endif %}
+
 <a href="#" tabindex="0" role="button" data-toggle="popover" title="BibTeX Export" data-target="#{{ entry.key | slugify }}">[BibTeX]</a>
 <div id="{{ entry.key | slugify }}" class="hide">
 <div class="highlight">

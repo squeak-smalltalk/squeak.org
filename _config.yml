@@ -76,9 +76,6 @@ staticurl: static/
 highlighter: pygments
 markdown: kramdown
 
-kramdown:
-  parse_block_html: true
-
 # Enable plugins
 plugins:
   - jekyll-redirect-from
