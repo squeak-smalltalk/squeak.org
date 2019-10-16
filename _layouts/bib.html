@@ -4,7 +4,7 @@
 
 {% if entry.url %}
 <a href="{{ entry.url }}" target="_blank">{{ entry.url }}</a>.
-{% else if entry.doi %}
+{% elsif entry.doi %}
 <a href="https://doi.org/{{ entry.doi }}" target="_blank">https://doi.org/{{ entry.doi }}</a>.
 {% endif %}
 
