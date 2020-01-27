@@ -1,6 +1,6 @@
 ---
 title:      Build Your Own VM
-order:      105
+order:      106
 category:   Virtual Machines
 img-src:    dev/byo_vm.png
 href:       http://wiki.squeak.org/squeak/2105
