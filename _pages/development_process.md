@@ -24,7 +24,7 @@ The main contribution repository is **[The Inbox](http://source.squeak.org/inbox
 
 This repository is intended as dropbox. It is world-readable *and* world-writable. Everyone is encouraged to contribute code here. Code that the community, after discussion, accepts as fitting will be moved to the *trunk*. 
 
-If contributions do not work or are deemed unfitting, they are moved to **[The Treated Inbox](http://source.squeak.org/treated)** for future reference:
+If contributions do not work, are deemed unfitting, or become obsolete for another reason, they are moved to **[The Treated Inbox](http://source.squeak.org/treated)** for future reference:
 
 * <http://source.squeak.org/treated>
 
@@ -32,10 +32,6 @@ If contributions do not work or are deemed unfitting, they are moved to **[The T
 ## Developer access
 
 [The board](/board/) manages developer access to the repositories at <http://source.squeak.org/>. Very active contributors can ask the board for direct write access to the *trunk*. Anybody can suggest other contributors for *trunk* access.
-
-## License
-
-All code submitted to the repositories must be licensed under [The MIT License](https://opensource.org/licenses/MIT).
 
 ## How Commits to the Inbox are Merged
 If a change in the inbox is accepted the following should be done by a core developer to merge it:
@@ -75,6 +71,10 @@ In detail, the process for classes or methods works as following:
 </div>
 <div class="col-md-6 col-lg-6">
 
+## License
+
+All code submitted to the repositories must be licensed under [The MIT License](https://opensource.org/licenses/MIT). If code represents any kind of artistic work (e.g., serialized icons or sounds) not covered by this license, please choose one that shares a similar spirit. [Creative Commons](https://creativecommons.org/share-your-work/) falls in this category. Add a note to the respective code artifact such as in a method or class comment.
+
 ## Rules of Engagement
 
 Here are some useful guidelines:
@@ -94,4 +94,5 @@ Here are some useful guidelines:
 * **Unit Testing.** Unit tests are an essential part of maintaining the reliability of our releases. New unit tests are always welcome. Keep in mind that a unit test should take as little time to run as possible. Maintaining the reliability of Squeak is always easier when all tests pass: If you break something, the appearance of a new failure or error is immediately obvious and the cause is more easily found. To that end fixes for failures or errors are extremely valuable. Also, please avoid submitting changes that cause failures or errors themselves.
 
 
+</div>
 </div>
