@@ -3,12 +3,9 @@ layout:     default
 title:      "The Squeak Development Process"
 permalink:  /development_process/
 ---
-{::options parse_block_html="true" /}
 
 The Squeak Development Process supports the improvement of Squeak—the core of the system and its supporting libraries—by its community. The process builds on few basic ideas: the use of Monticello as the primary source code management system, free access for the developers to the main repositories, and an incremental update process for both developers and users.
 
-<div class="row">
-<div class="col-md-6 col-lg-6">
 
 ## Monticello Repositories
 
@@ -68,9 +65,6 @@ In detail, the process for classes or methods works as following:
  3. Maybe rewrite the deprecated method to use the new implementation, if there is one.
  4. Add `self deprecated: 'Use this or that instead.'.` at the beginning of the deprecated method to guide foreign application code through the migration.
 
-</div>
-<div class="col-md-6 col-lg-6">
-
 ## License
 
 All code submitted to the repositories must be licensed under [The MIT License](https://opensource.org/licenses/MIT). If code represents any kind of artistic work (e.g., serialized icons or sounds) not covered by this license, please choose one that shares a similar spirit. [Creative Commons](https://creativecommons.org/share-your-work/) falls in this category. Add a note to the respective code artifact such as in a method or class comment.
@@ -92,7 +86,3 @@ Here are some useful guidelines:
 * **Do good and talk about it.** When you are done with whatever you have been working on, let people know about it. It can be as short as a note to Squeak-dev saying “I have fixed the long standing bug with *xyz.* Please update and enjoy.”
 
 * **Unit Testing.** Unit tests are an essential part of maintaining the reliability of our releases. New unit tests are always welcome. Keep in mind that a unit test should take as little time to run as possible. Maintaining the reliability of Squeak is always easier when all tests pass: If you break something, the appearance of a new failure or error is immediately obvious and the cause is more easily found. To that end fixes for failures or errors are extremely valuable. Also, please avoid submitting changes that cause failures or errors themselves.
-
-
-</div>
-</div>
