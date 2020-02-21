@@ -10,8 +10,6 @@ License and more recent contributions licensed under the MIT license.  The
 vast majority of the code is under the MIT License.
 {: .lead}
 
-<div class="row">
-<div class="col-md-6 col-lg-6">
 
 ## MIT License
 
@@ -61,8 +59,7 @@ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See
 the License for the specific language governing permissions and limitations
 under the License.
 
-</div>
-<div class="col-md-6 col-lg-6">
+<hr>
 
 ## Note on In-image Resources
 
@@ -78,7 +75,7 @@ long as &quot;Bitstream&quot; or &quot;Vera&quot; are not in the names), and ful
 redistribution (so long as they are not *sold* by themselves). They
 can be be bundled, redistributed and sold with any software.
 The fonts are distributed under the following copyright:
-{: .lead}
+
 
 ### Copyright
 
@@ -191,6 +188,3 @@ names and subsituting alternatives. An example is provided by the
 supplied local.conf file, which chooses the family Bitstream Vera for
 &quot;sans&quot;, &quot;serif&quot; and &quot;monospace&quot;.  Other software (e.g., the XFree86
 core server) has other mechanisms for font substitution.
-
-</div>
-</div>
