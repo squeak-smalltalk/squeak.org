@@ -29,7 +29,7 @@ permalink:  /documentation/terse_guide/
 
 ## Syntax
 - Comments are enclosed in quotes (`"`)
-- Period (`.`) is the statement seperator
+- Period (`.`) is the statement separator
 
 
 # Transcript
@@ -332,7 +332,7 @@ y := x isUppercase.                                         "test if upper case"
 y := x isLetter.                                            "test if letter"
 y := x isDigit.                                             "test if digit"
 y := x isAlphaNumeric.                                      "test if alphanumeric"
-y := x isSeparator.                                         "test if seperator char"
+y := x isSeparator.                                         "test if separator char"
 y := x isVowel.                                             "test if vowel"
 y := x digitValue.                                          "convert to numeric digit value"
 y := x asLowercase.                                         "convert to lower case"
