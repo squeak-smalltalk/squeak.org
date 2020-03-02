@@ -55,7 +55,7 @@ Transcript endEntry.                                        "flush the output bu
 x := 5.                                                     "assignment"
 x := y := z := 6.                                           "compound assignment"
 x := (y := 6) + 1.
-"x _ 4.	"								                           "older assignment style, Squeak used to repurpose the underscore to a left-arrow glyph <-"
+"x _ 4."                                                    "older assignment style, Squeak used to repurpose the underscore to a left-arrow glyph <-"
 x := Object new.                                            "bind to allocated instance of a class"
 x := 123 class.                                             "discover the object class"
 x := Integer superclass.                                    "discover the superclass of a class"
