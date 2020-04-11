@@ -9,7 +9,7 @@ permalink:  /board/
 
 ## Current Board Members (2020)
 
-1. Bert Freudenberg
+1. Vanessa Freudenberg
 2. Tim Rowledge
 3. Marcel Taeumel
 4. Craig Latta
@@ -28,6 +28,7 @@ permalink:  /board/
 - Edgar J. De Cleene
 - Ben Coman
 - Chris Cunnington
+- Bert Freudenberg
 - Cees de Groot
 - Marcus Denker
 - Stéphane Ducasse
