@@ -9,13 +9,13 @@ permalink:  /board/
 
 ## Current Board Members (2020)
 
-1. Vanessa Freudenberg
-2. Tim Rowledge
-3. Marcel Taeumel
-4. Craig Latta
-5. David T. Lewis
-6. Chris Muller
-7. John-Reed Maffeo
+- Vanessa Freudenberg
+- Tim Rowledge
+- Marcel Taeumel
+- Craig Latta
+- David T. Lewis
+- Chris Muller
+- John-Reed Maffeo
 
 <br />
 
