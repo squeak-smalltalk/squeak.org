@@ -19,9 +19,9 @@ Download, unzip, and double-click the appropriate file: `*.bat` for Windows, `*.
 | 32-bit Bundles      | 5.3 | <i class="fa fa-windows"></i> <i class="fa fa-apple"></i> <i class="fa fa-linux"></i> | [<i class="fa fa-external-link"></i>][32]{:target=_blank} |
 {:.table .table-condensed .max-width-450-lg}
 
-[mac]: http://files.squeak.org/5.3/Squeak5.3-19431-64bit/Squeak5.3-19431-64bit-202003021730-macOS.dmg
-[win]: http://files.squeak.org/5.3/Squeak5.3-19431-64bit/Squeak5.3-19431-64bit-202003021730-Windows.zip
-[lin]: http://files.squeak.org/5.3/Squeak5.3-19431-64bit/Squeak5.3-19431-64bit-202003021730-Linux.zip
-[arm]: http://files.squeak.org/5.3/Squeak5.3-19431-32bit/Squeak5.3-19431-32bit-202003021730-ARMv6.zip
-[all]: http://files.squeak.org/5.3/Squeak5.3-19431-64bit/Squeak5.3-19431-64bit-All-in-One.zip
-[32]: http://files.squeak.org/5.3/Squeak5.3-19431-32bit/
+[mac]: http://files.squeak.org/5.3/Squeak5.3-19435-64bit/Squeak5.3-19435-64bit-202003021730-macOS.dmg
+[win]: http://files.squeak.org/5.3/Squeak5.3-19435-64bit/Squeak5.3-19435-64bit-202003021730-Windows.zip
+[lin]: http://files.squeak.org/5.3/Squeak5.3-19435-64bit/Squeak5.3-19435-64bit-202003021730-Linux.zip
+[arm]: http://files.squeak.org/5.3/Squeak5.3-19435-32bit/Squeak5.3-19435-32bit-202003021730-ARMv6.zip
+[all]: http://files.squeak.org/5.3/Squeak5.3-19435-64bit/Squeak5.3-19435-64bit-All-in-One.zip
+[32]: http://files.squeak.org/5.3/Squeak5.3-19435-32bit/
