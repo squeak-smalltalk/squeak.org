@@ -4,6 +4,7 @@ order:      4
 front-page: true
 category:   Develop Your Own Applications
 img-src:    dev/octocat.png
-href:       https://github.com/dalehenrich/filetree#squeak
+href:       https://github.com/hpi-swa/Squot
 ---
-With FileTree, you can manage your code and changes with a version control systems like Git on GitHub.
+Using the Git Browser, you can commit and browse your code and changes in Git and work on projects hosted on platforms like GitHub.
+With Monticello you can read and write [FileTree](https://github.com/dalehenrich/filetree#squeak) and [Tonel](https://github.com/squeak-smalltalk/squeak-tonel/tree/squeak) formatted repositories in any file-based version control system.
