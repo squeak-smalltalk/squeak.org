@@ -1,5 +1,5 @@
 ---
-title:      Version Control With Git
+title:      Version Control with Git
 order:      4
 front-page: true
 category:   Develop Your Own Applications
