@@ -1,6 +1,6 @@
 ---
 title:      ""
-order:      200
+order:      201
 category:   Historical Papers
 ---
 - Alan Kay.
@@ -16,8 +16,7 @@ category:   Historical Papers
 - Alan Kay.
   Computer Software.
   In: Scientific American, vol. 251, no. 3, pages 53-59, September 1984.
-    ([SciAm](http://www.nature.com/scientificamerican/journal/v251/n3/index.html){:target="_blank"},
-     [VPRI](http://www.vpri.org/pdf/tr1984001_comp_soft.pdf){:target="_blank"})
+    ([VPRI](http://www.vpri.org/pdf/tr1984001_comp_soft.pdf){:target="_blank"})
 
 - Alan Kay and Adele Goldberg.
   Personal Dynamic Media.

@@ -1092,15 +1092,6 @@
           </group>
         </if>
       </choose>
-      <choose>
-        <if type="legal_case" match="none">
-          <choose>
-            <if variable="URL">
-              <text variable="URL"/>
-            </if>
-          </choose>
-        </if>
-      </choose>
     </group>
   </macro>
   <macro name="access">
@@ -1119,15 +1110,6 @@
             <text term="accessed" text-case="capitalize-first"/>
             <date variable="accessed" form="text"/>
           </group>
-        </if>
-      </choose>
-      <choose>
-        <if type="legal_case" match="none">
-          <choose>
-            <if variable="URL">
-              <text variable="URL"/>
-            </if>
-          </choose>
         </if>
       </choose>
     </group>

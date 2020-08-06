@@ -1,6 +1,6 @@
 ---
 title:      R/Squeak VM
-order:      103
+order:      104
 category:   Virtual Machines
 img-src:    dev/rsqueak.png
 href:       https://github.com/HPI-SWA-Lab/RSqueak#rsqueakvm

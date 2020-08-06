@@ -1,6 +1,6 @@
 ---
 title:      RoarVM
-order:      104
+order:      105
 category:   Virtual Machines
 img-src:    dev/roarvm.svg
 href:       https://github.com/smarr/RoarVM#roarvm---the-manycore-squeakvm

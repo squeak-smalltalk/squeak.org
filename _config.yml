@@ -1,10 +1,10 @@
 # Site settings
 title: Squeak/Smalltalk
-copyright: Squeak Foundation
-url: http://squeak.org
+copyright: Squeak.org
+url: https://squeak.org
 
 # SEO
-author: Squeak Foundation
+author: Squeak.org
 description: >-
   Squeak is a modern, open source, full-featured implementation of the powerful
   Smalltalk programming language and environment.
@@ -12,7 +12,7 @@ twitter:
   username: squeaksmalltalk
 logo: /static/img/squeak.png
 social:
-  name: Squeak Foundation
+  name: Squeak.org
   links:
     - https://twitter.com/squeaksmalltalk
     - https://github.com/squeak-smalltalk

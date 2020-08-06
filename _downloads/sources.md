@@ -1,6 +1,6 @@
 ---
 title:      Sources
-order:      5
+order:      6
 cols:       6
 img-src:    downloads/sources.png
 category:   Advanced

@@ -13,11 +13,11 @@ permalink:  /documentation/terse_guide/
 - Variables must be declared before use
 - Shared vars must begin with uppercase
 - Local vars must begin with lowercase
-- Reserved names: `nil`, `true`, `false`, `self`, `super` and `Smalltalk`
+- Reserved names: `self`, `super`, `thisContext`, `true`, `false`, and `nil`
 
 ## Variable scope
-- Global: defined in Dictionary Smalltalk and accessible by all objects in system
-- Special: (reserved) `Smalltalk`, `super`, `self`, `true`, `false` and `nil`
+- Global: defined in current environment (that is usually `Smalltalk`) and accessible by all objects in system
+- Special (reserved): `self`, `super`, `thisContext`, `true`, `false`, and `nil`
 - Method Temporary: local to a method
 - Block Temporary: local to a block
 - Pool: variables in a `Dictionary` object
@@ -29,7 +29,7 @@ permalink:  /documentation/terse_guide/
 
 ## Syntax
 - Comments are enclosed in quotes (`"`)
-- Period (`.`) is the statement seperator
+- Period (`.`) is the statement separator
 
 
 # Transcript
@@ -52,10 +52,10 @@ Transcript endEntry.                                        "flush the output bu
 
 {% highlight smalltalk %}
 | x y |
-x _ 4.                                                      "assignment (Squeak) <-"
 x := 5.                                                     "assignment"
 x := y := z := 6.                                           "compound assignment"
 x := (y := 6) + 1.
+"x _ 4."                                                    "older assignment style, Squeak used to repurpose the underscore to a left-arrow glyph <-"
 x := Object new.                                            "bind to allocated instance of a class"
 x := 123 class.                                             "discover the object class"
 x := Integer superclass.                                    "discover the superclass of a class"
@@ -332,7 +332,7 @@ y := x isUppercase.                                         "test if upper case"
 y := x isLetter.                                            "test if letter"
 y := x isDigit.                                             "test if digit"
 y := x isAlphaNumeric.                                      "test if alphanumeric"
-y := x isSeparator.                                         "test if seperator char"
+y := x isSeparator.                                         "test if separator char"
 y := x isVowel.                                             "test if vowel"
 y := x digitValue.                                          "convert to numeric digit value"
 y := x asLowercase.                                         "convert to lower case"

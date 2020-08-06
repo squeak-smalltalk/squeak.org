@@ -1,6 +1,6 @@
 ---
 title:      Codespeed
-order:      106
+order:      107
 category:   Virtual Machines
 img-src:    dev/codespeed.png
 href:       /codespeed/
