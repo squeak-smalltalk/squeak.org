@@ -1,5 +1,5 @@
 ---
-title:      R/Squeak VM
+title:      RSqueak/VM
 order:      104
 category:   Virtual Machines
 img-src:    dev/rsqueak.png
