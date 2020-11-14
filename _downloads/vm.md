@@ -16,4 +16,4 @@ The virtual machine (VM) executes Squeak image files on a particular platform. T
 
 [osvm]: https://github.com/OpenSmalltalk/opensmalltalk-vm/releases/latest
 [osvm_trunk]: https://bintray.com/opensmalltalk/vm/cog/_latestVersion#files
-[classic]: http://www.squeakvm.org/
+[classic]: http://squeakvm.org/
