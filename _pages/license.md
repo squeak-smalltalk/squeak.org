@@ -13,7 +13,7 @@ vast majority of the code is under the MIT License.
 
 ## MIT License
 
-Copyright (c) 1996-2020 The individual, corporate, and institutional contributors
+Copyright (c) 1996-2021 The individual, corporate, and institutional contributors
 who have collectively contributed elements to this software (&quot;The
 Squeak Community&quot;).
 All rights reserved.
