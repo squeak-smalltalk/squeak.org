@@ -21,7 +21,7 @@ Download, unzip, and double-click the appropriate file: `*.bat` for Windows, `*.
 
 [mac]: http://files.squeak.org/5.3/Squeak5.3-19435-64bit/Squeak5.3-19435-64bit-202003021730-macOS.dmg
 [win]: http://files.squeak.org/5.3/Squeak5.3-19435-64bit/Squeak5.3-19435-64bit-202003021730-Windows.zip
-[lin]: http://files.squeak.org/5.3/Squeak5.3-19435-64bit/Squeak5.3-19435-64bit-202003021730-Linux.zip
+[lin]: http://files.squeak.org/5.3/Squeak5.3-19458-32bit/Squeak5.3-19458-32bit-202003021730-ARMv6.zip
 [arm]: http://files.squeak.org/5.3/Squeak5.3-19435-32bit/Squeak5.3-19435-32bit-202003021730-ARMv6.zip
 [all]: http://files.squeak.org/5.3/Squeak5.3-19435-64bit/Squeak5.3-19435-64bit-All-in-One.zip
 [32]: http://files.squeak.org/5.3/Squeak5.3-19435-32bit/
