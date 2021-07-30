@@ -1,0 +1,44 @@
+name: Update squeak.org
+
+on: [push, pull_request]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    env:
+      CERT_KEY: ${{ secrets.CERT_KEY }} # $encrypted_7202fd93a95a_key
+      CERT_IV: ${{ secrets.CERT_IV }} # $encrypted_7202fd93a95a_iv
+      PUBLIC_KEY: ${{ secrets.PUBLIC_KEY }} # $encrypted_public_key
+      PROXY_PORT: ${{ secrets.PROXY_PORT }} # $encrypted_proxy_port
+      PROXY_HOST: ${{ secrets.PROXY_HOST }} # $encrypted_proxy_host
+      PROXY_USER: ${{ secrets.PROXY_USER }} # $encrypted_proxy_user
+      UPSTREAM_HOST: ${{ secrets.UPSTREAM_HOST }} # $encrypted_host
+      UPSTREAM_PATH: ${{ secrets.UPSTREAM_PATH }} # $encrypted_path
+      UPSTREAM_USER: ${{ secrets.UPSTREAM_USER }} # $encrypted_user
+
+    steps:
+
+    - uses: actions/checkout@v2
+    - uses: ruby/setup-ruby@v1
+      with:
+        ruby-version: 2.4
+        bundler-cache: true # runs 'bundle install' and caches installed gems automatically
+
+    - name: Prepare environment for upload
+      if: (github.ref == 'refs/heads/master') && (github.event_name != 'pull_request')
+      run: |
+        mkdir -p ~/.ssh
+        openssl aes-256-cbc -K ${{ env.CERT_KEY }} -iv ${{ env.CERT_IV }} -in .deploy.enc -out ~/.ssh/deploy -d;
+        chmod 600 ~/.ssh/deploy;
+
+    - name: Run Jekyll to generate page
+      run: bundle exec rake test
+      env:
+        NOKOGIRI_USE_SYSTEM_LIBRARIES: true
+
+    - name: Deploy page
+      if: (github.ref == 'refs/heads/master') && (github.event_name != 'pull_request')
+      run: |
+        ssh-keyscan -t ecdsa-sha2-nistp256 -p ${{ env.PROXY_PORT }} -H ${{ env.PROXY_HOST }} 2>&1 | tee -a ~/.ssh/known_hosts > /dev/null;
+        echo "${{ env.UPSTREAM_HOST }} ecdsa-sha2-nistp256 ${{ env.PUBLIC_KEY }}" | tee -a ~/.ssh/known_hosts > /dev/null;
+        rsync -crvz -e "ssh -o ProxyCommand='ssh -l ${{ env.PROXY_USER }} -i ~/.ssh/deploy -p ${{ env.PROXY_PORT }} -W %h:%p ${{ env.PROXY_HOST }}' -l ${{ env.UPSTREAM_USER }} -i ~/.ssh/deploy" --delete _site/ ${{ env.UPSTREAM_HOST }}:${{ env.UPSTREAM_PATH }};
