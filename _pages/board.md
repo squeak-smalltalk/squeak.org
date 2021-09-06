@@ -7,15 +7,15 @@ permalink:  /board/
 <div class="row">
 <div class="col-md-6 col-lg-6">
 
-## Current Board Members (2020)
+## Current Board Members (2021)
 
 - Vanessa Freudenberg
 - Tim Rowledge
-- Marcel Taeumel
 - Craig Latta
+- Marcel Taeumel
 - David T. Lewis
-- Chris Muller
-- John-Reed Maffeo
+- Tony Garnock-Jones
+- Bruce O'Neel
 
 <br />
 
@@ -33,7 +33,9 @@ permalink:  /board/
 - Marcus Denker
 - Stéphane Ducasse
 - Dan Ingalls
+- John-Reed Maffeo
 - Eliot Miranda
+- Chris Muller
 - Yoshiki Ohshima
 - Colin Putney
 - Andreas Raab <sup>&dagger;</sup>
@@ -47,6 +49,7 @@ permalink:  /board/
 
 **Election Results**
 
+[2021](https://civs1.civs.us/cgi-bin/results.pl?id=E_81af425a6ca92899){:target="_blank"} |
 [2020](https://civs.cs.cornell.edu/cgi-bin/results.pl?id=E_9bcc60540da183f9){:target="_blank"} |
 [2019](https://civs.cs.cornell.edu/cgi-bin/results.pl?id=E_04f13e0b53df4039){:target="_blank"} |
 [2018](https://civs.cs.cornell.edu/cgi-bin/results.pl?id=E_fe5f0c2a40bd8a05){:target="_blank"} |
