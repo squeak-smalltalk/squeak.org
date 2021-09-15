@@ -1,6 +1,6 @@
 ---
 title:      Squeak Wiki
-order:      1
+order:      3
 front-page: true
 icon:       pencil-square-o
 icon-color: "#808000"
