@@ -1,7 +1,7 @@
 ---
 layout:     default
 title:      "Host Your Own SqueakSource Server"
-
+permalink:  /squeaksource_server/
 ---
 {::options parse_block_html="true" /}
 
