@@ -15,7 +15,7 @@ jobs:
         bundler-cache: true # runs 'bundle install' and caches installed gems automatically
 
     - name: Run Jekyll to generate page
-      run: bundle exec rake
+      run: bundle exec rake test
       env:
         NOKOGIRI_USE_SYSTEM_LIBRARIES: true
 
