@@ -1,6 +1,6 @@
 ---
 title:      "SqueakSource Server"
-order:      1
+order:      6
 front-page: false
 category:   Develop Your Own Applications
 img-src:    dev/squeaksource_server.png

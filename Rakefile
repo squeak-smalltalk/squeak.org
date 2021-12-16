@@ -17,5 +17,5 @@ task :test do
           :ssl_verifypeer => false,
           :ssl_verifyhost => 0 }
     }
-    # HTMLProofer.check_directory('./_site', opts).run
+    HTMLProofer.check_directory('./_site', opts).run
 end
