@@ -84,7 +84,7 @@ Note that our mission statement is open to suggestions and is thus evolving alon
 
 **Contact**
 
-Please contact the current board about matters that you are not comfortable sharing on the public mailing lists via [board@squeak.org](board@squeak.org).
+Please contact the current board about matters that you are not comfortable sharing on the public mailing lists via [board@squeak.org](mailto:board@squeak.org).
 
 </div>
 
