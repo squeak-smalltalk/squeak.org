@@ -61,7 +61,7 @@ permalink:  /board/
 [2014](https://civs.cs.cornell.edu/cgi-bin/results.pl?id=E_a467c120d84dac90){:target="_blank"} |
 [2013](https://civs.cs.cornell.edu/cgi-bin/results.pl?id=E_245d976cd43b9f99){:target="_blank"} |
 [2012](https://civs.cs.cornell.edu/cgi-bin/results.pl?id=E_114579ef2a1eb9a4){:target="_blank"} |
-[2011](https://civs.cs.cornell.edu/cgi-bin/results.pl?id=E_22a9387d06a3ed3b){:target="_blank"}  
+[2011](https://civs.cs.cornell.edu/cgi-bin/results.pl?id=E_22a9387d06a3ed3b){:target="_blank"} |
 [2010](https://civs.cs.cornell.edu/cgi-bin/results.pl?id=E_716d8c257e6cf36b){:target="_blank"} |
 [2009](https://civs.cs.cornell.edu/cgi-bin/results.pl?id=E_f48a814ea5d852de){:target="_blank"} |
 [2008](https://civs.cs.cornell.edu/cgi-bin/results.pl?id=E_d38cc27709a65b64){:target="_blank"} |
@@ -84,7 +84,7 @@ Note that our mission statement is open to suggestions and is thus evolving alon
 
 **Contact**
 
-Please contact the current board about matters that you are not comfortable sharing on the public mailing lists via board@squeak.org.
+Please contact the current board about matters that you are not comfortable sharing on the public mailing lists via [board@squeak.org](board@squeak.org).
 
 </div>
 
