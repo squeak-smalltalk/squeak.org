@@ -7,14 +7,14 @@ permalink:  /board/
 <div class="row">
 <div class="col-md-6 col-lg-6">
 
-## Current Board Members (2021)
+## Current Board Members (2022)
 
-- Vanessa Freudenberg
-- Tim Rowledge
-- Craig Latta
 - Marcel Taeumel
+- Tim Rowledge
 - David T. Lewis
-- Tony Garnock-Jones
+- Craig Latta
+- Jakob Reschke
+- Stéphane Rollandin
 - Bruce O'Neel
 
 <br />
@@ -28,7 +28,8 @@ permalink:  /board/
 - Edgar J. De Cleene
 - Ben Coman
 - Chris Cunnington
-- Bert Freudenberg
+- Vanessa Freudenberg
+- Tony Garnock-Jones
 - Cees de Groot
 - Marcus Denker
 - Stéphane Ducasse
@@ -49,6 +50,7 @@ permalink:  /board/
 
 **Election Results**
 
+[2022](https://civs1.civs.us/cgi-bin/results.pl?id=E_f7de3771ba57d80e){:target="_blank"} |
 [2021](https://civs1.civs.us/cgi-bin/results.pl?id=E_81af425a6ca92899){:target="_blank"} |
 [2020](https://civs.cs.cornell.edu/cgi-bin/results.pl?id=E_9bcc60540da183f9){:target="_blank"} |
 [2019](https://civs.cs.cornell.edu/cgi-bin/results.pl?id=E_04f13e0b53df4039){:target="_blank"} |
@@ -73,12 +75,21 @@ permalink:  /board/
 
 The Squeak Oversight Board coordinates the community’s open-source development of its versatile Smalltalk environment.
 
-To that end, we are increasing our visibility within the community through better communication, improving the release process, joining the Software Freedom Conservancy, enabling Teams to achieve their tasks, and integrating contributions from collaborating groups (for example, Pharo, Etoys, and Croquet).
+To that end, we are increasing our visibility within the community through open communication channels, a streamlined release process, joining the [Software Freedom Conservancy][sfc]{:target="_blank"}, supporting teams to tackle their domain-specific challenges, and integrating contributions from collaborating groups (e.g., [Cuis][cuis]{:target="_blank"}, [Pharo][pharo]{:target="_blank"}, [Etoys][etoys]{:target="_blank"}, and [Croquet][croquet]{:target="_blank"}).
 
-{::comment}
-Our goals for this year are a clear release process for the 3.x series, a license-clean Squeak 4.0 release, a solid legal foundation, and a draft programming interface for exchanging code between systems.  With these, we believe the community will be more effective in developing for itself and in introducing the system to newcomers.
-{:/comment}
 
-Please note that this is a work in progress and we appreciate any comments or suggestions that you may have.
+We are supervising contributions to the Squeak/Smalltalk programming system (and multimedia environment) with a focus on improved liveness and exploratory programming practices while ensuring backwards compatibility at a feasible degree. With these, we believe the community will be more effective in developing for itself and in introducing the system to newcomers.
+
+Note that our mission statement is open to suggestions and is thus evolving along with our community.
+
+**Contact**
+
+Please contact the current board about matters that you are not comfortable sharing on the public mailing lists via board@squeak.org.
 
 </div>
+
+[sfc]: https://sfconservancy.org/projects/current/
+[cuis]: http://www.cuis-smalltalk.org/
+[pharo]: https://pharo.org/
+[etoys]: http://squeakland.org/
+[croquet]: https://en.wikipedia.org/wiki/Croquet_Project
