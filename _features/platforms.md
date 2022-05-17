@@ -10,4 +10,4 @@ Squeak supports Windows, Linux, and OS X and is preinstalled on
 
 [chip]: https://www.kickstarter.com/projects/1598272670/chip-the-worlds-first-9-computer
 [raspi]: https://www.raspberrypi.org/
-[olpc]: http://web.archive.org/web/20200220165124/https://laptop.org/about/hardware
+[olpc]: https://web.archive.org/web/20200220165124/https://laptop.org/about/hardware

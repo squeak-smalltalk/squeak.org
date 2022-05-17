@@ -1,7 +1,7 @@
 ---
 title:          Xtreams
 img-src:        projects/xtreams.png
-href:           http://www.lshift.net/blog/2010/11/29/xtreams-framework-for-squeak/
+href:           https://www.lshift.net/blog/2010/11/29/xtreams-framework-for-squeak/
 quick-install: >
     Installer ss
       project: 'MetacelloRepository';

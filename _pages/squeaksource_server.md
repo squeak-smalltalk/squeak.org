@@ -12,9 +12,9 @@ SqueakSource is the smart Monticello code repository server to host your project
 
 ## Getting Started
 
-* <http://wiki.squeak.org/squeak/3857>
-* <http://wiki.squeak.org/squeak/6365>
-* <http://source.squeak.org/ss.html> (see Wiki page)
+* <https://wiki.squeak.org/squeak/3857>
+* <https://wiki.squeak.org/squeak/6365>
+* <https://source.squeak.org/ss.html> (see Wiki page)
 
 (This page is still under construction.)
 

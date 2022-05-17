@@ -27,19 +27,19 @@ img-border: true
 | Release Notes  | 5.0       |          | [<i class="fa fa-external-link"></i>][50r]{:target=_blank}   |
 {:.table .table-condensed}
 
-[50]: http://files.squeak.org/5.0/Squeak5.0-15120-32bit/Squeak5.0-15120-32bit-All-in-One.zip
-[50c]: http://files.squeak.org/5.0/Squeak5.0-15120-32bit/
+[50]: https://files.squeak.org/5.0/Squeak5.0-15120-32bit/Squeak5.0-15120-32bit-All-in-One.zip
+[50c]: https://files.squeak.org/5.0/Squeak5.0-15120-32bit/
 
-[51_32]: http://files.squeak.org/5.1/Squeak5.1-16548-32bit/
-[51_64]: http://files.squeak.org/5.1/Squeak5.1-16548-64bit/
+[51_32]: https://files.squeak.org/5.1/Squeak5.1-16548-32bit/
+[51_64]: https://files.squeak.org/5.1/Squeak5.1-16548-64bit/
 
-[52_64]: http://files.squeak.org/5.2/Squeak5.2-18234-64bit/
-[52_32]: http://files.squeak.org/5.2/Squeak5.2-18234-32bit/
+[52_64]: https://files.squeak.org/5.2/Squeak5.2-18234-64bit/
+[52_32]: https://files.squeak.org/5.2/Squeak5.2-18234-32bit/
 
-[53_64]: http://files.squeak.org/5.3/Squeak5.3-19435-64bit/
-[53_32]: http://files.squeak.org/5.3/Squeak5.3-19435-32bit/
+[53_64]: https://files.squeak.org/5.3/Squeak5.3-19435-64bit/
+[53_32]: https://files.squeak.org/5.3/Squeak5.3-19435-32bit/
 
-[50s]: http://files.squeak.org/sources_files/SqueakV50.sources.gz
+[50s]: https://files.squeak.org/sources_files/SqueakV50.sources.gz
 
 [53r]: https://github.com/squeak-smalltalk/squeak-app/blob/squeak-trunk/release-notes/5.3
 [52r]: https://github.com/squeak-smalltalk/squeak-app/blob/squeak-trunk/release-notes/5.2

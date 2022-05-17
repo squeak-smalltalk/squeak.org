@@ -1,11 +1,11 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<style xmlns="http://purl.org/net/xbiblio/csl" class="note" version="1.0" demote-non-dropping-particle="display-and-sort" page-range-format="chicago">
-  <!-- This style was edited with the Visual CSL Editor (http://editor.citationstyles.org/visualEditor/) -->
+<?xml version="1.0" encoding="utf-8"?>
+<style xmlns="https://purl.org/net/xbiblio/csl" class="note" version="1.0" demote-non-dropping-particle="display-and-sort" page-range-format="chicago">
+  <!-- This style was edited with the Visual CSL Editor (https://editor.citationstyles.org/visualEditor/) -->
   <info>
     <title>Squeak Citation Style based on Chicago Manual of Style 16th edition (full note)</title>
-    <id>http://www.zotero.org/styles/squeak-citation-style-based-on-chicago-manual-of-style-16th-edition</id>
-    <link href="http://www.zotero.org/styles/squeak-based-on-chicago-manual-of-style-16th-edition" rel="self"/>
-    <link href="http://www.chicagomanualofstyle.org/tools_citationguide.html" rel="documentation"/>
+    <id>https://www.zotero.org/styles/squeak-citation-style-based-on-chicago-manual-of-style-16th-edition</id>
+    <link href="https://www.zotero.org/styles/squeak-based-on-chicago-manual-of-style-16th-edition" rel="self"/>
+    <link href="https://www.chicagomanualofstyle.org/tools_citationguide.html" rel="documentation"/>
     <author>
       <name>Fabio Niephaus</name>
       <email>code@fniephaus.com</email>
@@ -14,7 +14,7 @@
     <category field="generic-base"/>
     <summary>Squeak format based on Chicago format with full notes and bibliography</summary>
     <updated>2016-12-20T20:46:30+00:00</updated>
-    <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
+    <rights license="https://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="en">
     <terms>

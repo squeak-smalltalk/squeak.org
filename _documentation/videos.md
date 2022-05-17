@@ -10,4 +10,4 @@ category:   Getting Started with Squeak
 
 [gsws]: https://www.hpi.uni-potsdam.de/swa/trac/SqueakCommunityProjects/wiki/squeak_screencasts
 [ytvle]: https://www.youtube.com/user/sparaig
-[wswm]: http://www.waveplace.com/courseware/basic-etoys/beta.jsp
+[wswm]: https://www.waveplace.com/courseware/basic-etoys/beta.jsp

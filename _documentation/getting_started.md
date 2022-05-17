@@ -11,9 +11,9 @@ category:   Getting Started with Squeak
 * [Squeak in a Nutshell][nutshell]{:target="_blank"}
 * [Morphic Framework][morphic]{:target="_blank"}
 
-[documentation]: http://wiki.squeak.org/squeak/2983
-[introductory]: http://web.archive.org/web/20190131121111/http://www.cosc.canterbury.ac.nz/wolfgang.kreutzer/cosc205/smalltalk1.html
-[overview]: http://www.cs.pdx.edu/~harry/musings/SmalltalkOverview.html
-[morphic]: http://wiki.squeak.org/squeak/30
-[nutshell]: http://wiki.squeak.org/squeak/3419
-[references]: http://wiki.squeak.org/squeak/1859
+[documentation]: https://wiki.squeak.org/squeak/2983
+[introductory]: https://web.archive.org/web/20190131121111/https://www.cosc.canterbury.ac.nz/wolfgang.kreutzer/cosc205/smalltalk1.html
+[overview]: https://www.cs.pdx.edu/~harry/musings/SmalltalkOverview.html
+[morphic]: https://wiki.squeak.org/squeak/30
+[nutshell]: https://wiki.squeak.org/squeak/3419
+[references]: https://wiki.squeak.org/squeak/1859

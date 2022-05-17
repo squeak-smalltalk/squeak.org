@@ -9,5 +9,5 @@ The classic Squeak VM is implemented and developed in
 [Slang]{:target="_blank"}, a subset of Squeak/Smalltalk which can be translated into C.
 The VM can be built using [VMMaker]{:target="_blank"}.
 
-[Slang]:    http://wiki.squeak.org/squeak/slang
-[VMMaker]:  http://wiki.squeak.org/squeak/vmmaker
+[Slang]:    https://wiki.squeak.org/squeak/slang
+[VMMaker]:  https://wiki.squeak.org/squeak/vmmaker

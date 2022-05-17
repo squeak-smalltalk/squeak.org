@@ -89,7 +89,7 @@ Please contact the current board about matters that you are not comfortable shar
 </div>
 
 [sfc]: https://sfconservancy.org/projects/current/
-[cuis]: http://www.cuis-smalltalk.org/
+[cuis]: https://www.cuis-smalltalk.org/
 [pharo]: https://pharo.org/
-[etoys]: http://squeakland.org/
+[etoys]: https://squeakland.org/
 [croquet]: https://en.wikipedia.org/wiki/Croquet_Project

@@ -3,7 +3,7 @@ title:      Etoys
 front-page: true
 img-src:    projects/etoys.png
 img-border: true
-href:       http://www.squeakland.org/
+href:       https://www.squeakland.org/
 ---
 A media-rich authoring environment with a simple, powerful scripted object model for many kinds of objects created by end-users that runs on many platforms.
 

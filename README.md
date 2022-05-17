@@ -9,7 +9,7 @@ For example, the markdown file *myproject.md* should look like this:
 ---
 title:      My Project
 img-src:    projects/myprojectlogo.png
-href:       http://www.myprojectwebsite.com
+href:       https://www.myprojectwebsite.com
 ---
 Brief description about my project goes here.
 ```

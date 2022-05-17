@@ -12,26 +12,26 @@ The Squeak Development Process supports the improvement of Squeak—the core of 
 
 ## Monticello Repositories
 
-The main development repository is **[The Trunk](http://source.squeak.org/trunk.html)**:
+The main development repository is **[The Trunk](https://source.squeak.org/trunk.html)**:
 
-* <http://source.squeak.org/trunk>
+* <https://source.squeak.org/trunk>
 
 New code will be committed here; the repository is world-readable and writable for the group of core developers.
 
-The main contribution repository is **[The Inbox](http://source.squeak.org/inbox.html)**:
+The main contribution repository is **[The Inbox](https://source.squeak.org/inbox.html)**:
 
-* <http://source.squeak.org/inbox>
+* <https://source.squeak.org/inbox>
 
 This repository is intended as dropbox. It is world-readable *and* world-writable. Everyone is encouraged to contribute code here. Code that the community, after discussion, accepts as fitting will be moved to the *trunk*. 
 
-If contributions do not work, are deemed unfitting, or become obsolete for another reason, they are moved to **[The Treated Inbox](http://source.squeak.org/treated)** for future reference:
+If contributions do not work, are deemed unfitting, or become obsolete for another reason, they are moved to **[The Treated Inbox](https://source.squeak.org/treated)** for future reference:
 
-* <http://source.squeak.org/treated>
+* <https://source.squeak.org/treated>
 
 
 ## Developer access
 
-[The board](/board/) manages developer access to the repositories at <http://source.squeak.org/>. Very active contributors can ask the board for direct write access to the *trunk*. Anybody can suggest other contributors for *trunk* access.
+[The board](/board/) manages developer access to the repositories at <https://source.squeak.org/>. Very active contributors can ask the board for direct write access to the *trunk*. Anybody can suggest other contributors for *trunk* access.
 
 ## How Commits to the Inbox are Merged
 If a change in the inbox is accepted the following should be done by a core developer to merge it:
@@ -39,9 +39,9 @@ If a change in the inbox is accepted the following should be done by a core deve
  1. Merge the commit in an up-to-date trunk image
  2. Make sure the commit works with the up-to-date image
  3. Commit the merged version
- 4. The merge commit has now two ancestors: the previous head of the trunk repository and the commit from the inbox. To provide a consistent history, we have to move the inbox commit to the trunk repository. Therefore go to <http://source.squeak.org/inbox> and look for the commit under versions. After clicking on the version you see details of the version and two buttons which allow you to move the version either to trunk or the treated inbox. Use the move to trunk button to move the change to the trunk.
+ 4. The merge commit has now two ancestors: the previous head of the trunk repository and the commit from the inbox. To provide a consistent history, we have to move the inbox commit to the trunk repository. Therefore go to <https://source.squeak.org/inbox> and look for the commit under versions. After clicking on the version you see details of the version and two buttons which allow you to move the version either to trunk or the treated inbox. Use the move to trunk button to move the change to the trunk.
 
-In case there are no new commits in the trunk repository, core developers can also simply use the "Move to Trunk" button on <http://source.squeak.org/inbox>.
+In case there are no new commits in the trunk repository, core developers can also simply use the "Move to Trunk" button on <https://source.squeak.org/inbox>.
 
 ## How to Remove a Package from Trunk
  1. First, do NOT delete the package from source.squeak.org! Leave it in for older images.
