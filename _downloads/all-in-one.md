@@ -16,7 +16,8 @@ Download, unzip, and double-click the appropriate file: `*.bat` for Windows, `*.
 | Linux (x64)         | 5.3 | <i class="fa fa-linux"></i>   | [<i class="fa fa-download"></i>][lin]{:target=_blank} |
 | Linux (ARMv8)       | 5.3 | <i class="fa fa-linux"></i>   | [<i class="fa fa-download"></i>][arm]{:target=_blank} |
 | All-in-One (64-bit) | 5.3 | <i class="fa fa-windows"></i> <i class="fa fa-apple"></i> <i class="fa fa-linux"></i> | [<i class="fa fa-download"></i>][all]{:target=_blank} |
-| 32-bit Bundles      | 5.3 | <i class="fa fa-windows"></i> <i class="fa fa-apple"></i> <i class="fa fa-linux"></i> | [<i class="fa fa-external-link"></i>][32]{:target=_blank} |
+| 32-bit Bundles      | 5.3 | <i class="fa fa-windows"></i> <i class="fa fa-linux"></i> | [<i class="fa fa-external-link"></i>][32]{:target=_blank} |
+| ❤ <b><a href="#" class="donate-button">Please Donate</a></b> ❤ | ❤ | ❤ | <a href="#" class="donate-button">❤</a> |
 {:.table .table-condensed .max-width-450-lg}
 
 [mac]: https://files.squeak.org/5.3/Squeak5.3-19481-64bit/Squeak5.3-19481-64bit-202206021410-macOS.dmg
