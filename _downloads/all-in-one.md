@@ -19,7 +19,7 @@ Download, unzip, and double-click the appropriate file: `*.bat` for Windows, `*.
 | 32-bit Bundles      | 5.3 | <i class="fa fa-windows"></i> <i class="fa fa-linux"></i> | [<i class="fa fa-external-link"></i>][32]{:target=_blank} |
 {:.table .table-condensed .max-width-450-lg}
 
-<span>❤️</span> Please help us keep our infrastructure up and running, which includes this website, our mailing lists, and code repositories.<b><a href="#" class="donate-button">Donate here...</a></b> <span>❤️</span>
+<span>❤️</span> Please help us keep our infrastructure up and running, which includes this website, our mailing lists, and code repositories. <b><a href="#" class="donate-button">Donate here...</a></b> <span>❤️</span>
 
 [mac]: https://files.squeak.org/5.3/Squeak5.3-19481-64bit/Squeak5.3-19481-64bit-202206021410-macOS.dmg
 [win]: https://files.squeak.org/5.3/Squeak5.3-19481-64bit/Squeak5.3-19481-64bit-202206021410-Windows-x64.zip
