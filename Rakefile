@@ -12,7 +12,8 @@ task :test do
           /^(https?\:\/\/)?(www\.)?youtube\.com\/.+$/,
           /^https?\:\/\/squeak\.org\/(4|5)0/,
           /^(https?\:\/\/)?(shop\.)?spreadshirt\.com\/.+$/,
-          /^(https?\:\/\/)?(www\.)?twitter\.com\/.+$/ ],
+          /^(https?\:\/\/)?(www\.)?twitter\.com\/.+$/,
+          /^(https?\:\/\/)?(www\.)?kickstarter\.com\/.+$/ ],
         :typhoeus => {
           :ssl_verifypeer => false,
           :ssl_verifyhost => 0 }
