@@ -230,10 +230,9 @@ x := 15 storeStringBase: 16.
 - Value is last expression evaluated unless explicit return
 - Blocks may be nested
 - Specification `[ arguments | | localvars | expressions ]`
-- Squeak does not currently support localvars in blocks
 - Max of three arguments allowed
 - `^` expression terminates block & method (exits all nested blocks)
-- Blocks intended for long term storage should not contain `^`
+- Blocks intended for long term storage must not contain `^`, as they can not return to the sender context
 
 {% highlight smalltalk %}
 | x y z |
