@@ -234,6 +234,7 @@ x := 15 storeStringBase: 16.
 - `^` expression terminates block & method (exits all nested blocks)
 - Blocks intended for long-term storage must not contain `^`, as they can not return to the sender context
 - Use `#cull:` (and `#cull:cull:`...) if you do not know the exact number of arguments
+- blocks (along with polymorphism on booleans) are the basis of control structures; see Conditional Expressions below
 
 {% highlight smalltalk %}
 | x y z |
@@ -275,7 +276,7 @@ x := 3 + 2; * 100.                                          "result=300. Sends m
 {% endhighlight %}
 
 
-# Conditional Statements
+# Conditional Expressions
 
 {% highlight smalltalk %}
 | x |
