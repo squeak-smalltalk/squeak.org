@@ -237,11 +237,15 @@ x := 15 storeStringBase: 16.
 - Blocks (along with polymorphism on booleans) are the basis of control structures; see Conditional Expressions below
 
 {% highlight smalltalk %}
-| x y z |
+| x y z fac |
 x := [ y := 1. z := 2. ]. x value.                          "simple block usage"
 x := [ :argOne :argTwo |   argOne, ' and ' , argTwo.].      "set up block with argument passing"
 Transcript show: (x value: 'First' value: 'Second'); cr.    "use block with argument passing"
-"x := [ | z | z := 1.].                                      localvars not available in squeak blocks"
+x := [:e | | v | v := 1. e + v] value: 2.                   "local variable in a block"
+fac := [ :n | n > 1                                         "closure on block variable"
+          ifTrue: [n * (fac value: n-1)]
+          ifFalse: [1]].	
+fac value: 5.                                               "closure variable scoped to its block"
 {% endhighlight %}
 
 
