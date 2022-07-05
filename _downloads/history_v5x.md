@@ -1,6 +1,6 @@
 ---
 title:      Squeak v5
-order:      52
+order:      54
 cols:       6
 category:   History
 img-src:    downloads/squeak-v5.png
@@ -17,7 +17,7 @@ img-border: true
 | 32-bit Bundles | 5.1       | Aug 2016 | [<i class="fa fa-external-link"></i>][51_32]{:target=_blank} |
 |
 | All-in-One     | 5.0       | Jul 2015 | [<i class="fa fa-download"></i>][50]{:target=_blank}         |
-| Custom         | 5.0       | Jul 2015 | [<i class="fa fa-external-link"></i>][50]{:target=_blank}    |
+| Custom         | 5.0       | Jul 2015 | [<i class="fa fa-external-link"></i>][50c]{:target=_blank}   |
 |                |           |          |                                                              |
 | Sources        | 5.0       | Jul 2015 | [<i class="fa fa-download"></i>][50s]{:target=_blank}        |
 |                |           |          |                                                              |
