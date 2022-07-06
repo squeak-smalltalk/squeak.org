@@ -21,9 +21,9 @@ Download, unzip, and double-click the appropriate file: `*.bat` for Windows, `*.
 
 <span>❤️</span> Please help us keep our infrastructure up and running, which includes this website, our mailing lists, and code repositories. <b><a href="#" class="donate-button">Donate here...</a></b> <span>❤️</span>
 
-[mac]: https://files.squeak.org/6.0/Squeak6.0-22101-64bit/Squeak6.0-22101-64bit-202206021410-macOS.dmg
-[win]: https://files.squeak.org/6.0/Squeak6.0-22101-64bit/Squeak6.0-22101-64bit-202206021410-Windows-x64.zip
-[lin]: https://files.squeak.org/6.0/Squeak6.0-22101-64bit/Squeak6.0-22101-64bit-202206021410-Linux-x64.tar.gz
-[arm]: https://files.squeak.org/6.0/Squeak6.0-22101-64bit/Squeak6.0-22101-64bit-202206021410-Linux-ARMv8.tar.gz
-[all]: https://files.squeak.org/6.0/Squeak6.0-22101-64bit/Squeak6.0-22101-64bit-All-in-One.zip
-[32]: https://files.squeak.org/6.0/Squeak6.0-22101-32bit/
+[mac]: https://files.squeak.org/6.0/Squeak6.0-22104-64bit/Squeak6.0-22104-64bit-202206021410-macOS.dmg
+[win]: https://files.squeak.org/6.0/Squeak6.0-22104-64bit/Squeak6.0-22104-64bit-202206021410-Windows-x64.zip
+[lin]: https://files.squeak.org/6.0/Squeak6.0-22104-64bit/Squeak6.0-22104-64bit-202206021410-Linux-x64.tar.gz
+[arm]: https://files.squeak.org/6.0/Squeak6.0-22104-64bit/Squeak6.0-22104-64bit-202206021410-Linux-ARMv8.tar.gz
+[all]: https://files.squeak.org/6.0/Squeak6.0-22104-64bit/Squeak6.0-22104-64bit-All-in-One.zip
+[32]: https://files.squeak.org/6.0/Squeak6.0-22104-32bit/

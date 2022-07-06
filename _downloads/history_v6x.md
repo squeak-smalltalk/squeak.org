@@ -17,8 +17,8 @@ img-border: true
 | Release Notes  | 6.0       |          | [<i class="fa fa-external-link"></i>][60r]{:target=_blank}   |
 {:.table .table-condensed}
 
-[60_32]: https://files.squeak.org/6.0/Squeak6.0-22101-32bit/
-[60_64]: https://files.squeak.org/6.0/Squeak6.0-22101-64bit/
+[60_32]: https://files.squeak.org/6.0/Squeak6.0-22104-32bit/
+[60_64]: https://files.squeak.org/6.0/Squeak6.0-22104-64bit/
 
 [60s]: https://files.squeak.org/sources_files/SqueakV60.sources.gz
 
