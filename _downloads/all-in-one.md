@@ -6,8 +6,9 @@ cols:       6
 category:   Quick Download
 classes:    item-highlight
 ---
-The current Squeak release comes in various bundles including the "all-in-one" package, which works on Windows (x64), macOS (x64/ARMv8), and Linux (x64/ARMv8).
-Download, unzip, and double-click the appropriate file: `*.bat` for Windows, `*.app` for macOS, and `*.sh` for Linux.
+Downloads come as `*.zip`, `*.tar.gz`, or `*.dmg` archives.
+On macOS, **you must drag** the included `*.app` file out of your `~/Downloads` folder to avoid translocation; `mv` will not work.
+On Windows, you must confirm a **SmartScreen** warning since executables are not yet code-signed.
 
 |            | Version   | Support   | Link   |
 | ---------- |:--------- |:--------- | ------:|
