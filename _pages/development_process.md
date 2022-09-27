@@ -68,6 +68,11 @@ In detail, the process for classes or methods works as following:
  3. Maybe rewrite the deprecated method to use the new implementation, if there is one.
  4. Add `self deprecated: 'Use this or that instead.'.` at the beginning of the deprecated method to guide foreign application code through the migration.
 
+## Further References
+
+There is also a tutorial integrated in the image that describes the process and the tooling for submitting a contribution in-depth.
+You can find it under the docking bar in the help menu under "How to Contribute".
+
 </div>
 <div class="col-md-6 col-lg-6">
 
