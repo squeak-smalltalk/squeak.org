@@ -1,6 +1,6 @@
 ---
 title:      Swiki
 img-src:    projects/swiki.svg
-href:       http://wiki.squeak.org/swiki/
+href:       https://wiki.squeak.org/swiki/
 ---
 A wiki application written in Squeak.

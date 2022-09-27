@@ -1,7 +1,7 @@
 ---
 title:      Vivide
 img-src:    projects/vivide.png
-href:       http://www.github.com/hpi-swa/vivide
+href:       https://www.github.com/hpi-swa/vivide
 quick-install: >
     Metacello new
       baseline: 'Vivide';

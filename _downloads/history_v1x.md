@@ -18,8 +18,8 @@ img-border: true
 | Release Notes     | 1.x     |          | [<i class="fa fa-external-link"></i>][1r]{:target=_blank} |
 {:.table .table-condensed}
 
-[13]: http://files.squeak.org/1.3/
-[12]: http://files.squeak.org/1.20/
-[11]: http://files.squeak.org/1.1/
-[1s]: http://files.squeak.org/sources_files/SqueakV1.sources.gz
-[1r]: http://wiki.squeak.org/squeak/3833
+[13]: https://files.squeak.org/1.3/
+[12]: https://files.squeak.org/1.20/
+[11]: https://files.squeak.org/1.1/
+[1s]: https://files.squeak.org/sources_files/SqueakV1.sources.gz
+[1r]: https://wiki.squeak.org/squeak/3833

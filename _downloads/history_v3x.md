@@ -28,18 +28,18 @@ img-border: true
 | Release Notes     | 3.8         |          | [<i class="fa fa-external-link"></i>][38r]{:target=_blank}  |
 {:.table .table-condensed}
 
-[310]: http://files.squeak.org/3.10gamma/Squeak3.10.gamma.7159.zip
-[39]: http://files.squeak.org/3.9/
-[38]: http://files.squeak.org/3.8/
-[37]: http://files.squeak.org/3.7/
-[36]: http://files.squeak.org/3.6/
-[35]: http://files.squeak.org/3.5/
-[34]: http://files.squeak.org/3.4/
-[33]: http://files.squeak.org/3.3alpha/Squeak3.3a-4981.zip
-[32]: http://files.squeak.org/3.2/
-[31]: http://files.squeak.org/3.1beta/Squeak-3.1b.zip
-[30]: http://files.squeak.org/3.0/
-[39s]: http://files.squeak.org/sources_files/SqueakV39.sources.gz
-[3s]: http://files.squeak.org/sources_files/SqueakV3.sources.gz
-[310r]: http://wiki.squeak.org/squeak/5919
-[38r]: http://wiki.squeak.org/squeak/3832
+[310]: https://files.squeak.org/3.10gamma/Squeak3.10.gamma.7159.zip
+[39]: https://files.squeak.org/3.9/
+[38]: https://files.squeak.org/3.8/
+[37]: https://files.squeak.org/3.7/
+[36]: https://files.squeak.org/3.6/
+[35]: https://files.squeak.org/3.5/
+[34]: https://files.squeak.org/3.4/
+[33]: https://files.squeak.org/3.3alpha/Squeak3.3a-4981.zip
+[32]: https://files.squeak.org/3.2/
+[31]: https://files.squeak.org/3.1beta/Squeak-3.1b.zip
+[30]: https://files.squeak.org/3.0/
+[39s]: https://files.squeak.org/sources_files/SqueakV39.sources.gz
+[3s]: https://files.squeak.org/sources_files/SqueakV3.sources.gz
+[310r]: https://wiki.squeak.org/squeak/5919
+[38r]: https://wiki.squeak.org/squeak/3832

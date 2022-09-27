@@ -1,9 +1,9 @@
 ---
 title:          Aida
 img-src:        projects/aida.svg
-href:           http://www.aidaweb.si/
+href:           https://www.aidaweb.si/
 quick-install: >
-    i := Installer monticello http: 'http://squeaksource.com'.
+    i := Installer monticello http: 'https://squeaksource.com'.
     i
         project: 'SPort';
         install: 'Sport-2.031'.

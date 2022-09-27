@@ -2,28 +2,28 @@
 layout: basic
 headline: Welcome to Squeak<span class="hidden-xs">/Smalltalk</span>
 welcome: >
-  Squeak is an open-source Smalltalk programming system with fast execution
+  Squeak is a modern, open-source Smalltalk programming system with fast execution
   environments for all major platforms. It features the Morphic framework,
   which promotes low effort graphical, interactive application development and
   maintenance. Many projects have been successfully created with Squeak. They
   cover a wide range of domains such as education, multimedia, gaming, research,
   and commerce.
 
-download_link_mac: http://files.squeak.org/5.3/Squeak5.3-19435-64bit/Squeak5.3-19435-64bit-202003021730-macOS.dmg
-download_link_win: http://files.squeak.org/5.3/Squeak5.3-19435-64bit/Squeak5.3-19435-64bit-202003021730-Windows.zip
-download_link_lin: http://files.squeak.org/5.3/Squeak5.3-19435-64bit/Squeak5.3-19435-64bit-202003021730-Linux.zip
-download_link_arm: http://files.squeak.org/5.3/Squeak5.3-19458-32bit/Squeak5.3-19458-32bit-202003021730-ARMv6.zip
-download_link_all: http://files.squeak.org/5.3/Squeak5.3-19435-64bit/Squeak5.3-19435-64bit-All-in-One.zip
+download_link_mac: https://files.squeak.org/6.0/Squeak6.0-22104-64bit/Squeak6.0-22104-64bit-202206021410-macOS.dmg
+download_link_win: https://files.squeak.org/6.0/Squeak6.0-22104-64bit/Squeak6.0-22104-64bit-202206021410-Windows-x64.zip
+download_link_lin: https://files.squeak.org/6.0/Squeak6.0-22104-64bit/Squeak6.0-22104-64bit-202206021410-Linux-x64.tar.gz
+download_link_arm: https://files.squeak.org/6.0/Squeak6.0-22104-64bit/Squeak6.0-22104-64bit-202206021410-Linux-ARMv8.tar.gz
+download_link_all: https://files.squeak.org/6.0/Squeak6.0-22104-64bit/Squeak6.0-22104-64bit-All-in-One.zip
 
-release_notes_link: https://raw.githubusercontent.com/squeak-smalltalk/squeak-app/squeak-trunk/release-notes/5.3
+release_notes_link: https://raw.githubusercontent.com/squeak-smalltalk/squeak-app/squeak-trunk/release-notes/6.0
 
 sub_button_group:
   - title:  News
-    href:   http://news.squeak.org/
+    href:   https://news.squeak.org/
     icon:   newspaper-o
 
   - title:  Bugs
-    href:   http://bugs.squeak.org/view_all_bug_page.php
+    href:   https://bugs.squeak.org/
     icon:   bug
 
   - title:  Gifts
@@ -59,13 +59,18 @@ screenshots:
 
 ---
 
-<!-- <div class="alert alert-success text-center" role="alert">
-  <b>New faces on the Squeak Oversight Board for 2017! Read more <a href="https://squeak.org/board/">here</a>, <a href="http://forum.world.st/Squeak-Oversight-Board-2017-Results-td4934345.html">here</a>, and <a href="http://civs.cs.cornell.edu/cgi-bin/results.pl?id=E_3d5e07f8dfaf428a">here</a>.</b>
+<div class="alert alert-success text-center" role="alert">
+  <span>❤️</span> Please help us keep our infrastructure up and running, which includes this website, our mailing lists, and code repositories. <b><a href="#" class="donate-button">Donate here...</a></b> <span>❤️</span>
 </div>
- -->
+
 <div class="alert alert-info text-center" role="alert">
-  <b>Squeak-5.3 bundles are out. 🎉 <a href="/downloads/">Grab 'em while they're hot!</a></b>
+  <b>Squeak-6.0 bundles are out. <span>🎉</span> <a href="/downloads/">Grab 'em while they're hot!</a></b>
 </div>
+
+
+<!-- <div class="alert alert-warning text-center" role="alert">
+  <b>⚠ Mirror at <a href="https://forum.world.st/Squeak-Dev-f45488.html">forum.world.st</a> not up-to-date! Please use <a href="https://lists.squeakfoundation.org/">mailing lists</a> directly 🗨 <a href="https://lists.squeakfoundation.org/pipermail/squeak-dev/">Browse squeak-dev here...</a></b>
+</div> -->
 
 
 <div class="container">
@@ -84,16 +89,16 @@ screenshots:
         </a>
         <a class="btn btn-primary download" href="{{ page.download_link_win }}" target="_blank" role="button">
           <i class="fa fa-windows fa-2x"></i><br>
-          Windows
+          Windows (x64)
         </a>
         <a class="btn btn-primary download" href="{{ page.download_link_lin }}" target="_blank" role="button">
           <i class="fa fa-linux fa-2x"></i><br>
-          Linux (x86)
+          Linux (x64)
         </a>
         </span>
         <p>
         <a href="{{ page.download_link_all }}">All-in-One</a> · 
-        <a href="{{ page.download_link_arm }}">Linux (ARM)</a> · 
+        <a href="{{ page.download_link_arm }}">Linux (ARMv8)</a> · 
         <a href="{{ page.release_notes_link }}" target="_blank">Release Notes</a> · 
         <a href="/downloads/">More...</a></p>
 
@@ -109,6 +114,7 @@ screenshots:
     </div>
   </div> <!-- /row -->
 </div> <!-- /container -->
+
 
 <div id="screnshot-wrapper">
   <div class="container">

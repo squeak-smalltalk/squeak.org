@@ -8,10 +8,12 @@ task :test do
         :only_4xx => true,
         :url_ignore => [
           "#",
+          /^(https?\:\/\/)?doi.acm\.org\/.+$/,
           /^(https?\:\/\/)?(www\.)?youtube\.com\/.+$/,
           /^https?\:\/\/squeak\.org\/(4|5)0/,
           /^(https?\:\/\/)?(shop\.)?spreadshirt\.com\/.+$/,
-          /^(https?\:\/\/)?(www\.)?twitter\.com\/.+$/ ],
+          /^(https?\:\/\/)?(www\.)?twitter\.com\/.+$/,
+          /^(https?\:\/\/)?(www\.)?kickstarter\.com\/.+$/ ],
         :typhoeus => {
           :ssl_verifypeer => false,
           :ssl_verifyhost => 0 }

@@ -2,7 +2,7 @@
 title:      "Smalltalk-80: Bits of History, Words of Advice"
 order:      223
 img-src:    docs/1983_smalltalk80_bits_of_history.jpg
-href:       http://www.amazon.com/Smalltalk-80-History-Addison-Wesley-computer-science/dp/0201116693
+href:       https://www.amazon.com/Smalltalk-80-History-Addison-Wesley-computer-science/dp/0201116693
 category:   Books
 ---
 (The Green Book)

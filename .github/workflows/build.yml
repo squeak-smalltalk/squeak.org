@@ -1,0 +1,39 @@
+name: Update squeak.org
+
+on: [push, pull_request]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+
+    - uses: actions/checkout@v2
+    - uses: ruby/setup-ruby@v1
+      with:
+        ruby-version: 2.4
+        bundler-cache: true # runs 'bundle install' and caches installed gems automatically
+
+    - name: Run Jekyll to generate page
+      run: bundle exec rake test
+      env:
+        NOKOGIRI_USE_SYSTEM_LIBRARIES: true
+
+    - name: Deploy page
+      if: (github.ref == 'refs/heads/master') && (github.event_name != 'pull_request')
+      run: |
+        mkdir -p ~/.ssh
+        echo "${DEPLOY_KEY}" > ~/.ssh/deploy
+        chmod 600 ~/.ssh/deploy
+        ssh-keyscan -t ecdsa-sha2-nistp256 -p ${{ env.PROXY_PORT }} -H ${{ env.PROXY_HOST }} 2>&1 | tee -a ~/.ssh/known_hosts > /dev/null;
+        echo "${{ env.UPSTREAM_HOST }} ecdsa-sha2-nistp256 ${{ env.PUBLIC_KEY }}" | tee -a ~/.ssh/known_hosts > /dev/null;
+        rsync -crvz -e "ssh -o ProxyCommand='ssh -l ${{ env.PROXY_USER }} -i ~/.ssh/deploy -p ${{ env.PROXY_PORT }} -W %h:%p ${{ env.PROXY_HOST }}' -l ${{ env.UPSTREAM_USER }} -i ~/.ssh/deploy" --delete _site/ ${{ env.UPSTREAM_HOST }}:${{ env.UPSTREAM_PATH }};
+      env:
+        DEPLOY_KEY: ${{ secrets.DEPLOY_KEY }}
+        PUBLIC_KEY: ${{ secrets.PUBLIC_KEY }}
+        PROXY_PORT: ${{ secrets.PROXY_PORT }}
+        PROXY_HOST: ${{ secrets.PROXY_HOST }}
+        PROXY_USER: ${{ secrets.PROXY_USER }}
+        UPSTREAM_HOST: ${{ secrets.UPSTREAM_HOST }}
+        UPSTREAM_PATH: ${{ secrets.UPSTREAM_PATH }}
+        UPSTREAM_USER: ${{ secrets.UPSTREAM_USER }}

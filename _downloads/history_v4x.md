@@ -28,18 +28,18 @@ img-border: true
 | Release Notes  | 4.2       |          | [<i class="fa fa-external-link"></i>][42r]{:target=_blank} |
 {:.table .table-condensed}
 
-[46]: http://files.squeak.org/4.6/Squeak-4.6-All-in-One.zip
-[45]: http://files.squeak.org/4.5/Squeak-4.5-All-in-One.zip
-[44]: http://files.squeak.org/4.4/Squeak-4.4-All-in-One.zip
-[43]: http://files.squeak.org/4.3/Squeak-4.3-All-in-One.zip
-[42]: http://files.squeak.org/4.2/Squeak-4.2-All-in-One.zip
-[41]: http://files.squeak.org/4.1/Squeak-4.1-All-in-One.zip
-[40]: http://files.squeak.org/4.0/
-[46s]: http://files.squeak.org/sources_files/SqueakV46.sources.gz
-[41s]: http://files.squeak.org/sources_files/SqueakV41.sources.gz
-[40s]: http://files.squeak.org/sources_files/SqueakV40.sources.gz
-[46r]: http://wiki.squeak.org/squeak/6192
-[45b]: http://wiki.squeak.org/squeak/6193
-[45a]: http://wiki.squeak.org/squeak/6189
-[44r]: http://wiki.squeak.org/squeak/6188
-[42r]: http://wiki.squeak.org/squeak/6160
+[46]: https://files.squeak.org/4.6/Squeak-4.6-All-in-One.zip
+[45]: https://files.squeak.org/4.5/Squeak-4.5-All-in-One.zip
+[44]: https://files.squeak.org/4.4/Squeak-4.4-All-in-One.zip
+[43]: https://files.squeak.org/4.3/Squeak-4.3-All-in-One.zip
+[42]: https://files.squeak.org/4.2/Squeak-4.2-All-in-One.zip
+[41]: https://files.squeak.org/4.1/Squeak-4.1-All-in-One.zip
+[40]: https://files.squeak.org/4.0/
+[46s]: https://files.squeak.org/sources_files/SqueakV46.sources.gz
+[41s]: https://files.squeak.org/sources_files/SqueakV41.sources.gz
+[40s]: https://files.squeak.org/sources_files/SqueakV40.sources.gz
+[46r]: https://wiki.squeak.org/squeak/6192
+[45b]: https://wiki.squeak.org/squeak/6193
+[45a]: https://wiki.squeak.org/squeak/6189
+[44r]: https://wiki.squeak.org/squeak/6188
+[42r]: https://wiki.squeak.org/squeak/6160

@@ -13,5 +13,5 @@ You can always take a look at the progress in the latest alpha version. Feel fre
 | Trunk Image       | [<i class="fa fa-external-link"></i>][trunk]{:target=_blank} |
 {:.table .table-condensed .max-width-360-lg}
 
-[trunk]: http://files.squeak.org/trunk/
-[inbox]: http://source.squeak.org/inbox.html
+[trunk]: https://files.squeak.org/trunk/
+[inbox]: https://source.squeak.org/inbox.html
