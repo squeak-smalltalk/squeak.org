@@ -321,7 +321,7 @@ result := (switch at: $B) value.
 x := 4. y := 1.
 [x > 0] whileTrue: [x := x - 1. y := y * 2].                "while true loop"
 [x >= 4] whileFalse: [x := x + 1. y := y * 2].              "while false loop"
-x timesRepeat: [y := y * 2].                                "times repear loop (i := 1 to x)"
+x timesRepeat: [y := y * 2].                                "times repeat loop (i := 1 to x)"
 1 to: x do: [:a | y := y * 2].                              "for loop"
 1 to: x by: 2 do: [:a | y := y / 2].                        "for loop with specified increment"
 #(5 4 3) do: [:a | x := x + a].                             "iterate over array elements"
@@ -698,7 +698,7 @@ Transcript show: (CMRGlobal printString).                   "entries are directl
 Smalltalk keys do: [ :k |                                   "print out all classes"
    ((Smalltalk at: k) isKindOf: Class)
       ifFalse: [Transcript show: k printString; cr]].
-Smalltalk at: #CMRDictionary put: (Dictionary new).         "set up user defined dictionary"
+Smalltalk at: #CMRDictionary put: (Dictionary new).         "set up user-defined dictionary"
 CMRDictionary at: #MyVar1 put: 'hello1'.                    "put entry in dictionary"
 CMRDictionary add: #MyVar2->'hello2'.                       "add entry to dictionary use key->value combo"
 CMRDictionary size.                                         "dictionary size"
