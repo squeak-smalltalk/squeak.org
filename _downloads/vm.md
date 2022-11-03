@@ -13,7 +13,6 @@ The virtual machine (VM) executes Squeak image files on a particular platform. T
 | OpenSmalltalk VMs (trunk)  | <i class="fa fa-windows"></i> <i class="fa fa-apple"></i> <i class="fa fa-linux"></i> | [<i class="fa fa-github"></i>][osvm_trunk]{:target=_blank} |
 | TruffleSqueak VM | <i class="fa fa-windows"></i> <i class="fa fa-apple"></i> <i class="fa fa-linux"></i> | [<i class="fa fa-external-link"></i>][truffle]{:target=_blank} |
 | Classic VMs                | <i class="fa fa-windows"></i> <i class="fa fa-apple"></i> <i class="fa fa-linux"></i> <img src="../img/downloads/risc.png" alt="RISC OS"> | [<i class="fa fa-external-link"></i>][classic]{:target=_blank} |
-{:.table .table-condensed}
 | Classic VMs (Interpreter)  | <i class="fa fa-windows"></i> <i class="fa fa-apple"></i> <i class="fa fa-linux"></i> <img src="../img/downloads/risc.png" alt="RISC OS"> | [<i class="fa fa-external-link"></i>][interpreter]{:target=_blank} |
 {:.table .table-condensed}
 
