@@ -14,7 +14,7 @@ The image file contains a snapshot of all living objects in Squeak. The changes 
 | Trunk            | 6.1alpha     | [<i class="fa fa-external-link"></i>][trunk]{:target=_blank}  |
 {:.table .table-condensed}
 
-[stable]: http://files.squeak.org/6.0/Squeak6.0-22104-32bit/Squeak6.0-22104-32bit.zip
-[stable_64]: http://files.squeak.org/6.0/Squeak6.0-22104-64bit/Squeak6.0-22104-64bit.zip
+[stable]: https://files.squeak.org/6.0/Squeak6.0-22104-32bit/Squeak6.0-22104-32bit.zip
+[stable_64]: https://files.squeak.org/6.0/Squeak6.0-22104-64bit/Squeak6.0-22104-64bit.zip
 
 [trunk]: https://files.squeak.org/trunk/
