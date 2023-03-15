@@ -7,15 +7,15 @@ permalink:  /board/
 <div class="row">
 <div class="col-md-6 col-lg-6">
 
-## Current Board Members (2022)
+## Current Board Members (2023)
 
 - Marcel Taeumel
 - Tim Rowledge
-- David T. Lewis
 - Craig Latta
+- David T. Lewis
 - Jakob Reschke
-- Stéphane Rollandin
 - Bruce O'Neel
+- Benoit St-Jean
 
 <br />
 
@@ -40,6 +40,7 @@ permalink:  /board/
 - Yoshiki Ohshima
 - Colin Putney
 - Andreas Raab <sup>&dagger;</sup>
+- Stéphane Rollandin
 - Randal L. Schwartz
 - Frank Shearar
 - Igor Stasenko
@@ -50,6 +51,7 @@ permalink:  /board/
 
 **Election Results**
 
+[2023](https://civs1.civs.us/cgi-bin/results.pl?id=E_007e994c1d279cb2){:target="_blank"} |
 [2022](https://civs1.civs.us/cgi-bin/results.pl?id=E_f7de3771ba57d80e){:target="_blank"} |
 [2021](https://civs1.civs.us/cgi-bin/results.pl?id=E_81af425a6ca92899){:target="_blank"} |
 [2020](https://civs.cs.cornell.edu/cgi-bin/results.pl?id=E_9bcc60540da183f9){:target="_blank"} |
