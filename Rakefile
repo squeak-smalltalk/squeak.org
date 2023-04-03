@@ -14,7 +14,7 @@ task :test do
           /^(https?\:\/\/)?(shop\.)?spreadshirt\.com\/.+$/,
           /^(https?\:\/\/)?(www\.)?twitter\.com\/.+$/,
           /^(https?\:\/\/)?(www\.)?kickstarter\.com\/.+$/,
-          /^(https?\:\/\/)?(www\.)?wiley\.com\/.+$/,
+          /^(https?\:\/\/)?onlinelibrary.wiley\.com\/.+$/,
           /^(https?\:\/\/)?(www\.)?opensource\.org\/.+$/ ],
         :typhoeus => {
           :ssl_verifypeer => false,
