@@ -13,8 +13,8 @@ task :test do
           /^https?\:\/\/squeak\.org\/(4|5)0/,
           /^(https?\:\/\/)?(shop\.)?spreadshirt\.com\/.+$/,
           /^(https?\:\/\/)?(www\.)?twitter\.com\/.+$/,
-          /^(https?\:\/\/)?(www\.)?kickstarter\.com\/.+$/ ],
-          /^(https?\:\/\/)?(www\.)?wiley\.com\/.+$/ ],
+          /^(https?\:\/\/)?(www\.)?kickstarter\.com\/.+$/,
+          /^(https?\:\/\/)?(www\.)?wiley\.com\/.+$/,
           /^(https?\:\/\/)?(www\.)?opensource\.org\/.+$/ ],
         :typhoeus => {
           :ssl_verifypeer => false,
