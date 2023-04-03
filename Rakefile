@@ -6,7 +6,6 @@ task :test do
         :check_html => true,
         :empty_alt_ignore => true,
         :only_4xx => true,
-        :ignore_status_codes => [403],
         :url_ignore => [
           "#",
           /^(https?\:\/\/)?doi.acm\.org\/.+$/,
@@ -15,6 +14,8 @@ task :test do
           /^(https?\:\/\/)?(shop\.)?spreadshirt\.com\/.+$/,
           /^(https?\:\/\/)?(www\.)?twitter\.com\/.+$/,
           /^(https?\:\/\/)?(www\.)?kickstarter\.com\/.+$/ ],
+          /^(https?\:\/\/)?(www\.)?wiley\.com\/.+$/ ],
+          /^(https?\:\/\/)?(www\.)?opensource\.org\/.+$/ ],
         :typhoeus => {
           :ssl_verifypeer => false,
           :ssl_verifyhost => 0 }
