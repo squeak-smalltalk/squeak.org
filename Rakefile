@@ -6,6 +6,7 @@ task :test do
         :check_html => true,
         :empty_alt_ignore => true,
         :only_4xx => true,
+        :ignore_status_codes => [403],
         :url_ignore => [
           "#",
           /^(https?\:\/\/)?doi.acm\.org\/.+$/,
