@@ -11,7 +11,7 @@ permalink:  /documentation/terse_guide/
 
 ## Variables
 - Variables must be declared before use
-- Shared vars (globa,s pools, and class vars) must begin with uppercase
+- Shared vars (globals, pools, and class vars) must begin with uppercase
 - Local vars must begin with lowercase
 - Reserved names: `self`, `super`, `thisContext`, `true`, `false`, and `nil`
 
