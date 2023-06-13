@@ -68,6 +68,11 @@ In detail, the process for classes or methods works as following:
  3. Maybe rewrite the deprecated method to use the new implementation, if there is one.
  4. Add `self deprecated: 'Use this or that instead.'.` at the beginning of the deprecated method to guide foreign application code through the migration.
 
+## Further References
+
+There is also a tutorial integrated in the image that describes the process and the tooling for submitting a contribution in-depth.
+You can find it under the docking bar in the help menu under "How to Contribute".
+
 </div>
 <div class="col-md-6 col-lg-6">
 
@@ -89,7 +94,7 @@ Here are some useful guidelines:
 
 * **You break it, you fix it.** If you change something, you are generally expected to take care of problems caused by this change. Though there are exceptions. If in doubt, please ask.
 
-* **Do good and talk about it.** When you are done with whatever you have been working on, let people know about it. It can be as short as a note to Squeak-dev saying “I have fixed the long standing bug with *xyz.* Please update and enjoy.”
+* **Do good and talk about it.** When you are done with whatever you have been working on, let people know about it. It can be as short as a note to Squeak-dev, or a comment in the issue tracker, saying “I have fixed the long standing bug with *xyz.* Please update and enjoy.” Large numbers of interconnected patches and discussions can be hard to survey for others. Whenever possible, include references to related Monticello versions or threads on the mailing list (which are permalinkable via the [pipermail archives](http://lists.squeakfoundation.org/pipermail/squeak-dev/)) in the summary of your work.
 
 * **Unit Testing.** Unit tests are an essential part of maintaining the reliability of our releases. New unit tests are always welcome. Keep in mind that a unit test should take as little time to run as possible. Maintaining the reliability of Squeak is always easier when all tests pass: If you break something, the appearance of a new failure or error is immediately obvious and the cause is more easily found. To that end fixes for failures or errors are extremely valuable. Also, please avoid submitting changes that cause failures or errors themselves.
 
