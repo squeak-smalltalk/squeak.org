@@ -11,7 +11,7 @@ permalink:  /documentation/terse_guide/
 
 ## Variables
 - Variables must be declared before use
-- Shared vars must begin with uppercase
+- Shared vars (globals, pools, and class vars) must begin with uppercase
 - Local vars must begin with lowercase
 - Reserved names: `self`, `super`, `thisContext`, `true`, `false`, and `nil`
 
@@ -230,10 +230,10 @@ x := 15 storeStringBase: 16.
 - Value is last expression evaluated unless explicit return
 - Blocks may be nested
 - Specification `[ arguments | | localvars | expressions ]`
-- Up to 15 arguments are possible; for up to 5 arguments, there is `#value:` and `#value:value:`...; for more, use `#valueWithArguments:`
+- Up to 15 arguments are possible; for up to 5 arguments, there are `#value:`, `#value:value:`, ...; for more, use `#valueWithArguments:`
 - `^` expression terminates block & method (exits all nested blocks)
 - Blocks intended for long-term storage must not contain `^`, as they can not return to the sender context
-- Use `#cull:` (and `#cull:cull:`...) if you do not know the exact number of arguments
+- Use `#cull:` (and `#cull:cull:`, ...) or `#valueWithEnoughArguments:` if you do not know the exact number of arguments
 - Blocks (along with polymorphism on booleans) are the basis of control structures; see Conditional Expressions below
 
 {% highlight smalltalk %}
