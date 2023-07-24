@@ -18,7 +18,9 @@ task :test do
           /^(https?\:\/\/)?(www\.)?opensource\.org\/.+$/,
           /^(https?\:\/\/)?(www\.)?doi\.org\/10\.5381\/jot.+$/,
           /^(https?\:\/\/)?(www\.)?doi\.org\/10\.1145\/.+$/,
-          /^(https?\:\/\/)?(www\.)?portal\.acm\.org\/citation\.cfm.+$/ ],
+          /^(https?\:\/\/)?(www\.)?portal\.acm\.org\/citation\.cfm.+$/,
+          /^(https?\:\/\/)?(www\.)?github\.com\/search\?.+$/,
+          /^(https?\:\/\/)?(www\.)?aida\.si\/.+$/ ],
         :typhoeus => {
           :ssl_verifypeer => false,
           :ssl_verifyhost => 0 }
