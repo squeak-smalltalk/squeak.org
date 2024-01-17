@@ -36,8 +36,8 @@ img-border: true
 [52_64]: https://files.squeak.org/5.2/Squeak5.2-18234-64bit/
 [52_32]: https://files.squeak.org/5.2/Squeak5.2-18234-32bit/
 
-[53_64]: https://files.squeak.org/5.3/Squeak5.3-19481-64bit/
-[53_32]: https://files.squeak.org/5.3/Squeak5.3-19481-32bit/
+[53_64]: https://files.squeak.org/5.3/Squeak5.3-19486-64bit/
+[53_32]: https://files.squeak.org/5.3/Squeak5.3-19486-32bit/
 
 [50s]: https://files.squeak.org/sources_files/SqueakV50.sources.gz
 
