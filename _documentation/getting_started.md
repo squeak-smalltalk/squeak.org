@@ -13,7 +13,7 @@ category:   Getting Started with Squeak
 
 [documentation]: https://wiki.squeak.org/squeak/2983
 [introductory]: https://web.archive.org/web/20190131121111/https://www.cosc.canterbury.ac.nz/wolfgang.kreutzer/cosc205/smalltalk1.html
-[overview]: https://www.cs.pdx.edu/~harry/musings/SmalltalkOverview.html
+[overview]: https://web.archive.org/web/20230503063351/https://web.cecs.pdx.edu/~harry/musings/SmalltalkOverview.html
 [morphic]: https://wiki.squeak.org/squeak/30
 [nutshell]: https://wiki.squeak.org/squeak/3419
 [references]: https://wiki.squeak.org/squeak/1859
