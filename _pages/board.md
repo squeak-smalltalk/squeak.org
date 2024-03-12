@@ -29,7 +29,6 @@ permalink:  /board/
 - Edgar J. De Cleene
 - Ben Coman
 - Chris Cunnington
-
 - Tony Garnock-Jones
 - Cees de Groot
 - Marcus Denker
