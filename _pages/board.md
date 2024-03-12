@@ -7,15 +7,16 @@ permalink:  /board/
 <div class="row">
 <div class="col-md-6 col-lg-6">
 
-## Current Board Members (2023)
+## Current Board Members (2024)
 
 - Marcel Taeumel
+- Vanessa Freudenberg
 - Tim Rowledge
-- Craig Latta
 - David T. Lewis
-- Jakob Reschke
+- Craig Latta
+- Christoph Thiede
 - Bruce O'Neel
-- Benoit St-Jean
+
 
 <br />
 
@@ -28,7 +29,7 @@ permalink:  /board/
 - Edgar J. De Cleene
 - Ben Coman
 - Chris Cunnington
-- Vanessa Freudenberg
+
 - Tony Garnock-Jones
 - Cees de Groot
 - Marcus Denker
@@ -40,9 +41,11 @@ permalink:  /board/
 - Yoshiki Ohshima
 - Colin Putney
 - Andreas Raab <sup>&dagger;</sup>
+- Jakob Reschke
 - Stéphane Rollandin
 - Randal L. Schwartz
 - Frank Shearar
+- Benoit St-Jean
 - Igor Stasenko
 - Levente Uzonyi
 - Juan Vuletich
@@ -51,6 +54,7 @@ permalink:  /board/
 
 **Election Results**
 
+[2024](https://civs1.civs.us/cgi-bin/results.pl?id=E_fe671584e1d25570){:target="_blank"} |
 [2023](https://civs1.civs.us/cgi-bin/results.pl?id=E_007e994c1d279cb2){:target="_blank"} |
 [2022](https://civs1.civs.us/cgi-bin/results.pl?id=E_f7de3771ba57d80e){:target="_blank"} |
 [2021](https://civs1.civs.us/cgi-bin/results.pl?id=E_81af425a6ca92899){:target="_blank"} |
