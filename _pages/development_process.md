@@ -71,7 +71,7 @@ In detail, the process for classes or methods works as following:
 ## Further References
 
 There is also a tutorial integrated in the image that describes the process and the tooling for submitting a contribution in-depth.
-You can find it under the docking bar in the help menu under "How to Contribute".
+You can find it under the docking bar in the help menu under "Contributing to Squeak".
 
 </div>
 <div class="col-md-6 col-lg-6">
