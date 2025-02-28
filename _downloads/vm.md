@@ -10,7 +10,7 @@ The virtual machine (VM) executes Squeak image files on a particular platform. T
 |                            | Support   | Link                                                               |
 | -------------------------- |:--------- | ------------------------------------------------------------------:|
 | OpenSmalltalk VMs (stable) | <i class="fa fa-windows"></i> <i class="fa fa-apple"></i> <i class="fa fa-linux"></i> | [<i class="fa fa-external-link"></i>][osvm]{:target=_blank} |
-| OpenSmalltalk VMs (latest) | <i class="fa fa-windows"></i> <i class="fa fa-apple"></i> <i class="fa fa-linux"></i> | [<i class="fa fa-github"></i>][osvm_latest]{:target=_blank} |
+| OpenSmalltalk VMs (latest) | <i class="fa fa-windows"></i> <i class="fa fa-apple"></i> <i class="fa fa-linux"></i> | [<i class="fa fa-external-link"></i>][osvm_latest]{:target=_blank} |
 | OpenSmalltalk VMs (source) | <i class="fa fa-windows"></i> <i class="fa fa-apple"></i> <i class="fa fa-linux"></i> | [<i class="fa fa-github"></i>][osvm_source]{:target=_blank} |
 | TruffleSqueak | <i class="fa fa-windows"></i> <i class="fa fa-apple"></i> <i class="fa fa-linux"></i> | [<i class="fa fa-external-link"></i>][truffle]{:target=_blank} |
 | SqueakJS | <i class="fa fa-windows"></i> <i class="fa fa-apple"></i> <i class="fa fa-linux"></i> | [<i class="fa fa-external-link"></i>][squeakjs]{:target=_blank} |
