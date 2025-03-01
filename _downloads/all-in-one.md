@@ -18,7 +18,7 @@ On Windows, you must confirm a **SmartScreen** warning since executables are not
 | Linux (ARMv8)       | 6.0 | <i class="fa fa-linux"></i>   | [<i class="fa fa-download"></i>][arm]{:target=_blank} |
 | All-in-One (64-bit) | 6.0 | <i class="fa fa-windows"></i> <i class="fa fa-apple"></i> <i class="fa fa-linux"></i> | [<i class="fa fa-download"></i>][all]{:target=_blank} |
 | 32-bit Bundles      | 6.0 | <i class="fa fa-windows"></i> <i class="fa fa-linux"></i> | [<i class="fa fa-external-link"></i>][32]{:target=_blank} |
-| Try on SqueakJS (slow) | 6.0 | <i class="fa fa-laptop"></i> <i class="fa fa-tablet"></i> <i class="fa fa-mobile"></i>   | [<i class="fa fa-globe"></i>][squeakjs]{:target=_blank} |
+| Try in browser (slow) | 6.0 | <i class="fa fa-laptop"></i> <i class="fa fa-tablet"></i> <i class="fa fa-mobile"></i>   | [<i class="fa fa-globe"></i>][squeakjs]{:target=_blank} |
 {:.table .table-condensed .max-width-450-lg}
 
 <span>❤️</span> Please help us keep our infrastructure up and running, which includes this website, our mailing lists, and code repositories. <b><a href="#" class="donate-button">Donate here...</a></b> <span>❤️</span>
