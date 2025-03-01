@@ -8,7 +8,7 @@ task :test do
         :only_4xx => true,
         :url_ignore => [
           "#",
-          /^(https?\:\/\/)?doi.acm\.org\/.+$/,
+          /^(https?\:\/\/)?(doi|dl).acm\.org\/.+$/,
           /^(https?\:\/\/)?(www\.)?youtube\.com\/.+$/,
           /^https?\:\/\/squeak\.org\/(4|5)0/,
           /^(https?\:\/\/)?(shop\.)?spreadshirt\.com\/.+$/,
