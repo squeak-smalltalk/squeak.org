@@ -24,7 +24,7 @@ The virtual machine (VM) executes Squeak image files on a particular platform. T
 [osvm_latest]: https://github.com/OpenSmalltalk/opensmalltalk-vm/releases/tag/latest-build
 [osvm_source]: https://github.com/OpenSmalltalk/opensmalltalk-vm
 [truffle]: https://github.com/hpi-swa/trufflesqueak/releases/latest
-[truffle_source]: https://github.com/hpi-swa/trufflesqueak/releases/latest
+[truffle_source]: https://github.com/hpi-swa/trufflesqueak
 [squeakjs]: https://squeak.js.org/
 [squeakjs_source]: https://github.com/codefrau/SqueakJS
 [classic]: http://squeakvm.org/
