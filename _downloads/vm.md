@@ -11,6 +11,7 @@ The virtual machine (VM) executes Squeak image files on a particular platform. T
 | -------------------------- |:--------- | ------------------------------------------------------------------:|
 | OpenSmalltalk VMs (stable) | <i class="fa fa-windows"></i> <i class="fa fa-apple"></i> <i class="fa fa-linux"></i> | [<i class="fa fa-external-link"></i>][osvm]{:target=_blank} |
 | OpenSmalltalk VMs (latest) | <i class="fa fa-windows"></i> <i class="fa fa-apple"></i> <i class="fa fa-linux"></i> | [<i class="fa fa-external-link"></i>][osvm_latest]{:target=_blank} |
+| OpenSmalltalk VMs (debug)  | <i class="fa fa-windows"></i> <i class="fa fa-apple"></i> <i class="fa fa-linux"></i> | [<i class="fa fa-external-link"></i>][osvm_debug]{:target=_blank} |
 | OpenSmalltalk VMs (source) | <i class="fa fa-c"></i>                                                               | [<i class="fa fa-github"></i>][osvm_source]{:target=_blank} |
 | TruffleSqueak              | <i class="fa fa-windows"></i> <i class="fa fa-apple"></i> <i class="fa fa-linux"></i> | [<i class="fa fa-external-link"></i>][truffle]{:target=_blank} |
 | TruffleSqueak (source)     | <i class="fa fa-java"></i>                                                            | [<i class="fa fa-github"></i>][truffle_source]{:target=_blank} |
@@ -22,6 +23,7 @@ The virtual machine (VM) executes Squeak image files on a particular platform. T
 
 [osvm]: https://github.com/OpenSmalltalk/opensmalltalk-vm/releases/latest
 [osvm_latest]: https://github.com/OpenSmalltalk/opensmalltalk-vm/releases/tag/latest-build
+[osvm_debug]: https://github.com/OpenSmalltalk/opensmalltalk-vm/releases/tag/latest-debug-build 
 [osvm_source]: https://github.com/OpenSmalltalk/opensmalltalk-vm
 [truffle]: https://github.com/hpi-swa/trufflesqueak/releases/latest
 [truffle_source]: https://github.com/hpi-swa/trufflesqueak
