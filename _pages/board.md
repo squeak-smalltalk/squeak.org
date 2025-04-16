@@ -7,16 +7,15 @@ permalink:  /board/
 <div class="row">
 <div class="col-md-6 col-lg-6">
 
-## Current Board Members (2024)
+## Current Board Members (2025)
 
 - Marcel Taeumel
 - Vanessa Freudenberg
+- Eliot Miranda
 - Tim Rowledge
 - David T. Lewis
-- Craig Latta
 - Christoph Thiede
-- Bruce O'Neel
-
+- Rachel Crowther
 
 <br />
 
@@ -34,9 +33,10 @@ permalink:  /board/
 - Marcus Denker
 - Stéphane Ducasse
 - Dan Ingalls
+- Craig Latta
 - John-Reed Maffeo
-- Eliot Miranda
 - Chris Muller
+- Bruce O'Neel
 - Yoshiki Ohshima
 - Colin Putney
 - Andreas Raab <sup>&dagger;</sup>
@@ -53,6 +53,7 @@ permalink:  /board/
 
 **Election Results**
 
+[2025](https://civs1.civs.us/cgi-bin/results.pl?id=E_40d887bcc78e5a48){:target="_blank"} |
 [2024](https://civs1.civs.us/cgi-bin/results.pl?id=E_fe671584e1d25570){:target="_blank"} |
 [2023](https://civs1.civs.us/cgi-bin/results.pl?id=E_007e994c1d279cb2){:target="_blank"} |
 [2022](https://civs1.civs.us/cgi-bin/results.pl?id=E_f7de3771ba57d80e){:target="_blank"} |
