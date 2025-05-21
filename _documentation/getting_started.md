@@ -3,6 +3,8 @@ title:      Overviews and Reference
 order:      1
 category:   Getting Started with Squeak
 ---
+* [Getting Started: Squeak by Example][sbe]{:target="_blank"}
+* [Getting Started: Game Programming in Squeak][game]{:target="_blank"}
 * [Terse Guide to Squeak](/documentation/terse_guide/)
 * [Squeak Documentation][documentation]{:target="_blank"}
 * [Introductory Squeak][introductory]{:target="_blank"}
@@ -17,3 +19,5 @@ category:   Getting Started with Squeak
 [morphic]: https://wiki.squeak.org/squeak/30
 [nutshell]: https://wiki.squeak.org/squeak/3419
 [references]: https://wiki.squeak.org/squeak/1859
+[game]: https://news.squeak.org/2024/12/19/introduction-lesson-1-programming-the-shooter-game-in-squeak-smalltalk/
+[sbe]: https://github.com/hpi-swa-lab/SqueakByExample-english/releases/download/6.0/SBE-6.0.pdf
