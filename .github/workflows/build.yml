@@ -13,7 +13,12 @@ jobs:
       with:
         ruby-version: 2.7
         bundler-cache: true # runs 'bundle install' and caches installed gems automatically
-
+    
+    - name: Install right bundler version
+      run: |
+        gem install bundler -v 2.4.22
+        bundle _2.4.22_ install
+    
     - name: Run Jekyll to generate page
       run: bundle exec rake test
       env:

@@ -298,7 +298,7 @@ GEM
       thread_safe (~> 0.1)
     unicode (0.4.4.5)
     unicode-display_width (1.8.0)
-    uri (1.1.1)
+    uri (0.10.0.2)
     yell (2.2.2)
 
 PLATFORMS
@@ -315,6 +315,7 @@ DEPENDENCIES
   pygments.rb (= 3.0.0)
   rake (>= 12.3.3)
   unicode
+  uri (= 0.10.0.2)
 
 BUNDLED WITH
    2.4.22
