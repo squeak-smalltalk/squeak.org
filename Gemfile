@@ -1,5 +1,6 @@
 source 'https://rubygems.org'
 
+gem 'ffi', '1.15.5'
 gem 'html-proofer', '3.18.8'
 gem 'github-pages', '198'
 gem 'jekyll-redirect-from', '0.14.0'

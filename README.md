@@ -15,3 +15,27 @@ Brief description about my project goes here.
 ```
 
 The logo should have the size of 200x200 pixels. The description should be in English and consist of about 50 words or less. Please choose a distinctive name for the files (i.e. markdown and logo). Double-check with the [existing projects](_projects).
+
+## Building Locally
+
+1. Install Ruby using [rbenv](https://rbenv.org/):
+   ```bash
+   rbenv install 2.7.8
+   ```
+
+2. Initialize Ruby environment:
+   ```bash
+   eval "$(rbenv init -)"
+   ```
+
+3. Install dependencies:
+   ```bash
+   bundle install
+   ```
+
+4. Build and serve locally:
+   ```bash
+   bundle exec jekyll serve
+   ```
+   
+   Then visit http://localhost:4000 in your browser. Changes to files will auto-rebuild.
