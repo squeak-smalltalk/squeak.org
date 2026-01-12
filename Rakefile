@@ -8,7 +8,7 @@ task :test do
         :only_4xx => true,
         :url_ignore => [
           "#",
-          /^(https?\:\/\/)?(doi|dl).acm\.org\/.+$/,
+          /^(https?\:\/\/)?(doi|dl)\.acm\.org\/.+$/,
           /^(https?\:\/\/)?(www\.)?youtube\.com\/.+$/,
           /^https?\:\/\/squeak\.org\/(4|5)0/,
           /^(https?\:\/\/)?(shop\.)?spreadshirt\.com\/.+$/,
@@ -21,7 +21,8 @@ task :test do
           /^(https?\:\/\/)?(www\.)?portal\.acm\.org\/citation\.cfm.+$/,
           /^(https?\:\/\/)?(www\.)?github\.com\/search\?.+$/,
           /^(https?\:\/\/)?(www\.)?aidaweb\.si\/.*$/,
-          /^(https?\:\/\/)?(www\.)?learntechlib\.org\/p\/.+$/ ],
+          /^(https?\:\/\/)?(www\.)?learntechlib\.org\/p\/.+$/
+          /^(https?\:\/\/)?(www\.)?sciencedirect\.com\/.+$/ ],
         :typhoeus => {
           :ssl_verifypeer => false,
           :ssl_verifyhost => 0 }
