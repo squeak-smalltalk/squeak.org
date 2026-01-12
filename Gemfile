@@ -1,5 +1,6 @@
 source 'https://rubygems.org'
 
+gem 'ffi', '1.15.5'
 gem 'html-proofer', '3.18.8'
 gem 'github-pages', '198'
 gem 'jekyll-redirect-from', '0.14.0'
@@ -9,3 +10,4 @@ gem 'jekyll-sitemap', '1.2.0'
 gem 'pygments.rb', '3.0.0'
 gem 'rake', '>= 12.3.3'
 gem 'unicode'
+gem 'uri', '0.10.0.2'

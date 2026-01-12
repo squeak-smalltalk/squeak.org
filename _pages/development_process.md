@@ -28,6 +28,7 @@ If contributions do not work, are deemed unfitting, or become obsolete for anoth
 
 * <https://source.squeak.org/treated>
 
+<img src="/img/dev/community_model.png" alt="Squeak Community Model" class="img-responsive">
 
 ## Developer access
 
