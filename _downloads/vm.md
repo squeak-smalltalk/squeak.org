@@ -30,4 +30,4 @@ The virtual machine (VM) executes Squeak image files on a particular platform. T
 [squeakjs]: https://squeak.js.org/
 [squeakjs_source]: https://github.com/codefrau/SqueakJS
 [classic]: http://squeakvm.org/
-[interpreter]: http://squeakvm.org/cgi-bin/viewvc.cgi/squeak/trunk/
+[interpreter]: http://squeakvm.org/

@@ -2,7 +2,6 @@ _site
 .sass-cache
 *~
 *.swp
-*.lock
 .jekyll-metadata
 vendor
 .bundle
