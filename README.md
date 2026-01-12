@@ -39,3 +39,11 @@ The logo should have the size of 200x200 pixels. The description should be in En
    ```
    
    Then visit http://localhost:4000 in your browser. Changes to files will auto-rebuild.
+
+> [!NOTE]
+> If you are seeing errors about incompatible gems during building, you might have installed conflicting packages on your machine. To ignore them, run the following in your current shell before performing the above steps:
+> 
+> ```bash
+> unset GEM_HOME GEM_PATH
+> unset rvm_bin_path
+> ```
