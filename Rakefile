@@ -21,7 +21,7 @@ task :test do
           /^(https?\:\/\/)?(www\.)?portal\.acm\.org\/citation\.cfm.+$/,
           /^(https?\:\/\/)?(www\.)?github\.com\/search\?.+$/,
           /^(https?\:\/\/)?(www\.)?aidaweb\.si\/.*$/,
-          /^(https?\:\/\/)?(www\.)?learntechlib\.org\/p\/.+$/
+          /^(https?\:\/\/)?(www\.)?learntechlib\.org\/p\/.+$/,
           /^(https?\:\/\/)?(www\.)?sciencedirect\.com\/.+$/ ],
         :typhoeus => {
           :ssl_verifypeer => false,
