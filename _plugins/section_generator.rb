@@ -12,6 +12,9 @@ module Jekyll
       self.process(@name)
       self.read_yaml(File.join(site.source, '_layouts'), 'section.html')
       self.data['section'] = section
+      collections_config = site.config['collections'] || {}
+      section_config = collections_config[collection] || {}
+      self.data['section_sort_reversed'] = section_config['sort_reversed']
       if section.entries.include? HEAD
         tmpl = File.read File.join site.source, '_' + collection, HEAD
         tmpl = (Liquid::Template.parse tmpl).render site.site_payload

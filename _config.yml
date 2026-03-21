@@ -45,6 +45,12 @@ collections:
     title: Research
     visible-sm: <i class="fa fa-flask"></i>
     sort_by: order
+  release_notes:
+    title: Release Notes
+    sort_by: order
+    sort_reversed: true
+    output: true
+    permalink: /release_notes/:name.html
 
 defaults:
   -
@@ -59,6 +65,13 @@ defaults:
       type: "research"
     values:
       cols: 12
+  -
+    scope:
+      path: ""
+      type: "release_notes"
+    values:
+      cols: 12
+      layout: default
 
 # Enable SASS support
 sass:
