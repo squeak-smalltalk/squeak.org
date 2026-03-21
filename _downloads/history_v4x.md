@@ -38,8 +38,8 @@ img-border: true
 [46s]: https://files.squeak.org/sources_files/SqueakV46.sources.gz
 [41s]: https://files.squeak.org/sources_files/SqueakV41.sources.gz
 [40s]: https://files.squeak.org/sources_files/SqueakV40.sources.gz
-[46r]: https://wiki.squeak.org/squeak/6192
-[45b]: https://wiki.squeak.org/squeak/6193
+[46r]: /release_notes/4.6
+[45b]: /release_notes/4.5
 [45a]: https://wiki.squeak.org/squeak/6189
-[44r]: https://wiki.squeak.org/squeak/6188
-[42r]: https://wiki.squeak.org/squeak/6160
+[44r]: /release_notes/4.4
+[42r]: /release_notes/4.2
