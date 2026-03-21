@@ -22,4 +22,4 @@ img-border: true
 
 [60s]: https://files.squeak.org/sources_files/SqueakV60.sources.gz
 
-[60r]: /release_notes/6.0
+[60r]: /release_notes/6.0/

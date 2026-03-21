@@ -51,7 +51,6 @@ collections:
     sort_reversed: true
     overview_page: true
     output: true
-    permalink: /release_notes/:name.html
 
 defaults:
   -

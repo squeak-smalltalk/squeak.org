@@ -41,7 +41,7 @@ img-border: true
 
 [50s]: https://files.squeak.org/sources_files/SqueakV50.sources.gz
 
-[53r]: /release_notes/5.3
-[52r]: /release_notes/5.2
-[51r]: /release_notes/5.1
-[50r]: /release_notes/5.0
+[53r]: /release_notes/5.3/
+[52r]: /release_notes/5.2/
+[51r]: /release_notes/5.1/
+[50r]: /release_notes/5.0/

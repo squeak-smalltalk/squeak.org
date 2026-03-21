@@ -22,6 +22,10 @@ task :test do
           /^(https?\:\/\/)?(www\.)?github\.com\/search\?.+$/,
           /^(https?\:\/\/)?(www\.)?aidaweb\.si\/.*$/,
           /^(https?\:\/\/)?(www\.)?learntechlib\.org\/p\/.+$/ ],
+        :url_swap => {
+          'https://squeak.org' => '',
+          'http://squeak.org' => '',
+        },
         :typhoeus => {
           :ssl_verifypeer => false,
           :ssl_verifyhost => 0 }
