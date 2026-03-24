@@ -21,30 +21,27 @@ layout: compress
         </div>
         {% endif %}
 
+        {% assign section_sort_reversed = page.section_sort_reversed %}
+
         {% if page.section.sort_by == 'title' %}
-          {% assign groups = page.section.docs | sort_natural: page.section.sort_by | group_by: 'category' %}
+          {% assign sorted_docs = page.section.docs | sort_natural: page.section.sort_by %}
         {% else %}
-          {% assign groups = page.section.docs | sort: page.section.sort_by | group_by: 'category' %}
+          {% assign sorted_docs = page.section.docs | sort: page.section.sort_by %}
         {% endif %}
 
-        {% if page.section.sort_reversed %}
-          {% for row in groups reversed%}
-            {% if row.name != "" %}
-          <span class="anchor" id="{{ row.name | slugify }}"></span>
-          <h2>{{ row.name }}</h2>
-            {% endif %}
-            {% assign reversedItems = row.items | reversed %}
-            {% include row.html items=reversedItems %}
-          {% endfor %}
-        {% else %}
-          {% for row in groups %}
-            {% if row.name != "" %}
-          <span class="anchor" id="{{ row.name | slugify }}"></span>
-          <h2>{{ row.name }}</h2>
-            {% endif %}
-            {% include row.html items=row.items %}
-          {% endfor %}
+        {% if section_sort_reversed %}
+          {% assign sorted_docs = sorted_docs | reverse %}
         {% endif %}
+
+        {% assign groups = sorted_docs | group_by: 'category' %}
+
+        {% for row in groups %}
+          {% if row.name != "" %}
+        <span class="anchor" id="{{ row.name | slugify }}"></span>
+        <h2>{{ row.name }}</h2>
+          {% endif %}
+          {% include row.html items=row.items %}
+        {% endfor %}
 
         {% if page.trailer %}
         <div class="section-tail text-center">

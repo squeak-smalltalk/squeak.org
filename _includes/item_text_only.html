@@ -1,17 +1,24 @@
 <div class="row">
   <div class="col-md-12 col-lg-12">
+    {% assign isOverviewPage = page.section_overview_page and item.collection == page.section_label %}
     {% if item.title %}
     <span class="anchor" id="{{ item.title | slugify }}{% if item.order %}-{{ item.order }}{% endif %}"></span>
     <h3 class="text-center-sm">
-      {% if item.href %}
+      {% if isOverviewPage %}
+      <a href="{{ item.url }}">
+      {% elsif item.href %}
       <a href="{{ item.href }}"{% if item.href-external %} target="_blank"{% endif %}>
       {% endif %}
         {{ item.title }}
-      {% if item.href %}
+      {% if isOverviewPage or item.href %}
       </a>
       {% endif %}
     </h3>
     {% endif %}
+    {% if isOverviewPage %}
+    {{ item.content | strip_html | normalize_whitespace | truncatewords: 80, '…' }} <a href="{{ item.url }}">[Read on…]</a>
+    {% else %}
     {{ item.content }}
+    {% endif %}
   </div>
 </div>
