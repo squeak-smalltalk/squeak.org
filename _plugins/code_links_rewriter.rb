@@ -3,7 +3,6 @@ require 'cgi'
 
 # Rewrites links with the "code:" scheme to point to try.squeak.org to open/run the linked code snippet in SqueakJS.
 Jekyll::Hooks.register [:pages, :documents], :post_render do |doc|
-  config = doc.site.config
 
   next unless doc.data['rewrite_code_links']
 
