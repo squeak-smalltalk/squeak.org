@@ -22,7 +22,7 @@ task :test do
           /^(https?\:\/\/)?(www\.)?github\.com\/search\?.+$/,
           /^(https?\:\/\/)?(www\.)?aidaweb\.si\/.*$/,
           /^(https?\:\/\/)?(www\.)?learntechlib\.org\/p\/.+$/ ],
-        :url_swap => {
+        :url_swap => { # map generated SEO absolute squeak.org URLs back to local paths for CI link checks (otherwise we would be testing against the live site)
           'https://squeak.org' => '',
           'http://squeak.org' => '',
         },
