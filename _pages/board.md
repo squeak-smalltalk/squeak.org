@@ -10,12 +10,13 @@ permalink:  /board/
 ## Current Board Members (2025)
 
 - Marcel Taeumel
-- Vanessa Freudenberg
+- Vanessa Freudenberg <sup>&dagger;</sup>
 - Eliot Miranda
 - Tim Rowledge
 - David T. Lewis
 - Christoph Thiede
 - Rachel Crowther
+- Scott Gibson <em>(alternative member)</em>
 
 <br />
 
