@@ -8,7 +8,7 @@ task :test do
         :only_4xx => true,
         :url_ignore => [
           "#",
-          /^(https?\:\/\/)?(doi|dl).acm\.org\/.+$/,
+          /^(https?\:\/\/)?(doi|dl)\.acm\.org\/.+$/,
           /^(https?\:\/\/)?(www\.)?youtube\.com\/.+$/,
           /^https?\:\/\/squeak\.org\/(4|5)0/,
           /^(https?\:\/\/)?(shop\.)?spreadshirt\.com\/.+$/,
@@ -21,7 +21,8 @@ task :test do
           /^(https?\:\/\/)?(www\.)?portal\.acm\.org\/citation\.cfm.+$/,
           /^(https?\:\/\/)?(www\.)?github\.com\/search\?.+$/,
           /^(https?\:\/\/)?(www\.)?aidaweb\.si\/.*$/,
-          /^(https?\:\/\/)?(www\.)?learntechlib\.org\/p\/.+$/ ],
+          /^(https?\:\/\/)?(www\.)?learntechlib\.org\/p\/.+$/,
+          /^(https?\:\/\/)?(www\.)?sciencedirect\.com\/.+$/ ],
         :url_swap => { # map generated SEO absolute squeak.org URLs back to local paths for CI link checks (otherwise we would be testing against the live site)
           'https://squeak.org' => '',
           'http://squeak.org' => '',
