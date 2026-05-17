@@ -79,6 +79,12 @@ img[src*=".svg"] { /* Fix SVGs in IE */
     margin-bottom: 0.25ex;
 }
 
+.donate-button {
+    padding: 1ex;
+    padding-left: 1.5ex;
+    padding-right: 1.5ex;
+}
+
 #sub-button-group {
     margin-bottom: 12px;
 }
