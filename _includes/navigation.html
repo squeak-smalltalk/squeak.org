@@ -19,7 +19,7 @@
           </a>
         </li>
         {% for collection in site.collections %}
-          {% if collection.label == "posts" %}
+          {% if collection.label == "posts" or collection.label == "release_notes" %}
             {% continue %}
           {% endif %}
           {% assign liClass = '' %}
