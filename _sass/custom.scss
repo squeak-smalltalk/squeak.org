@@ -68,11 +68,29 @@ img[src*=".svg"] { /* Fix SVGs in IE */
     margin-top: 18px;
 }
 
-.download {
-    width: 100px;
-    padding: 0.5ex;
+.download-box {
+    width: 100%;
+    max-width: 100%;
     margin-top: 1ex;
     margin-bottom: 1ex;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5ex;
+    justify-content: center;
+    box-sizing: border-box;
+}
+
+.download {
+    width: 100%;
+    max-width: 120px;
+    min-width: 80px;
+    flex: 1 1 80px;
+    box-sizing: border-box;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    padding-left: 3px;
+    padding-right: 3px;
 }
 
 .download i {
