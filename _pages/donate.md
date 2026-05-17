@@ -13,7 +13,7 @@ Donations are kindly managed by the [Software Freedom Conservancy (SFC)](https:/
 Right now, the most convenient way to donate is via PayPal.
 To make a donation, press the following button:
 
-<a href="#" class="btn btn-primary donate-button">
+<a href="https://sfconservancy.org/donate/" class="btn btn-primary">
   <i class="fa fa-paypal"></i>
   Donate via PayPal
 </a>

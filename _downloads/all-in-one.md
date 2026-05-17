@@ -21,7 +21,7 @@ On Windows, you must confirm a **SmartScreen** warning since executables are not
 | Try in browser (slow) | 6.0 | <i class="fa fa-laptop"></i> <i class="fa fa-tablet"></i> <i class="fa fa-mobile"></i>   | [<i class="fa fa-globe"></i>][squeakjs]{:target=_blank} |
 {:.table .table-condensed .max-width-450-lg}
 
-<span>❤️</span> Please help us keep our infrastructure up and running, which includes this website, our mailing lists, and code repositories. <b><a href="/donate">Donate here...</a></b> <span>❤️</span>
+<span>❤️</span> Please help us keep our infrastructure up and running, which includes this website, our mailing lists, and code repositories. <b><a href="/donate/">Donate here...</a></b> <span>❤️</span>
 
 [mac]: https://files.squeak.org/6.0/Squeak6.0-22148-64bit/Squeak6.0-22148-64bit-202312181441-macOS.dmg
 [win]: https://files.squeak.org/6.0/Squeak6.0-22148-64bit/Squeak6.0-22148-64bit-202312181441-Windows-x64.zip

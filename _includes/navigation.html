@@ -45,8 +45,8 @@
             <span class="hidden-xs hidden-lg"><i class="fa fa-file-text-o"></i></span>
           </a>
         </li>
-        <li>
-          <a href="/donate">
+        <li{% if page.permalink == '/donate/' %} class="active"{% endif %}>
+          <a href="/donate/">
             <i class="fa fa-heart"></i>
             <span class="visible-xs-inline visible-lg-inline">Donate</span>
           </a>
