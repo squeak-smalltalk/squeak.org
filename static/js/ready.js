@@ -59,6 +59,8 @@ $(function() {
     $('.donate-button').click(function(event) {
         $('#paypal-donations').submit();
     });
+    // Change donate button href to "#"
+    $('.donate-button').attr('href', '#');
     // Enable screenshots
     if ($('#screenshots').length > 0) {
         enableScreenshotButtons();
