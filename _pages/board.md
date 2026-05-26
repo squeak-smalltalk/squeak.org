@@ -7,16 +7,15 @@ permalink:  /board/
 <div class="row">
 <div class="col-md-6 col-lg-6">
 
-## Current Board Members (2025)
+## Current Board Members (2026)
 
 - Marcel Taeumel
-- Vanessa Freudenberg <sup>&dagger;</sup>
 - Eliot Miranda
-- Tim Rowledge
 - David T. Lewis
 - Christoph Thiede
-- Rachel Crowther
-- Scott Gibson <em>(alternative member)</em>
+- Craig Latta
+- Scott Gibson
+- Jaromir Matas
 
 <br />
 
@@ -28,11 +27,13 @@ permalink:  /board/
 - Nicolas Cellier
 - Edgar J. De Cleene
 - Ben Coman
+- Rachel Crowther
 - Chris Cunnington
 - Tony Garnock-Jones
 - Cees de Groot
 - Marcus Denker
 - Stéphane Ducasse
+- Vanessa Freudenberg <sup>&dagger;</sup>
 - Dan Ingalls
 - Craig Latta
 - John-Reed Maffeo
@@ -43,6 +44,7 @@ permalink:  /board/
 - Andreas Raab <sup>&dagger;</sup>
 - Jakob Reschke
 - Stéphane Rollandin
+- Tim Rowledge
 - Randal L. Schwartz
 - Frank Shearar
 - Benoit St-Jean
@@ -54,6 +56,7 @@ permalink:  /board/
 
 **Election Results**
 
+[2026](https://civs1.civs.us/cgi-bin/results.pl?id=E_6918d6b7a3c6ee8c){:target="_blank"} |
 [2025](https://civs1.civs.us/cgi-bin/results.pl?id=E_40d887bcc78e5a48){:target="_blank"} |
 [2024](https://civs1.civs.us/cgi-bin/results.pl?id=E_fe671584e1d25570){:target="_blank"} |
 [2023](https://civs1.civs.us/cgi-bin/results.pl?id=E_007e994c1d279cb2){:target="_blank"} |
