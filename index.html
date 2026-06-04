@@ -35,8 +35,7 @@ sub_button_group:
     icon:   gift
 
   - title:  Donate
-    href:   "#"
-    class:  donate-button
+    href:   /donate/
     icon:   heart
 
 screenshots:
@@ -64,7 +63,7 @@ screenshots:
 ---
 
 <!-- <div class="alert alert-success text-center" role="alert">
-  <span>❤️</span> Please help us keep our infrastructure up and running, which includes this website, our mailing lists, and code repositories. <b><a href="#" class="donate-button">Donate here...</a></b> <span>❤️</span>
+  <span>❤️</span> Please help us keep our infrastructure up and running, which includes this website, our mailing lists, and code repositories. <b><a href="/donate">Donate here...</a></b> <span>❤️</span>
 </div> -->
 
 <!-- <div class="alert alert-info text-center" role="alert">
@@ -91,7 +90,7 @@ screenshots:
       <h2>{{ page.headline }}</h2>
       <div>{{ page.welcome }}</div>
       <div class="text-center">
-        <span>
+        <span class="download-box">
         <a class="btn btn-primary download" href="{{ page.download_link_mac }}" target="_blank" role="button">
           <i class="fa fa-apple fa-2x"></i><br>
           macOS
