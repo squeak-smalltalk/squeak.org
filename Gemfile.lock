@@ -229,7 +229,7 @@ GEM
       gemoji (~> 3.0)
       html-pipeline (~> 2.2)
       jekyll (~> 3.0)
-    json (2.18.0)
+    json (2.19.2)
     kramdown (1.17.0)
     latex-decode (0.4.2)
     liquid (4.0.0)
