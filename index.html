@@ -9,11 +9,12 @@ welcome: >
   cover a wide range of domains such as education, multimedia, gaming, research,
   and commerce.
 
-download_link_mac: https://files.squeak.org/6.0/Squeak6.0-22148-64bit/Squeak6.0-22148-64bit-202312181441-macOS.dmg
-download_link_win: https://files.squeak.org/6.0/Squeak6.0-22148-64bit/Squeak6.0-22148-64bit-202312181441-Windows-x64.zip
-download_link_lin: https://files.squeak.org/6.0/Squeak6.0-22148-64bit/Squeak6.0-22148-64bit-202312181441-Linux-x64.tar.gz
-download_link_arm: https://files.squeak.org/6.0/Squeak6.0-22148-64bit/Squeak6.0-22148-64bit-202312181441-Linux-ARMv8.tar.gz
-download_link_all: https://files.squeak.org/6.0/Squeak6.0-22148-64bit/Squeak6.0-22148-64bit-All-in-One.zip
+download_link_mac: https://files.squeak.org/6.0/Squeak6.0-22156-64bit/Squeak6.0-22156-64bit-202606270913-macOS.dmg
+download_link_win_x64: https://files.squeak.org/6.0/Squeak6.0-22156-64bit/Squeak6.0-22156-64bit-202606270913-Windows-x64.zip
+download_link_win_arm: https://files.squeak.org/6.0/Squeak6.0-22156-64bit/Squeak6.0-22156-64bit-202606270913-Windows-ARMv8.zip
+download_link_lin_x64: https://files.squeak.org/6.0/Squeak6.0-22156-64bit/Squeak6.0-22156-64bit-202606270913-Linux-x64.tar.gz
+download_link_lin_arm: https://files.squeak.org/6.0/Squeak6.0-22156-64bit/Squeak6.0-22156-64bit-202606270913-Linux-ARMv8.tar.gz
+download_link_all: https://files.squeak.org/6.0/Squeak6.0-22156-64bit/Squeak6.0-22156-64bit-All-in-One.zip
 
 release_notes_link: /release_notes/6.0/
 
@@ -67,9 +68,9 @@ screenshots:
   <span>❤️</span> Please help us keep our infrastructure up and running, which includes this website, our mailing lists, and code repositories. <b><a href="#" class="donate-button">Donate here...</a></b> <span>❤️</span>
 </div> -->
 
-<!-- <div class="alert alert-info text-center" role="alert">
-  <b><a href="https://github.com/OpenSmalltalk/opensmalltalk-vm/releases/latest">New OSVM 2023.12</a></b> included in Squeak 5.3, 6.0, and Trunk bundles. <span>🎉</span> <b><a href="/downloads/">Grab 'em while they're hot!</a></b>
-</div> -->
+<div class="alert alert-info text-center" role="alert">
+  <b><a href="https://github.com/OpenSmalltalk/opensmalltalk-vm/releases/latest">New OSVM 2026.06</a></b> included in Squeak 5.3, 6.0, and Trunk bundles. <span>🎉</span> <b><a href="/downloads/">Now with Windows ARMv8 support!</a></b>
+</div>
 
 <!-- <div class="alert alert-warning text-center" role="alert">
   <span>🐭</span> Squeak Oversight Board Election 2024 <span>💪</span>
@@ -96,18 +97,19 @@ screenshots:
           <i class="fa fa-apple fa-2x"></i><br>
           macOS
         </a>
-        <a class="btn btn-primary download" href="{{ page.download_link_win }}" target="_blank" role="button">
+        <a class="btn btn-primary download" href="{{ page.download_link_win_x64 }}" target="_blank" role="button">
           <i class="fa fa-windows fa-2x"></i><br>
           Windows (x64)
         </a>
-        <a class="btn btn-primary download" href="{{ page.download_link_lin }}" target="_blank" role="button">
+        <a class="btn btn-primary download" href="{{ page.download_link_lin_x64 }}" target="_blank" role="button">
           <i class="fa fa-linux fa-2x"></i><br>
           Linux (x64)
         </a>
         </span>
         <p>
         <a href="{{ page.download_link_all }}">All-in-One</a> · 
-        <a href="{{ page.download_link_arm }}">Linux (ARMv8)</a> · 
+        <a href="{{ page.download_link_win_arm }}">Windows (ARMv8)</a> · 
+        <a href="{{ page.download_link_lin_arm }}">Linux (ARMv8)</a> · 
         <a href="{{ page.release_notes_link }}" target="_blank">Release Notes</a> · 
         <a href="/downloads/">More...</a></p>
 
