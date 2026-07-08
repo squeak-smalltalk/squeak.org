@@ -1,7 +1,8 @@
 ---
-layout:     default
-title:      "Terse Guide to Squeak"
-permalink:  /documentation/terse_guide/
+layout:      default
+title:       "Terse Guide to Squeak"
+permalink:   /documentation/terse_guide/
+description: A concise overview of Squeak programming concepts.
 ---
 
 # Introduction

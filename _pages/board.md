@@ -2,6 +2,7 @@
 layout:     default
 title:      Squeak Oversight Board
 permalink:  /board/
+description: The Squeak Oversight Board coordinates the community’s open-source development of its versatile Smalltalk environment.
 ---
 {::options parse_block_html="true" /}
 <div class="row">
