@@ -15,7 +15,7 @@
     </h3>
     {% endif %}
     {% if isOverviewPage %}
-    {{ item.content | strip_html | normalize_whitespace | truncatewords: 80, '…' }} <a href="{{ item.url }}">[Read on…]</a>
+    {{ item.content | strip_html | normalize_whitespace | truncatewords: 80, '…' }} <a href="{{ item.url }}">[Read on]</a>
     {% else %}
     {{ item.content }}
     {% endif %}
