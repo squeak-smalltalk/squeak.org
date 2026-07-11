@@ -1,0 +1,26 @@
+{% assign version = page.path | split: "/" | last | remove: ".md" %}
+{% assign major_version = version | split: "." | first %}
+{% assign releases = site[page.collection] | sort: "order" %}
+{% assign latest_release = releases | last %}
+
+<p>
+  These release notes are optimized for viewing inside Squeak, as they contain a lot of interactive examples.
+  On this page, interactive links open in SqueakJS, which is a browser-based Smalltalk VM with some limitations.
+  For the best experience, download Squeak and read the release notes there.
+</p>
+
+<div class="note-head__actions">
+  {% if page.url == latest_release.url %}
+    <a href="/downloads/" class="btn btn-primary" target="_blank">
+      Download Squeak
+    </a>
+  {% else %}
+    <a href="/downloads/#squeak-v{{ major_version }}" class="btn btn-primary" target="_blank">
+      Download Squeak {{ version }}
+    </a>
+  {% endif %}
+
+  <a href="https://try.squeak.org/#url=images&zip=Squeak{{ version }}.zip&demo{% if page.order >= 510 %}&navigateToReleaseNotes{% endif %}" class="btn btn-default" target="_blank">
+    Try it in browser (SqueakJS)
+  </a>
+</div>

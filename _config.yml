@@ -71,7 +71,7 @@ defaults:
       type: "release_notes"
     values:
       cols: 12
-      layout: default
+      layout: release_note
 
 # Enable SASS support
 sass:
