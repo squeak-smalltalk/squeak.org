@@ -2,8 +2,7 @@
   <div class="col-md-12 col-lg-12">
     {% assign isOverviewPage = page.section_overview_page and item.collection == page.section_label %}
     {% if item.title %}
-    <span class="anchor" id="{{ item.title | slugify }}{% if item.order %}-{{ item.order }}{% endif %}"></span>
-    <h3 class="text-center-sm">
+    <h3 class="text-center-sm" id="{{ item.title | slugify }}">
       {% if isOverviewPage %}
       <a href="{{ item.url }}">
       {% elsif item.href %}

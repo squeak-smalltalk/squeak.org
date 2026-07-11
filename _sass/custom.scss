@@ -3,8 +3,9 @@ html {
     min-height: 100%;
 }
 
+$navbar-height: 70px;
 body {
-    padding-top: 70px;
+    padding-top: $navbar-height;
     margin-bottom: 60px; /* footer height */
 }
 
@@ -32,11 +33,8 @@ img[src*=".svg"] { /* Fix SVGs in IE */
     line-height: 1.5;
 }
 
-.anchor {
-    display: block;
-    height: 60px; // fixed navigation height + 10px
-    margin-top: -60px;
-    visibility: hidden;
+[id] {
+    scroll-margin-top: $navbar-height;
 }
 
 
