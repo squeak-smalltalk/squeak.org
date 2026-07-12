@@ -37,6 +37,7 @@ collections:
     sort_by: order
     visible-sm: <i class="fa fa-book"></i>
     mobile-title: Docs
+    description: Resources for getting started with Squeak.
   development:
     title: Development
     sort_by: order
