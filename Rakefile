@@ -19,6 +19,7 @@ task :test do
           /^(https?\:\/\/)?(www\.)?doi\.org\/10\.5381\/jot.+$/,
           /^(https?\:\/\/)?(www\.)?doi\.org\/10\.1145\/.+$/,
           /^(https?\:\/\/)?(www\.)?portal\.acm\.org\/citation\.cfm.+$/,
+          /^(https?\:\/\/)?(www\.)?ieeexplore\.ieee\.org\/.+$/,
           /^(https?\:\/\/)?(www\.)?github\.com\/search\?.+$/,
           /^(https?\:\/\/)?(www\.)?aidaweb\.si\/.*$/,
           /^(https?\:\/\/)?(www\.)?learntechlib\.org\/p\/.+$/,
