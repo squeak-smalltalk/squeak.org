@@ -53,7 +53,6 @@ SystemNavigation default browseAllCallsOn: #{$1}."
         wizard: 'false',
         demo: 'true',
         **(if Gem::Version.new(version) >= Gem::Version.new('5.1')
-        # TODO: If the 6.1 image opens the release notes by default, we can skip this here.
           { navigateToReleaseNotes: 'true' }
         else {} end),
         argv: argv.to_json
