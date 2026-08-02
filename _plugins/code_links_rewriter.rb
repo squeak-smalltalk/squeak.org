@@ -61,6 +61,6 @@ SystemNavigation default browseAllCallsOn: #{$1}."
     ).to_s
     new_url.sub!('?', '#')  # unconventional SqueakJS convention (so follow-up links on the demo page replace former parameters, I suppose)
 
-    %Q(<a #{before}href="#{CGI.escapeHTML(new_url)}" title="#{CGI.escapeHTML(url)}"#{after}>)
+    %Q(<a target="_blank" #{before}href="#{CGI.escapeHTML(new_url)}" title="#{CGI.escapeHTML(url)}"#{after}>)
   end
 end
