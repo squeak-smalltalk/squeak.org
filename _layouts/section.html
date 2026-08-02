@@ -37,8 +37,7 @@ layout: compress
 
         {% for row in groups %}
           {% if row.name != "" %}
-        <span class="anchor" id="{{ row.name | slugify }}"></span>
-        <h2>{{ row.name }}</h2>
+        <h2 id="{{ row.name | slugify }}">{{ row.name }}</h2>
           {% endif %}
           {% include row.html items=row.items %}
         {% endfor %}

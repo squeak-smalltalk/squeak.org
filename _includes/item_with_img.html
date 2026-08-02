@@ -16,8 +16,7 @@
   </div>
   <div class="col-md-8 col-lg-8">
     {% if item.title %}
-    <span class="anchor" id="{{ item.title | slugify }}{% if item.order %}-{{ item.order }}{% endif %}"></span>
-    <h3 class="text-center-sm">
+    <h3 class="text-center-sm" id="{{ item.title | slugify }}">
       {% if item.href %}
       <a href="{{ item.href }}"{% if item.href-external %} target="_blank"{% endif %}>
       {% endif %}
