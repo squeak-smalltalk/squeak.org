@@ -125,8 +125,11 @@ img[src*=".svg"] { /* Fix SVGs in IE */
     margin-top: 5px;
 }
 
-.note-head__actions .btn + .btn {
-  margin-left: 5px;
+.note-head__actions {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 5px;
 }
 
 
