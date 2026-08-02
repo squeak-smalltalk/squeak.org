@@ -1,1 +1,1 @@
-These release notes were generated using `SqueakReleaseNotes class>>#storeAsJekyllFilesInDirectoryNamed:` (available since Squeak 6.1).
+These release notes were generated using `ReleaseBuilder fileOutReleaseNotes`. For changes, please update & commit in-image release notes to [source.squeak.org](https://source.squeak.org/) and only then generate & commit the corresponding files to this git repository.
