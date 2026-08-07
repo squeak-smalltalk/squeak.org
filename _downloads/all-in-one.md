@@ -22,6 +22,8 @@ On Windows, you must confirm a **SmartScreen** warning since executables are not
 | Try in browser (slow) | 6.0 | <i class="fa fa-laptop"></i> <i class="fa fa-tablet"></i> <i class="fa fa-mobile"></i>   | [<i class="fa fa-globe"></i>][squeakjs]{:target=_blank} |
 {:.table .table-condensed .max-width-450-lg}
 
+You can also browse the interactive release notes **[here][release_notes]**.
+
 <span>❤️</span> Please help us keep our infrastructure up and running, which includes this website, our mailing lists, and code repositories. <b><a href="#" class="donate-button">Donate here...</a></b> <span>❤️</span>
 
 [mac]: https://files.squeak.org/6.0/Squeak6.0-22156-64bit/Squeak6.0-22156-64bit-202606270913-macOS.dmg
@@ -32,3 +34,4 @@ On Windows, you must confirm a **SmartScreen** warning since executables are not
 [all]: https://files.squeak.org/6.0/Squeak6.0-22156-64bit/Squeak6.0-22156-64bit-All-in-One.zip
 [32]: https://files.squeak.org/6.0/Squeak6.0-22156-32bit/
 [squeakjs]: https://squeak.js.org/run/#zip=https://files.squeak.org/6.0/Squeak6.0-22156-32bit/Squeak6.0-22156-32bit.zip
+[release_notes]: /release_notes/6.0/
